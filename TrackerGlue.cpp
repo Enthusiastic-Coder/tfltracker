@@ -238,25 +238,7 @@ void TrackerGlue::buildBusList()
 
     ui->_busList.removeDuplicates();
 
-    static std::vector<QString> schoolBuses = {
-        "601","602","603","605","606",
-        "608","612","613","616","617", "618"
-        "621","624","625","626","627",
-        "628","629","631","632","633",
-        "634","635","638","639","640",
-        "642","643","645","646","649",
-        "650","651","652","653","654",
-        "655","656","657","658","660",
-        "661","662","663","664","665",
-        "667","669","670","671","672",
-        "673","674","675","677","678",
-        "679","681","683","684","685",
-        "686","687","688","689","690",
-        "692","696","697","698","699"
-    };
-
-
-    auto& list = ui->_busList;
+      auto& list = ui->_busList;
 
     std::sort(list.begin(), list.end(), busNumberComparerId);
 
@@ -269,7 +251,7 @@ void TrackerGlue::buildBusList()
         action->setText(id);
         action->setData(QVariant::fromValue(line));
 
-        if( std::find(schoolBuses.begin(), schoolBuses.end(), id) != schoolBuses.end())
+        if( id.toInt() >= 600 && id.toInt() < 700)
             categories[QStringLiteral("School")].push_back(action);
         else
             categories[QString(id[0]).toUpper()].push_back(action);
