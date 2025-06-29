@@ -12,4 +12,4 @@ url=https://github.com/Enthusiastic-Coder/qtstomp.git
 	url = https://github.com/Enthusiastic-Coder/assimp2.git
 [submodule "osmtiles"]
 	path = osmtiles
-	url = git@bitbucket.org:MOJ_JEB/osmtiles.git
+url=https://github.com/Enthusiastic-Coder/osmtiles.git
