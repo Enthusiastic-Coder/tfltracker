@@ -6,7 +6,7 @@
 	url = https://github.com/KDAB/android_openssl.git
 [submodule "qtstomp"]
 	path = qtstomp
-	url = git@bitbucket.org:MOJ_JEB/qtstomp.git
+url=https://github.com/Enthusiastic-Coder/qtstomp.git
 [submodule "assimp2"]
 	path = assimp2
 	url = https://github.com/Enthusiastic-Coder/assimp2.git
