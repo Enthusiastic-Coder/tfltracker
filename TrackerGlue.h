@@ -247,6 +247,7 @@ private:
     std::unique_ptr<NationalRailPositionProvider> _stompNationalRail;
     MapTileEntries* _mapTilesEntries = new MapTileEntries(this, "Settings/TileMapServers/");
 
+    bool _allLoadedRoutesRefreshed = false;
     QVector<QString> _allLoadedRoutesList;
     QSet<QString>   _allRoutesList;
     QSet<QString>   _allRoutesNamesList;

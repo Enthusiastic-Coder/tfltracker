@@ -1271,6 +1271,11 @@ void TrackerGlue::onInitialise()
         emit completed();
     });
 
+    QSettings s;
+
+    const QStringList allRouteList = s.value("Settings/allRoutesList").toStringList();
+    _allRoutesList = QSet<QString>(allRouteList.begin(), allRouteList.end());
+
     loadAllRoutes();
 
     loadOSMData();
@@ -2391,7 +2396,7 @@ void TrackerGlue::setupFetchTimer()
         }
         else if( _bAppFeedingLive )
         {
-            if( allRoutesListsEmpty() )
+            if( !_allLoadedRoutesRefreshed )
             {
                 prepareAllRoutes();
                 _fetchTimer->setInterval(500);
@@ -2554,6 +2559,13 @@ void TrackerGlue::loadAllRoutes()
                             continue;
                     }
                     */
+
+                    if( !_allRoutesList.empty())
+                    {
+                        QString id = dir.fileName().remove(".txt");
+                        if (_allRoutesList.end() == _allRoutesList.find(id))
+                            continue;
+                    }
 
                     localRoutesList.insert(next);
                 }
@@ -3127,6 +3139,9 @@ void TrackerGlue::saveSettings()
     const QStringList busList(_allBusRoutesList.begin(), _allBusRoutesList.end());
     s.setValue("Settings/allBusRoutesList", busList);
 
+    const QStringList allRoutesList(_allRoutesList.begin(), _allRoutesList.end());
+    s.setValue("Settings/allRoutesList", allRoutesList);
+
     s.setValue("InAppCheckMe", ui->action_InAppCheckMe->isChecked());
 
     s.setValue("view/2D/mapNight", ui->action_2D_Map_Night->isChecked());
@@ -3469,6 +3484,8 @@ void TrackerGlue::prepareAllRoutes()
         if( reply->error() == QNetworkReply::NoError)
         {
             storeAllRouteIDsInList(data);
+
+            _allLoadedRoutesRefreshed = true;
 
             ui->frameBuffer->executeOnRenderThread([data](TFLView* view) {
                 view->setHttpLastErrMsg(QStringLiteral(""));
