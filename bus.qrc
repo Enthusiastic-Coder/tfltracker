@@ -113,7 +113,6 @@
         <file>data/Routes/inbound/bus/115.txt</file>
         <file>data/Routes/inbound/bus/116.txt</file>
         <file>data/Routes/inbound/bus/117.txt</file>
-        <file>data/Routes/inbound/bus/118.txt</file>
         <file>data/Routes/inbound/bus/119.txt</file>
         <file>data/Routes/inbound/bus/120.txt</file>
         <file>data/Routes/inbound/bus/121.txt</file>
@@ -775,7 +774,6 @@
         <file>data/Routes/outbound/bus/115.txt</file>
         <file>data/Routes/outbound/bus/116.txt</file>
         <file>data/Routes/outbound/bus/117.txt</file>
-        <file>data/Routes/outbound/bus/118.txt</file>
         <file>data/Routes/outbound/bus/119.txt</file>
         <file>data/Routes/outbound/bus/120.txt</file>
         <file>data/Routes/outbound/bus/121.txt</file>
