@@ -9,7 +9,7 @@
 	url = git@bitbucket.org:MOJ_JEB/qtstomp.git
 [submodule "assimp2"]
 	path = assimp2
-	url = git@bitbucket.org:MOJ_JEB/assimp2.git
+	url = https://github.com/Enthusiastic-Coder/assimp2.git
 [submodule "osmtiles"]
 	path = osmtiles
 	url = git@bitbucket.org:MOJ_JEB/osmtiles.git
