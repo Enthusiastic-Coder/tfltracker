@@ -1,0 +1,3113 @@
+{
+	"direction": "inbound",
+	"lineId": "west-midlands-trains",
+	"lineName": "West Midlands Trains",
+	"mode": "national-rail",
+	"stopPointSequences": [
+		{
+			"stopPoint": [
+				{
+					"icsId": "1000484",
+					"id": "910GSTALBNA",
+					"lat": 51.744733,
+					"lon": -0.342569,
+					"name": "St Albans Abbey Rail Station",
+					"stationId": "910GSTALBNA",
+					"topMostParentId": "910GSTALBNA"
+				},
+				{
+					"icsId": "1000767",
+					"id": "910GPKST",
+					"lat": 51.725458,
+					"lon": -0.340276,
+					"name": "Park Street Rail Station",
+					"stationId": "910GPKST",
+					"topMostParentId": "910GPKST"
+				},
+				{
+					"icsId": "1000768",
+					"id": "910GHOWWOOD",
+					"lat": 51.717742,
+					"lon": -0.34467,
+					"name": "How Wood (Herts) Rail Station",
+					"stationId": "910GHOWWOOD",
+					"topMostParentId": "910GHOWWOOD"
+				},
+				{
+					"icsId": "1000770",
+					"id": "910GBCWD",
+					"lat": 51.705428,
+					"lon": -0.359115,
+					"name": "Bricket Wood Rail Station",
+					"stationId": "910GBCWD",
+					"topMostParentId": "910GBCWD"
+				},
+				{
+					"icsId": "1000772",
+					"id": "910GGRSTH",
+					"lat": 51.686616,
+					"lon": -0.381741,
+					"name": "Garston (Herts) Rail Station",
+					"stationId": "910GGRSTH",
+					"topMostParentId": "910GGRSTH"
+				},
+				{
+					"icsId": "1000774",
+					"id": "910GWATFDN",
+					"lat": 51.675704,
+					"lon": -0.389926,
+					"name": "Watford North Rail Station",
+					"stationId": "910GWATFDN",
+					"topMostParentId": "910GWATFDN"
+				},
+				{
+					"icsId": "1001317",
+					"id": "910GWATFDJ",
+					"lat": 51.663908,
+					"lon": -0.395925,
+					"name": "Watford Junction Rail Station",
+					"parentId": "HUBWFJ",
+					"stationId": "910GWATFDJ",
+					"topMostParentId": "HUBWFJ"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000519",
+					"id": "910GBEDFDM",
+					"lat": 52.136187,
+					"lon": -0.479442,
+					"name": "Bedford Rail Station",
+					"stationId": "910GBEDFDM",
+					"topMostParentId": "910GBEDFDM"
+				},
+				{
+					"icsId": "90000559",
+					"id": "910GBESJOHN",
+					"lat": 52.129478,
+					"lon": -0.467501,
+					"name": "Bedford St Johns Rail Station",
+					"stationId": "910GBESJOHN",
+					"topMostParentId": "910GBESJOHN"
+				},
+				{
+					"icsId": "90004100",
+					"id": "910GKMPSTNH",
+					"lat": 52.092218,
+					"lon": -0.503914,
+					"name": "Kempston Hardwick Rail Station",
+					"stationId": "910GKMPSTNH",
+					"topMostParentId": "910GKMPSTNH"
+				},
+				{
+					"icsId": "90007008",
+					"id": "910GSTWRTBY",
+					"lat": 52.06908,
+					"lon": -0.520692,
+					"name": "Stewartby Rail Station",
+					"stationId": "910GSTWRTBY",
+					"topMostParentId": "910GSTWRTBY"
+				},
+				{
+					"icsId": "1001523",
+					"id": "910GMLBRKB",
+					"lat": 52.053837,
+					"lon": -0.532703,
+					"name": "Millbrook (Beds) Rail Station",
+					"stationId": "910GMLBRKB",
+					"topMostParentId": "910GMLBRKB"
+				},
+				{
+					"icsId": "1001478",
+					"id": "910GLDLNGTN",
+					"lat": 52.041536,
+					"lon": -0.558928,
+					"name": "Lidlington Rail Station",
+					"stationId": "910GLDLNGTN",
+					"topMostParentId": "910GLDLNGTN"
+				},
+				{
+					"icsId": "1001725",
+					"id": "910GRIDGMNT",
+					"lat": 52.026403,
+					"lon": -0.594557,
+					"name": "Ridgmont Rail Station",
+					"stationId": "910GRIDGMNT",
+					"topMostParentId": "910GRIDGMNT"
+				},
+				{
+					"icsId": "1001303",
+					"id": "910GASPLEYG",
+					"lat": 52.021237,
+					"lon": -0.632334,
+					"name": "Aspley Guise Rail Station",
+					"stationId": "910GASPLEYG",
+					"topMostParentId": "910GASPLEYG"
+				},
+				{
+					"icsId": "90007973",
+					"id": "910GWOBURNS",
+					"lat": 52.018152,
+					"lon": -0.654084,
+					"name": "Woburn Sands Rail Station",
+					"stationId": "910GWOBURNS",
+					"topMostParentId": "910GWOBURNS"
+				},
+				{
+					"icsId": "90000826",
+					"id": "910GBOWBRKH",
+					"lat": 52.004301,
+					"lon": -0.696078,
+					"name": "Bow Brickhill Rail Station",
+					"stationId": "910GBOWBRKH",
+					"topMostParentId": "910GBOWBRKH"
+				},
+				{
+					"icsId": "90002876",
+					"id": "910GFSTR",
+					"lat": 52.000069,
+					"lon": -0.715997,
+					"name": "Fenny Stratford Rail Station",
+					"stationId": "910GFSTR",
+					"topMostParentId": "910GFSTR"
+				},
+				{
+					"icsId": "90000691",
+					"id": "910GBLTCHLY",
+					"lat": 51.995334,
+					"lon": -0.73632,
+					"name": "Bletchley Rail Station",
+					"stationId": "910GBLTCHLY",
+					"topMostParentId": "910GBLTCHLY"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90001786",
+					"id": "910GCREWE",
+					"lat": 53.089625,
+					"lon": -2.432969,
+					"name": "Crewe Rail Station",
+					"stationId": "910GCREWE",
+					"topMostParentId": "910GCREWE"
+				},
+				{
+					"icsId": "90006751",
+					"id": "910GSTAFFRD",
+					"lat": 52.80389,
+					"lon": -2.122036,
+					"name": "Stafford Rail Station",
+					"stationId": "910GSTAFFRD",
+					"topMostParentId": "910GSTAFFRD"
+				},
+				{
+					"icsId": "90005712",
+					"id": "910GPNKRDG",
+					"lat": 52.723499,
+					"lon": -2.119294,
+					"name": "Penkridge Rail Station",
+					"stationId": "910GPNKRDG",
+					"topMostParentId": "910GPNKRDG"
+				},
+				{
+					"icsId": "90008133",
+					"id": "910GWVRMPTN",
+					"lat": 52.587845,
+					"lon": -2.119515,
+					"name": "Wolverhampton Rail Station",
+					"stationId": "910GWVRMPTN",
+					"topMostParentId": "910GWVRMPTN"
+				},
+				{
+					"icsId": "90006655",
+					"id": "910GSNDWDUD",
+					"lat": 52.508659,
+					"lon": -2.011596,
+					"name": "Sandwell & Dudley Rail Station",
+					"stationId": "910GSNDWDUD",
+					"topMostParentId": "910GSNDWDUD"
+				},
+				{
+					"icsId": "90002900",
+					"id": "910GGALTILL",
+					"lat": 52.501781,
+					"lon": -1.980511,
+					"name": "Smethwick Galton Bridge Rail Station",
+					"stationId": "910GGALTILL",
+					"topMostParentId": "910GGALTILL"
+				},
+				{
+					"icsId": "90000591",
+					"id": "910GBHAMNWS",
+					"lat": 52.477818,
+					"lon": -1.900205,
+					"name": "Birmingham New Street Rail Station",
+					"stationId": "910GBHAMNWS",
+					"topMostParentId": "910GBHAMNWS"
+				},
+				{
+					"icsId": "90000076",
+					"id": "910GADERLYP",
+					"lat": 52.483086,
+					"lon": -1.855944,
+					"name": "Adderley Park Rail Station",
+					"stationId": "910GADERLYP",
+					"topMostParentId": "910GADERLYP"
+				},
+				{
+					"icsId": "90006802",
+					"id": "910GSTECHFD",
+					"lat": 52.484821,
+					"lon": -1.811025,
+					"name": "Stechford Rail Station",
+					"stationId": "910GSTECHFD",
+					"topMostParentId": "910GSTECHFD"
+				},
+				{
+					"icsId": "90004303",
+					"id": "910GLEAHALL",
+					"lat": 52.480643,
+					"lon": -1.786012,
+					"name": "Lea Hall Rail Station",
+					"stationId": "910GLEAHALL",
+					"topMostParentId": "910GLEAHALL"
+				},
+				{
+					"icsId": "90005086",
+					"id": "910GMRSTNGR",
+					"lat": 52.467189,
+					"lon": -1.755607,
+					"name": "Marston Green Rail Station",
+					"stationId": "910GMRSTNGR",
+					"topMostParentId": "910GMRSTNGR"
+				},
+				{
+					"icsId": "90000585",
+					"id": "910GBHAMINT",
+					"lat": 52.450807,
+					"lon": -1.725857,
+					"name": "Birmingham International Rail Station",
+					"stationId": "910GBHAMINT",
+					"topMostParentId": "910GBHAMINT"
+				},
+				{
+					"icsId": "90003526",
+					"id": "910GHMPTNIA",
+					"lat": 52.429033,
+					"lon": -1.699931,
+					"name": "Hampton-in-Arden Rail Station",
+					"stationId": "910GHMPTNIA",
+					"topMostParentId": "910GHMPTNIA"
+				},
+				{
+					"icsId": "90000622",
+					"id": "910GBKSWELL",
+					"lat": 52.395881,
+					"lon": -1.64284,
+					"name": "Berkswell Rail Station",
+					"stationId": "910GBKSWELL",
+					"topMostParentId": "910GBKSWELL"
+				},
+				{
+					"icsId": "90007243",
+					"id": "910GTILEH",
+					"lat": 52.395104,
+					"lon": -1.596848,
+					"name": "Tile Hill Rail Station",
+					"stationId": "910GTILEH",
+					"topMostParentId": "910GTILEH"
+				},
+				{
+					"icsId": "90001234",
+					"id": "910GCANLEY",
+					"lat": 52.399421,
+					"lon": -1.547735,
+					"name": "Canley Rail Station",
+					"stationId": "910GCANLEY",
+					"topMostParentId": "910GCANLEY"
+				},
+				{
+					"icsId": "90001733",
+					"id": "910GCOVNTRY",
+					"lat": 52.400814,
+					"lon": -1.51346,
+					"name": "Coventry Rail Station",
+					"stationId": "910GCOVNTRY",
+					"topMostParentId": "910GCOVNTRY"
+				},
+				{
+					"icsId": "90006205",
+					"id": "910GRUGBY",
+					"lat": 52.379094,
+					"lon": -1.250484,
+					"name": "Rugby Rail Station",
+					"stationId": "910GRUGBY",
+					"topMostParentId": "910GRUGBY"
+				},
+				{
+					"icsId": "90004490",
+					"id": "910GLNGBKBY",
+					"lat": 52.294716,
+					"lon": -1.086467,
+					"name": "Long Buckby Rail Station",
+					"stationId": "910GLNGBKBY",
+					"topMostParentId": "910GLNGBKBY"
+				},
+				{
+					"icsId": "90005239",
+					"id": "910GNMPTN",
+					"lat": 52.2375,
+					"lon": -0.906653,
+					"name": "Northampton Rail Station",
+					"stationId": "910GNMPTN",
+					"topMostParentId": "910GNMPTN"
+				},
+				{
+					"icsId": "90007928",
+					"id": "910GWLVR",
+					"lat": 52.065878,
+					"lon": -0.804267,
+					"name": "Wolverton Rail Station",
+					"stationId": "910GWLVR",
+					"topMostParentId": "910GWLVR"
+				},
+				{
+					"icsId": "90004873",
+					"id": "910GMKNSCEN",
+					"lat": 52.034288,
+					"lon": -0.774146,
+					"name": "Milton Keynes Central Rail Station",
+					"stationId": "910GMKNSCEN",
+					"topMostParentId": "910GMKNSCEN"
+				},
+				{
+					"icsId": "90000691",
+					"id": "910GBLTCHLY",
+					"lat": 51.995334,
+					"lon": -0.73632,
+					"name": "Bletchley Rail Station",
+					"stationId": "910GBLTCHLY",
+					"topMostParentId": "910GBLTCHLY"
+				},
+				{
+					"icsId": "1000523",
+					"id": "910GLTNBZRD",
+					"lat": 51.916306,
+					"lon": -0.677007,
+					"name": "Leighton Buzzard Rail Station",
+					"stationId": "910GLTNBZRD",
+					"topMostParentId": "910GLTNBZRD"
+				},
+				{
+					"icsId": "1000818",
+					"id": "910GCHDNGTN",
+					"lat": 51.857918,
+					"lon": -0.662152,
+					"name": "Cheddington Rail Station",
+					"stationId": "910GCHDNGTN",
+					"topMostParentId": "910GCHDNGTN"
+				},
+				{
+					"icsId": "1000816",
+					"id": "910GTRING",
+					"lat": 51.800741,
+					"lon": -0.622439,
+					"name": "Tring Rail Station",
+					"stationId": "910GTRING",
+					"topMostParentId": "910GTRING"
+				},
+				{
+					"icsId": "1000814",
+					"id": "910GBERKHMD",
+					"lat": 51.763134,
+					"lon": -0.562013,
+					"name": "Berkhamsted Rail Station",
+					"stationId": "910GBERKHMD",
+					"topMostParentId": "910GBERKHMD"
+				},
+				{
+					"icsId": "1000812",
+					"id": "910GHEMLHMP",
+					"lat": 51.742333,
+					"lon": -0.490774,
+					"name": "Hemel Hempstead Rail Station",
+					"stationId": "910GHEMLHMP",
+					"topMostParentId": "910GHEMLHMP"
+				},
+				{
+					"icsId": "1000808",
+					"id": "910GAPSLEY",
+					"lat": 51.732522,
+					"lon": -0.462935,
+					"name": "Apsley Rail Station",
+					"stationId": "910GAPSLEY",
+					"topMostParentId": "910GAPSLEY"
+				},
+				{
+					"icsId": "1000810",
+					"id": "910GKLGL",
+					"lat": 51.706356,
+					"lon": -0.438422,
+					"name": "Kings Langley Rail Station",
+					"stationId": "910GKLGL",
+					"topMostParentId": "910GKLGL"
+				},
+				{
+					"icsId": "1001317",
+					"id": "910GWATFDJ",
+					"lat": 51.663908,
+					"lon": -0.395925,
+					"name": "Watford Junction Rail Station",
+					"parentId": "HUBWFJ",
+					"stationId": "910GWATFDJ",
+					"topMostParentId": "HUBWFJ"
+				},
+				{
+					"icsId": "1001041",
+					"id": "910GBUSHEY",
+					"lat": 51.645582,
+					"lon": -0.384749,
+					"name": "Bushey Rail Station",
+					"parentId": "HUBBSH",
+					"stationId": "910GBUSHEY",
+					"topMostParentId": "HUBBSH",
+					"zone": "8"
+				},
+				{
+					"icsId": "1000101",
+					"id": "910GHROW",
+					"lat": 51.592169,
+					"lon": -0.334571,
+					"name": "Harrow & Wealdstone Rail Station",
+					"parentId": "HUBHRW",
+					"stationId": "910GHROW",
+					"topMostParentId": "HUBHRW",
+					"zone": "5"
+				},
+				{
+					"icsId": "1000256",
+					"id": "910GWMBY",
+					"lat": 51.552325,
+					"lon": -0.296433,
+					"name": "Wembley Central Rail Station",
+					"parentId": "HUBWMB",
+					"stationId": "910GWMBY",
+					"topMostParentId": "HUBWMB",
+					"zone": "4"
+				},
+				{
+					"icsId": "1000186",
+					"id": "910GQPRK",
+					"lat": 51.533966,
+					"lon": -0.204985,
+					"name": "Queens Park (London) Rail Station",
+					"parentId": "HUBQPW",
+					"stationId": "910GQPRK",
+					"topMostParentId": "HUBQPW",
+					"zone": "2"
+				},
+				{
+					"icsId": "1000077",
+					"id": "910GEUSTON",
+					"lat": 51.528136,
+					"lon": -0.133924,
+					"name": "London Euston Rail Station",
+					"parentId": "HUBEUS",
+					"stationId": "910GEUSTON",
+					"topMostParentId": "HUBEUS",
+					"zone": "1"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90004654",
+					"id": "910GLVRPLSH",
+					"lat": 53.407308,
+					"lon": -2.977726,
+					"name": "Liverpool Lime Street Rail Station",
+					"stationId": "910GLVRPLSH",
+					"topMostParentId": "910GLVRPLSH"
+				},
+				{
+					"icsId": "90000123",
+					"id": "910GLVRPSPY",
+					"lat": 53.357744,
+					"lon": -2.889143,
+					"name": "Liverpool South Parkway Rail Station",
+					"stationId": "910GLVRPSPY",
+					"topMostParentId": "910GLVRPSPY"
+				},
+				{
+					"icsId": "90006217",
+					"id": "910GRUNCORN",
+					"lat": 53.338695,
+					"lon": -2.739251,
+					"name": "Runcorn Rail Station",
+					"stationId": "910GRUNCORN",
+					"topMostParentId": "910GRUNCORN"
+				},
+				{
+					"icsId": "90000051",
+					"id": "910GACBG",
+					"lat": 53.266507,
+					"lon": -2.603127,
+					"name": "Acton Bridge Rail Station",
+					"stationId": "910GACBG",
+					"topMostParentId": "910GACBG"
+				},
+				{
+					"icsId": "90003305",
+					"id": "910GHARTFD",
+					"lat": 53.241758,
+					"lon": -2.553629,
+					"name": "Hartford Rail Station",
+					"stationId": "910GHARTFD",
+					"topMostParentId": "910GHARTFD"
+				},
+				{
+					"icsId": "90007967",
+					"id": "910GWNSFD",
+					"lat": 53.190511,
+					"lon": -2.494599,
+					"name": "Winsford Rail Station",
+					"stationId": "910GWNSFD",
+					"topMostParentId": "910GWNSFD"
+				},
+				{
+					"icsId": "90001786",
+					"id": "910GCREWE",
+					"lat": 53.089625,
+					"lon": -2.432969,
+					"name": "Crewe Rail Station",
+					"stationId": "910GCREWE",
+					"topMostParentId": "910GCREWE"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90001786",
+					"id": "910GCREWE",
+					"lat": 53.089625,
+					"lon": -2.432969,
+					"name": "Crewe Rail Station",
+					"stationId": "910GCREWE",
+					"topMostParentId": "910GCREWE"
+				},
+				{
+					"icsId": "90006751",
+					"id": "910GSTAFFRD",
+					"lat": 52.80389,
+					"lon": -2.122036,
+					"name": "Stafford Rail Station",
+					"stationId": "910GSTAFFRD",
+					"topMostParentId": "910GSTAFFRD"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90007928",
+					"id": "910GWLVR",
+					"lat": 52.065878,
+					"lon": -0.804267,
+					"name": "Wolverton Rail Station",
+					"stationId": "910GWLVR",
+					"topMostParentId": "910GWLVR"
+				},
+				{
+					"icsId": "90004873",
+					"id": "910GMKNSCEN",
+					"lat": 52.034288,
+					"lon": -0.774146,
+					"name": "Milton Keynes Central Rail Station",
+					"stationId": "910GMKNSCEN",
+					"topMostParentId": "910GMKNSCEN"
+				},
+				{
+					"icsId": "90000691",
+					"id": "910GBLTCHLY",
+					"lat": 51.995334,
+					"lon": -0.73632,
+					"name": "Bletchley Rail Station",
+					"stationId": "910GBLTCHLY",
+					"topMostParentId": "910GBLTCHLY"
+				},
+				{
+					"icsId": "1000523",
+					"id": "910GLTNBZRD",
+					"lat": 51.916306,
+					"lon": -0.677007,
+					"name": "Leighton Buzzard Rail Station",
+					"stationId": "910GLTNBZRD",
+					"topMostParentId": "910GLTNBZRD"
+				},
+				{
+					"icsId": "1000818",
+					"id": "910GCHDNGTN",
+					"lat": 51.857918,
+					"lon": -0.662152,
+					"name": "Cheddington Rail Station",
+					"stationId": "910GCHDNGTN",
+					"topMostParentId": "910GCHDNGTN"
+				},
+				{
+					"icsId": "1000816",
+					"id": "910GTRING",
+					"lat": 51.800741,
+					"lon": -0.622439,
+					"name": "Tring Rail Station",
+					"stationId": "910GTRING",
+					"topMostParentId": "910GTRING"
+				},
+				{
+					"icsId": "1000814",
+					"id": "910GBERKHMD",
+					"lat": 51.763134,
+					"lon": -0.562013,
+					"name": "Berkhamsted Rail Station",
+					"stationId": "910GBERKHMD",
+					"topMostParentId": "910GBERKHMD"
+				},
+				{
+					"icsId": "1000812",
+					"id": "910GHEMLHMP",
+					"lat": 51.742333,
+					"lon": -0.490774,
+					"name": "Hemel Hempstead Rail Station",
+					"stationId": "910GHEMLHMP",
+					"topMostParentId": "910GHEMLHMP"
+				},
+				{
+					"icsId": "1000808",
+					"id": "910GAPSLEY",
+					"lat": 51.732522,
+					"lon": -0.462935,
+					"name": "Apsley Rail Station",
+					"stationId": "910GAPSLEY",
+					"topMostParentId": "910GAPSLEY"
+				},
+				{
+					"icsId": "1000810",
+					"id": "910GKLGL",
+					"lat": 51.706356,
+					"lon": -0.438422,
+					"name": "Kings Langley Rail Station",
+					"stationId": "910GKLGL",
+					"topMostParentId": "910GKLGL"
+				},
+				{
+					"icsId": "1001317",
+					"id": "910GWATFDJ",
+					"lat": 51.663908,
+					"lon": -0.395925,
+					"name": "Watford Junction Rail Station",
+					"parentId": "HUBWFJ",
+					"stationId": "910GWATFDJ",
+					"topMostParentId": "HUBWFJ"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "1001317",
+					"id": "910GWATFDJ",
+					"lat": 51.663908,
+					"lon": -0.395925,
+					"name": "Watford Junction Rail Station",
+					"parentId": "HUBWFJ",
+					"stationId": "910GWATFDJ",
+					"topMostParentId": "HUBWFJ"
+				},
+				{
+					"icsId": "1001041",
+					"id": "910GBUSHEY",
+					"lat": 51.645582,
+					"lon": -0.384749,
+					"name": "Bushey Rail Station",
+					"parentId": "HUBBSH",
+					"stationId": "910GBUSHEY",
+					"topMostParentId": "HUBBSH",
+					"zone": "8"
+				},
+				{
+					"icsId": "1000101",
+					"id": "910GHROW",
+					"lat": 51.592169,
+					"lon": -0.334571,
+					"name": "Harrow & Wealdstone Rail Station",
+					"parentId": "HUBHRW",
+					"stationId": "910GHROW",
+					"topMostParentId": "HUBHRW",
+					"zone": "5"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "1000101",
+					"id": "910GHROW",
+					"lat": 51.592169,
+					"lon": -0.334571,
+					"name": "Harrow & Wealdstone Rail Station",
+					"parentId": "HUBHRW",
+					"stationId": "910GHROW",
+					"topMostParentId": "HUBHRW",
+					"zone": "5"
+				},
+				{
+					"icsId": "1000256",
+					"id": "910GWMBY",
+					"lat": 51.552325,
+					"lon": -0.296433,
+					"name": "Wembley Central Rail Station",
+					"parentId": "HUBWMB",
+					"stationId": "910GWMBY",
+					"topMostParentId": "HUBWMB",
+					"zone": "4"
+				},
+				{
+					"icsId": "1000077",
+					"id": "910GEUSTON",
+					"lat": 51.528136,
+					"lon": -0.133924,
+					"name": "London Euston Rail Station",
+					"parentId": "HUBEUS",
+					"stationId": "910GEUSTON",
+					"topMostParentId": "HUBEUS",
+					"zone": "1"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90006205",
+					"id": "910GRUGBY",
+					"lat": 52.379094,
+					"lon": -1.250484,
+					"name": "Rugby Rail Station",
+					"stationId": "910GRUGBY",
+					"topMostParentId": "910GRUGBY"
+				},
+				{
+					"icsId": "90004490",
+					"id": "910GLNGBKBY",
+					"lat": 52.294716,
+					"lon": -1.086467,
+					"name": "Long Buckby Rail Station",
+					"stationId": "910GLNGBKBY",
+					"topMostParentId": "910GLNGBKBY"
+				},
+				{
+					"icsId": "90005239",
+					"id": "910GNMPTN",
+					"lat": 52.2375,
+					"lon": -0.906653,
+					"name": "Northampton Rail Station",
+					"stationId": "910GNMPTN",
+					"topMostParentId": "910GNMPTN"
+				},
+				{
+					"icsId": "90007928",
+					"id": "910GWLVR",
+					"lat": 52.065878,
+					"lon": -0.804267,
+					"name": "Wolverton Rail Station",
+					"stationId": "910GWLVR",
+					"topMostParentId": "910GWLVR"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90006751",
+					"id": "910GSTAFFRD",
+					"lat": 52.80389,
+					"lon": -2.122036,
+					"name": "Stafford Rail Station",
+					"stationId": "910GSTAFFRD",
+					"topMostParentId": "910GSTAFFRD"
+				},
+				{
+					"icsId": "90005712",
+					"id": "910GPNKRDG",
+					"lat": 52.723499,
+					"lon": -2.119294,
+					"name": "Penkridge Rail Station",
+					"stationId": "910GPNKRDG",
+					"topMostParentId": "910GPNKRDG"
+				},
+				{
+					"icsId": "90008133",
+					"id": "910GWVRMPTN",
+					"lat": 52.587845,
+					"lon": -2.119515,
+					"name": "Wolverhampton Rail Station",
+					"stationId": "910GWVRMPTN",
+					"topMostParentId": "910GWVRMPTN"
+				},
+				{
+					"icsId": "90001717",
+					"id": "910GCOSELEY",
+					"lat": 52.545082,
+					"lon": -2.085777,
+					"name": "Coseley Rail Station",
+					"stationId": "910GCOSELEY",
+					"topMostParentId": "910GCOSELEY"
+				},
+				{
+					"icsId": "90007257",
+					"id": "910GTIPTON",
+					"lat": 52.530442,
+					"lon": -2.065701,
+					"name": "Tipton Rail Station",
+					"stationId": "910GTIPTON",
+					"topMostParentId": "910GTIPTON"
+				},
+				{
+					"icsId": "90002358",
+					"id": "910GDUDLPT",
+					"lat": 52.524651,
+					"lon": -2.04948,
+					"name": "Dudley Port Rail Station",
+					"stationId": "910GDUDLPT",
+					"topMostParentId": "910GDUDLPT"
+				},
+				{
+					"icsId": "90006655",
+					"id": "910GSNDWDUD",
+					"lat": 52.508659,
+					"lon": -2.011596,
+					"name": "Sandwell & Dudley Rail Station",
+					"stationId": "910GSNDWDUD",
+					"topMostParentId": "910GSNDWDUD"
+				},
+				{
+					"icsId": "90002900",
+					"id": "910GGALTILL",
+					"lat": 52.501781,
+					"lon": -1.980511,
+					"name": "Smethwick Galton Bridge Rail Station",
+					"stationId": "910GGALTILL",
+					"topMostParentId": "910GGALTILL"
+				},
+				{
+					"icsId": "90006637",
+					"id": "910GSMTHKRS",
+					"lat": 52.496385,
+					"lon": -1.970644,
+					"name": "Smethwick Rolfe Street Rail Station",
+					"stationId": "910GSMTHKRS",
+					"topMostParentId": "910GSMTHKRS"
+				},
+				{
+					"icsId": "90000591",
+					"id": "910GBHAMNWS",
+					"lat": 52.477818,
+					"lon": -1.900205,
+					"name": "Birmingham New Street Rail Station",
+					"stationId": "910GBHAMNWS",
+					"topMostParentId": "910GBHAMNWS"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000591",
+					"id": "910GBHAMNWS",
+					"lat": 52.477818,
+					"lon": -1.900205,
+					"name": "Birmingham New Street Rail Station",
+					"stationId": "910GBHAMNWS",
+					"topMostParentId": "910GBHAMNWS"
+				},
+				{
+					"icsId": "90000076",
+					"id": "910GADERLYP",
+					"lat": 52.483086,
+					"lon": -1.855944,
+					"name": "Adderley Park Rail Station",
+					"stationId": "910GADERLYP",
+					"topMostParentId": "910GADERLYP"
+				},
+				{
+					"icsId": "90006802",
+					"id": "910GSTECHFD",
+					"lat": 52.484821,
+					"lon": -1.811025,
+					"name": "Stechford Rail Station",
+					"stationId": "910GSTECHFD",
+					"topMostParentId": "910GSTECHFD"
+				},
+				{
+					"icsId": "90004303",
+					"id": "910GLEAHALL",
+					"lat": 52.480643,
+					"lon": -1.786012,
+					"name": "Lea Hall Rail Station",
+					"stationId": "910GLEAHALL",
+					"topMostParentId": "910GLEAHALL"
+				},
+				{
+					"icsId": "90005086",
+					"id": "910GMRSTNGR",
+					"lat": 52.467189,
+					"lon": -1.755607,
+					"name": "Marston Green Rail Station",
+					"stationId": "910GMRSTNGR",
+					"topMostParentId": "910GMRSTNGR"
+				},
+				{
+					"icsId": "90000585",
+					"id": "910GBHAMINT",
+					"lat": 52.450807,
+					"lon": -1.725857,
+					"name": "Birmingham International Rail Station",
+					"stationId": "910GBHAMINT",
+					"topMostParentId": "910GBHAMINT"
+				},
+				{
+					"icsId": "90003526",
+					"id": "910GHMPTNIA",
+					"lat": 52.429033,
+					"lon": -1.699931,
+					"name": "Hampton-in-Arden Rail Station",
+					"stationId": "910GHMPTNIA",
+					"topMostParentId": "910GHMPTNIA"
+				},
+				{
+					"icsId": "90000622",
+					"id": "910GBKSWELL",
+					"lat": 52.395881,
+					"lon": -1.64284,
+					"name": "Berkswell Rail Station",
+					"stationId": "910GBKSWELL",
+					"topMostParentId": "910GBKSWELL"
+				},
+				{
+					"icsId": "90007243",
+					"id": "910GTILEH",
+					"lat": 52.395104,
+					"lon": -1.596848,
+					"name": "Tile Hill Rail Station",
+					"stationId": "910GTILEH",
+					"topMostParentId": "910GTILEH"
+				},
+				{
+					"icsId": "90001234",
+					"id": "910GCANLEY",
+					"lat": 52.399421,
+					"lon": -1.547735,
+					"name": "Canley Rail Station",
+					"stationId": "910GCANLEY",
+					"topMostParentId": "910GCANLEY"
+				},
+				{
+					"icsId": "90001733",
+					"id": "910GCOVNTRY",
+					"lat": 52.400814,
+					"lon": -1.51346,
+					"name": "Coventry Rail Station",
+					"stationId": "910GCOVNTRY",
+					"topMostParentId": "910GCOVNTRY"
+				},
+				{
+					"icsId": "90006205",
+					"id": "910GRUGBY",
+					"lat": 52.379094,
+					"lon": -1.250484,
+					"name": "Rugby Rail Station",
+					"stationId": "910GRUGBY",
+					"topMostParentId": "910GRUGBY"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90001786",
+					"id": "910GCREWE",
+					"lat": 53.089625,
+					"lon": -2.432969,
+					"name": "Crewe Rail Station",
+					"stationId": "910GCREWE",
+					"topMostParentId": "910GCREWE"
+				},
+				{
+					"icsId": "90000141",
+					"id": "910GALSAGER",
+					"lat": 53.093003,
+					"lon": -2.299058,
+					"name": "Alsager Rail Station",
+					"stationId": "910GALSAGER",
+					"topMostParentId": "910GALSAGER"
+				},
+				{
+					"icsId": "90004046",
+					"id": "910GKIDSGRV",
+					"lat": 53.086565,
+					"lon": -2.244816,
+					"name": "Kidsgrove Rail Station",
+					"stationId": "910GKIDSGRV",
+					"topMostParentId": "910GKIDSGRV"
+				},
+				{
+					"icsId": "90004502",
+					"id": "910GLNGP",
+					"lat": 53.041882,
+					"lon": -2.216448,
+					"name": "Longport Rail Station",
+					"stationId": "910GLNGP",
+					"topMostParentId": "910GLNGP"
+				},
+				{
+					"icsId": "90006933",
+					"id": "910GSTOKEOT",
+					"lat": 53.00798,
+					"lon": -2.180987,
+					"name": "Stoke-on-Trent Rail Station",
+					"stationId": "910GSTOKEOT",
+					"topMostParentId": "910GSTOKEOT"
+				},
+				{
+					"icsId": "90006942",
+					"id": "910GSTONE",
+					"lat": 52.908326,
+					"lon": -2.155041,
+					"name": "Stone Rail Station",
+					"stationId": "910GSTONE",
+					"topMostParentId": "910GSTONE"
+				},
+				{
+					"icsId": "90006751",
+					"id": "910GSTAFFRD",
+					"lat": 52.80389,
+					"lon": -2.122036,
+					"name": "Stafford Rail Station",
+					"stationId": "910GSTAFFRD",
+					"topMostParentId": "910GSTAFFRD"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90007556",
+					"id": "910GWALSALL",
+					"lat": 52.584398,
+					"lon": -1.984755,
+					"name": "Walsall Rail Station",
+					"stationId": "910GWALSALL",
+					"topMostParentId": "910GWALSALL"
+				},
+				{
+					"icsId": "90001076",
+					"id": "910GBSCTSTA",
+					"lat": 52.563093,
+					"lon": -1.991105,
+					"name": "Bescot Stadium Rail Station",
+					"stationId": "910GBSCTSTA",
+					"topMostParentId": "910GBSCTSTA"
+				},
+				{
+					"icsId": "90007115",
+					"id": "910GTAMEBDG",
+					"lat": 52.552834,
+					"lon": -1.976536,
+					"name": "Tame Bridge Parkway Rail Station",
+					"stationId": "910GTAMEBDG",
+					"topMostParentId": "910GTAMEBDG"
+				},
+				{
+					"icsId": "90003279",
+					"id": "910GHAMSTED",
+					"lat": 52.531068,
+					"lon": -1.928978,
+					"name": "Hamstead (Birmingham) Rail Station",
+					"stationId": "910GHAMSTED",
+					"topMostParentId": "910GHAMSTED"
+				},
+				{
+					"icsId": "90005844",
+					"id": "910GPRYBR",
+					"lat": 52.516486,
+					"lon": -1.90196,
+					"name": "Perry Barr Rail Station",
+					"stationId": "910GPRYBR",
+					"topMostParentId": "910GPRYBR"
+				},
+				{
+					"icsId": "90007848",
+					"id": "910GWITTON",
+					"lat": 52.512379,
+					"lon": -1.884435,
+					"name": "Witton (West Midlands) Rail Station",
+					"stationId": "910GWITTON",
+					"topMostParentId": "910GWITTON"
+				},
+				{
+					"icsId": "90000310",
+					"id": "910GASTON",
+					"lat": 52.504231,
+					"lon": -1.871934,
+					"name": "Aston Rail Station",
+					"stationId": "910GASTON",
+					"topMostParentId": "910GASTON"
+				},
+				{
+					"icsId": "90002356",
+					"id": "910GDUDESTN",
+					"lat": 52.488363,
+					"lon": -1.87139,
+					"name": "Duddeston Rail Station",
+					"stationId": "910GDUDESTN",
+					"topMostParentId": "910GDUDESTN"
+				},
+				{
+					"icsId": "90000591",
+					"id": "910GBHAMNWS",
+					"lat": 52.477818,
+					"lon": -1.900205,
+					"name": "Birmingham New Street Rail Station",
+					"stationId": "910GBHAMNWS",
+					"topMostParentId": "910GBHAMNWS"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "1001317",
+					"id": "910GWATFDJ",
+					"lat": 51.663908,
+					"lon": -0.395925,
+					"name": "Watford Junction Rail Station",
+					"parentId": "HUBWFJ",
+					"stationId": "910GWATFDJ",
+					"topMostParentId": "HUBWFJ"
+				},
+				{
+					"icsId": "1000101",
+					"id": "910GHROW",
+					"lat": 51.592169,
+					"lon": -0.334571,
+					"name": "Harrow & Wealdstone Rail Station",
+					"parentId": "HUBHRW",
+					"stationId": "910GHROW",
+					"topMostParentId": "HUBHRW",
+					"zone": "5"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90005247",
+					"id": "910GNNTN",
+					"lat": 52.526371,
+					"lon": -1.463875,
+					"name": "Nuneaton Rail Station",
+					"stationId": "910GNNTN",
+					"topMostParentId": "910GNNTN"
+				},
+				{
+					"icsId": "90000551",
+					"id": "910GBERMPRK",
+					"lat": 52.501434,
+					"lon": -1.472178,
+					"name": "Bermuda Park Rail Station",
+					"stationId": "910GBERMPRK",
+					"topMostParentId": "910GBERMPRK"
+				},
+				{
+					"icsId": "90000527",
+					"id": "910GBEDWRTH",
+					"lat": 52.479297,
+					"lon": -1.467392,
+					"name": "Bedworth Rail Station",
+					"stationId": "910GBEDWRTH",
+					"topMostParentId": "910GBEDWRTH"
+				},
+				{
+					"icsId": "90001728",
+					"id": "910GCOVAREN",
+					"lat": 52.447733,
+					"lon": -1.494125,
+					"name": "Coventry Arena Rail Station",
+					"stationId": "910GCOVAREN",
+					"topMostParentId": "910GCOVAREN"
+				},
+				{
+					"icsId": "90001733",
+					"id": "910GCOVNTRY",
+					"lat": 52.400814,
+					"lon": -1.51346,
+					"name": "Coventry Rail Station",
+					"stationId": "910GCOVNTRY",
+					"topMostParentId": "910GCOVNTRY"
+				},
+				{
+					"id": "910GKENLSTN",
+					"lat": 52.342705,
+					"lon": -1.572738,
+					"name": "Kenilworth Rail Station",
+					"stationId": "910GKENLSTN",
+					"topMostParentId": "910GKENLSTN"
+				},
+				{
+					"icsId": "90004462",
+					"id": "910GLMNGTNS",
+					"lat": 52.28449,
+					"lon": -1.53621,
+					"name": "Leamington Spa Rail Station",
+					"stationId": "910GLMNGTNS",
+					"topMostParentId": "910GLMNGTNS"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90004654",
+					"id": "910GLVRPLSH",
+					"lat": 53.407308,
+					"lon": -2.977726,
+					"name": "Liverpool Lime Street Rail Station",
+					"stationId": "910GLVRPLSH",
+					"topMostParentId": "910GLVRPLSH"
+				},
+				{
+					"icsId": "90000123",
+					"id": "910GLVRPSPY",
+					"lat": 53.357744,
+					"lon": -2.889143,
+					"name": "Liverpool South Parkway Rail Station",
+					"stationId": "910GLVRPSPY",
+					"topMostParentId": "910GLVRPSPY"
+				},
+				{
+					"icsId": "90006217",
+					"id": "910GRUNCORN",
+					"lat": 53.338695,
+					"lon": -2.739251,
+					"name": "Runcorn Rail Station",
+					"stationId": "910GRUNCORN",
+					"topMostParentId": "910GRUNCORN"
+				},
+				{
+					"icsId": "90000051",
+					"id": "910GACBG",
+					"lat": 53.266507,
+					"lon": -2.603127,
+					"name": "Acton Bridge Rail Station",
+					"stationId": "910GACBG",
+					"topMostParentId": "910GACBG"
+				},
+				{
+					"icsId": "90003305",
+					"id": "910GHARTFD",
+					"lat": 53.241758,
+					"lon": -2.553629,
+					"name": "Hartford Rail Station",
+					"stationId": "910GHARTFD",
+					"topMostParentId": "910GHARTFD"
+				},
+				{
+					"icsId": "90007967",
+					"id": "910GWNSFD",
+					"lat": 53.190511,
+					"lon": -2.494599,
+					"name": "Winsford Rail Station",
+					"stationId": "910GWNSFD",
+					"topMostParentId": "910GWNSFD"
+				},
+				{
+					"icsId": "90001786",
+					"id": "910GCREWE",
+					"lat": 53.089625,
+					"lon": -2.432969,
+					"name": "Crewe Rail Station",
+					"stationId": "910GCREWE",
+					"topMostParentId": "910GCREWE"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90001786",
+					"id": "910GCREWE",
+					"lat": 53.089625,
+					"lon": -2.432969,
+					"name": "Crewe Rail Station",
+					"stationId": "910GCREWE",
+					"topMostParentId": "910GCREWE"
+				},
+				{
+					"icsId": "90006751",
+					"id": "910GSTAFFRD",
+					"lat": 52.80389,
+					"lon": -2.122036,
+					"name": "Stafford Rail Station",
+					"stationId": "910GSTAFFRD",
+					"topMostParentId": "910GSTAFFRD"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90006751",
+					"id": "910GSTAFFRD",
+					"lat": 52.80389,
+					"lon": -2.122036,
+					"name": "Stafford Rail Station",
+					"stationId": "910GSTAFFRD",
+					"topMostParentId": "910GSTAFFRD"
+				},
+				{
+					"icsId": "90005712",
+					"id": "910GPNKRDG",
+					"lat": 52.723499,
+					"lon": -2.119294,
+					"name": "Penkridge Rail Station",
+					"stationId": "910GPNKRDG",
+					"topMostParentId": "910GPNKRDG"
+				},
+				{
+					"icsId": "90008133",
+					"id": "910GWVRMPTN",
+					"lat": 52.587845,
+					"lon": -2.119515,
+					"name": "Wolverhampton Rail Station",
+					"stationId": "910GWVRMPTN",
+					"topMostParentId": "910GWVRMPTN"
+				},
+				{
+					"icsId": "90001717",
+					"id": "910GCOSELEY",
+					"lat": 52.545082,
+					"lon": -2.085777,
+					"name": "Coseley Rail Station",
+					"stationId": "910GCOSELEY",
+					"topMostParentId": "910GCOSELEY"
+				},
+				{
+					"icsId": "90007257",
+					"id": "910GTIPTON",
+					"lat": 52.530442,
+					"lon": -2.065701,
+					"name": "Tipton Rail Station",
+					"stationId": "910GTIPTON",
+					"topMostParentId": "910GTIPTON"
+				},
+				{
+					"icsId": "90002358",
+					"id": "910GDUDLPT",
+					"lat": 52.524651,
+					"lon": -2.04948,
+					"name": "Dudley Port Rail Station",
+					"stationId": "910GDUDLPT",
+					"topMostParentId": "910GDUDLPT"
+				},
+				{
+					"icsId": "90006655",
+					"id": "910GSNDWDUD",
+					"lat": 52.508659,
+					"lon": -2.011596,
+					"name": "Sandwell & Dudley Rail Station",
+					"stationId": "910GSNDWDUD",
+					"topMostParentId": "910GSNDWDUD"
+				},
+				{
+					"icsId": "90002900",
+					"id": "910GGALTILL",
+					"lat": 52.501781,
+					"lon": -1.980511,
+					"name": "Smethwick Galton Bridge Rail Station",
+					"stationId": "910GGALTILL",
+					"topMostParentId": "910GGALTILL"
+				},
+				{
+					"icsId": "90006637",
+					"id": "910GSMTHKRS",
+					"lat": 52.496385,
+					"lon": -1.970644,
+					"name": "Smethwick Rolfe Street Rail Station",
+					"stationId": "910GSMTHKRS",
+					"topMostParentId": "910GSMTHKRS"
+				},
+				{
+					"icsId": "90000591",
+					"id": "910GBHAMNWS",
+					"lat": 52.477818,
+					"lon": -1.900205,
+					"name": "Birmingham New Street Rail Station",
+					"stationId": "910GBHAMNWS",
+					"topMostParentId": "910GBHAMNWS"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000591",
+					"id": "910GBHAMNWS",
+					"lat": 52.477818,
+					"lon": -1.900205,
+					"name": "Birmingham New Street Rail Station",
+					"stationId": "910GBHAMNWS",
+					"topMostParentId": "910GBHAMNWS"
+				},
+				{
+					"icsId": "90000076",
+					"id": "910GADERLYP",
+					"lat": 52.483086,
+					"lon": -1.855944,
+					"name": "Adderley Park Rail Station",
+					"stationId": "910GADERLYP",
+					"topMostParentId": "910GADERLYP"
+				},
+				{
+					"icsId": "90006802",
+					"id": "910GSTECHFD",
+					"lat": 52.484821,
+					"lon": -1.811025,
+					"name": "Stechford Rail Station",
+					"stationId": "910GSTECHFD",
+					"topMostParentId": "910GSTECHFD"
+				},
+				{
+					"icsId": "90004303",
+					"id": "910GLEAHALL",
+					"lat": 52.480643,
+					"lon": -1.786012,
+					"name": "Lea Hall Rail Station",
+					"stationId": "910GLEAHALL",
+					"topMostParentId": "910GLEAHALL"
+				},
+				{
+					"icsId": "90005086",
+					"id": "910GMRSTNGR",
+					"lat": 52.467189,
+					"lon": -1.755607,
+					"name": "Marston Green Rail Station",
+					"stationId": "910GMRSTNGR",
+					"topMostParentId": "910GMRSTNGR"
+				},
+				{
+					"icsId": "90000585",
+					"id": "910GBHAMINT",
+					"lat": 52.450807,
+					"lon": -1.725857,
+					"name": "Birmingham International Rail Station",
+					"stationId": "910GBHAMINT",
+					"topMostParentId": "910GBHAMINT"
+				},
+				{
+					"icsId": "90003526",
+					"id": "910GHMPTNIA",
+					"lat": 52.429033,
+					"lon": -1.699931,
+					"name": "Hampton-in-Arden Rail Station",
+					"stationId": "910GHMPTNIA",
+					"topMostParentId": "910GHMPTNIA"
+				},
+				{
+					"icsId": "90000622",
+					"id": "910GBKSWELL",
+					"lat": 52.395881,
+					"lon": -1.64284,
+					"name": "Berkswell Rail Station",
+					"stationId": "910GBKSWELL",
+					"topMostParentId": "910GBKSWELL"
+				},
+				{
+					"icsId": "90007243",
+					"id": "910GTILEH",
+					"lat": 52.395104,
+					"lon": -1.596848,
+					"name": "Tile Hill Rail Station",
+					"stationId": "910GTILEH",
+					"topMostParentId": "910GTILEH"
+				},
+				{
+					"icsId": "90001234",
+					"id": "910GCANLEY",
+					"lat": 52.399421,
+					"lon": -1.547735,
+					"name": "Canley Rail Station",
+					"stationId": "910GCANLEY",
+					"topMostParentId": "910GCANLEY"
+				},
+				{
+					"icsId": "90001733",
+					"id": "910GCOVNTRY",
+					"lat": 52.400814,
+					"lon": -1.51346,
+					"name": "Coventry Rail Station",
+					"stationId": "910GCOVNTRY",
+					"topMostParentId": "910GCOVNTRY"
+				},
+				{
+					"icsId": "90006205",
+					"id": "910GRUGBY",
+					"lat": 52.379094,
+					"lon": -1.250484,
+					"name": "Rugby Rail Station",
+					"stationId": "910GRUGBY",
+					"topMostParentId": "910GRUGBY"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90006205",
+					"id": "910GRUGBY",
+					"lat": 52.379094,
+					"lon": -1.250484,
+					"name": "Rugby Rail Station",
+					"stationId": "910GRUGBY",
+					"topMostParentId": "910GRUGBY"
+				},
+				{
+					"icsId": "90004490",
+					"id": "910GLNGBKBY",
+					"lat": 52.294716,
+					"lon": -1.086467,
+					"name": "Long Buckby Rail Station",
+					"stationId": "910GLNGBKBY",
+					"topMostParentId": "910GLNGBKBY"
+				},
+				{
+					"icsId": "90005239",
+					"id": "910GNMPTN",
+					"lat": 52.2375,
+					"lon": -0.906653,
+					"name": "Northampton Rail Station",
+					"stationId": "910GNMPTN",
+					"topMostParentId": "910GNMPTN"
+				},
+				{
+					"icsId": "90007928",
+					"id": "910GWLVR",
+					"lat": 52.065878,
+					"lon": -0.804267,
+					"name": "Wolverton Rail Station",
+					"stationId": "910GWLVR",
+					"topMostParentId": "910GWLVR"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90007928",
+					"id": "910GWLVR",
+					"lat": 52.065878,
+					"lon": -0.804267,
+					"name": "Wolverton Rail Station",
+					"stationId": "910GWLVR",
+					"topMostParentId": "910GWLVR"
+				},
+				{
+					"icsId": "90004873",
+					"id": "910GMKNSCEN",
+					"lat": 52.034288,
+					"lon": -0.774146,
+					"name": "Milton Keynes Central Rail Station",
+					"stationId": "910GMKNSCEN",
+					"topMostParentId": "910GMKNSCEN"
+				},
+				{
+					"icsId": "1000523",
+					"id": "910GLTNBZRD",
+					"lat": 51.916306,
+					"lon": -0.677007,
+					"name": "Leighton Buzzard Rail Station",
+					"stationId": "910GLTNBZRD",
+					"topMostParentId": "910GLTNBZRD"
+				},
+				{
+					"icsId": "1000077",
+					"id": "910GEUSTON",
+					"lat": 51.528136,
+					"lon": -0.133924,
+					"name": "London Euston Rail Station",
+					"parentId": "HUBEUS",
+					"stationId": "910GEUSTON",
+					"topMostParentId": "HUBEUS",
+					"zone": "1"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90001786",
+					"id": "910GCREWE",
+					"lat": 53.089625,
+					"lon": -2.432969,
+					"name": "Crewe Rail Station",
+					"stationId": "910GCREWE",
+					"topMostParentId": "910GCREWE"
+				},
+				{
+					"icsId": "90000141",
+					"id": "910GALSAGER",
+					"lat": 53.093003,
+					"lon": -2.299058,
+					"name": "Alsager Rail Station",
+					"stationId": "910GALSAGER",
+					"topMostParentId": "910GALSAGER"
+				},
+				{
+					"icsId": "90004046",
+					"id": "910GKIDSGRV",
+					"lat": 53.086565,
+					"lon": -2.244816,
+					"name": "Kidsgrove Rail Station",
+					"stationId": "910GKIDSGRV",
+					"topMostParentId": "910GKIDSGRV"
+				},
+				{
+					"icsId": "90006933",
+					"id": "910GSTOKEOT",
+					"lat": 53.00798,
+					"lon": -2.180987,
+					"name": "Stoke-on-Trent Rail Station",
+					"stationId": "910GSTOKEOT",
+					"topMostParentId": "910GSTOKEOT"
+				},
+				{
+					"icsId": "90006942",
+					"id": "910GSTONE",
+					"lat": 52.908326,
+					"lon": -2.155041,
+					"name": "Stone Rail Station",
+					"stationId": "910GSTONE",
+					"topMostParentId": "910GSTONE"
+				},
+				{
+					"icsId": "90006751",
+					"id": "910GSTAFFRD",
+					"lat": 52.80389,
+					"lon": -2.122036,
+					"name": "Stafford Rail Station",
+					"stationId": "910GSTAFFRD",
+					"topMostParentId": "910GSTAFFRD"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90005979",
+					"id": "910GRDIT",
+					"lat": 52.306281,
+					"lon": -1.945543,
+					"name": "Redditch Rail Station",
+					"stationId": "910GRDIT",
+					"topMostParentId": "910GRDIT"
+				},
+				{
+					"icsId": "90000157",
+					"id": "910GALVCHRC",
+					"lat": 52.346071,
+					"lon": -1.96766,
+					"name": "Alvechurch Rail Station",
+					"stationId": "910GALVCHRC",
+					"topMostParentId": "910GALVCHRC"
+				},
+				{
+					"icsId": "90000581",
+					"id": "910GBGRN",
+					"lat": 52.360908,
+					"lon": -1.992173,
+					"name": "Barnt Green Rail Station",
+					"stationId": "910GBGRN",
+					"topMostParentId": "910GBGRN"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000581",
+					"id": "910GBGRN",
+					"lat": 52.360908,
+					"lon": -1.992173,
+					"name": "Barnt Green Rail Station",
+					"stationId": "910GBGRN",
+					"topMostParentId": "910GBGRN"
+				},
+				{
+					"icsId": "90004548",
+					"id": "910GLONB",
+					"lat": 52.396418,
+					"lon": -1.981292,
+					"name": "Longbridge Rail Station",
+					"stationId": "910GLONB",
+					"topMostParentId": "910GLONB"
+				},
+				{
+					"icsId": "90005290",
+					"id": "910GNRTF",
+					"lat": 52.408192,
+					"lon": -1.965851,
+					"name": "Northfield Rail Station",
+					"stationId": "910GNRTF",
+					"topMostParentId": "910GNRTF"
+				},
+				{
+					"icsId": "90004134",
+					"id": "910GKNORTON",
+					"lat": 52.414291,
+					"lon": -1.932326,
+					"name": "Kings Norton Rail Station",
+					"stationId": "910GKNORTON",
+					"topMostParentId": "910GKNORTON"
+				},
+				{
+					"icsId": "90000824",
+					"id": "910GBOURNVL",
+					"lat": 52.426963,
+					"lon": -1.926424,
+					"name": "Bournville Rail Station",
+					"stationId": "910GBOURNVL",
+					"topMostParentId": "910GBOURNVL"
+				},
+				{
+					"icsId": "90006375",
+					"id": "910GSELYOAK",
+					"lat": 52.441982,
+					"lon": -1.935814,
+					"name": "Selly Oak Rail Station",
+					"stationId": "910GSELYOAK",
+					"topMostParentId": "910GSELYOAK"
+				},
+				{
+					"icsId": "90007483",
+					"id": "910GUNVRSYB",
+					"lat": 52.451242,
+					"lon": -1.936684,
+					"name": "University Rail Station",
+					"stationId": "910GUNVRSYB",
+					"topMostParentId": "910GUNVRSYB"
+				},
+				{
+					"icsId": "90002742",
+					"id": "910GFIVEWYS",
+					"lat": 52.471095,
+					"lon": -1.912954,
+					"name": "Five Ways Rail Station",
+					"stationId": "910GFIVEWYS",
+					"topMostParentId": "910GFIVEWYS"
+				},
+				{
+					"icsId": "90000591",
+					"id": "910GBHAMNWS",
+					"lat": 52.477818,
+					"lon": -1.900205,
+					"name": "Birmingham New Street Rail Station",
+					"stationId": "910GBHAMNWS",
+					"topMostParentId": "910GBHAMNWS"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000591",
+					"id": "910GBHAMNWS",
+					"lat": 52.477818,
+					"lon": -1.900205,
+					"name": "Birmingham New Street Rail Station",
+					"stationId": "910GBHAMNWS",
+					"topMostParentId": "910GBHAMNWS"
+				},
+				{
+					"icsId": "90002356",
+					"id": "910GDUDESTN",
+					"lat": 52.488363,
+					"lon": -1.87139,
+					"name": "Duddeston Rail Station",
+					"stationId": "910GDUDESTN",
+					"topMostParentId": "910GDUDESTN"
+				},
+				{
+					"icsId": "90000310",
+					"id": "910GASTON",
+					"lat": 52.504231,
+					"lon": -1.871934,
+					"name": "Aston Rail Station",
+					"stationId": "910GASTON",
+					"topMostParentId": "910GASTON"
+				},
+				{
+					"icsId": "90003091",
+					"id": "910GGRAVLYH",
+					"lat": 52.514996,
+					"lon": -1.852598,
+					"name": "Gravelly Hill Rail Station",
+					"stationId": "910GGRAVLYH",
+					"topMostParentId": "910GGRAVLYH"
+				},
+				{
+					"icsId": "90002589",
+					"id": "910GERDNGTN",
+					"lat": 52.528284,
+					"lon": -1.839509,
+					"name": "Erdington Rail Station",
+					"stationId": "910GERDNGTN",
+					"topMostParentId": "910GERDNGTN"
+				},
+				{
+					"icsId": "90001456",
+					"id": "910GCHSRD",
+					"lat": 52.535646,
+					"lon": -1.832479,
+					"name": "Chester Road Rail Station",
+					"stationId": "910GCHSRD",
+					"topMostParentId": "910GCHSRD"
+				},
+				{
+					"icsId": "90008148",
+					"id": "910GWYGN",
+					"lat": 52.545713,
+					"lon": -1.831409,
+					"name": "Wylde Green Rail Station",
+					"stationId": "910GWYGN",
+					"topMostParentId": "910GWYGN"
+				},
+				{
+					"icsId": "90007032",
+					"id": "910GSUTCO",
+					"lat": 52.564942,
+					"lon": -1.824844,
+					"name": "Sutton Coldfield Rail Station",
+					"stationId": "910GSUTCO",
+					"topMostParentId": "910GSUTCO"
+				},
+				{
+					"icsId": "90002795",
+					"id": "910GFOUROKS",
+					"lat": 52.57978,
+					"lon": -1.828032,
+					"name": "Four Oaks Rail Station",
+					"stationId": "910GFOUROKS",
+					"topMostParentId": "910GFOUROKS"
+				},
+				{
+					"icsId": "90001131",
+					"id": "910GBTLRSLA",
+					"lat": 52.59247,
+					"lon": -1.83802,
+					"name": "Butlers Lane Rail Station",
+					"stationId": "910GBTLRSLA",
+					"topMostParentId": "910GBTLRSLA"
+				},
+				{
+					"icsId": "90000668",
+					"id": "910GBLKST",
+					"lat": 52.604885,
+					"lon": -1.844914,
+					"name": "Blake Street Rail Station",
+					"stationId": "910GBLKST",
+					"topMostParentId": "910GBLKST"
+				},
+				{
+					"icsId": "90006474",
+					"id": "910GSHNS",
+					"lat": 52.639359,
+					"lon": -1.844202,
+					"name": "Shenstone Rail Station",
+					"stationId": "910GSHNS",
+					"topMostParentId": "910GSHNS"
+				},
+				{
+					"icsId": "90004272",
+					"id": "910GLCHC",
+					"lat": 52.680147,
+					"lon": -1.82542,
+					"name": "Lichfield City Rail Station",
+					"stationId": "910GLCHC",
+					"topMostParentId": "910GLCHC"
+				},
+				{
+					"icsId": "90004283",
+					"id": "910GLCHTTVH",
+					"lat": 52.686894,
+					"lon": -1.800244,
+					"name": "Lichfield Trent Valley HL Rail Station",
+					"parentId": "910GLCHTTVL",
+					"stationId": "910GLCHTTVH",
+					"topMostParentId": "910GLCHTTVL"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000971",
+					"id": "910GBRMSGRV",
+					"lat": 52.320604,
+					"lon": -2.049779,
+					"name": "Bromsgrove Rail Station",
+					"stationId": "910GBRMSGRV",
+					"topMostParentId": "910GBRMSGRV"
+				},
+				{
+					"icsId": "90000581",
+					"id": "910GBGRN",
+					"lat": 52.360908,
+					"lon": -1.992173,
+					"name": "Barnt Green Rail Station",
+					"stationId": "910GBGRN",
+					"topMostParentId": "910GBGRN"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90008133",
+					"id": "910GWVRMPTN",
+					"lat": 52.587845,
+					"lon": -2.119515,
+					"name": "Wolverhampton Rail Station",
+					"stationId": "910GWVRMPTN",
+					"topMostParentId": "910GWVRMPTN"
+				},
+				{
+					"icsId": "90001717",
+					"id": "910GCOSELEY",
+					"lat": 52.545082,
+					"lon": -2.085777,
+					"name": "Coseley Rail Station",
+					"stationId": "910GCOSELEY",
+					"topMostParentId": "910GCOSELEY"
+				},
+				{
+					"icsId": "90007257",
+					"id": "910GTIPTON",
+					"lat": 52.530442,
+					"lon": -2.065701,
+					"name": "Tipton Rail Station",
+					"stationId": "910GTIPTON",
+					"topMostParentId": "910GTIPTON"
+				},
+				{
+					"icsId": "90002358",
+					"id": "910GDUDLPT",
+					"lat": 52.524651,
+					"lon": -2.04948,
+					"name": "Dudley Port Rail Station",
+					"stationId": "910GDUDLPT",
+					"topMostParentId": "910GDUDLPT"
+				},
+				{
+					"icsId": "90006655",
+					"id": "910GSNDWDUD",
+					"lat": 52.508659,
+					"lon": -2.011596,
+					"name": "Sandwell & Dudley Rail Station",
+					"stationId": "910GSNDWDUD",
+					"topMostParentId": "910GSNDWDUD"
+				},
+				{
+					"icsId": "90002900",
+					"id": "910GGALTILL",
+					"lat": 52.501781,
+					"lon": -1.980511,
+					"name": "Smethwick Galton Bridge Rail Station",
+					"stationId": "910GGALTILL",
+					"topMostParentId": "910GGALTILL"
+				},
+				{
+					"icsId": "90006637",
+					"id": "910GSMTHKRS",
+					"lat": 52.496385,
+					"lon": -1.970644,
+					"name": "Smethwick Rolfe Street Rail Station",
+					"stationId": "910GSMTHKRS",
+					"topMostParentId": "910GSMTHKRS"
+				},
+				{
+					"icsId": "90000591",
+					"id": "910GBHAMNWS",
+					"lat": 52.477818,
+					"lon": -1.900205,
+					"name": "Birmingham New Street Rail Station",
+					"stationId": "910GBHAMNWS",
+					"topMostParentId": "910GBHAMNWS"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90006208",
+					"id": "910GRUGL",
+					"lat": 52.769656,
+					"lon": -1.929851,
+					"name": "Rugeley Trent Valley Rail Station",
+					"stationId": "910GRUGL",
+					"topMostParentId": "910GRUGL"
+				},
+				{
+					"icsId": "90006212",
+					"id": "910GRUGLTWN",
+					"lat": 52.754377,
+					"lon": -1.93684,
+					"name": "Rugeley Town Rail Station",
+					"stationId": "910GRUGLTWN",
+					"topMostParentId": "910GRUGLTWN"
+				},
+				{
+					"icsId": "90003369",
+					"id": "910GHDNS",
+					"lat": 52.710111,
+					"lon": -2.001778,
+					"name": "Hednesford Rail Station",
+					"stationId": "910GHDNS",
+					"topMostParentId": "910GHDNS"
+				},
+				{
+					"icsId": "90001624",
+					"id": "910GCNCK",
+					"lat": 52.686161,
+					"lon": -2.022147,
+					"name": "Cannock Rail Station",
+					"stationId": "910GCNCK",
+					"topMostParentId": "910GCNCK"
+				},
+				{
+					"icsId": "90004486",
+					"id": "910GLNDYW",
+					"lat": 52.65654,
+					"lon": -2.020728,
+					"name": "Landywood Rail Station",
+					"stationId": "910GLNDYW",
+					"topMostParentId": "910GLNDYW"
+				},
+				{
+					"icsId": "90000679",
+					"id": "910GBLOXN",
+					"lat": 52.625436,
+					"lon": -2.017684,
+					"name": "Bloxwich North Rail Station",
+					"stationId": "910GBLOXN",
+					"topMostParentId": "910GBLOXN"
+				},
+				{
+					"icsId": "90000680",
+					"id": "910GBLOXWCH",
+					"lat": 52.6182,
+					"lon": -2.011478,
+					"name": "Bloxwich Rail Station",
+					"stationId": "910GBLOXWCH",
+					"topMostParentId": "910GBLOXWCH"
+				},
+				{
+					"icsId": "90007556",
+					"id": "910GWALSALL",
+					"lat": 52.584398,
+					"lon": -1.984755,
+					"name": "Walsall Rail Station",
+					"stationId": "910GWALSALL",
+					"topMostParentId": "910GWALSALL"
+				},
+				{
+					"icsId": "90001076",
+					"id": "910GBSCTSTA",
+					"lat": 52.563093,
+					"lon": -1.991105,
+					"name": "Bescot Stadium Rail Station",
+					"stationId": "910GBSCTSTA",
+					"topMostParentId": "910GBSCTSTA"
+				},
+				{
+					"icsId": "90007115",
+					"id": "910GTAMEBDG",
+					"lat": 52.552834,
+					"lon": -1.976536,
+					"name": "Tame Bridge Parkway Rail Station",
+					"stationId": "910GTAMEBDG",
+					"topMostParentId": "910GTAMEBDG"
+				},
+				{
+					"icsId": "90003279",
+					"id": "910GHAMSTED",
+					"lat": 52.531068,
+					"lon": -1.928978,
+					"name": "Hamstead (Birmingham) Rail Station",
+					"stationId": "910GHAMSTED",
+					"topMostParentId": "910GHAMSTED"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000591",
+					"id": "910GBHAMNWS",
+					"lat": 52.477818,
+					"lon": -1.900205,
+					"name": "Birmingham New Street Rail Station",
+					"stationId": "910GBHAMNWS",
+					"topMostParentId": "910GBHAMNWS"
+				},
+				{
+					"icsId": "90000076",
+					"id": "910GADERLYP",
+					"lat": 52.483086,
+					"lon": -1.855944,
+					"name": "Adderley Park Rail Station",
+					"stationId": "910GADERLYP",
+					"topMostParentId": "910GADERLYP"
+				},
+				{
+					"icsId": "90006802",
+					"id": "910GSTECHFD",
+					"lat": 52.484821,
+					"lon": -1.811025,
+					"name": "Stechford Rail Station",
+					"stationId": "910GSTECHFD",
+					"topMostParentId": "910GSTECHFD"
+				},
+				{
+					"icsId": "90004303",
+					"id": "910GLEAHALL",
+					"lat": 52.480643,
+					"lon": -1.786012,
+					"name": "Lea Hall Rail Station",
+					"stationId": "910GLEAHALL",
+					"topMostParentId": "910GLEAHALL"
+				},
+				{
+					"icsId": "90005086",
+					"id": "910GMRSTNGR",
+					"lat": 52.467189,
+					"lon": -1.755607,
+					"name": "Marston Green Rail Station",
+					"stationId": "910GMRSTNGR",
+					"topMostParentId": "910GMRSTNGR"
+				},
+				{
+					"icsId": "90000585",
+					"id": "910GBHAMINT",
+					"lat": 52.450807,
+					"lon": -1.725857,
+					"name": "Birmingham International Rail Station",
+					"stationId": "910GBHAMINT",
+					"topMostParentId": "910GBHAMINT"
+				},
+				{
+					"icsId": "90003526",
+					"id": "910GHMPTNIA",
+					"lat": 52.429033,
+					"lon": -1.699931,
+					"name": "Hampton-in-Arden Rail Station",
+					"stationId": "910GHMPTNIA",
+					"topMostParentId": "910GHMPTNIA"
+				},
+				{
+					"icsId": "90007243",
+					"id": "910GTILEH",
+					"lat": 52.395104,
+					"lon": -1.596848,
+					"name": "Tile Hill Rail Station",
+					"stationId": "910GTILEH",
+					"topMostParentId": "910GTILEH"
+				},
+				{
+					"icsId": "90001733",
+					"id": "910GCOVNTRY",
+					"lat": 52.400814,
+					"lon": -1.51346,
+					"name": "Coventry Rail Station",
+					"stationId": "910GCOVNTRY",
+					"topMostParentId": "910GCOVNTRY"
+				},
+				{
+					"icsId": "90006205",
+					"id": "910GRUGBY",
+					"lat": 52.379094,
+					"lon": -1.250484,
+					"name": "Rugby Rail Station",
+					"stationId": "910GRUGBY",
+					"topMostParentId": "910GRUGBY"
+				},
+				{
+					"icsId": "90004490",
+					"id": "910GLNGBKBY",
+					"lat": 52.294716,
+					"lon": -1.086467,
+					"name": "Long Buckby Rail Station",
+					"stationId": "910GLNGBKBY",
+					"topMostParentId": "910GLNGBKBY"
+				},
+				{
+					"icsId": "90005239",
+					"id": "910GNMPTN",
+					"lat": 52.2375,
+					"lon": -0.906653,
+					"name": "Northampton Rail Station",
+					"stationId": "910GNMPTN",
+					"topMostParentId": "910GNMPTN"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90003279",
+					"id": "910GHAMSTED",
+					"lat": 52.531068,
+					"lon": -1.928978,
+					"name": "Hamstead (Birmingham) Rail Station",
+					"stationId": "910GHAMSTED",
+					"topMostParentId": "910GHAMSTED"
+				},
+				{
+					"icsId": "90005844",
+					"id": "910GPRYBR",
+					"lat": 52.516486,
+					"lon": -1.90196,
+					"name": "Perry Barr Rail Station",
+					"stationId": "910GPRYBR",
+					"topMostParentId": "910GPRYBR"
+				},
+				{
+					"icsId": "90007848",
+					"id": "910GWITTON",
+					"lat": 52.512379,
+					"lon": -1.884435,
+					"name": "Witton (West Midlands) Rail Station",
+					"stationId": "910GWITTON",
+					"topMostParentId": "910GWITTON"
+				},
+				{
+					"icsId": "90000310",
+					"id": "910GASTON",
+					"lat": 52.504231,
+					"lon": -1.871934,
+					"name": "Aston Rail Station",
+					"stationId": "910GASTON",
+					"topMostParentId": "910GASTON"
+				},
+				{
+					"icsId": "90002356",
+					"id": "910GDUDESTN",
+					"lat": 52.488363,
+					"lon": -1.87139,
+					"name": "Duddeston Rail Station",
+					"stationId": "910GDUDESTN",
+					"topMostParentId": "910GDUDESTN"
+				},
+				{
+					"icsId": "90000591",
+					"id": "910GBHAMNWS",
+					"lat": 52.477818,
+					"lon": -1.900205,
+					"name": "Birmingham New Street Rail Station",
+					"stationId": "910GBHAMNWS",
+					"topMostParentId": "910GBHAMNWS"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90006671",
+					"id": "910GSOAV",
+					"lat": 52.194248,
+					"lon": -1.716288,
+					"name": "Stratford-upon-Avon Rail Station",
+					"stationId": "910GSOAV",
+					"topMostParentId": "910GSOAV"
+				},
+				{
+					"icsId": "90006672",
+					"id": "910GSOAVPWY",
+					"lat": 52.206779,
+					"lon": -1.730842,
+					"name": "Stratford-upon-Avon Parkway Rail Station",
+					"stationId": "910GSOAVPWY",
+					"topMostParentId": "910GSOAVPWY"
+				},
+				{
+					"icsId": "90007822",
+					"id": "910GWILMCOT",
+					"lat": 52.222998,
+					"lon": -1.756011,
+					"name": "Wilmcote Rail Station",
+					"stationId": "910GWILMCOT",
+					"topMostParentId": "910GWILMCOT"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90007822",
+					"id": "910GWILMCOT",
+					"lat": 52.222998,
+					"lon": -1.756011,
+					"name": "Wilmcote Rail Station",
+					"stationId": "910GWILMCOT",
+					"topMostParentId": "910GWILMCOT"
+				},
+				{
+					"icsId": "90008033",
+					"id": "910GWOTONWN",
+					"lat": 52.2669,
+					"lon": -1.784697,
+					"name": "Wootton Wawen Rail Station",
+					"stationId": "910GWOTONWN",
+					"topMostParentId": "910GWOTONWN"
+				},
+				{
+					"icsId": "90003398",
+					"id": "910GHENLYIA",
+					"lat": 52.291487,
+					"lon": -1.783991,
+					"name": "Henley-in-Arden Rail Station",
+					"stationId": "910GHENLYIA",
+					"topMostParentId": "910GHENLYIA"
+				},
+				{
+					"icsId": "90002026",
+					"id": "910GDANZEY",
+					"lat": 52.324813,
+					"lon": -1.820877,
+					"name": "Danzey Rail Station",
+					"stationId": "910GDANZEY",
+					"topMostParentId": "910GDANZEY"
+				},
+				{
+					"icsId": "90007644",
+					"id": "910GWDND",
+					"lat": 52.34368,
+					"lon": -1.844214,
+					"name": "Wood End Rail Station",
+					"stationId": "910GWDND",
+					"topMostParentId": "910GWDND"
+				},
+				{
+					"icsId": "90007188",
+					"id": "910GTHELAKS",
+					"lat": 52.359144,
+					"lon": -1.844673,
+					"name": "The Lakes Rail Station",
+					"stationId": "910GTHELAKS",
+					"topMostParentId": "910GTHELAKS"
+				},
+				{
+					"icsId": "90002560",
+					"id": "910GELWD",
+					"lat": 52.366581,
+					"lon": -1.861169,
+					"name": "Earlswood (West Midlands) Rail Station",
+					"stationId": "910GELWD",
+					"topMostParentId": "910GELWD"
+				},
+				{
+					"icsId": "90008155",
+					"id": "910GWYTH",
+					"lat": 52.379937,
+					"lon": -1.865535,
+					"name": "Wythall Rail Station",
+					"stationId": "910GWYTH",
+					"topMostParentId": "910GWYTH"
+				},
+				{
+					"icsId": "90007766",
+					"id": "910GWHLE",
+					"lat": 52.391832,
+					"lon": -1.851539,
+					"name": "Whitlocks End Rail Station",
+					"stationId": "910GWHLE",
+					"topMostParentId": "910GWHLE"
+				},
+				{
+					"icsId": "90006464",
+					"id": "910GSHIRLEY",
+					"lat": 52.403421,
+					"lon": -1.84518,
+					"name": "Shirley Rail Station",
+					"stationId": "910GSHIRLEY",
+					"topMostParentId": "910GSHIRLEY"
+				},
+				{
+					"icsId": "90008216",
+					"id": "910GYRDLYWD",
+					"lat": 52.421502,
+					"lon": -1.85438,
+					"name": "Yardley Wood Rail Station",
+					"stationId": "910GYRDLYWD",
+					"topMostParentId": "910GYRDLYWD"
+				},
+				{
+					"icsId": "90003486",
+					"id": "910GHLGN",
+					"lat": 52.436909,
+					"lon": -1.845651,
+					"name": "Hall Green Rail Station",
+					"stationId": "910GHLGN",
+					"topMostParentId": "910GHLGN"
+				},
+				{
+					"icsId": "90006736",
+					"id": "910GSPRD",
+					"lat": 52.443416,
+					"lon": -1.837389,
+					"name": "Spring Road Rail Station",
+					"stationId": "910GSPRD",
+					"topMostParentId": "910GSPRD"
+				},
+				{
+					"icsId": "90007459",
+					"id": "910GTYSL",
+					"lat": 52.454117,
+					"lon": -1.839116,
+					"name": "Tyseley Rail Station",
+					"stationId": "910GTYSL",
+					"topMostParentId": "910GTYSL"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90007459",
+					"id": "910GTYSL",
+					"lat": 52.454117,
+					"lon": -1.839116,
+					"name": "Tyseley Rail Station",
+					"stationId": "910GTYSL",
+					"topMostParentId": "910GTYSL"
+				},
+				{
+					"icsId": "90006634",
+					"id": "910GSMLHTH",
+					"lat": 52.463762,
+					"lon": -1.859393,
+					"name": "Small Heath Rail Station",
+					"stationId": "910GSMLHTH",
+					"topMostParentId": "910GSMLHTH"
+				},
+				{
+					"icsId": "90000873",
+					"id": "910GBRDS",
+					"lat": 52.471873,
+					"lon": -1.877769,
+					"name": "Bordesley Rail Station",
+					"stationId": "910GBRDS",
+					"topMostParentId": "910GBRDS"
+				},
+				{
+					"icsId": "90000588",
+					"id": "910GBHAMMRS",
+					"lat": 52.478953,
+					"lon": -1.8919570000000001,
+					"name": "Birmingham Moor Street Rail Station",
+					"stationId": "910GBHAMMRS",
+					"topMostParentId": "910GBHAMMRS"
+				},
+				{
+					"icsId": "90000594",
+					"id": "910GBHAMSNH",
+					"lat": 52.483409,
+					"lon": -1.898971,
+					"name": "Birmingham Snow Hill Rail Station",
+					"stationId": "910GBHAMSNH",
+					"topMostParentId": "910GBHAMSNH"
+				},
+				{
+					"icsId": "90000587",
+					"id": "910GBHAMJEW",
+					"lat": 52.489435,
+					"lon": -1.913213,
+					"name": "Jewellery Quarter Rail Station",
+					"stationId": "910GBHAMJEW",
+					"topMostParentId": "910GBHAMJEW"
+				},
+				{
+					"icsId": "90003547",
+					"id": "910GHNDSHWT",
+					"lat": 52.505373,
+					"lon": -1.964009,
+					"name": "The Hawthorns Rail Station",
+					"stationId": "910GHNDSHWT",
+					"topMostParentId": "910GHNDSHWT"
+				},
+				{
+					"icsId": "90002900",
+					"id": "910GGALTILL",
+					"lat": 52.501781,
+					"lon": -1.980511,
+					"name": "Smethwick Galton Bridge Rail Station",
+					"stationId": "910GGALTILL",
+					"topMostParentId": "910GGALTILL"
+				},
+				{
+					"icsId": "90004379",
+					"id": "910GLGRN",
+					"lat": 52.493871,
+					"lon": -2.004964,
+					"name": "Langley Green Rail Station",
+					"stationId": "910GLGRN",
+					"topMostParentId": "910GLGRN"
+				},
+				{
+					"icsId": "90006138",
+					"id": "910GROWLEYR",
+					"lat": 52.477326,
+					"lon": -2.030875,
+					"name": "Rowley Regis Rail Station",
+					"stationId": "910GROWLEYR",
+					"topMostParentId": "910GROWLEYR"
+				},
+				{
+					"icsId": "90005453",
+					"id": "910GOLHL",
+					"lat": 52.470933,
+					"lon": -2.056191,
+					"name": "Old Hill Rail Station",
+					"stationId": "910GOLHL",
+					"topMostParentId": "910GOLHL"
+				},
+				{
+					"icsId": "90001746",
+					"id": "910GCRADLYH",
+					"lat": 52.469654,
+					"lon": -2.090488,
+					"name": "Cradley Heath Rail Station",
+					"stationId": "910GCRADLYH",
+					"topMostParentId": "910GCRADLYH"
+				},
+				{
+					"icsId": "90004673",
+					"id": "910GLYEE",
+					"lat": 52.459922,
+					"lon": -2.115929,
+					"name": "Lye (West Midlands) Rail Station",
+					"stationId": "910GLYEE",
+					"topMostParentId": "910GLYEE"
+				},
+				{
+					"icsId": "90006959",
+					"id": "910GSTRBDGJ",
+					"lat": 52.447587,
+					"lon": -2.133847,
+					"name": "Stourbridge Junction Rail Station",
+					"stationId": "910GSTRBDGJ",
+					"topMostParentId": "910GSTRBDGJ"
+				},
+				{
+					"icsId": "90003252",
+					"id": "910GHAGLEY",
+					"lat": 52.42249,
+					"lon": -2.146417,
+					"name": "Hagley Rail Station",
+					"stationId": "910GHAGLEY",
+					"topMostParentId": "910GHAGLEY"
+				},
+				{
+					"icsId": "90000628",
+					"id": "910GBLAKEDN",
+					"lat": 52.406401,
+					"lon": -2.176865,
+					"name": "Blakedown Rail Station",
+					"stationId": "910GBLAKEDN",
+					"topMostParentId": "910GBLAKEDN"
+				},
+				{
+					"icsId": "90003986",
+					"id": "910GKDRMNST",
+					"lat": 52.384482,
+					"lon": -2.238471,
+					"name": "Kidderminster Rail Station",
+					"stationId": "910GKDRMNST",
+					"topMostParentId": "910GKDRMNST"
+				},
+				{
+					"icsId": "90003361",
+					"id": "910GHBRY",
+					"lat": 52.334495,
+					"lon": -2.221119,
+					"name": "Hartlebury Rail Station",
+					"stationId": "910GHBRY",
+					"topMostParentId": "910GHBRY"
+				},
+				{
+					"icsId": "90002345",
+					"id": "910GDRTWCHS",
+					"lat": 52.268203,
+					"lon": -2.158363,
+					"name": "Droitwich Spa Rail Station",
+					"stationId": "910GDRTWCHS",
+					"topMostParentId": "910GDRTWCHS"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90008012",
+					"id": "910GWORCSFS",
+					"lat": 52.195144,
+					"lon": -2.221596,
+					"name": "Worcester Foregate Street Rail Station",
+					"stationId": "910GWORCSFS",
+					"topMostParentId": "910GWORCSFS"
+				},
+				{
+					"icsId": "90004923",
+					"id": "910GMLVRNLK",
+					"lat": 52.125468,
+					"lon": -2.319512,
+					"name": "Malvern Link Rail Station",
+					"stationId": "910GMLVRNLK",
+					"topMostParentId": "910GMLVRNLK"
+				},
+				{
+					"icsId": "90003205",
+					"id": "910GGTMLVRN",
+					"lat": 52.109199,
+					"lon": -2.318271,
+					"name": "Great Malvern Rail Station",
+					"stationId": "910GGTMLVRN",
+					"topMostParentId": "910GGTMLVRN"
+				},
+				{
+					"icsId": "90001586",
+					"id": "910GCLWALL",
+					"lat": 52.079868,
+					"lon": -2.35695,
+					"name": "Colwall Rail Station",
+					"stationId": "910GCLWALL",
+					"topMostParentId": "910GCLWALL"
+				},
+				{
+					"icsId": "90004293",
+					"id": "910GLDBURY",
+					"lat": 52.04525,
+					"lon": -2.42586,
+					"name": "Ledbury Rail Station",
+					"stationId": "910GLDBURY",
+					"topMostParentId": "910GLDBURY"
+				},
+				{
+					"icsId": "90003405",
+					"id": "910GHEREFRD",
+					"lat": 52.061162,
+					"lon": -2.70821,
+					"name": "Hereford Rail Station",
+					"stationId": "910GHEREFRD",
+					"topMostParentId": "910GHEREFRD"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90002345",
+					"id": "910GDRTWCHS",
+					"lat": 52.268203,
+					"lon": -2.158363,
+					"name": "Droitwich Spa Rail Station",
+					"stationId": "910GDRTWCHS",
+					"topMostParentId": "910GDRTWCHS"
+				},
+				{
+					"icsId": "90008014",
+					"id": "910GWORCSSH",
+					"lat": 52.194726,
+					"lon": -2.209408,
+					"name": "Worcester Shrub Hill Rail Station",
+					"stationId": "910GWORCSSH",
+					"topMostParentId": "910GWORCSSH"
+				},
+				{
+					"icsId": "90008012",
+					"id": "910GWORCSFS",
+					"lat": 52.195144,
+					"lon": -2.221596,
+					"name": "Worcester Foregate Street Rail Station",
+					"stationId": "910GWORCSFS",
+					"topMostParentId": "910GWORCSFS"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90004234",
+					"id": "910GLAPWRTH",
+					"lat": 52.342251,
+					"lon": -1.725691,
+					"name": "Lapworth Rail Station",
+					"stationId": "910GLAPWRTH",
+					"topMostParentId": "910GLAPWRTH"
+				},
+				{
+					"icsId": "90002276",
+					"id": "910GDORIDGE",
+					"lat": 52.372068,
+					"lon": -1.7529,
+					"name": "Dorridge Rail Station",
+					"stationId": "910GDORIDGE",
+					"topMostParentId": "910GDORIDGE"
+				},
+				{
+					"icsId": "90007648",
+					"id": "910GWDNYMNR",
+					"lat": 52.395935,
+					"lon": -1.77437,
+					"name": "Widney Manor Rail Station",
+					"stationId": "910GWDNYMNR",
+					"topMostParentId": "910GWDNYMNR"
+				},
+				{
+					"icsId": "90006683",
+					"id": "910GSOLIHUL",
+					"lat": 52.414391,
+					"lon": -1.788391,
+					"name": "Solihull Rail Station",
+					"stationId": "910GSOLIHUL",
+					"topMostParentId": "910GSOLIHUL"
+				},
+				{
+					"icsId": "90005456",
+					"id": "910GOLTON",
+					"lat": 52.438511,
+					"lon": -1.804309,
+					"name": "Olton Rail Station",
+					"stationId": "910GOLTON",
+					"topMostParentId": "910GOLTON"
+				},
+				{
+					"icsId": "90000063",
+					"id": "910GACOCKSG",
+					"lat": 52.449323,
+					"lon": -1.818975,
+					"name": "Acocks Green Rail Station",
+					"stationId": "910GACOCKSG",
+					"topMostParentId": "910GACOCKSG"
+				},
+				{
+					"icsId": "90007459",
+					"id": "910GTYSL",
+					"lat": 52.454117,
+					"lon": -1.839116,
+					"name": "Tyseley Rail Station",
+					"stationId": "910GTYSL",
+					"topMostParentId": "910GTYSL"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90004462",
+					"id": "910GLMNGTNS",
+					"lat": 52.28449,
+					"lon": -1.53621,
+					"name": "Leamington Spa Rail Station",
+					"stationId": "910GLMNGTNS",
+					"topMostParentId": "910GLMNGTNS"
+				},
+				{
+					"icsId": "90007582",
+					"id": "910GWARWICK",
+					"lat": 52.28654,
+					"lon": -1.581854,
+					"name": "Warwick Rail Station",
+					"stationId": "910GWARWICK",
+					"topMostParentId": "910GWARWICK"
+				},
+				{
+					"icsId": "90007583",
+					"id": "910GWARWPWY",
+					"lat": 52.286103,
+					"lon": -1.612058,
+					"name": "Warwick Parkway Rail Station",
+					"stationId": "910GWARWPWY",
+					"topMostParentId": "910GWARWPWY"
+				},
+				{
+					"icsId": "90003323",
+					"id": "910GHATTON",
+					"lat": 52.295278,
+					"lon": -1.672975,
+					"name": "Hatton (Warks) Rail Station",
+					"stationId": "910GHATTON",
+					"topMostParentId": "910GHATTON"
+				},
+				{
+					"icsId": "90004234",
+					"id": "910GLAPWRTH",
+					"lat": 52.342251,
+					"lon": -1.725691,
+					"name": "Lapworth Rail Station",
+					"stationId": "910GLAPWRTH",
+					"topMostParentId": "910GLAPWRTH"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000591",
+					"id": "910GBHAMNWS",
+					"lat": 52.477818,
+					"lon": -1.900205,
+					"name": "Birmingham New Street Rail Station",
+					"stationId": "910GBHAMNWS",
+					"topMostParentId": "910GBHAMNWS"
+				},
+				{
+					"icsId": "90002742",
+					"id": "910GFIVEWYS",
+					"lat": 52.471095,
+					"lon": -1.912954,
+					"name": "Five Ways Rail Station",
+					"stationId": "910GFIVEWYS",
+					"topMostParentId": "910GFIVEWYS"
+				},
+				{
+					"icsId": "90007483",
+					"id": "910GUNVRSYB",
+					"lat": 52.451242,
+					"lon": -1.936684,
+					"name": "University Rail Station",
+					"stationId": "910GUNVRSYB",
+					"topMostParentId": "910GUNVRSYB"
+				},
+				{
+					"icsId": "90000581",
+					"id": "910GBGRN",
+					"lat": 52.360908,
+					"lon": -1.992173,
+					"name": "Barnt Green Rail Station",
+					"stationId": "910GBGRN",
+					"topMostParentId": "910GBGRN"
+				},
+				{
+					"icsId": "90000971",
+					"id": "910GBRMSGRV",
+					"lat": 52.320604,
+					"lon": -2.049779,
+					"name": "Bromsgrove Rail Station",
+					"stationId": "910GBRMSGRV",
+					"topMostParentId": "910GBRMSGRV"
+				},
+				{
+					"icsId": "90002345",
+					"id": "910GDRTWCHS",
+					"lat": 52.268203,
+					"lon": -2.158363,
+					"name": "Droitwich Spa Rail Station",
+					"stationId": "910GDRTWCHS",
+					"topMostParentId": "910GDRTWCHS"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90006960",
+					"id": "910GSTRBDGT",
+					"lat": 52.455579,
+					"lon": -2.141818,
+					"name": "Stourbridge Town Rail Station",
+					"stationId": "910GSTRBDGT",
+					"topMostParentId": "910GSTRBDGT"
+				},
+				{
+					"icsId": "90006959",
+					"id": "910GSTRBDGJ",
+					"lat": 52.447587,
+					"lon": -2.133847,
+					"name": "Stourbridge Junction Rail Station",
+					"stationId": "910GSTRBDGJ",
+					"topMostParentId": "910GSTRBDGJ"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90006519",
+					"id": "910GSHRWBY",
+					"lat": 52.711928,
+					"lon": -2.749761,
+					"name": "Shrewsbury Rail Station",
+					"stationId": "910GSHRWBY",
+					"topMostParentId": "910GSHRWBY"
+				},
+				{
+					"icsId": "90007694",
+					"id": "910GWELNGTN",
+					"lat": 52.701305,
+					"lon": -2.517165,
+					"name": "Wellington (Shropshire) Rail Station",
+					"stationId": "910GWELNGTN",
+					"topMostParentId": "910GWELNGTN"
+				},
+				{
+					"icsId": "90005414",
+					"id": "910GOAKNGTS",
+					"lat": 52.693398,
+					"lon": -2.450194,
+					"name": "Oakengates Rail Station",
+					"stationId": "910GOAKNGTS",
+					"topMostParentId": "910GOAKNGTS"
+				},
+				{
+					"icsId": "90007152",
+					"id": "910GTELFRDC",
+					"lat": 52.681108,
+					"lon": -2.440971,
+					"name": "Telford Central Rail Station",
+					"stationId": "910GTELFRDC",
+					"topMostParentId": "910GTELFRDC"
+				},
+				{
+					"icsId": "90006458",
+					"id": "910GSHIFNAL",
+					"lat": 52.666071,
+					"lon": -2.37184,
+					"name": "Shifnal Rail Station",
+					"stationId": "910GSHIFNAL",
+					"topMostParentId": "910GSHIFNAL"
+				},
+				{
+					"icsId": "90001718",
+					"id": "910GCOSFORD",
+					"lat": 52.644834,
+					"lon": -2.300275,
+					"name": "Cosford Rail Station",
+					"stationId": "910GCOSFORD",
+					"topMostParentId": "910GCOSFORD"
+				},
+				{
+					"icsId": "90000103",
+					"id": "910GALBRGHT",
+					"lat": 52.637942,
+					"lon": -2.2689,
+					"name": "Albrighton Rail Station",
+					"stationId": "910GALBRGHT",
+					"topMostParentId": "910GALBRGHT"
+				},
+				{
+					"icsId": "90001657",
+					"id": "910GCODSALL",
+					"lat": 52.627288,
+					"lon": -2.201763,
+					"name": "Codsall Rail Station",
+					"stationId": "910GCODSALL",
+					"topMostParentId": "910GCODSALL"
+				},
+				{
+					"icsId": "90000604",
+					"id": "910GBILBROK",
+					"lat": 52.623718,
+					"lon": -2.186088,
+					"name": "Bilbrook Rail Station",
+					"stationId": "910GBILBROK",
+					"topMostParentId": "910GBILBROK"
+				},
+				{
+					"icsId": "90008133",
+					"id": "910GWVRMPTN",
+					"lat": 52.587845,
+					"lon": -2.119515,
+					"name": "Wolverhampton Rail Station",
+					"stationId": "910GWVRMPTN",
+					"topMostParentId": "910GWVRMPTN"
+				},
+				{
+					"icsId": "90001717",
+					"id": "910GCOSELEY",
+					"lat": 52.545082,
+					"lon": -2.085777,
+					"name": "Coseley Rail Station",
+					"stationId": "910GCOSELEY",
+					"topMostParentId": "910GCOSELEY"
+				},
+				{
+					"icsId": "90007257",
+					"id": "910GTIPTON",
+					"lat": 52.530442,
+					"lon": -2.065701,
+					"name": "Tipton Rail Station",
+					"stationId": "910GTIPTON",
+					"topMostParentId": "910GTIPTON"
+				},
+				{
+					"icsId": "90002358",
+					"id": "910GDUDLPT",
+					"lat": 52.524651,
+					"lon": -2.04948,
+					"name": "Dudley Port Rail Station",
+					"stationId": "910GDUDLPT",
+					"topMostParentId": "910GDUDLPT"
+				},
+				{
+					"icsId": "90006655",
+					"id": "910GSNDWDUD",
+					"lat": 52.508659,
+					"lon": -2.011596,
+					"name": "Sandwell & Dudley Rail Station",
+					"stationId": "910GSNDWDUD",
+					"topMostParentId": "910GSNDWDUD"
+				},
+				{
+					"icsId": "90002900",
+					"id": "910GGALTILL",
+					"lat": 52.501781,
+					"lon": -1.980511,
+					"name": "Smethwick Galton Bridge Rail Station",
+					"stationId": "910GGALTILL",
+					"topMostParentId": "910GGALTILL"
+				},
+				{
+					"icsId": "90006637",
+					"id": "910GSMTHKRS",
+					"lat": 52.496385,
+					"lon": -1.970644,
+					"name": "Smethwick Rolfe Street Rail Station",
+					"stationId": "910GSMTHKRS",
+					"topMostParentId": "910GSMTHKRS"
+				},
+				{
+					"icsId": "90000591",
+					"id": "910GBHAMNWS",
+					"lat": 52.477818,
+					"lon": -1.900205,
+					"name": "Birmingham New Street Rail Station",
+					"stationId": "910GBHAMNWS",
+					"topMostParentId": "910GBHAMNWS"
+				}
+			]
+		}
+	]
+}

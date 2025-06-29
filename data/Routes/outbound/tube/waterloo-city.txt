@@ -1,0 +1,136 @@
+{
+    "direction": "outbound",
+    "lineId": "waterloo-city",
+    "lineName": "Waterloo & City",
+    "mode": "tube",
+    "stopPointSequences": [{
+            "stopPoint": [{
+                    "icsId": "1000254",
+                    "id": "940GZZLUWLO",
+                    "lat": 51.503299,
+                    "lon": -0.114780,
+                    "name": "Waterloo Underground Station",
+                    "parentId": "HUBWAT",
+                    "stationId": "940GZZLUWLO",
+                    "topMostParentId": "HUBWAT",
+                    "zone": "1"
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.50406,
+                    "lon": -0.11419
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.50454,
+                    "lon": -0.11394
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.50494,
+                    "lon": -0.11336
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.50617,
+                    "lon": -0.11008					
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.50653,
+                    "lon": -0.10916,
+					"instantTurn" : true
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.50693,
+                    "lon": -0.10883,
+					"instantTurn" : true
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.50743,
+                    "lon": -0.10878,
+					"instantTurn" : true
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.50787,
+                    "lon": -0.10858,
+					"instantTurn" : true
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.50835,
+                    "lon": -0.10804,
+					"instantTurn" : true
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.50854,
+                    "lon": -0.10762,
+					"instantTurn" : true
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.50875,
+                    "lon": -0.10725,
+					"instantTurn" : true
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.50964,
+                    "lon": -0.10611
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51015,
+                    "lon": -0.10558					
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51127,
+                    "lon": -0.10475
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51173,
+                    "lon": -0.10425,
+					"instantTurn" : true
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51200,
+                    "lon": -0.10367,
+					"instantTurn" : true
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51208,
+                    "lon": -0.10325
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51211,
+                    "lon": -0.10108
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51189,
+                    "lon": -0.09803
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51187,
+                    "lon": -0.09716
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.5118,
+                    "lon": -0.0968423									
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51201,
+                    "lon": -0.09562
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51234,
+                    "lon": -0.09363
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51254,
+                    "lon": -0.09247					
+                }, {
+                    "icsId": "1000013",
+                    "id": "940GZZLUBNK",
+                    "lat": 51.513552,
+                    "lon": -0.088919,
+                    "name": "Bank Underground Station",
+                    "parentId": "HUBBAN",
+                    "stationId": "940GZZLUBNK",
+                    "topMostParentId": "HUBBAN",
+                    "zone": "1"
+                }
+            ]
+        }
+    ]
+}

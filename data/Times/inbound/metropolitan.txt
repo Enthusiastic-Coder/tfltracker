@@ -1,0 +1,41 @@
+aldgate,0
+liverpool street,3
+moorgate,2
+barbican,2
+farringdon,1
+king's cross st. pancras,4
+euston square,2
+great portland street,2
+baker street,2
+st. john's wood,2
+swiss cottage,2
+finchley road,7
+west hampstead,1
+kilburn,2
+willesden green,2
+dollis hill,2
+neasden,1
+wembley park,2
+preston road,3
+northwick park,3
+harrow-on-the-hill,3
+west harrow,2
+rayners lane,3
+eastcote,2
+ruislip manor,2
+ruislip,2
+ickenham,2
+hillingdon,2
+uxbridge,4
+north harrow,3
+pinner,2
+northwood hills,3
+northwood,3
+moor park,3
+croxley,4
+watford,4
+rickmansworth,5
+chorleywood,4
+chalfont & latimer,4
+amersham,4
+chesham,9

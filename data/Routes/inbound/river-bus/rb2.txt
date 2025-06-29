@@ -1,0 +1,404 @@
+{
+    "direction": "inbound",
+    "lineId": "rb2",
+    "lineName": "RB2",
+    "mode": "river-bus",
+    "stopPointSequences": [{
+		"offSet" : 45,
+            "stopPoint": [{
+                    "icsId": "1002067",
+                    "id": "930GMIL",
+                    "lat": 51.50222,
+                    "lon": 0.00925,
+                    "name": "North Greenwich Pier",
+                    "stationId": "930GMIL",
+                    "topMostParentId": "930GMIL"
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.5056,
+                    "lon": 0.00589101	
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.5061,
+                    "lon": 0.00378252						
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.5062,
+                    "lon": 0.00203327
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.5053,
+                    "lon": -0.00134767
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.5037,
+                    "lon": -0.00355822
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.5012,
+                    "lon": -0.00459844
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.4985,
+                    "lon": -0.00384724
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.493,
+                    "lon": -0.000337028
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.4905,
+                    "lon": 0.000399661
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.4878,
+                    "lon": -0.00100132
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.4859,
+                    "lon": -0.00455414	
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.485,
+                    "lon": -0.00683797					
+                }, {
+                    "icsId": "1002088",
+                    "id": "930GGNW",
+                    "lat": 51.48411,
+                    "lon": -0.00945,
+                    "name": "Greenwich Pier",
+                    "stationId": "930GGNW",
+                    "topMostParentId": "930GGNW"
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.4838,
+                    "lon": -0.0128313	
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.4843,
+                    "lon": -0.0159796						
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.4849,
+                    "lon": -0.0179725
+                }, {
+                    "icsId": "1002097",
+                    "id": "930GMHT",
+                    "lat": 51.48744,
+                    "lon": -0.02240,
+                    "name": "Masthouse Terrace Pier",
+                    "stationId": "930GMHT",
+                    "topMostParentId": "930GMHT"
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.4884,
+                    "lon": -0.0245703
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.4899,
+                    "lon": -0.0274445
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.4911,
+                    "lon": -0.02925						
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.4927,
+                    "lon": -0.03055						
+                }, {
+                    "icsId": "1002089",
+                    "id": "930GGLP",
+                    "lat": 51.49478,
+                    "lon": -0.03173,
+                    "name": "Greenland Surrey Quays Pier",
+                    "stationId": "930GGLP",
+                    "topMostParentId": "930GGLP"
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.5023,
+                    "lon": -0.0281805						
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.5036,
+                    "lon": -0.0279784						
+                }, {
+                    "icsId": "1002021",
+                    "id": "930GCAW",
+                    "lat": 51.50522,
+                    "lon": -0.02879,
+                    "name": "Canary Wharf Pier",
+                    "stationId": "930GCAW",
+                    "topMostParentId": "930GCAW"
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.5067,
+                    "lon": -0.0309093	
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.5077,
+                    "lon": -0.0339579
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.5083,
+                    "lon": -0.0377726
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.5084,
+                    "lon": -0.0420785
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.5077,
+                    "lon": -0.0456908
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.5025,
+                    "lon": -0.0551833
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.5017,
+                    "lon": -0.0581016
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.5017,
+                    "lon": -0.0609911
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.5021,
+                    "lon": -0.0644295
+                }, {
+                    "icsId": "1002077",
+                    "id": "930GTMP",
+                    "lat": 51.50728,
+                    "lon": -0.07891,
+                    "name": "Tower Pier",
+                    "stationId": "930GTMP",
+                    "topMostParentId": "930GTMP"
+                }, {
+                    "icsId": "1002056",
+                    "id": "930GLBR",
+                    "lat": 51.50695,
+                    "lon": -0.08466,
+                    "name": "London Bridge City Pier",
+                    "stationId": "930GLBR",
+                    "topMostParentId": "930GLBR"
+                }, {
+                    "icsId": "1002007",
+                    "id": "930GSWK",
+                    "lat": 51.50878,
+                    "lon": -0.09681,
+                    "name": "Bankside Pier",
+                    "stationId": "930GSWK",
+                    "topMostParentId": "930GSWK"
+				}
+			]
+        }, {
+		"offSet" : 45,
+            "stopPoint": [{		
+                    "icsId": "1002007",
+                    "id": "930GSWK",
+                    "lat": 51.50878,
+                    "lon": -0.09681,
+                    "name": "Bankside Pier",
+                    "stationId": "930GSWK",
+                    "topMostParentId": "930GSWK"				
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51,
+                    "lon": -0.103091									
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.5102,
+                    "lon": -0.111472
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.5096,
+                    "lon": -0.114999
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.5089,
+                    "lon": -0.118293
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.5081,
+                    "lon": -0.119854						
+                }, {
+                    "icsId": "1002036",
+                    "id": "930GEMB",
+                    "lat": 51.50699,
+                    "lon": -0.12135,
+                    "name": "Embankment Pier",
+                    "stationId": "930GEMB",
+                    "topMostParentId": "930GEMB"
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.5059,
+                    "lon": -0.121901	
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.504,
+                    "lon": -0.122435					
+                }, {
+                    "icsId": "1002085",
+                    "id": "930GWMR",
+                    "lat": 51.50176,
+                    "lon": -0.12316,
+                    "name": "Westminster Pier",
+                    "stationId": "930GWMR",
+                    "topMostParentId": "930GWMR"
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.4997,
+                    "lon": -0.122262
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.4941,
+                    "lon": -0.12323	
+                }, {
+                    "icsId": "1016418",
+                    "id": "930GMBK",
+                    "lat": 51.49179,
+                    "lon": -0.12470,
+                    "name": "Millbank Pier",
+                    "stationId": "930GMBK",
+                    "topMostParentId": "930GMBK"
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.4898,
+                    "lon": -0.125165					
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.488,
+                    "lon": -0.125993
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.4871,
+                    "lon": -0.126556						
+                }, {
+                    "icsId": "1002100",
+                    "id": "930GSGW",
+                    "lat": 51.48632,
+                    "lon": -0.12728,
+                    "name": "Vauxhall St George Wharf Pier",
+                    "stationId": "930GSGW",
+                    "topMostParentId": "930GSGW"
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.4849,
+                    "lon": -0.131759
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.4842,
+                    "lon": -0.134965					
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.4838,
+                    "lon": -0.1382
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.4838,
+                    "lon": -0.141233
+                }, {
+                    "icsId": "1002015",
+                    "id": "930GBSP",
+                    "lat": 51.48394,
+                    "lon": -0.14595,
+                    "name": "Battersea Power Station Pier",
+                    "stationId": "930GBSP",
+                    "topMostParentId": "930GBSP"
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.4841,
+                    "lon": -0.148926
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.4838,
+                    "lon": -0.157867
+				}, {				
+					"isPassPoint" : true,
+                    "lat": 51.48285,
+                    "lon": -0.16638
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.4823,
+                    "lon": -0.16935		
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.4808,
+                    "lon": -0.17413
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.4791,
+                    "lon": -0.176559						
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.4756,
+                    "lon": -0.178951						
+                }, {
+                    "icsId": "1002022",
+                    "id": "930GCHP",
+                    "lat": 51.47407,
+                    "lon": -0.17975,
+                    "name": "Chelsea Harbour Pier",
+                    "stationId": "930GCHP",
+                    "topMostParentId": "930GCHP"	
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.4708,
+                    "lon": -0.180308
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.4686,
+                    "lon": -0.180915	
+				}, {				
+					"isPassPoint" : true,
+                    "lat": 51.46707,
+                    "lon": -0.18248
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.4656,
+                    "lon": -0.185246		
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.4644,
+                    "lon": -0.188277						
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.4638,
+                    "lon": -0.191727
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.4636,
+                    "lon": -0.196159						
+                }, {
+                    "icsId": "1002032",
+                    "id": "930GWRQ",
+                    "lat": 51.46363,
+                    "lon": -0.19905,
+                    "name": "Wandsworth Riverside Quarter Pier",
+                    "stationId": "930GWRQ",
+                    "topMostParentId": "930GWRQ"	
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.4639,
+                    "lon": -0.203363
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.4646,
+                    "lon": -0.207289
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.4661,
+                    "lon": -0.212341						
+				}, {
+                    "icsId": "1002026",
+                    "id": "930GPUT",
+                    "lat": 51.46735,
+                    "lon": -0.21541,
+                    "name": "Putney Pier",
+                    "stationId": "930GPUT",
+                    "topMostParentId": "930GPUT"				
+                }
+            ]
+        }
+    ]
+}

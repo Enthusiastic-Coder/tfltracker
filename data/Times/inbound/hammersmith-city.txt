@@ -1,0 +1,29 @@
+barking,0
+east ham,4
+upton park,2
+plaistow,2
+west ham,2
+bromley-by-bow,2
+bow road,2
+mile end,2
+stepney green,2
+whitechapel,3
+aldgate east,2
+liverpool street,3
+moorgate,2
+barbican,2
+farringdon,1
+king's cross st. pancras,4
+euston square,2
+great portland street,2
+baker street,2
+edgware road (Circle Line),3
+paddington (H&C Line)-Underground,3
+royal oak,2
+westbourne park,2
+ladbroke grove,2
+latimer road,2
+wood lane,2
+shepherd's bush market,2
+goldhawk road,1
+hammersmith (H&C Line),2

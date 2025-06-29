@@ -1,0 +1,534 @@
+{
+    "direction": "inbound",
+    "lineId": "tram",
+    "lineName": "Tram",
+    "mode": "tram",
+    "stopPointSequences": [{
+            "stopPoint": [{
+                    "icsId": "1000272",
+                    "id": "940GZZCRWMB",
+                    "lat": 51.421051,
+                    "lon": -0.205816,
+                    "name": "Wimbledon Tram Stop",
+                    "parentId": "HUBWIM",
+                    "stationId": "940GZZCRWMB",
+                    "topMostParentId": "HUBWIM",
+                    "zone": "3"
+																			},
+                {				
+				
+					"isPassPoint" : true,
+					"lat": 51.4195,
+                    "lon": -0.208171
+                }, {
+                    "icsId": "1002031",
+                    "id": "940GZZCRDDR",
+                    "lat": 51.417555,
+                    "lon": -0.207679,
+                    "name": "Dundonald Road Tram Stop",
+                    "stationId": "940GZZCRDDR",
+                    "topMostParentId": "940GZZCRDDR"
+																			},
+                {				
+				
+					"isPassPoint" : true,
+					"lat": 51.4144,
+                    "lon": -0.203426
+                }, {
+                    "icsId": "1002057",
+                    "id": "940GZZCRMTP",
+                    "lat": 51.413589,
+                    "lon": -0.201219,
+                    "name": "Merton Park Tram Stop",
+                    "stationId": "940GZZCRMTP",
+                    "topMostParentId": "940GZZCRMTP"
+                }, {
+                    "icsId": "1002060",
+                    "id": "940GZZCRMDN",
+                    "lat": 51.408874,
+                    "lon": -0.192834,
+                    "name": "Morden Road Tram Stop",
+                    "stationId": "940GZZCRMDN",
+                    "topMostParentId": "940GZZCRMDN"
+                }, {
+                    "icsId": "1002063",
+                    "id": "940GZZCRPHI",
+                    "lat": 51.403979,
+                    "lon": -0.18164,
+                    "name": "Phipps Bridge Tram Stop",
+                    "stationId": "940GZZCRPHI",
+                    "topMostParentId": "940GZZCRPHI"
+                }, {
+                    "icsId": "1002014",
+                    "id": "940GZZCRBGV",
+                    "lat": 51.40133,
+                    "lon": -0.177806,
+                    "name": "Belgrave Walk Tram Stop",
+                    "stationId": "940GZZCRBGV",
+                    "topMostParentId": "940GZZCRBGV"
+																			},
+                {				
+				
+					"isPassPoint" : true,
+					"lat": 51.398,
+                    "lon": -0.173135
+                }, {
+                    "icsId": "1002058",
+                    "id": "940GZZCRMCH",
+                    "lat": 51.39749,
+                    "lon": -0.1709,
+                    "name": "Mitcham Tram Stop",
+                    "stationId": "940GZZCRMCH",
+                    "topMostParentId": "940GZZCRMCH"
+                }, {
+                    "icsId": "1001194",
+                    "id": "940GZZCRMJT",
+                    "lat": 51.392868,
+                    "lon": -0.158263,
+                    "name": "Mitcham Junction Tram Stop",
+                    "parentId": "HUBMJT",
+                    "stationId": "940GZZCRMJT",
+                    "topMostParentId": "HUBMJT"
+                }, {
+                    "icsId": "1002013",
+                    "id": "940GZZCRBED",
+                    "lat": 51.389242,
+                    "lon": -0.142167,
+                    "name": "Beddington Lane Tram Stop",
+                    "stationId": "940GZZCRBED",
+                    "topMostParentId": "940GZZCRBED"
+																			},
+                {				
+				
+					"isPassPoint" : true,
+					"lat": 51.3875,
+                    "lon": -0.132535
+                }, {
+                    "icsId": "1002075",
+                    "id": "940GZZCRTPA",
+                    "lat": 51.385697,
+                    "lon": -0.129045,
+                    "name": "Therapia Lane Tram Stop",
+                    "stationId": "940GZZCRTPA",
+                    "topMostParentId": "940GZZCRTPA"
+                }, {
+                    "icsId": "1002004",
+                    "id": "940GZZCRAMP",
+                    "lat": 51.382238,
+                    "lon": -0.123654,
+                    "name": "Ampere Way Tram Stop",
+                    "stationId": "940GZZCRAMP",
+                    "topMostParentId": "940GZZCRAMP"
+                }, {
+                    "icsId": "1002078",
+                    "id": "940GZZCRWAD",
+                    "lat": 51.377076,
+                    "lon": -0.118016,
+                    "name": "Waddon Marsh Tram Stop",
+                    "stationId": "940GZZCRWAD",
+                    "topMostParentId": "940GZZCRWAD"
+
+
+                }, {
+                    "icsId": "1002079",
+                    "id": "940GZZCRWAN",
+                    "lat": 51.373403,
+                    "lon": -0.113282,
+                    "name": "Wandle Park Tram Stop",
+                    "stationId": "940GZZCRWAN",
+                    "topMostParentId": "940GZZCRWAN"
+	
+                }, {
+                    "icsId": "1002068",
+                    "id": "940GZZCRRVC",
+                    "lat": 51.375279,
+                    "lon": -0.106408,
+                    "name": "Reeves Corner Tram Stop",
+                    "stationId": "940GZZCRRVC",
+                    "topMostParentId": "940GZZCRRVC"
+																								},
+                {				
+				
+					"isPassPoint" : true,
+					"lat": 51.375,
+                    "lon": -0.104611
+            }, {
+                    "icsId": "1002042",
+                    "id": "940GZZCRCTR",
+                    "lat": 51.375769,
+                    "lon": -0.103917,
+                    "name": "Centrale Tram Stop",
+                    "stationId": "940GZZCRCTR",
+                    "topMostParentId": "940GZZCRCTR"
+					}
+				]	
+			     }, {
+            "stopPoint": [{			
+				   "icsId": "1002042",
+                    "id": "940GZZCRCTR",
+                    "lat": 51.375769,
+                    "lon": -0.103917,
+                    "name": "Centrale Tram Stop",
+                    "stationId": "940GZZCRCTR",
+                    "topMostParentId": "940GZZCRCTR"
+				
+			
+					  }, {
+                    "icsId": "1002082",
+                    "id": "940GZZCRWCR",
+                    "lat": 51.378971,
+                    "lon": -0.101701,
+                    "name": "West Croydon Tram Stop",
+                    "parentId": "HUBWCY",
+                    "stationId": "940GZZCRWCR",
+                    "topMostParentId": "HUBWCY",
+					"trackInterval" : 5		
+                }
+            ]
+        }, {
+            "stopPoint": [{
+
+                    "icsId": "1002082",
+                    "id": "940GZZCRWCR",
+                    "lat": 51.378971,
+                    "lon": -0.101701,
+                    "name": "West Croydon Tram Stop",
+                    "parentId": "HUBWCY",
+                    "stationId": "940GZZCRWCR",
+                    "topMostParentId": "HUBWCY",
+					"trackInterval" : 5	
+					},{
+				    "icsId": "1002081",
+                    "id": "940GZZCRWEL",
+                    "lat": 51.37537,
+                    "lon": -0.097554,
+                    "name": "Wellesley Road Tram Stop",
+                    "stationId": "940GZZCRWEL",
+                    "topMostParentId": "940GZZCRWEL",
+					"trackInterval" : 5		
+																					},
+                {				
+				
+					"isPassPoint" : true,
+					"lat": 51.3743,
+                    "lon": -0.0947606
+                }, {
+                    "icsId": "1000336",
+                    "id": "940GZZCRECR",
+                    "lat": 51.374863,
+                    "lon": -0.092416,
+                    "name": "East Croydon Tram Stop",
+                    "parentId": "HUBECY",
+                    "stationId": "940GZZCRECR",
+                    "topMostParentId": "HUBECY"
+                }, {
+                    "icsId": "1002052",
+                    "id": "940GZZCRLEB",
+                    "lat": 51.375201,
+                    "lon": -0.085002,
+                    "name": "Lebanon Road Tram Stop",
+                    "stationId": "940GZZCRLEB",
+                    "topMostParentId": "940GZZCRLEB"
+                }, {
+                    "icsId": "1002072",
+                    "id": "940GZZCRSAN",
+                    "lat": 51.375024,
+                    "lon": -0.078041,
+                    "name": "Sandilands Tram Stop",
+                    "stationId": "940GZZCRSAN",
+                    "topMostParentId": "940GZZCRSAN"
+                }
+            ]
+        }, {
+            "stopPoint": [{
+                    "icsId": "1002072",
+                    "id": "940GZZCRSAN",
+                    "lat": 51.375024,
+                    "lon": -0.078041,
+                    "name": "Sandilands Tram Stop",
+                    "stationId": "940GZZCRSAN",
+                    "topMostParentId": "940GZZCRSAN"
+										},
+                {				
+				
+					"isPassPoint" : true,
+					"lat": 51.3765,
+                    "lon": -0.0737386
+                }, {
+                    "icsId": "1002002",
+                    "id": "940GZZCRADD",
+                    "lat": 51.37981,
+                    "lon": -0.073242,
+                    "name": "Addiscombe Tram Stop",
+                    "stationId": "940GZZCRADD",
+                    "topMostParentId": "940GZZCRADD"
+									},
+                {				
+				
+					"isPassPoint" : true,
+					"lat": 51.383,
+                    "lon": -0.0734793
+                }, {
+                    "icsId": "1002017",
+                    "id": "940GZZCRBLA",
+                    "lat": 51.384757,
+                    "lon": -0.070562,
+                    "name": "Blackhorse Lane Tram Stop",
+                    "stationId": "940GZZCRBLA",
+                    "topMostParentId": "940GZZCRBLA"
+                }, {
+                    "icsId": "1002086",
+                    "id": "940GZZCRWOD",
+                    "lat": 51.3871,
+                    "lon": -0.065361,
+                    "name": "Woodside Tram Stop",
+                    "stationId": "940GZZCRWOD",
+                    "topMostParentId": "940GZZCRWOD"
+                }, {
+                    "icsId": "1002005",
+                    "id": "940GZZCRARA",
+                    "lat": 51.391525,
+                    "lon": -0.058347,
+                    "name": "Arena Tram Stop",
+                    "stationId": "940GZZCRARA",
+                    "topMostParentId": "940GZZCRARA"
+                }
+            ]
+        }, {
+            "stopPoint": [{
+                    "icsId": "1002005",
+                    "id": "940GZZCRARA",
+                    "lat": 51.391525,
+                    "lon": -0.058347,
+                    "name": "Arena Tram Stop",
+                    "stationId": "940GZZCRARA",
+                    "topMostParentId": "940GZZCRARA"
+												},
+                {				
+				
+					"isPassPoint" : true,
+					"lat": 51.3962,
+                    "lon": -0.0617638				
+						},
+                {				
+				
+					"isPassPoint" : true,
+					"lat": 51.399,
+                    "lon": -0.060223
+
+                }, {
+                    "icsId": "1002045",
+                    "id": "940GZZCRHAR",
+                    "lat": 51.399793,
+                    "lon": -0.060729,
+                    "name": "Harrington Road Tram Stop",
+                    "stationId": "940GZZCRHAR",
+                    "topMostParentId": "940GZZCRHAR"
+									},
+                {				
+				
+					"isPassPoint" : true,
+					"lat": 51.4025,
+                    "lon": -0.0614195
+                }, {
+                    "icsId": "1001027",
+                    "id": "940GZZCRBIR",
+                    "lat": 51.403767,
+                    "lon": -0.055787,
+                    "name": "Birkbeck Tram Stop",
+                    "parentId": "HUBBIR",
+                    "stationId": "940GZZCRBIR",
+                    "topMostParentId": "HUBBIR"
+                }, {
+                    "icsId": "1002006",
+                    "id": "940GZZCRAVE",
+                    "lat": 51.4068,
+                    "lon": -0.049476,
+                    "name": "Avenue Road Tram Stop",
+                    "stationId": "940GZZCRAVE",
+                    "topMostParentId": "940GZZCRAVE"
+								},
+                {				
+				
+					"isPassPoint" : true,
+					"lat": 51.40865,
+                    "lon": -0.0461237
+                }, {
+                    "icsId": "1002010",
+                    "id": "940GZZCRBRD",
+                    "lat": 51.409532,
+                    "lon": -0.043421,
+                    "name": "Beckenham Road Tram Stop",
+                    "stationId": "940GZZCRBRD",
+                    "topMostParentId": "940GZZCRBRD"
+									},
+                {				
+				
+					"isPassPoint" : true,
+					"lat": 51.4113,
+                    "lon": -0.0392607
+										},
+                {				
+				
+					"isPassPoint" : true,
+					"lat": 51.4116,
+                    "lon": -0.0291244
+                }, {
+                    "icsId": "1000327",
+                    "id": "940GZZCRBEK",
+                    "lat": 51.41073,
+                    "lon": -0.026401,
+                    "name": "Beckenham Junction TramLink",
+                    "parentId": "HUBBEK",
+                    "stationId": "940GZZCRBEK",
+                    "topMostParentId": "HUBBEK"
+                }
+            ]
+        }, {
+            "stopPoint": [{
+                    "icsId": "1002005",
+                    "id": "940GZZCRARA",
+                    "lat": 51.391525,
+                    "lon": -0.058347,
+                    "name": "Arena Tram Stop",
+                    "stationId": "940GZZCRARA",
+                    "topMostParentId": "940GZZCRARA"
+                }, {
+                    "icsId": "1001094",
+                    "id": "940GZZCRELM",
+                    "lat": 51.398474,
+                    "lon": -0.049557,
+                    "name": "Elmers End Tram Stop",
+                    "parentId": "HUBELM",
+                    "stationId": "940GZZCRELM",
+                    "topMostParentId": "HUBELM"
+                }
+            ]
+        }, {
+            "stopPoint": [{
+                    "icsId": "1002072",
+                    "id": "940GZZCRSAN",
+                    "lat": 51.375024,
+                    "lon": -0.078041,
+                    "name": "Sandilands Tram Stop",
+                    "stationId": "940GZZCRSAN",
+                    "topMostParentId": "940GZZCRSAN"
+									},
+                {				
+				
+					"isPassPoint" : true,
+					"lat": 51.372,
+                    "lon": -0.0760786
+			     }, {
+                    "icsId": "1002055",
+                    "id": "940GZZCRLOY",
+                    "lat": 51.364278,
+                    "lon": -0.080775,
+                    "name": "Lloyd Park Tram Stop",
+                    "stationId": "940GZZCRLOY",
+                    "topMostParentId": "940GZZCRLOY"
+													},
+                {				
+				
+					"isPassPoint" : true,
+					"lat": 51.3641,
+                    "lon": -0.0762811
+													},
+                {				
+				
+					"isPassPoint" : true,
+					"lat": 51.3622,
+                    "lon": -0.063462
+                }, {
+                    "icsId": "1002024",
+                    "id": "940GZZCRCOO",
+                    "lat": 51.359791,
+                    "lon": -0.05956,
+                    "name": "Coombe Lane Tram Stop",
+                    "stationId": "940GZZCRCOO",
+                    "topMostParentId": "940GZZCRCOO"
+													},
+                {				
+				
+					"isPassPoint" : true,
+					"lat": 51.3594,
+                    "lon": -0.056016
+														},
+                {				
+				
+					"isPassPoint" : true,
+					"lat": 51.3559,
+                    "lon": -0.0519261
+                }, {
+                    "icsId": "1002041",
+                    "id": "940GZZCRGRA",
+                    "lat": 51.354545,
+                    "lon": -0.04315,
+                    "name": "Gravel Hill Tram Stop",
+                    "stationId": "940GZZCRGRA",
+                    "topMostParentId": "940GZZCRGRA"
+													},
+                {				
+				
+					"isPassPoint" : true,
+					"lat": 51.3543,
+                    "lon": -0.0375974
+                }, {
+                    "icsId": "1002001",
+                    "id": "940GZZCRADV",
+                    "lat": 51.356241,
+                    "lon": -0.032694,
+                    "name": "Addington Village Tram Stop",
+                    "stationId": "940GZZCRADV",
+                    "topMostParentId": "940GZZCRADV"
+                }, {
+                    "icsId": "1002038",
+                    "id": "940GZZCRFLD",
+                    "lat": 51.351319,
+                    "lon": -0.024532,
+                    "name": "Fieldway Tram Stop",
+                    "stationId": "940GZZCRFLD",
+                    "topMostParentId": "940GZZCRFLD"
+                }, {
+                    "icsId": "1002050",
+                    "id": "940GZZCRKGH",
+                    "lat": 51.345082,
+                    "lon": -0.019975,
+                    "name": "King Henry's Drive Tram Stop",
+                    "stationId": "940GZZCRKGH",
+                    "topMostParentId": "940GZZCRKGH"
+                }, {
+                    "icsId": "1002062",
+                    "id": "940GZZCRNWA",
+                    "lat": 51.342593,
+                    "lon": -0.017412,
+                    "name": "New Addington Tram Stop",
+                    "stationId": "940GZZCRNWA",
+                    "topMostParentId": "940GZZCRNWA"
+                }
+            ]
+        }, {
+            "stopPoint": [{
+			
+					
+                    "icsId": "1002023",
+                    "id": "940GZZCRCHR",
+                    "lat": 51.373708,
+                    "lon": -0.104361,
+                    "name": "Church Street Tram Stop",
+                    "stationId": "940GZZCRCHR",
+                    "topMostParentId": "940GZZCRCHR"
+				
+                }, {
+                    "icsId": "1002042",
+                    "id": "940GZZCRCTR",
+                    "lat": 51.375769,
+                    "lon": -0.103917,
+                    "name": "Centrale Tram Stop",
+                    "stationId": "940GZZCRCTR",
+                    "topMostParentId": "940GZZCRCTR"
+                }
+            ]
+        }
+    ]
+}

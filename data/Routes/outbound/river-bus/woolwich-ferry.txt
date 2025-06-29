@@ -1,0 +1,27 @@
+{
+    "direction": "outbound",
+    "lineId": "woolwich-ferry",
+    "lineName": "Woolwich Ferry",
+    "mode": "river-bus",
+    "stopPointSequences": [{
+            "stopPoint": [{
+                    "icsId": "1015593",
+                    "id": "930GWWS",
+                    "lat": 51.49519,
+                    "lon": 0.06245,
+                    "name": "Woolwich Ferry South Pier",
+                    "stationId": "930GWWS",
+                    "topMostParentId": "930GWWS"				
+                }, {
+                    "icsId": "1015592",
+                    "id": "930GWWC",
+                    "lat": 51.49781,
+                    "lon": 0.06117,
+                    "name": "Woolwich Ferry North Pier",
+                    "stationId": "930GWWC",
+                    "topMostParentId": "930GWWC"
+                }
+            ]
+        }
+    ]
+}

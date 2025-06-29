@@ -1,0 +1,336 @@
+{
+	"direction": "inbound",
+	"lineId": "weaver",
+	"lineName": "Weaver",
+	"mode": "overground",
+	"stopPointSequences": [
+		{
+			"stopPoint": [
+				{
+					"icsId": "1001532",
+					"id": "910GCHESHNT",
+					"lat": 51.702876,
+					"lon": -0.02396,
+					"name": "Cheshunt Rail Station",
+					"stationId": "910GCHESHNT",
+					"topMostParentId": "910GCHESHNT",
+					"zone": "8"
+				},
+				{
+					"icsId": "1001533",
+					"id": "910GTHBLDSG",
+					"lat": 51.692457,
+					"lon": -0.034831,
+					"name": "Theobalds Grove Rail Station",
+					"stationId": "910GTHBLDSG",
+					"topMostParentId": "910GTHBLDSG",
+					"zone": "7"
+				},
+				{
+					"icsId": "1001299",
+					"id": "910GTURKYST",
+					"lat": 51.672628,
+					"lon": -0.047217,
+					"name": "Turkey Street Rail Station",
+					"stationId": "910GTURKYST",
+					"topMostParentId": "910GTURKYST",
+					"zone": "6"
+				},
+				{
+					"icsId": "1001257",
+					"id": "910GSBURY",
+					"lat": 51.648705,
+					"lon": -0.052437,
+					"name": "Southbury Rail Station",
+					"stationId": "910GSBURY",
+					"topMostParentId": "910GSBURY",
+					"zone": "5"
+				},
+				{
+					"icsId": "1001092",
+					"id": "910GEDMNGRN",
+					"lat": 51.624929,
+					"lon": -0.061112,
+					"name": "Edmonton Green Rail Station",
+					"stationId": "910GEDMNGRN",
+					"topMostParentId": "910GEDMNGRN",
+					"zone": "4"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "1001092",
+					"id": "910GEDMNGRN",
+					"lat": 51.624929,
+					"lon": -0.061112,
+					"name": "Edmonton Green Rail Station",
+					"stationId": "910GEDMNGRN",
+					"topMostParentId": "910GEDMNGRN",
+					"zone": "4"
+				},
+				{
+					"icsId": "1001250",
+					"id": "910GSIVRST",
+					"lat": 51.614688,
+					"lon": -0.06724,
+					"name": "Silver Street Rail Station",
+					"stationId": "910GSIVRST",
+					"topMostParentId": "910GSIVRST",
+					"zone": "4"
+				},
+				{
+					"icsId": "1001335",
+					"id": "910GWHHRTLA",
+					"lat": 51.605037,
+					"lon": -0.070914,
+					"name": "White Hart Lane Rail Station",
+					"stationId": "910GWHHRTLA",
+					"topMostParentId": "910GWHHRTLA",
+					"zone": "3"
+				},
+				{
+					"icsId": "1001040",
+					"id": "910GBRUCGRV",
+					"lat": 51.593959,
+					"lon": -0.069867,
+					"name": "Bruce Grove Rail Station",
+					"stationId": "910GBRUCGRV",
+					"topMostParentId": "910GBRUCGRV",
+					"zone": "3"
+				},
+				{
+					"icsId": "1000201",
+					"id": "910GSEVNSIS",
+					"lat": 51.582268,
+					"lon": -0.07527,
+					"name": "Seven Sisters Rail Station",
+					"parentId": "HUBSVS",
+					"stationId": "910GSEVNSIS",
+					"topMostParentId": "HUBSVS",
+					"zone": "3"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "1000201",
+					"id": "910GSEVNSIS",
+					"lat": 51.582268,
+					"lon": -0.07527,
+					"name": "Seven Sisters Rail Station",
+					"parentId": "HUBSVS",
+					"stationId": "910GSEVNSIS",
+					"topMostParentId": "HUBSVS",
+					"zone": "3"
+				},
+				{
+					"icsId": "1001265",
+					"id": "910GSTMFDHL",
+					"lat": 51.574467,
+					"lon": -0.076682,
+					"name": "Stamford Hill Rail Station",
+					"stationId": "910GSTMFDHL",
+					"topMostParentId": "910GSTMFDHL",
+					"zone": "3"
+				},
+				{
+					"icsId": "1001273",
+					"id": "910GSTKNWNG",
+					"lat": 51.565233,
+					"lon": -0.072887,
+					"name": "Stoke Newington Rail Station",
+					"stationId": "910GSTKNWNG",
+					"topMostParentId": "910GSTKNWNG",
+					"zone": "2"
+				},
+				{
+					"icsId": "1001238",
+					"id": "910GRCTRYRD",
+					"lat": 51.558502,
+					"lon": -0.068267,
+					"name": "Rectory Road Rail Station",
+					"stationId": "910GRCTRYRD",
+					"topMostParentId": "910GRCTRYRD",
+					"zone": "2"
+				},
+				{
+					"icsId": "1001128",
+					"id": "910GHAKNYNM",
+					"lat": 51.548757,
+					"lon": -0.060819,
+					"name": "Hackney Downs Rail Station",
+					"stationId": "910GHAKNYNM",
+					"topMostParentId": "910GHAKNYNM",
+					"zone": "2"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "1001128",
+					"id": "910GHAKNYNM",
+					"lat": 51.548757,
+					"lon": -0.060819,
+					"name": "Hackney Downs Rail Station",
+					"stationId": "910GHAKNYNM",
+					"topMostParentId": "910GHAKNYNM",
+					"zone": "2"
+				},
+				{
+					"icsId": "1001183",
+					"id": "910GLONFLDS",
+					"lat": 51.541153,
+					"lon": -0.057753,
+					"name": "London Fields Rail Station",
+					"stationId": "910GLONFLDS",
+					"topMostParentId": "910GLONFLDS",
+					"zone": "2"
+				},
+				{
+					"icsId": "1001044",
+					"id": "910GCAMHTH",
+					"lat": 51.531973,
+					"lon": -0.057279,
+					"name": "Cambridge Heath (London) Rail Station",
+					"stationId": "910GCAMHTH",
+					"topMostParentId": "910GCAMHTH",
+					"zone": "2"
+				},
+				{
+					"icsId": "1001023",
+					"id": "910GBTHNLGR",
+					"lat": 51.523917,
+					"lon": -0.059568,
+					"name": "Bethnal Green Rail Station",
+					"stationId": "910GBTHNLGR",
+					"topMostParentId": "910GBTHNLGR",
+					"zone": "2"
+				},
+				{
+					"icsId": "1000138",
+					"id": "910GLIVST",
+					"lat": 51.517991,
+					"lon": -0.081426,
+					"name": "London Liverpool Street Rail Station",
+					"parentId": "HUBLST",
+					"stationId": "910GLIVST",
+					"topMostParentId": "HUBLST",
+					"zone": "1"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "1001101",
+					"id": "910GENFLDTN",
+					"lat": 51.652026,
+					"lon": -0.079328,
+					"name": "Enfield Town Rail Station",
+					"stationId": "910GENFLDTN",
+					"topMostParentId": "910GENFLDTN",
+					"zone": "5"
+				},
+				{
+					"icsId": "1001042",
+					"id": "910GBHILLPK",
+					"lat": 51.641519,
+					"lon": -0.069221,
+					"name": "Bush Hill Park Rail Station",
+					"stationId": "910GBHILLPK",
+					"topMostParentId": "910GBHILLPK",
+					"zone": "5"
+				},
+				{
+					"icsId": "1001092",
+					"id": "910GEDMNGRN",
+					"lat": 51.624929,
+					"lon": -0.061112,
+					"name": "Edmonton Green Rail Station",
+					"stationId": "910GEDMNGRN",
+					"topMostParentId": "910GEDMNGRN",
+					"zone": "4"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "1001063",
+					"id": "910GCHINGFD",
+					"lat": 51.633087,
+					"lon": 0.009897,
+					"name": "Chingford Rail Station",
+					"stationId": "910GCHINGFD",
+					"topMostParentId": "910GCHINGFD",
+					"zone": "5"
+				},
+				{
+					"icsId": "1001150",
+					"id": "910GHGHMSPK",
+					"lat": 51.60835,
+					"lon": -0.000222,
+					"name": "Highams Park Rail Station",
+					"stationId": "910GHGHMSPK",
+					"topMostParentId": "910GHGHMSPK",
+					"zone": "4"
+				},
+				{
+					"icsId": "1001343",
+					"id": "910GWDST",
+					"lat": 51.58658,
+					"lon": -0.002405,
+					"name": "Wood Street Rail Station",
+					"stationId": "910GWDST",
+					"topMostParentId": "910GWDST",
+					"zone": "4"
+				},
+				{
+					"icsId": "1000249",
+					"id": "910GWLTWCEN",
+					"lat": 51.582919,
+					"lon": -0.019815,
+					"name": "Walthamstow Central Rail Station",
+					"parentId": "HUBWHC",
+					"stationId": "910GWLTWCEN",
+					"topMostParentId": "HUBWHC",
+					"zone": "3"
+				},
+				{
+					"icsId": "1001268",
+					"id": "910GSTJMSST",
+					"lat": 51.580981,
+					"lon": -0.032918,
+					"name": "St James Street (London) Rail Station",
+					"stationId": "910GSTJMSST",
+					"topMostParentId": "910GSTJMSST",
+					"zone": "3"
+				},
+				{
+					"icsId": "1001070",
+					"id": "910GCLAPTON",
+					"lat": 51.561644,
+					"lon": -0.057025,
+					"name": "Clapton Rail Station",
+					"stationId": "910GCLAPTON",
+					"topMostParentId": "910GCLAPTON",
+					"zone": "2+3"
+				},
+				{
+					"icsId": "1001128",
+					"id": "910GHAKNYNM",
+					"lat": 51.548757,
+					"lon": -0.060819,
+					"name": "Hackney Downs Rail Station",
+					"stationId": "910GHAKNYNM",
+					"topMostParentId": "910GHAKNYNM",
+					"zone": "2"
+				}
+			]
+		}
+	]
+}

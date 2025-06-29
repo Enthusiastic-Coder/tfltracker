@@ -1,0 +1,1113 @@
+{
+    "direction": "outbound",
+    "lineId": "island-line",
+    "lineName": "Island Line",
+    "mode": "national-rail",
+    "stopPointSequences": [{
+            "stopPoint": [{
+                    "icsId": "90006230",
+                    "id": "910GRYDP",
+                    "lat": 50.73904,
+                    "lon": -1.16047,
+                    "name": "Ryde Pier Head Rail Station",
+                    "parentId": "930GRYD",
+                    "stationId": "910GRYDP",
+                    "topMostParentId": "930GRYD"
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.73844,
+                    "lon": -1.16076,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.73794,
+                    "lon": -1.16087,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.73768,
+                    "lon": -1.16082,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.73734,
+                    "lon": -1.16074,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.73627,
+                    "lon": -1.16052,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.73523,
+                    "lon": -1.16032,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.73439,
+                    "lon": -1.16015,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.73370,
+                    "lon": -1.16002,
+					"instantTurn" : true						
+                }, {
+                    "icsId": "90006228",
+                    "id": "910GRYDE",
+                    "lat": 50.73316,
+                    "lon": -1.15975,
+                    "name": "Ryde Esplanade Rail Station",
+                    "parentId": "930GRYH",
+                    "stationId": "910GRYDE",
+                    "topMostParentId": "930GRYD",
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.73283,
+                    "lon": -1.15933,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.73263,
+                    "lon": -1.15893,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.73226,
+                    "lon": -1.15773,
+					"instantTurn" : true		
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.73203,
+                    "lon": -1.15721,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.73166,
+                    "lon": -1.15676,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.73113,
+                    "lon": -1.15639,
+					"instantTurn" : true		
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.73059,
+                    "lon": -1.15594,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.72961,
+                    "lon": -1.15473,
+					"instantTurn" : true		
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.72916,
+                    "lon": -1.15413,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.72876,
+                    "lon": -1.15373,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.72838,
+                    "lon": -1.15346,
+					"instantTurn" : true		
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.72791,
+                    "lon": -1.15322,
+					"instantTurn" : true		
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.72739,
+                    "lon": -1.15300,
+					"instantTurn" : true		
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.72687,
+                    "lon": -1.15294,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.72651,
+                    "lon": -1.15305,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.72603,
+                    "lon": -1.15342,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.72574,
+                    "lon": -1.15377,
+					"instantTurn" : true		
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.72549,
+                    "lon": -1.15423,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.72521,
+                    "lon": -1.15492,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.72499,
+                    "lon": -1.15544,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.72478,
+                    "lon": -1.15588,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.72452,
+                    "lon": -1.15630,
+					"instantTurn" : true							
+                }, {
+                    "icsId": "90006232",
+                    "id": "910GRYDS",
+                    "lat": 50.72422,
+                    "lon": -1.15668,
+                    "name": "Ryde St Johns Road Rail Station",
+                    "stationId": "910GRYDS",
+                    "topMostParentId": "910GRYDS",
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.72400,
+                    "lon": -1.15696,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.72347,
+                    "lon": -1.15771,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.72319,
+                    "lon": -1.15804,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.72280,
+                    "lon": -1.15842,
+					"instantTurn" : true		
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.72250,
+                    "lon": -1.15868,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.72202,
+                    "lon": -1.15905,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.72161,
+                    "lon": -1.15934,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.72114,
+                    "lon": -1.15961,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.72066,
+                    "lon": -1.15982,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.72041,
+                    "lon": -1.15991,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.71990,
+                    "lon": -1.16004,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.71964,
+                    "lon": -1.16007,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.71883,
+                    "lon": -1.16016,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.71837,
+                    "lon": -1.16020,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.71781,
+                    "lon": -1.16018,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.71752,
+                    "lon": -1.16014,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.71710,
+                    "lon": -1.16007,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.71651,
+                    "lon": -1.15988,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.71600,
+                    "lon": -1.15963,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.71567,
+                    "lon": -1.15941,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.71516,
+                    "lon": -1.15900,
+					"instantTurn" : true		
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.71478,
+                    "lon": -1.15862,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.71452,
+                    "lon": -1.15830,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.71423,
+                    "lon": -1.15793,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.71400,
+                    "lon": -1.15761,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.71367,
+                    "lon": -1.15715,
+					"instantTurn" : true		
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.71316,
+                    "lon": -1.15649,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.71254,
+                    "lon": -1.15585,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.71190,
+                    "lon": -1.15532,
+					"instantTurn" : true						
+                }, {
+                    "icsId": "90006623",
+                    "id": "910GSMALBRK",
+                    "lat": 50.71145,
+                    "lon": -1.15501,
+                    "name": "Smallbrook Junction Rail Station",
+                    "stationId": "910GSMALBRK",
+                    "topMostParentId": "910GSMALBRK",
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.71098,
+                    "lon": -1.15475,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.71058,
+                    "lon": -1.15458,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.71017,
+                    "lon": -1.15444,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.70971,
+                    "lon": -1.15432,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.70924,
+                    "lon": -1.15422,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.70839,
+                    "lon": -1.15408,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.70754,
+                    "lon": -1.15395,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.70670,
+                    "lon": -1.15381,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.70579,
+                    "lon": -1.15366,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.70543,
+                    "lon": -1.15359,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.70504,
+                    "lon": -1.15349,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.70465,
+                    "lon": -1.15337,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.70422,
+                    "lon": -1.15320,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.70371,
+                    "lon": -1.15296,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.70323,
+                    "lon": -1.15272,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.70249,
+                    "lon": -1.15237,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.70163,
+                    "lon": -1.15196,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.70082,
+                    "lon": -1.15157,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.69978,
+                    "lon": -1.15108,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.69878,
+                    "lon": -1.15060,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.69800,
+                    "lon": -1.15023,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.69712,
+                    "lon": -1.14980,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.69614,
+                    "lon": -1.14933,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.69581,
+                    "lon": -1.14914,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.69538,
+                    "lon": -1.14887,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.69490,
+                    "lon": -1.14855,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.69442,
+                    "lon": -1.14819,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.69400,
+                    "lon": -1.14785,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.69357,
+                    "lon": -1.14746,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.69315,
+                    "lon": -1.14705,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.69275,
+                    "lon": -1.14662,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.69206,
+                    "lon": -1.14584,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.69121,
+                    "lon": -1.14488,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.69050,
+                    "lon": -1.14410,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.68974,
+                    "lon": -1.14323,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.68946,
+                    "lon": -1.14296,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.68910,
+                    "lon": -1.14264,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.68876,
+                    "lon": -1.14236,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.68828,
+                    "lon": -1.14196,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.68749,
+                    "lon": -1.14130,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.68686,
+                    "lon": -1.14076,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.68604,
+                    "lon": -1.14007,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.68529,
+                    "lon": -1.13944,
+					"instantTurn" : true		
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.68448,
+                    "lon": -1.13876,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.68400,
+                    "lon": -1.13834,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.68363,
+                    "lon": -1.13804,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.68300,
+                    "lon": -1.13762,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.68269,
+                    "lon": -1.13746,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.68234,
+                    "lon": -1.13733,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.68200,
+                    "lon": -1.13724,
+					"instantTurn" : true		
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.68131,
+                    "lon": -1.13716,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.68068,
+                    "lon": -1.13721,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.68028,
+                    "lon": -1.13729,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.67974,
+                    "lon": -1.13749,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.67941,
+                    "lon": -1.13767,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.67908,
+                    "lon": -1.13791,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.67870,
+                    "lon": -1.13822,
+					"instantTurn" : true						
+                }, {
+                    "icsId": "90000869",
+                    "id": "910GBRDING",
+                    "lat": 50.67844,
+                    "lon": -1.13847,
+                    "name": "Brading Rail Station",
+                    "stationId": "910GBRDING",
+                    "topMostParentId": "910GBRDING",
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.67810,
+                    "lon": -1.13883,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.67780,
+                    "lon": -1.13923,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.67752,
+                    "lon": -1.13969,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.67675,
+                    "lon": -1.14099,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.67631,
+                    "lon": -1.14169,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.67582,
+                    "lon": -1.14232,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.67531,
+                    "lon": -1.14284,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.67495,
+                    "lon": -1.14314,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.67461,
+                    "lon": -1.14337,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.67434,
+                    "lon": -1.14351,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.67395,
+                    "lon": -1.14367,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.67351,
+                    "lon": -1.14384,
+					"instantTurn" : true		
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.67288,
+                    "lon": -1.14409,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.67256,
+                    "lon": -1.14424,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.67193,
+                    "lon": -1.14465,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.67155,
+                    "lon": -1.14495,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.67114,
+                    "lon": -1.14532,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.67066,
+                    "lon": -1.14579,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.66991,
+                    "lon": -1.14653,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.66904,
+                    "lon": -1.14740,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.66818,
+                    "lon": -1.14826,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.66737,
+                    "lon": -1.14906,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.66662,
+                    "lon": -1.14980,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.66602,
+                    "lon": -1.15037,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.66548,
+                    "lon": -1.15090,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.66498,
+                    "lon": -1.15142,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.66440,
+                    "lon": -1.15201,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.66395,
+                    "lon": -1.15242,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.66351,
+                    "lon": -1.15284,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.66295,
+                    "lon": -1.15341,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.66260,
+                    "lon": -1.15379,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.66217,
+                    "lon": -1.15430,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.66199,
+                    "lon": -1.15452,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.66168,
+                    "lon": -1.15495,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.66113,
+                    "lon": -1.15572,
+					"instantTurn" : true		
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.66057,
+                    "lon": -1.15651,
+					"instantTurn" : true		
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.66011,
+                    "lon": -1.15724,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.65967,
+                    "lon": -1.15795,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.65897,
+                    "lon": -1.15910,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.65822,
+                    "lon": -1.16032,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.65776,
+                    "lon": -1.16113,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.65740,
+                    "lon": -1.16172,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.65713,
+                    "lon": -1.16212,
+					"instantTurn" : true						
+                }, {
+                    "icsId": "90006647",
+                    "id": "910GSNDOWN",
+                    "lat": 50.65673,
+                    "lon": -1.16267,
+                    "name": "Sandown Rail Station",
+                    "stationId": "910GSNDOWN",
+                    "topMostParentId": "910GSNDOWN",
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.65621,
+                    "lon": -1.16329,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.65581,
+                    "lon": -1.16369,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.65518,
+                    "lon": -1.16424,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.65483,
+                    "lon": -1.16451,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.65458,
+                    "lon": -1.16468,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.65417,
+                    "lon": -1.16493,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.65382,
+                    "lon": -1.16512,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.65344,
+                    "lon": -1.16529,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.65295,
+                    "lon": -1.16546,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.65258,
+                    "lon": -1.16556,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.65190,
+                    "lon": -1.16567,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.65149,
+                    "lon": -1.16571,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.65083,
+                    "lon": -1.16570,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.65038,
+                    "lon": -1.16570,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.64937,
+                    "lon": -1.16573,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.64900,
+                    "lon": -1.16576,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.64828,
+                    "lon": -1.16586,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.64744,
+                    "lon": -1.16606,
+					"instantTurn" : true		
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.64682,
+                    "lon": -1.16623,
+					"instantTurn" : true						
+                }, {
+                    "icsId": "90004213",
+                    "id": "910GLAKEIOW",
+                    "lat": 50.64647,
+                    "lon": -1.16636,
+                    "name": "Lake (Isle of Wight) Rail Station",
+                    "stationId": "910GLAKEIOW",
+                    "topMostParentId": "910GLAKEIOW",
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.64584,
+                    "lon": -1.16661,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.64505,
+                    "lon": -1.16699,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.64422,
+                    "lon": -1.16747,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.64359,
+                    "lon": -1.16787,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.64334,
+                    "lon": -1.16805,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.64293,
+                    "lon": -1.16838,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.64256,
+                    "lon": -1.16868,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.64207,
+                    "lon": -1.16912,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.64128,
+                    "lon": -1.16992,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.64072,
+                    "lon": -1.17052,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.64036,
+                    "lon": -1.17096,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.64001,
+                    "lon": -1.17141,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.63949,
+                    "lon": -1.17215,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.63914,
+                    "lon": -1.17272,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.63875,
+                    "lon": -1.17335,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.63833,
+                    "lon": -1.17407,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.63783,
+                    "lon": -1.17490,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.63752,
+                    "lon": -1.17539,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.63727,
+                    "lon": -1.17575,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.63697,
+                    "lon": -1.17615,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.63665,
+                    "lon": -1.17653,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.63633,
+                    "lon": -1.17688,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.63581,
+                    "lon": -1.17740,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.63520,
+                    "lon": -1.17799,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.63487,
+                    "lon": -1.17836,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.63461,
+                    "lon": -1.17868,
+					"instantTurn" : true		
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.63431,
+                    "lon": -1.17913,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+                    "lat": 50.63401,
+                    "lon": -1.17965,
+					"instantTurn" : true							
+                }, {
+                    "icsId": "90006419",
+                    "id": "910GSHANKLN",
+                    "lat": 50.63366,
+                    "lon": -1.18034,
+                    "name": "Shanklin Rail Station",
+                    "stationId": "910GSHANKLN",
+                    "topMostParentId": "910GSHANKLN"
+                }
+            ]
+        }
+    ]
+}

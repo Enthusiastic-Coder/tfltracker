@@ -1,0 +1,805 @@
+{
+    "direction": "inbound",
+    "lineId": "victoria",
+    "lineName": "Victoria",
+    "mode": "tube",
+    "stopPointSequences": [{
+            "stopPoint": [{
+                    "icsId": "1000249",
+                    "id": "940GZZLUWWL",
+                    "lat": 51.58290,
+                    "lon": -0.02000,
+                    "name": "Walthamstow Central Underground Station",
+                    "parentId": "HUBWHC",
+                    "stationId": "940GZZLUWWL",
+                    "topMostParentId": "HUBWHC",
+                    "zone": "3"
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.58322,
+                    "lon": -0.02154,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.58392,
+                    "lon": -0.02505,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.58469,
+                    "lon": -0.02894,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.58550,
+                    "lon": -0.03302,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.58608,
+                    "lon": -0.03596,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.58664,
+                    "lon": -0.03898,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.58684,
+                    "lon": -0.04053,
+					"instantTurn" : true					
+                }, {
+                    "icsId": "1000024",
+                    "id": "940GZZLUBLR",
+                    "lat": 51.58691,
+                    "lon": -0.04213,
+                    "name": "Blackhorse Road Underground Station",
+                    "parentId": "HUBBHO",
+                    "stationId": "940GZZLUBLR",
+                    "topMostParentId": "HUBBHO",
+                    "zone": "3"
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.58693,
+                    "lon": -0.04351,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.58690,
+                    "lon": -0.04442,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.58674,
+                    "lon": -0.04649,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.58653,
+                    "lon": -0.04892,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.58653,
+                    "lon": -0.05027,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.58667,
+                    "lon": -0.05133,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.58715,
+                    "lon": -0.05337,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.58754,
+                    "lon": -0.05480,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.58790,
+                    "lon": -0.05688,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.58814,
+                    "lon": -0.05895,
+					"instantTurn" : true					
+                }, {
+                    "icsId": "1000236",
+                    "id": "940GZZLUTMH",
+                    "lat": 51.58814,
+                    "lon": -0.06107,
+                    "name": "Tottenham Hale Underground Station",
+                    "parentId": "HUBTOM",
+                    "stationId": "940GZZLUTMH",
+                    "topMostParentId": "HUBTOM",
+                    "zone": "3"
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.58802,
+                    "lon": -0.06233,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.58764,
+                    "lon": -0.06422,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.58715,
+                    "lon": -0.06545,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.58606,
+                    "lon": -0.06736,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.58508,
+                    "lon": -0.06927,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.58422,
+                    "lon": -0.07078,
+					"instantTurn" : true					
+                }, {
+                    "icsId": "1000201",
+                    "id": "940GZZLUSVS",
+                    "lat": 51.58299,
+                    "lon": -0.07352,
+                    "name": "Seven Sisters Underground Station",
+                    "parentId": "HUBSVS",
+                    "stationId": "940GZZLUSVS",
+                    "topMostParentId": "HUBSVS",
+                    "zone": "3"
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.58232,
+                    "lon": -0.07508,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.58140,
+                    "lon": -0.07680,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.58007,
+                    "lon": -0.07937,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.57900,
+                    "lon": -0.08139,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.57830,
+                    "lon": -0.08238,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.57723,
+                    "lon": -0.08351,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.57547,
+                    "lon": -0.08530,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.57394,
+                    "lon": -0.08728,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.57336,
+                    "lon": -0.08856,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.57234,
+                    "lon": -0.09147,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.57080,
+                    "lon": -0.09602,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.57052,
+                    "lon": -0.09726,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.57014,
+                    "lon": -0.09917,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.56949,
+                    "lon": -0.10337,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.56913,
+                    "lon": -0.10458,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.56838,
+                    "lon": -0.10553,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.56757,
+                    "lon": -0.10597,
+					"instantTurn" : true					
+                }, {
+                    "icsId": "1000083",
+                    "id": "940GZZLUFPK",
+                    "lat": 51.56487,
+                    "lon": -0.10643,
+                    "name": "Finsbury Park Underground Station",
+                    "parentId": "HUBFPK",
+                    "stationId": "940GZZLUFPK",
+                    "topMostParentId": "HUBFPK",
+                    "zone": "2"
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.56251,
+                    "lon": -0.10701,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.56196,
+                    "lon": -0.10714,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.56040,
+                    "lon": -0.10772,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.55920,
+                    "lon": -0.10773,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.55829,
+                    "lon": -0.10773,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.55673,
+                    "lon": -0.10719,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.55509,
+                    "lon": -0.10670,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.55261,
+                    "lon": -0.10576,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.54982,
+                    "lon": -0.10469,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.54832,
+                    "lon": -0.10410,
+					"instantTurn" : true						
+                }, {
+                    "icsId": "1000108",
+                    "id": "940GZZLUHAI",
+                    "lat": 51.54720,
+                    "lon": -0.10361,
+                    "name": "Highbury & Islington Underground Station",
+                    "parentId": "HUBHHY",
+                    "stationId": "940GZZLUHAI",
+                    "topMostParentId": "HUBHHY",
+                    "zone": "2"
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.54663,
+                    "lon": -0.10344,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.54590,
+                    "lon": -0.10311,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.54463,
+                    "lon": -0.10262,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.54338,
+                    "lon": -0.10252,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.54211,
+                    "lon": -0.10262,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.54095,
+                    "lon": -0.10291,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.53983,
+                    "lon": -0.10361,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.53915,
+                    "lon": -0.10437,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.53837,
+                    "lon": -0.10567,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.53768,
+                    "lon": -0.10719,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.53588,
+                    "lon": -0.11101,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.53483,
+                    "lon": -0.11322,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.53329,
+                    "lon": -0.11652,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.53231,
+                    "lon": -0.11861,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.53165,
+                    "lon": -0.12000,
+					"instantTurn" : true						
+                }, {
+                    "icsId": "1000129",
+                    "id": "940GZZLUKSX",
+                    "lat": 51.530663,
+                    "lon": -0.123194,
+                    "name": "King's Cross St. Pancras Underground Station",
+                    "parentId": "HUBKGX",
+                    "stationId": "940GZZLUKSX",
+                    "topMostParentId": "HUBKGX",
+                    "zone": "1"
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.53049,
+                    "lon": -0.12381,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.53027,
+                    "lon": -0.12490,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.53003,
+                    "lon": -0.12662,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.52975,
+                    "lon": -0.12834,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.52929,
+                    "lon": -0.13013,
+					"instantTurn" : true						
+                }, {
+                    "icsId": "1000077",
+                    "id": "940GZZLUEUS",
+                    "lat": 51.52861,
+                    "lon": -0.13227,
+                    "name": "Euston Underground Station",
+                    "parentId": "HUBEUS",
+                    "stationId": "940GZZLUEUS",
+                    "topMostParentId": "HUBEUS",
+                    "zone": "1"
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.52826,
+                    "lon": -0.13340,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.52772,
+                    "lon": -0.13449,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.52717,
+                    "lon": -0.13564,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.52627,
+                    "lon": -0.13702					
+                }, {
+                    "icsId": "1000252",
+                    "id": "940GZZLUWRR",
+                    "lat": 51.524951,
+                    "lon": -0.138321,
+                    "name": "Warren Street Underground Station",
+                    "stationId": "940GZZLUWRR",
+                    "topMostParentId": "940GZZLUWRR",
+                    "zone": "1"	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.52135,
+                    "lon": -0.14202	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.52012,
+                    "lon": -0.14232,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.51681,
+                    "lon": -0.14242,
+					"instantTurn" : true					
+                }, {
+                    "icsId": "1000173",
+                    "id": "940GZZLUOXC",
+                    "lat": 51.515224,
+                    "lon": -0.141903,
+                    "name": "Oxford Circus Underground Station",
+                    "stationId": "940GZZLUOXC",
+                    "topMostParentId": "940GZZLUOXC",
+                    "zone": "1"
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.51449,
+                    "lon": -0.14179,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.51356,
+                    "lon": -0.14186,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.51280,
+                    "lon": -0.14216,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.51025,
+                    "lon": -0.14348,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.50866,
+                    "lon": -0.14383			
+                }, {
+                    "icsId": "1000093",
+                    "id": "940GZZLUGPK",
+                    "lat": 51.506947,
+                    "lon": -0.142787,
+                    "name": "Green Park Underground Station",
+                    "stationId": "940GZZLUGPK",
+                    "topMostParentId": "940GZZLUGPK",
+                    "zone": "1",
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.50414,
+                    "lon": -0.14111,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.50313,
+                    "lon": -0.14058,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.50212,
+                    "lon": -0.14030,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.50144,
+                    "lon": -0.14030,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.50055,
+                    "lon": -0.14056,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.49930,
+                    "lon": -0.14112,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.49849,
+                    "lon": -0.14166,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.49772,
+                    "lon": -0.14232,
+					"instantTurn" : true					
+                }, {
+                    "icsId": "1000248",
+                    "id": "940GZZLUVIC",
+                    "lat": 51.49637,
+                    "lon": -0.14322,
+                    "name": "Victoria Underground Station",
+                    "parentId": "HUBVIC",
+                    "stationId": "940GZZLUVIC",
+                    "topMostParentId": "HUBVIC",
+                    "zone": "1"
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.49600,
+                    "lon": -0.14351,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.49520,
+                    "lon": -0.14380,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.49397,
+                    "lon": -0.14400,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.49242,
+                    "lon": -0.14390,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.49130,
+                    "lon": -0.14344,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.49056,
+                    "lon": -0.14268,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.48999,
+                    "lon": -0.14147,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.48969,
+                    "lon": -0.14027,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.48933,
+                    "lon": -0.13806,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+                    "lat": 51.48918,
+                    "lon": -0.13526,
+					"instantTurn" : true					
+                }, {
+                    "icsId": "1000180",
+                    "id": "940GZZLUPCO",
+                    "lat": 51.489097,
+                    "lon": -0.133761,	
+                    "name": "Pimlico Underground Station",
+                    "stationId": "940GZZLUPCO",
+                    "topMostParentId": "940GZZLUPCO",
+                    "zone": "1"
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.48887,
+                    "lon": -0.13191,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.48864,
+                    "lon": -0.13105,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.48820,
+                    "lon": -0.12949,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.48783,
+                    "lon": -0.12856,
+					"instantTurn" : true						
+                }, {
+                    "icsId": "1000247",
+                    "id": "940GZZLUVXL",
+                    "lat": 51.48604,
+                    "lon": -0.12491,
+                    "name": "Vauxhall Underground Station",
+                    "parentId": "HUBVXH",
+                    "stationId": "940GZZLUVXL",
+                    "topMostParentId": "HUBVXH",
+                    "zone": "1+2"
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.48546,
+                    "lon": -0.12367,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.48488,
+                    "lon": -0.12265,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.48414,
+                    "lon": -0.12198,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.48326,
+                    "lon": -0.12145,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.48201,
+                    "lon": -0.12105,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.48007,
+                    "lon": -0.12051,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.47742,
+                    "lon": -0.11971,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.47575,
+                    "lon": -0.11978,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.47461,
+                    "lon": -0.11999,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.47390,
+                    "lon": -0.12073,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.47332,
+                    "lon": -0.12135,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.47266,
+                    "lon": -0.12205,
+					"instantTurn" : true						
+                }, {
+                    "icsId": "1000223",
+                    "id": "940GZZLUSKW",
+                    "lat": 51.47234,
+                    "lon": -0.12240,
+                    "name": "Stockwell Underground Station",
+                    "stationId": "940GZZLUSKW",
+                    "topMostParentId": "940GZZLUSKW",
+                    "zone": "2",
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.47200,
+                    "lon": -0.12274,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.47154,
+                    "lon": -0.12324,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.47108,
+                    "lon": -0.12377,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.47067,
+                    "lon": -0.12425,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.47034,
+                    "lon": -0.12467,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.46860,
+                    "lon": -0.12562,
+					"instantTurn" : true	
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.46700,
+                    "lon": -0.12560,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.46645,
+                    "lon": -0.12540,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.46556,
+                    "lon": -0.12482,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.46479,
+                    "lon": -0.12373,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.46401,
+                    "lon": -0.12153,
+					"instantTurn" : true
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.46377,
+                    "lon": -0.12014,
+					"instantTurn" : true					
+                }, {
+                    "icsId": "1000031",
+                    "id": "940GZZLUBXN",
+                    "lat": 51.46262,
+                    "lon": -0.11456,
+                    "name": "Brixton Underground Station",
+                    "parentId": "HUBBRX",
+                    "stationId": "940GZZLUBXN",
+                    "topMostParentId": "HUBBRX",
+                    "zone": "2"
+                }
+            ]
+        }
+    ]
+}

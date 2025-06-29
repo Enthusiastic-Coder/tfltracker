@@ -1,0 +1,27 @@
+{
+    "direction": "outbound",
+    "lineId": "rb4",
+    "lineName": "RB4",
+    "mode": "river-bus",
+    "stopPointSequences": [{
+            "stopPoint": [{
+                    "icsId": "1002047",
+                    "id": "930GNEL",
+                    "lat": 51.50451,
+                    "lon": -0.03170,
+                    "name": "Doubletree Docklands Nelson Dock Pier",
+                    "stationId": "930GNEL",
+                    "topMostParentId": "930GNEL"
+                }, {
+                    "icsId": "1002021",
+                    "id": "930GCAW",
+                    "lat": 51.50522,
+                    "lon": -0.02879,
+                    "name": "Canary Wharf Pier",
+                    "stationId": "930GCAW",
+                    "topMostParentId": "930GCAW"
+                }
+            ]
+        }
+    ]
+}

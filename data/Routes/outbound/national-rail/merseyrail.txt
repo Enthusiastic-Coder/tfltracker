@@ -1,0 +1,1377 @@
+{
+	"direction": "outbound",
+	"lineId": "merseyrail",
+	"lineName": "Merseyrail",
+	"mode": "national-rail",
+	"stopPointSequences": [
+		{
+			"stopPoint": [
+				{
+					"icsId": "90001460",
+					"id": "910GCHST",
+					"lat": 53.196695,
+					"lon": -2.879594,
+					"name": "Chester Rail Station",
+					"stationId": "910GCHST",
+					"topMostParentId": "910GCHST"
+				},
+				{
+					"icsId": "90000366",
+					"id": "910GBACHE",
+					"lat": 53.208786,
+					"lon": -2.89167,
+					"name": "Bache Rail Station",
+					"stationId": "910GBACHE",
+					"topMostParentId": "910GBACHE"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000366",
+					"id": "910GBACHE",
+					"lat": 53.208786,
+					"lon": -2.89167,
+					"name": "Bache Rail Station",
+					"stationId": "910GBACHE",
+					"topMostParentId": "910GBACHE"
+				},
+				{
+					"icsId": "90001744",
+					"id": "910GCPNHRST",
+					"lat": 53.260174,
+					"lon": -2.942285,
+					"name": "Capenhurst Rail Station",
+					"stationId": "910GCPNHRST",
+					"topMostParentId": "910GCPNHRST"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90001744",
+					"id": "910GCPNHRST",
+					"lat": 53.260174,
+					"lon": -2.942285,
+					"name": "Capenhurst Rail Station",
+					"stationId": "910GCPNHRST",
+					"topMostParentId": "910GCPNHRST"
+				},
+				{
+					"icsId": "90003603",
+					"id": "910GHOOTON",
+					"lat": 53.297199,
+					"lon": -2.977009,
+					"name": "Hooton Rail Station",
+					"stationId": "910GHOOTON",
+					"topMostParentId": "910GHOOTON"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90003603",
+					"id": "910GHOOTON",
+					"lat": 53.297199,
+					"lon": -2.977009,
+					"name": "Hooton Rail Station",
+					"stationId": "910GHOOTON",
+					"topMostParentId": "910GHOOTON"
+				},
+				{
+					"icsId": "90002615",
+					"id": "910GESTHRAK",
+					"lat": 53.307538,
+					"lon": -2.981132,
+					"name": "Eastham Rake Rail Station",
+					"stationId": "910GESTHRAK",
+					"topMostParentId": "910GESTHRAK"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90002615",
+					"id": "910GESTHRAK",
+					"lat": 53.307538,
+					"lon": -2.981132,
+					"name": "Eastham Rake Rail Station",
+					"stationId": "910GESTHRAK",
+					"topMostParentId": "910GESTHRAK"
+				},
+				{
+					"icsId": "90000960",
+					"id": "910GBRMB",
+					"lat": 53.321846,
+					"lon": -2.986895,
+					"name": "Bromborough Rail Station",
+					"stationId": "910GBRMB",
+					"topMostParentId": "910GBRMB"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000960",
+					"id": "910GBRMB",
+					"lat": 53.321846,
+					"lon": -2.986895,
+					"name": "Bromborough Rail Station",
+					"stationId": "910GBRMB",
+					"topMostParentId": "910GBRMB"
+				},
+				{
+					"icsId": "90000961",
+					"id": "910GBRMBRK",
+					"lat": 53.329906,
+					"lon": -2.989469,
+					"name": "Bromborough Rake Rail Station",
+					"stationId": "910GBRMBRK",
+					"topMostParentId": "910GBRMBRK"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000961",
+					"id": "910GBRMBRK",
+					"lat": 53.329906,
+					"lon": -2.989469,
+					"name": "Bromborough Rake Rail Station",
+					"stationId": "910GBRMBRK",
+					"topMostParentId": "910GBRMBRK"
+				},
+				{
+					"icsId": "90006728",
+					"id": "910GSPITAL",
+					"lat": 53.339937,
+					"lon": -2.993907,
+					"name": "Spital Rail Station",
+					"stationId": "910GSPITAL",
+					"topMostParentId": "910GSPITAL"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90006728",
+					"id": "910GSPITAL",
+					"lat": 53.339937,
+					"lon": -2.993907,
+					"name": "Spital Rail Station",
+					"stationId": "910GSPITAL",
+					"topMostParentId": "910GSPITAL"
+				},
+				{
+					"icsId": "90005854",
+					"id": "910GPSLT",
+					"lat": 53.349251,
+					"lon": -2.998029,
+					"name": "Port Sunlight Rail Station",
+					"stationId": "910GPSLT",
+					"topMostParentId": "910GPSLT"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90005854",
+					"id": "910GPSLT",
+					"lat": 53.349251,
+					"lon": -2.998029,
+					"name": "Port Sunlight Rail Station",
+					"stationId": "910GPSLT",
+					"topMostParentId": "910GPSLT"
+				},
+				{
+					"icsId": "90000510",
+					"id": "910GBEBNGTN",
+					"lat": 53.357654,
+					"lon": -3.003635,
+					"name": "Bebington Rail Station",
+					"stationId": "910GBEBNGTN",
+					"topMostParentId": "910GBEBNGTN"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000510",
+					"id": "910GBEBNGTN",
+					"lat": 53.357654,
+					"lon": -3.003635,
+					"name": "Bebington Rail Station",
+					"stationId": "910GBEBNGTN",
+					"topMostParentId": "910GBEBNGTN"
+				},
+				{
+					"icsId": "90006088",
+					"id": "910GROCKFRY",
+					"lat": 53.37265,
+					"lon": -3.010826,
+					"name": "Rock Ferry Rail Station",
+					"stationId": "910GROCKFRY",
+					"topMostParentId": "910GROCKFRY"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90006088",
+					"id": "910GROCKFRY",
+					"lat": 53.37265,
+					"lon": -3.010826,
+					"name": "Rock Ferry Rail Station",
+					"stationId": "910GROCKFRY",
+					"topMostParentId": "910GROCKFRY"
+				},
+				{
+					"icsId": "90003037",
+					"id": "910GGNLN",
+					"lat": 53.383254,
+					"lon": -3.016415,
+					"name": "Green Lane Rail Station",
+					"stationId": "910GGNLN",
+					"topMostParentId": "910GGNLN"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90003037",
+					"id": "910GGNLN",
+					"lat": 53.383254,
+					"lon": -3.016415,
+					"name": "Green Lane Rail Station",
+					"stationId": "910GGNLN",
+					"topMostParentId": "910GGNLN"
+				},
+				{
+					"icsId": "90000944",
+					"id": "910GBRKNHDC",
+					"lat": 53.388313,
+					"lon": -3.020821,
+					"name": "Birkenhead Central Rail Station",
+					"stationId": "910GBRKNHDC",
+					"topMostParentId": "910GBRKNHDC"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000944",
+					"id": "910GBRKNHDC",
+					"lat": 53.388313,
+					"lon": -3.020821,
+					"name": "Birkenhead Central Rail Station",
+					"stationId": "910GBRKNHDC",
+					"topMostParentId": "910GBRKNHDC"
+				},
+				{
+					"icsId": "90003281",
+					"id": "910GHAMTSQ",
+					"lat": 53.394694,
+					"lon": -3.01368,
+					"name": "Birkenhead Hamilton Square Rail Station",
+					"stationId": "910GHAMTSQ",
+					"topMostParentId": "910GHAMTSQ"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90003281",
+					"id": "910GHAMTSQ",
+					"lat": 53.394694,
+					"lon": -3.01368,
+					"name": "Birkenhead Hamilton Square Rail Station",
+					"stationId": "910GHAMTSQ",
+					"topMostParentId": "910GHAMTSQ"
+				},
+				{
+					"icsId": "90003953",
+					"id": "910GJAMESST",
+					"lat": 53.404764,
+					"lon": -2.991958,
+					"name": "Liverpool James Street Rail Station",
+					"stationId": "910GJAMESST",
+					"topMostParentId": "910GJAMESST"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90003953",
+					"id": "910GJAMESST",
+					"lat": 53.404764,
+					"lon": -2.991958,
+					"name": "Liverpool James Street Rail Station",
+					"stationId": "910GJAMESST",
+					"topMostParentId": "910GJAMESST"
+				},
+				{
+					"icsId": "90004991",
+					"id": "910GMORFLDS",
+					"lat": 53.408562,
+					"lon": -2.989188,
+					"name": "Moorfields Rail Station",
+					"stationId": "910GMORFLDS",
+					"topMostParentId": "910GMORFLDS"
+				},
+				{
+					"icsId": "90004654",
+					"id": "910GLVRPLSH",
+					"lat": 53.407308,
+					"lon": -2.977726,
+					"name": "Liverpool Lime Street Rail Station",
+					"stationId": "910GLVRPLSH",
+					"topMostParentId": "910GLVRPLSH"
+				},
+				{
+					"icsId": "90004646",
+					"id": "910GLVRPLCH",
+					"lat": 53.4046,
+					"lon": -2.979168,
+					"name": "Liverpool Central Rail Station",
+					"stationId": "910GLVRPLCH",
+					"topMostParentId": "910GLVRPLCH"
+				},
+				{
+					"icsId": "90003953",
+					"id": "910GJAMESST",
+					"lat": 53.404764,
+					"lon": -2.991958,
+					"name": "Liverpool James Street Rail Station",
+					"stationId": "910GJAMESST",
+					"topMostParentId": "910GJAMESST"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90003953",
+					"id": "910GJAMESST",
+					"lat": 53.404764,
+					"lon": -2.991958,
+					"name": "Liverpool James Street Rail Station",
+					"stationId": "910GJAMESST",
+					"topMostParentId": "910GJAMESST"
+				},
+				{
+					"icsId": "90003281",
+					"id": "910GHAMTSQ",
+					"lat": 53.394694,
+					"lon": -3.01368,
+					"name": "Birkenhead Hamilton Square Rail Station",
+					"stationId": "910GHAMTSQ",
+					"topMostParentId": "910GHAMTSQ"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90003281",
+					"id": "910GHAMTSQ",
+					"lat": 53.394694,
+					"lon": -3.01368,
+					"name": "Birkenhead Hamilton Square Rail Station",
+					"stationId": "910GHAMTSQ",
+					"topMostParentId": "910GHAMTSQ"
+				},
+				{
+					"icsId": "90000944",
+					"id": "910GBRKNHDC",
+					"lat": 53.388313,
+					"lon": -3.020821,
+					"name": "Birkenhead Central Rail Station",
+					"stationId": "910GBRKNHDC",
+					"topMostParentId": "910GBRKNHDC"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000944",
+					"id": "910GBRKNHDC",
+					"lat": 53.388313,
+					"lon": -3.020821,
+					"name": "Birkenhead Central Rail Station",
+					"stationId": "910GBRKNHDC",
+					"topMostParentId": "910GBRKNHDC"
+				},
+				{
+					"icsId": "90003037",
+					"id": "910GGNLN",
+					"lat": 53.383254,
+					"lon": -3.016415,
+					"name": "Green Lane Rail Station",
+					"stationId": "910GGNLN",
+					"topMostParentId": "910GGNLN"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90003037",
+					"id": "910GGNLN",
+					"lat": 53.383254,
+					"lon": -3.016415,
+					"name": "Green Lane Rail Station",
+					"stationId": "910GGNLN",
+					"topMostParentId": "910GGNLN"
+				},
+				{
+					"icsId": "90006088",
+					"id": "910GROCKFRY",
+					"lat": 53.37265,
+					"lon": -3.010826,
+					"name": "Rock Ferry Rail Station",
+					"stationId": "910GROCKFRY",
+					"topMostParentId": "910GROCKFRY"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90006088",
+					"id": "910GROCKFRY",
+					"lat": 53.37265,
+					"lon": -3.010826,
+					"name": "Rock Ferry Rail Station",
+					"stationId": "910GROCKFRY",
+					"topMostParentId": "910GROCKFRY"
+				},
+				{
+					"icsId": "90000510",
+					"id": "910GBEBNGTN",
+					"lat": 53.357654,
+					"lon": -3.003635,
+					"name": "Bebington Rail Station",
+					"stationId": "910GBEBNGTN",
+					"topMostParentId": "910GBEBNGTN"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000510",
+					"id": "910GBEBNGTN",
+					"lat": 53.357654,
+					"lon": -3.003635,
+					"name": "Bebington Rail Station",
+					"stationId": "910GBEBNGTN",
+					"topMostParentId": "910GBEBNGTN"
+				},
+				{
+					"icsId": "90005854",
+					"id": "910GPSLT",
+					"lat": 53.349251,
+					"lon": -2.998029,
+					"name": "Port Sunlight Rail Station",
+					"stationId": "910GPSLT",
+					"topMostParentId": "910GPSLT"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90005854",
+					"id": "910GPSLT",
+					"lat": 53.349251,
+					"lon": -2.998029,
+					"name": "Port Sunlight Rail Station",
+					"stationId": "910GPSLT",
+					"topMostParentId": "910GPSLT"
+				},
+				{
+					"icsId": "90006728",
+					"id": "910GSPITAL",
+					"lat": 53.339937,
+					"lon": -2.993907,
+					"name": "Spital Rail Station",
+					"stationId": "910GSPITAL",
+					"topMostParentId": "910GSPITAL"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90006728",
+					"id": "910GSPITAL",
+					"lat": 53.339937,
+					"lon": -2.993907,
+					"name": "Spital Rail Station",
+					"stationId": "910GSPITAL",
+					"topMostParentId": "910GSPITAL"
+				},
+				{
+					"icsId": "90000961",
+					"id": "910GBRMBRK",
+					"lat": 53.329906,
+					"lon": -2.989469,
+					"name": "Bromborough Rake Rail Station",
+					"stationId": "910GBRMBRK",
+					"topMostParentId": "910GBRMBRK"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000961",
+					"id": "910GBRMBRK",
+					"lat": 53.329906,
+					"lon": -2.989469,
+					"name": "Bromborough Rake Rail Station",
+					"stationId": "910GBRMBRK",
+					"topMostParentId": "910GBRMBRK"
+				},
+				{
+					"icsId": "90000960",
+					"id": "910GBRMB",
+					"lat": 53.321846,
+					"lon": -2.986895,
+					"name": "Bromborough Rail Station",
+					"stationId": "910GBRMB",
+					"topMostParentId": "910GBRMB"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000960",
+					"id": "910GBRMB",
+					"lat": 53.321846,
+					"lon": -2.986895,
+					"name": "Bromborough Rail Station",
+					"stationId": "910GBRMB",
+					"topMostParentId": "910GBRMB"
+				},
+				{
+					"icsId": "90002615",
+					"id": "910GESTHRAK",
+					"lat": 53.307538,
+					"lon": -2.981132,
+					"name": "Eastham Rake Rail Station",
+					"stationId": "910GESTHRAK",
+					"topMostParentId": "910GESTHRAK"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90002615",
+					"id": "910GESTHRAK",
+					"lat": 53.307538,
+					"lon": -2.981132,
+					"name": "Eastham Rake Rail Station",
+					"stationId": "910GESTHRAK",
+					"topMostParentId": "910GESTHRAK"
+				},
+				{
+					"icsId": "90003603",
+					"id": "910GHOOTON",
+					"lat": 53.297199,
+					"lon": -2.977009,
+					"name": "Hooton Rail Station",
+					"stationId": "910GHOOTON",
+					"topMostParentId": "910GHOOTON"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90003603",
+					"id": "910GHOOTON",
+					"lat": 53.297199,
+					"lon": -2.977009,
+					"name": "Hooton Rail Station",
+					"stationId": "910GHOOTON",
+					"topMostParentId": "910GHOOTON"
+				},
+				{
+					"icsId": "90001744",
+					"id": "910GCPNHRST",
+					"lat": 53.260174,
+					"lon": -2.942285,
+					"name": "Capenhurst Rail Station",
+					"stationId": "910GCPNHRST",
+					"topMostParentId": "910GCPNHRST"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90001744",
+					"id": "910GCPNHRST",
+					"lat": 53.260174,
+					"lon": -2.942285,
+					"name": "Capenhurst Rail Station",
+					"stationId": "910GCPNHRST",
+					"topMostParentId": "910GCPNHRST"
+				},
+				{
+					"icsId": "90000366",
+					"id": "910GBACHE",
+					"lat": 53.208786,
+					"lon": -2.89167,
+					"name": "Bache Rail Station",
+					"stationId": "910GBACHE",
+					"topMostParentId": "910GBACHE"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000366",
+					"id": "910GBACHE",
+					"lat": 53.208786,
+					"lon": -2.89167,
+					"name": "Bache Rail Station",
+					"stationId": "910GBACHE",
+					"topMostParentId": "910GBACHE"
+				},
+				{
+					"icsId": "90001460",
+					"id": "910GCHST",
+					"lat": 53.196695,
+					"lon": -2.879594,
+					"name": "Chester Rail Station",
+					"stationId": "910GCHST",
+					"topMostParentId": "910GCHST"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90003603",
+					"id": "910GHOOTON",
+					"lat": 53.297199,
+					"lon": -2.977009,
+					"name": "Hooton Rail Station",
+					"stationId": "910GHOOTON",
+					"topMostParentId": "910GHOOTON"
+				},
+				{
+					"icsId": "90004614",
+					"id": "910GLTLSUTN",
+					"lat": 53.285515,
+					"lon": -2.943292,
+					"name": "Little Sutton Rail Station",
+					"stationId": "910GLTLSUTN",
+					"topMostParentId": "910GLTLSUTN"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90004614",
+					"id": "910GLTLSUTN",
+					"lat": 53.285515,
+					"lon": -2.943292,
+					"name": "Little Sutton Rail Station",
+					"stationId": "910GLTLSUTN",
+					"topMostParentId": "910GLTLSUTN"
+				},
+				{
+					"icsId": "90003603",
+					"id": "910GHOOTON",
+					"lat": 53.297199,
+					"lon": -2.977009,
+					"name": "Hooton Rail Station",
+					"stationId": "910GHOOTON",
+					"topMostParentId": "910GHOOTON"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90004614",
+					"id": "910GLTLSUTN",
+					"lat": 53.285515,
+					"lon": -2.943292,
+					"name": "Little Sutton Rail Station",
+					"stationId": "910GLTLSUTN",
+					"topMostParentId": "910GLTLSUTN"
+				},
+				{
+					"icsId": "90005459",
+					"id": "910GOPOL",
+					"lat": 53.284047,
+					"lon": -2.924061,
+					"name": "Overpool Rail Station",
+					"stationId": "910GOPOL",
+					"topMostParentId": "910GOPOL"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90005459",
+					"id": "910GOPOL",
+					"lat": 53.284047,
+					"lon": -2.924061,
+					"name": "Overpool Rail Station",
+					"stationId": "910GOPOL",
+					"topMostParentId": "910GOPOL"
+				},
+				{
+					"icsId": "90004614",
+					"id": "910GLTLSUTN",
+					"lat": 53.285515,
+					"lon": -2.943292,
+					"name": "Little Sutton Rail Station",
+					"stationId": "910GLTLSUTN",
+					"topMostParentId": "910GLTLSUTN"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90005459",
+					"id": "910GOPOL",
+					"lat": 53.284047,
+					"lon": -2.924061,
+					"name": "Overpool Rail Station",
+					"stationId": "910GOPOL",
+					"topMostParentId": "910GOPOL"
+				},
+				{
+					"icsId": "90002548",
+					"id": "910GELSMPRT",
+					"lat": 53.282191,
+					"lon": -2.896423,
+					"name": "Ellesmere Port Rail Station",
+					"stationId": "910GELSMPRT",
+					"topMostParentId": "910GELSMPRT"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90002548",
+					"id": "910GELSMPRT",
+					"lat": 53.282191,
+					"lon": -2.896423,
+					"name": "Ellesmere Port Rail Station",
+					"stationId": "910GELSMPRT",
+					"topMostParentId": "910GELSMPRT"
+				},
+				{
+					"icsId": "90005459",
+					"id": "910GOPOL",
+					"lat": 53.284047,
+					"lon": -2.924061,
+					"name": "Overpool Rail Station",
+					"stationId": "910GOPOL",
+					"topMostParentId": "910GOPOL"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90003281",
+					"id": "910GHAMTSQ",
+					"lat": 53.394694,
+					"lon": -3.01368,
+					"name": "Birkenhead Hamilton Square Rail Station",
+					"stationId": "910GHAMTSQ",
+					"topMostParentId": "910GHAMTSQ"
+				},
+				{
+					"icsId": "90000938",
+					"id": "910GBRKNCPK",
+					"lat": 53.393358,
+					"lon": -3.022671,
+					"name": "Conway Park Rail Station",
+					"stationId": "910GBRKNCPK",
+					"topMostParentId": "910GBRKNCPK"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000938",
+					"id": "910GBRKNCPK",
+					"lat": 53.393358,
+					"lon": -3.022671,
+					"name": "Conway Park Rail Station",
+					"stationId": "910GBRKNCPK",
+					"topMostParentId": "910GBRKNCPK"
+				},
+				{
+					"icsId": "90000946",
+					"id": "910GBRKNHDP",
+					"lat": 53.397405,
+					"lon": -3.039101,
+					"name": "Birkenhead Park Rail Station",
+					"stationId": "910GBRKNHDP",
+					"topMostParentId": "910GBRKNHDP"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000946",
+					"id": "910GBRKNHDP",
+					"lat": 53.397405,
+					"lon": -3.039101,
+					"name": "Birkenhead Park Rail Station",
+					"stationId": "910GBRKNHDP",
+					"topMostParentId": "910GBRKNHDP"
+				},
+				{
+					"icsId": "90000945",
+					"id": "910GBRKNHDN",
+					"lat": 53.404435,
+					"lon": -3.057533,
+					"name": "Birkenhead North Rail Station",
+					"stationId": "910GBRKNHDN",
+					"topMostParentId": "910GBRKNHDN"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000945",
+					"id": "910GBRKNHDN",
+					"lat": 53.404435,
+					"lon": -3.057533,
+					"name": "Birkenhead North Rail Station",
+					"stationId": "910GBRKNHDN",
+					"topMostParentId": "910GBRKNHDN"
+				},
+				{
+					"icsId": "90000490",
+					"id": "910GBDSTON",
+					"lat": 53.409137,
+					"lon": -3.078561,
+					"name": "Bidston Rail Station",
+					"stationId": "910GBDSTON",
+					"topMostParentId": "910GBDSTON"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000490",
+					"id": "910GBDSTON",
+					"lat": 53.409137,
+					"lon": -3.078561,
+					"name": "Bidston Rail Station",
+					"stationId": "910GBDSTON",
+					"topMostParentId": "910GBDSTON"
+				},
+				{
+					"icsId": "90004306",
+					"id": "910GLEASOWE",
+					"lat": 53.408046,
+					"lon": -3.099594,
+					"name": "Leasowe Rail Station",
+					"stationId": "910GLEASOWE",
+					"topMostParentId": "910GLEASOWE"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90004306",
+					"id": "910GLEASOWE",
+					"lat": 53.408046,
+					"lon": -3.099594,
+					"name": "Leasowe Rail Station",
+					"stationId": "910GLEASOWE",
+					"topMostParentId": "910GLEASOWE"
+				},
+				{
+					"icsId": "90005035",
+					"id": "910GMOTO",
+					"lat": 53.407207,
+					"lon": -3.113502,
+					"name": "Moreton (Merseyside) Rail Station",
+					"stationId": "910GMOTO",
+					"topMostParentId": "910GMOTO"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90005035",
+					"id": "910GMOTO",
+					"lat": 53.407207,
+					"lon": -3.113502,
+					"name": "Moreton (Merseyside) Rail Station",
+					"stationId": "910GMOTO",
+					"topMostParentId": "910GMOTO"
+				},
+				{
+					"icsId": "90004804",
+					"id": "910GMELS",
+					"lat": 53.399439,
+					"lon": -3.154269,
+					"name": "Meols Rail Station",
+					"stationId": "910GMELS",
+					"topMostParentId": "910GMELS"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90004804",
+					"id": "910GMELS",
+					"lat": 53.399439,
+					"lon": -3.154269,
+					"name": "Meols Rail Station",
+					"stationId": "910GMELS",
+					"topMostParentId": "910GMELS"
+				},
+				{
+					"icsId": "90004956",
+					"id": "910GMNRD",
+					"lat": 53.394778,
+					"lon": -3.171438,
+					"name": "Manor Road Rail Station",
+					"stationId": "910GMNRD",
+					"topMostParentId": "910GMNRD"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90004956",
+					"id": "910GMNRD",
+					"lat": 53.394778,
+					"lon": -3.171438,
+					"name": "Manor Road Rail Station",
+					"stationId": "910GMNRD",
+					"topMostParentId": "910GMNRD"
+				},
+				{
+					"icsId": "90003644",
+					"id": "910GHOYLAKE",
+					"lat": 53.39021,
+					"lon": -3.178831,
+					"name": "Hoylake Rail Station",
+					"stationId": "910GHOYLAKE",
+					"topMostParentId": "910GHOYLAKE"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90003644",
+					"id": "910GHOYLAKE",
+					"lat": 53.39021,
+					"lon": -3.178831,
+					"name": "Hoylake Rail Station",
+					"stationId": "910GHOYLAKE",
+					"topMostParentId": "910GHOYLAKE"
+				},
+				{
+					"icsId": "90007861",
+					"id": "910GWKIRBY",
+					"lat": 53.373172,
+					"lon": -3.183771,
+					"name": "West Kirby Rail Station",
+					"stationId": "910GWKIRBY",
+					"topMostParentId": "910GWKIRBY"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90007861",
+					"id": "910GWKIRBY",
+					"lat": 53.373172,
+					"lon": -3.183771,
+					"name": "West Kirby Rail Station",
+					"stationId": "910GWKIRBY",
+					"topMostParentId": "910GWKIRBY"
+				},
+				{
+					"icsId": "90003644",
+					"id": "910GHOYLAKE",
+					"lat": 53.39021,
+					"lon": -3.178831,
+					"name": "Hoylake Rail Station",
+					"stationId": "910GHOYLAKE",
+					"topMostParentId": "910GHOYLAKE"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90003644",
+					"id": "910GHOYLAKE",
+					"lat": 53.39021,
+					"lon": -3.178831,
+					"name": "Hoylake Rail Station",
+					"stationId": "910GHOYLAKE",
+					"topMostParentId": "910GHOYLAKE"
+				},
+				{
+					"icsId": "90004956",
+					"id": "910GMNRD",
+					"lat": 53.394778,
+					"lon": -3.171438,
+					"name": "Manor Road Rail Station",
+					"stationId": "910GMNRD",
+					"topMostParentId": "910GMNRD"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90004956",
+					"id": "910GMNRD",
+					"lat": 53.394778,
+					"lon": -3.171438,
+					"name": "Manor Road Rail Station",
+					"stationId": "910GMNRD",
+					"topMostParentId": "910GMNRD"
+				},
+				{
+					"icsId": "90004804",
+					"id": "910GMELS",
+					"lat": 53.399439,
+					"lon": -3.154269,
+					"name": "Meols Rail Station",
+					"stationId": "910GMELS",
+					"topMostParentId": "910GMELS"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90004804",
+					"id": "910GMELS",
+					"lat": 53.399439,
+					"lon": -3.154269,
+					"name": "Meols Rail Station",
+					"stationId": "910GMELS",
+					"topMostParentId": "910GMELS"
+				},
+				{
+					"icsId": "90005035",
+					"id": "910GMOTO",
+					"lat": 53.407207,
+					"lon": -3.113502,
+					"name": "Moreton (Merseyside) Rail Station",
+					"stationId": "910GMOTO",
+					"topMostParentId": "910GMOTO"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90005035",
+					"id": "910GMOTO",
+					"lat": 53.407207,
+					"lon": -3.113502,
+					"name": "Moreton (Merseyside) Rail Station",
+					"stationId": "910GMOTO",
+					"topMostParentId": "910GMOTO"
+				},
+				{
+					"icsId": "90004306",
+					"id": "910GLEASOWE",
+					"lat": 53.408046,
+					"lon": -3.099594,
+					"name": "Leasowe Rail Station",
+					"stationId": "910GLEASOWE",
+					"topMostParentId": "910GLEASOWE"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90004306",
+					"id": "910GLEASOWE",
+					"lat": 53.408046,
+					"lon": -3.099594,
+					"name": "Leasowe Rail Station",
+					"stationId": "910GLEASOWE",
+					"topMostParentId": "910GLEASOWE"
+				},
+				{
+					"icsId": "90000490",
+					"id": "910GBDSTON",
+					"lat": 53.409137,
+					"lon": -3.078561,
+					"name": "Bidston Rail Station",
+					"stationId": "910GBDSTON",
+					"topMostParentId": "910GBDSTON"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000490",
+					"id": "910GBDSTON",
+					"lat": 53.409137,
+					"lon": -3.078561,
+					"name": "Bidston Rail Station",
+					"stationId": "910GBDSTON",
+					"topMostParentId": "910GBDSTON"
+				},
+				{
+					"icsId": "90000945",
+					"id": "910GBRKNHDN",
+					"lat": 53.404435,
+					"lon": -3.057533,
+					"name": "Birkenhead North Rail Station",
+					"stationId": "910GBRKNHDN",
+					"topMostParentId": "910GBRKNHDN"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000945",
+					"id": "910GBRKNHDN",
+					"lat": 53.404435,
+					"lon": -3.057533,
+					"name": "Birkenhead North Rail Station",
+					"stationId": "910GBRKNHDN",
+					"topMostParentId": "910GBRKNHDN"
+				},
+				{
+					"icsId": "90000946",
+					"id": "910GBRKNHDP",
+					"lat": 53.397405,
+					"lon": -3.039101,
+					"name": "Birkenhead Park Rail Station",
+					"stationId": "910GBRKNHDP",
+					"topMostParentId": "910GBRKNHDP"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000946",
+					"id": "910GBRKNHDP",
+					"lat": 53.397405,
+					"lon": -3.039101,
+					"name": "Birkenhead Park Rail Station",
+					"stationId": "910GBRKNHDP",
+					"topMostParentId": "910GBRKNHDP"
+				},
+				{
+					"icsId": "90000938",
+					"id": "910GBRKNCPK",
+					"lat": 53.393358,
+					"lon": -3.022671,
+					"name": "Conway Park Rail Station",
+					"stationId": "910GBRKNCPK",
+					"topMostParentId": "910GBRKNCPK"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000938",
+					"id": "910GBRKNCPK",
+					"lat": 53.393358,
+					"lon": -3.022671,
+					"name": "Conway Park Rail Station",
+					"stationId": "910GBRKNCPK",
+					"topMostParentId": "910GBRKNCPK"
+				},
+				{
+					"icsId": "90003281",
+					"id": "910GHAMTSQ",
+					"lat": 53.394694,
+					"lon": -3.01368,
+					"name": "Birkenhead Hamilton Square Rail Station",
+					"stationId": "910GHAMTSQ",
+					"topMostParentId": "910GHAMTSQ"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000945",
+					"id": "910GBRKNHDN",
+					"lat": 53.404435,
+					"lon": -3.057533,
+					"name": "Birkenhead North Rail Station",
+					"stationId": "910GBRKNHDN",
+					"topMostParentId": "910GBRKNHDN"
+				},
+				{
+					"icsId": "90007548",
+					"id": "910GWALASYV",
+					"lat": 53.422885,
+					"lon": -3.069127,
+					"name": "Wallasey Village Rail Station",
+					"stationId": "910GWALASYV",
+					"topMostParentId": "910GWALASYV"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90007548",
+					"id": "910GWALASYV",
+					"lat": 53.422885,
+					"lon": -3.069127,
+					"name": "Wallasey Village Rail Station",
+					"stationId": "910GWALASYV",
+					"topMostParentId": "910GWALASYV"
+				},
+				{
+					"icsId": "90007547",
+					"id": "910GWALAGRD",
+					"lat": 53.428003,
+					"lon": -3.069707,
+					"name": "Wallasey Grove Road Rail Station",
+					"stationId": "910GWALAGRD",
+					"topMostParentId": "910GWALAGRD"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90007547",
+					"id": "910GWALAGRD",
+					"lat": 53.428003,
+					"lon": -3.069707,
+					"name": "Wallasey Grove Road Rail Station",
+					"stationId": "910GWALAGRD",
+					"topMostParentId": "910GWALAGRD"
+				},
+				{
+					"icsId": "90005157",
+					"id": "910GNBTN",
+					"lat": 53.437401,
+					"lon": -3.047965,
+					"name": "New Brighton Rail Station",
+					"stationId": "910GNBTN",
+					"topMostParentId": "910GNBTN"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90005157",
+					"id": "910GNBTN",
+					"lat": 53.437401,
+					"lon": -3.047965,
+					"name": "New Brighton Rail Station",
+					"stationId": "910GNBTN",
+					"topMostParentId": "910GNBTN"
+				},
+				{
+					"icsId": "90007547",
+					"id": "910GWALAGRD",
+					"lat": 53.428003,
+					"lon": -3.069707,
+					"name": "Wallasey Grove Road Rail Station",
+					"stationId": "910GWALAGRD",
+					"topMostParentId": "910GWALAGRD"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90007547",
+					"id": "910GWALAGRD",
+					"lat": 53.428003,
+					"lon": -3.069707,
+					"name": "Wallasey Grove Road Rail Station",
+					"stationId": "910GWALAGRD",
+					"topMostParentId": "910GWALAGRD"
+				},
+				{
+					"icsId": "90007548",
+					"id": "910GWALASYV",
+					"lat": 53.422885,
+					"lon": -3.069127,
+					"name": "Wallasey Village Rail Station",
+					"stationId": "910GWALASYV",
+					"topMostParentId": "910GWALASYV"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90007548",
+					"id": "910GWALASYV",
+					"lat": 53.422885,
+					"lon": -3.069127,
+					"name": "Wallasey Village Rail Station",
+					"stationId": "910GWALASYV",
+					"topMostParentId": "910GWALASYV"
+				},
+				{
+					"icsId": "90000945",
+					"id": "910GBRKNHDN",
+					"lat": 53.404435,
+					"lon": -3.057533,
+					"name": "Birkenhead North Rail Station",
+					"stationId": "910GBRKNHDN",
+					"topMostParentId": "910GBRKNHDN"
+				}
+			]
+		}
+	]
+}

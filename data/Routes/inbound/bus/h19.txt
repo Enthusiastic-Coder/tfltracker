@@ -1,0 +1,1 @@
+{"direction":"inbound","lineId":"h19","lineName":"H19","mode":"bus","stopPointSequences":[]}

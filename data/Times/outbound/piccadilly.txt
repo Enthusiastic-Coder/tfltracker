@@ -1,0 +1,57 @@
+uxbridge,0
+Heathrow T5,0
+heathrow T4,0
+hillingdon,4
+ickenham,2
+ruislip,2
+ruislip manor,2
+eastcote,2
+rayners lane,2
+south harrow,5
+sudbury hill,3
+sudbury town,2
+alperton,3
+park royal,2
+north ealing,2
+ealing common,2
+Heathrow T2 & 3,4
+hatton cross,4
+hounslow west,4
+hounslow central,3
+hounslow east,1
+osterley,2
+boston manor,3
+northfields,2
+south ealing,1
+acton town,2
+turnham green,4
+chiswick park,2
+stamford brook,3
+ravenscourt park,2
+hammersmith (Dist&Picc Line),2
+barons court,3
+west kensington,1
+earl's court,3
+gloucester road,2
+south kensington,2
+knightsbridge,2
+hyde park corner,2
+green park,2
+piccadilly circus,2
+leicester square,1
+covent garden,1
+holborn,2
+russell square,2
+king's cross st. pancras,2
+caledonian road,4
+holloway road,2
+arsenal,2
+finsbury park,1
+manor house,2
+turnpike lane,4
+wood green,2
+bounds green,3
+arnos grove,2
+southgate,4
+oakwood,3
+cockfosters,2

@@ -1,0 +1,4561 @@
+{
+	"direction": "outbound",
+	"lineId": "transport-for-wales",
+	"lineName": "Transport for Wales",
+	"mode": "national-rail",
+	"stopPointSequences": [
+		{
+			"stopPoint": [
+				{
+					"icsId": "90008047",
+					"id": "910GWREXHMC",
+					"lat": 53.046188,
+					"lon": -2.999053,
+					"name": "Wrexham Central Rail Station",
+					"stationId": "910GWREXHMC",
+					"topMostParentId": "910GWREXHMC"
+				},
+				{
+					"icsId": "90008048",
+					"id": "910GWREXHMG",
+					"lat": 53.050232,
+					"lon": -3.002443,
+					"name": "Wrexham General Rail Station",
+					"stationId": "910GWREXHMG",
+					"topMostParentId": "910GWREXHMG"
+				},
+				{
+					"icsId": "90003234",
+					"id": "910GGWRSYLT",
+					"lat": 53.072574,
+					"lon": -3.017888,
+					"name": "Gwersyllt Rail Station",
+					"stationId": "910GGWRSYLT",
+					"topMostParentId": "910GGWRSYLT"
+				},
+				{
+					"icsId": "90001342",
+					"id": "910GCEFNYBD",
+					"lat": 53.0988,
+					"lon": -3.031053,
+					"name": "Cefn-y-Bedd Rail Station",
+					"stationId": "910GCEFNYBD",
+					"topMostParentId": "910GCEFNYBD"
+				},
+				{
+					"icsId": "90001198",
+					"id": "910GCAERGWL",
+					"lat": 53.107863,
+					"lon": -3.032913,
+					"name": "Caergwrle Rail Station",
+					"stationId": "910GCAERGWL",
+					"topMostParentId": "910GCAERGWL"
+				},
+				{
+					"icsId": "90003605",
+					"id": "910GHOPC",
+					"lat": 53.117357,
+					"lon": -3.036876,
+					"name": "Hope (Flintshire) Rail Station",
+					"stationId": "910GHOPC",
+					"topMostParentId": "910GHOPC"
+				},
+				{
+					"icsId": "90005729",
+					"id": "910GPNYF",
+					"lat": 53.143089,
+					"lon": -3.054838,
+					"name": "Penyffordd Rail Station",
+					"stationId": "910GPNYF",
+					"topMostParentId": "910GPNYF"
+				},
+				{
+					"icsId": "90000464",
+					"id": "910GBCKY",
+					"lat": 53.163036,
+					"lon": -3.055926,
+					"name": "Buckley Rail Station",
+					"stationId": "910GBCKY",
+					"topMostParentId": "910GBCKY"
+				},
+				{
+					"icsId": "90003331",
+					"id": "910GHAWARDN",
+					"lat": 53.185359,
+					"lon": -3.032081,
+					"name": "Hawarden Rail Station",
+					"stationId": "910GHAWARDN",
+					"topMostParentId": "910GHAWARDN"
+				},
+				{
+					"icsId": "90006478",
+					"id": "910GSHOTTHL",
+					"lat": 53.213536,
+					"lon": -3.0377,
+					"name": "Shotton High Level Rail Station",
+					"stationId": "910GSHOTTHL",
+					"topMostParentId": "910GSHOTTHL"
+				},
+				{
+					"icsId": "90003332",
+					"id": "910GHAWDNBG",
+					"lat": 53.218074,
+					"lon": -3.032717,
+					"name": "Hawarden Bridge Rail Station",
+					"stationId": "910GHAWDNBG",
+					"topMostParentId": "910GHAWDNBG"
+				},
+				{
+					"icsId": "90005180",
+					"id": "910GNESTON",
+					"lat": 53.291851,
+					"lon": -3.063076,
+					"name": "Neston Rail Station",
+					"stationId": "910GNESTON",
+					"topMostParentId": "910GNESTON"
+				},
+				{
+					"icsId": "90003417",
+					"id": "910GHESWALL",
+					"lat": 53.329717,
+					"lon": -3.073703,
+					"name": "Heswall Rail Station",
+					"stationId": "910GHESWALL",
+					"topMostParentId": "910GHESWALL"
+				},
+				{
+					"icsId": "90007493",
+					"id": "910GUPTON",
+					"lat": 53.386487,
+					"lon": -3.084153,
+					"name": "Upton Rail Station",
+					"stationId": "910GUPTON",
+					"topMostParentId": "910GUPTON"
+				},
+				{
+					"icsId": "90000490",
+					"id": "910GBDSTON",
+					"lat": 53.409137,
+					"lon": -3.078561,
+					"name": "Bidston Rail Station",
+					"stationId": "910GBDSTON",
+					"topMostParentId": "910GBDSTON"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90004622",
+					"id": "910GLUDO",
+					"lat": 53.320916,
+					"lon": -3.827001,
+					"name": "Llandudno Rail Station",
+					"stationId": "910GLUDO",
+					"topMostParentId": "910GLUDO"
+				},
+				{
+					"icsId": "90002051",
+					"id": "910GDEGANWY",
+					"lat": 53.294747,
+					"lon": -3.833386,
+					"name": "Deganwy Rail Station",
+					"stationId": "910GDEGANWY",
+					"topMostParentId": "910GDEGANWY"
+				},
+				{
+					"icsId": "90004227",
+					"id": "910GLANDUDJ",
+					"lat": 53.283944,
+					"lon": -3.809102,
+					"name": "Llandudno Junction Rail Station",
+					"stationId": "910GLANDUDJ",
+					"topMostParentId": "910GLANDUDJ"
+				},
+				{
+					"icsId": "90002992",
+					"id": "910GGLNCNWY",
+					"lat": 53.267421,
+					"lon": -3.797727,
+					"name": "Glan Conwy Rail Station",
+					"stationId": "910GGLNCNWY",
+					"topMostParentId": "910GGLNCNWY"
+				},
+				{
+					"icsId": "90007114",
+					"id": "910GTALYCFN",
+					"lat": 53.228363,
+					"lon": -3.818263,
+					"name": "Tal-y-Cafn Rail Station",
+					"stationId": "910GTALYCFN",
+					"topMostParentId": "910GTALYCFN"
+				},
+				{
+					"icsId": "90002198",
+					"id": "910GDOLGARG",
+					"lat": 53.186348,
+					"lon": -3.822636,
+					"name": "Dolgarrog Rail Station",
+					"stationId": "910GDOLGARG",
+					"topMostParentId": "910GDOLGARG"
+				},
+				{
+					"icsId": "90005225",
+					"id": "910GNLANRST",
+					"lat": 53.143822,
+					"lon": -3.802727,
+					"name": "North Llanrwst Rail Station",
+					"stationId": "910GNLANRST",
+					"topMostParentId": "910GNLANRST"
+				},
+				{
+					"icsId": "90004534",
+					"id": "910GLNRWST",
+					"lat": 53.13885,
+					"lon": -3.794401,
+					"name": "Llanrwst Rail Station",
+					"stationId": "910GLNRWST",
+					"topMostParentId": "910GLNRWST"
+				},
+				{
+					"icsId": "90000568",
+					"id": "910GBETSYCD",
+					"lat": 53.092066,
+					"lon": -3.800861,
+					"name": "Betws-y-Coed Rail Station",
+					"stationId": "910GBETSYCD",
+					"topMostParentId": "910GBETSYCD"
+				},
+				{
+					"icsId": "90005732",
+					"id": "910GPNYPANT",
+					"lat": 53.065132,
+					"lon": -3.862721,
+					"name": "Pont-y-Pant Rail Station",
+					"stationId": "910GPNYPANT",
+					"topMostParentId": "910GPNYPANT"
+				},
+				{
+					"icsId": "90002155",
+					"id": "910GDLWYDLN",
+					"lat": 53.052012,
+					"lon": -3.885132,
+					"name": "Dolwyddelan Rail Station",
+					"stationId": "910GDLWYDLN",
+					"topMostParentId": "910GDLWYDLN"
+				},
+				{
+					"icsId": "90006096",
+					"id": "910GROMANBG",
+					"lat": 53.044415,
+					"lon": -3.921648,
+					"name": "Roman Bridge Rail Station",
+					"stationId": "910GROMANBG",
+					"topMostParentId": "910GROMANBG"
+				},
+				{
+					"icsId": "90000626",
+					"id": "910GBLAENAU",
+					"lat": 52.994548,
+					"lon": -3.938595,
+					"name": "Blaenau Ffestiniog Rail Station",
+					"stationId": "910GBLAENAU",
+					"topMostParentId": "910GBLAENAU"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90002429",
+					"id": "910GEBWVTN",
+					"lat": 51.776688,
+					"lon": -3.202577,
+					"name": "Ebbw Vale Town Rail Station",
+					"stationId": "910GEBWVTN",
+					"topMostParentId": "910GEBWVTN"
+				},
+				{
+					"icsId": "90002430",
+					"id": "910GEBWVPWY",
+					"lat": 51.757143,
+					"lon": -3.196103,
+					"name": "Ebbw Vale Parkway Rail Station",
+					"stationId": "910GEBWVPWY",
+					"topMostParentId": "910GEBWVPWY"
+				},
+				{
+					"icsId": "90004441",
+					"id": "910GLLHLETH",
+					"lat": 51.700301,
+					"lon": -3.135188,
+					"name": "Llanhilleth Rail Station",
+					"stationId": "910GLLHLETH",
+					"topMostParentId": "910GLLHLETH"
+				},
+				{
+					"icsId": "90005156",
+					"id": "910GNBRWGE",
+					"lat": 51.665815,
+					"lon": -3.142885,
+					"name": "Newbridge Rail Station",
+					"stationId": "910GNBRWGE",
+					"topMostParentId": "910GNBRWGE"
+				},
+				{
+					"icsId": "90001914",
+					"id": "910GCRSKEYS",
+					"lat": 51.620902,
+					"lon": -3.12617,
+					"name": "Crosskeys Rail Station",
+					"stationId": "910GCRSKEYS",
+					"topMostParentId": "910GCRSKEYS"
+				},
+				{
+					"icsId": "90006077",
+					"id": "910GRISCA",
+					"lat": 51.605847,
+					"lon": -3.092209,
+					"name": "Risca & Pontymister Rail Station",
+					"stationId": "910GRISCA",
+					"topMostParentId": "910GRISCA"
+				},
+				{
+					"icsId": "90006095",
+					"id": "910GROGRSTN",
+					"lat": 51.595616,
+					"lon": -3.066612,
+					"name": "Rogerstone Rail Station",
+					"stationId": "910GROGRSTN",
+					"topMostParentId": "910GROGRSTN"
+				},
+				{
+					"icsId": "90005912",
+					"id": "910GPYECRNR",
+					"lat": 51.581476,
+					"lon": -3.041212,
+					"name": "Pye Corner Rail Station",
+					"stationId": "910GPYECRNR",
+					"topMostParentId": "910GPYECRNR"
+				},
+				{
+					"icsId": "90001763",
+					"id": "910GCRDFCEN",
+					"lat": 51.476025,
+					"lon": -3.179302,
+					"name": "Cardiff Central Rail Station",
+					"stationId": "910GCRDFCEN",
+					"topMostParentId": "910GCRDFCEN"
+				},
+				{
+					"icsId": "90005221",
+					"id": "910GNINIANP",
+					"lat": 51.476616,
+					"lon": -3.201694,
+					"name": "Ninian Park Rail Station",
+					"stationId": "910GNINIANP",
+					"topMostParentId": "910GNINIANP"
+				},
+				{
+					"icsId": "90005752",
+					"id": "910GPONYCLN",
+					"lat": 51.523768,
+					"lon": -3.392918,
+					"name": "Pontyclun Rail Station",
+					"stationId": "910GPONYCLN",
+					"topMostParentId": "910GPONYCLN"
+				},
+				{
+					"icsId": "90004443",
+					"id": "910GLLHARAN",
+					"lat": 51.537586,
+					"lon": -3.440778,
+					"name": "Llanharan Rail Station",
+					"stationId": "910GLLHARAN",
+					"topMostParentId": "910GLLHARAN"
+				},
+				{
+					"icsId": "90005600",
+					"id": "910GPENCOED",
+					"lat": 51.524608,
+					"lon": -3.500479,
+					"name": "Pencoed Rail Station",
+					"stationId": "910GPENCOED",
+					"topMostParentId": "910GPENCOED"
+				},
+				{
+					"icsId": "90000892",
+					"id": "910GBRGEND",
+					"lat": 51.506974,
+					"lon": -3.575276,
+					"name": "Bridgend Rail Station",
+					"stationId": "910GBRGEND",
+					"topMostParentId": "910GBRGEND"
+				},
+				{
+					"icsId": "90005917",
+					"id": "910GPYLE",
+					"lat": 51.525735,
+					"lon": -3.698052,
+					"name": "Pyle Rail Station",
+					"stationId": "910GPYLE",
+					"topMostParentId": "910GPYLE"
+				},
+				{
+					"icsId": "90005866",
+					"id": "910GPTALBOT",
+					"lat": 51.591718,
+					"lon": -3.781314,
+					"name": "Port Talbot Parkway Rail Station",
+					"stationId": "910GPTALBOT",
+					"topMostParentId": "910GPTALBOT"
+				},
+				{
+					"icsId": "90000576",
+					"id": "910GBGLAN",
+					"lat": 51.615541,
+					"lon": -3.811136,
+					"name": "Baglan Rail Station",
+					"stationId": "910GBGLAN",
+					"topMostParentId": "910GBGLAN"
+				},
+				{
+					"icsId": "90000922",
+					"id": "910GBRITFRY",
+					"lat": 51.637896,
+					"lon": -3.819252,
+					"name": "Briton Ferry Rail Station",
+					"stationId": "910GBRITFRY",
+					"topMostParentId": "910GBRITFRY"
+				},
+				{
+					"icsId": "90005173",
+					"id": "910GNEATH",
+					"lat": 51.662361,
+					"lon": -3.807219,
+					"name": "Neath Rail Station",
+					"stationId": "910GNEATH",
+					"topMostParentId": "910GNEATH"
+				},
+				{
+					"icsId": "90006557",
+					"id": "910GSKEWEN",
+					"lat": 51.66139,
+					"lon": -3.846509,
+					"name": "Skewen Rail Station",
+					"stationId": "910GSKEWEN",
+					"topMostParentId": "910GSKEWEN"
+				},
+				{
+					"icsId": "90004445",
+					"id": "910GLLNSMLT",
+					"lat": 51.661503,
+					"lon": -3.884685,
+					"name": "Llansamlet Rail Station",
+					"stationId": "910GLLNSMLT",
+					"topMostParentId": "910GLLNSMLT"
+				},
+				{
+					"icsId": "90007054",
+					"id": "910GSWANSEA",
+					"lat": 51.625146,
+					"lon": -3.941546,
+					"name": "Swansea Rail Station",
+					"stationId": "910GSWANSEA",
+					"topMostParentId": "910GSWANSEA"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90003015",
+					"id": "910GGLOSTER",
+					"lat": 51.865559,
+					"lon": -2.238488,
+					"name": "Gloucester Rail Station",
+					"stationId": "910GGLOSTER",
+					"topMostParentId": "910GGLOSTER"
+				},
+				{
+					"icsId": "90004670",
+					"id": "910GLYDNEY",
+					"lat": 51.714226,
+					"lon": -2.530792,
+					"name": "Lydney Rail Station",
+					"stationId": "910GLYDNEY",
+					"topMostParentId": "910GLYDNEY"
+				},
+				{
+					"icsId": "90001383",
+					"id": "910GCHEPSTW",
+					"lat": 51.640179,
+					"lon": -2.671905,
+					"name": "Chepstow Rail Station",
+					"stationId": "910GCHEPSTW",
+					"topMostParentId": "910GCHEPSTW"
+				},
+				{
+					"icsId": "90001328",
+					"id": "910GCDCOT",
+					"lat": 51.58479,
+					"lon": -2.760573,
+					"name": "Caldicot Rail Station",
+					"stationId": "910GCDCOT",
+					"topMostParentId": "910GCDCOT"
+				},
+				{
+					"icsId": "90006397",
+					"id": "910GSEVTNLJ",
+					"lat": 51.584677,
+					"lon": -2.777891,
+					"name": "Severn Tunnel Junction Rail Station",
+					"stationId": "910GSEVTNLJ",
+					"topMostParentId": "910GSEVTNLJ"
+				},
+				{
+					"icsId": "90005392",
+					"id": "910GNWPTRTG",
+					"lat": 51.588789,
+					"lon": -3.000543,
+					"name": "Newport (S Wales) Rail Station",
+					"stationId": "910GNWPTRTG",
+					"topMostParentId": "910GNWPTRTG"
+				},
+				{
+					"icsId": "90001763",
+					"id": "910GCRDFCEN",
+					"lat": 51.476025,
+					"lon": -3.179302,
+					"name": "Cardiff Central Rail Station",
+					"stationId": "910GCRDFCEN",
+					"topMostParentId": "910GCRDFCEN"
+				},
+				{
+					"icsId": "90005221",
+					"id": "910GNINIANP",
+					"lat": 51.476616,
+					"lon": -3.201694,
+					"name": "Ninian Park Rail Station",
+					"stationId": "910GNINIANP",
+					"topMostParentId": "910GNINIANP"
+				},
+				{
+					"icsId": "90005752",
+					"id": "910GPONYCLN",
+					"lat": 51.523768,
+					"lon": -3.392918,
+					"name": "Pontyclun Rail Station",
+					"stationId": "910GPONYCLN",
+					"topMostParentId": "910GPONYCLN"
+				},
+				{
+					"icsId": "90004443",
+					"id": "910GLLHARAN",
+					"lat": 51.537586,
+					"lon": -3.440778,
+					"name": "Llanharan Rail Station",
+					"stationId": "910GLLHARAN",
+					"topMostParentId": "910GLLHARAN"
+				},
+				{
+					"icsId": "90005600",
+					"id": "910GPENCOED",
+					"lat": 51.524608,
+					"lon": -3.500479,
+					"name": "Pencoed Rail Station",
+					"stationId": "910GPENCOED",
+					"topMostParentId": "910GPENCOED"
+				},
+				{
+					"icsId": "90000892",
+					"id": "910GBRGEND",
+					"lat": 51.506974,
+					"lon": -3.575276,
+					"name": "Bridgend Rail Station",
+					"stationId": "910GBRGEND",
+					"topMostParentId": "910GBRGEND"
+				},
+				{
+					"icsId": "90005917",
+					"id": "910GPYLE",
+					"lat": 51.525735,
+					"lon": -3.698052,
+					"name": "Pyle Rail Station",
+					"stationId": "910GPYLE",
+					"topMostParentId": "910GPYLE"
+				},
+				{
+					"icsId": "90005866",
+					"id": "910GPTALBOT",
+					"lat": 51.591718,
+					"lon": -3.781314,
+					"name": "Port Talbot Parkway Rail Station",
+					"stationId": "910GPTALBOT",
+					"topMostParentId": "910GPTALBOT"
+				},
+				{
+					"icsId": "90000576",
+					"id": "910GBGLAN",
+					"lat": 51.615541,
+					"lon": -3.811136,
+					"name": "Baglan Rail Station",
+					"stationId": "910GBGLAN",
+					"topMostParentId": "910GBGLAN"
+				},
+				{
+					"icsId": "90000922",
+					"id": "910GBRITFRY",
+					"lat": 51.637896,
+					"lon": -3.819252,
+					"name": "Briton Ferry Rail Station",
+					"stationId": "910GBRITFRY",
+					"topMostParentId": "910GBRITFRY"
+				},
+				{
+					"icsId": "90005173",
+					"id": "910GNEATH",
+					"lat": 51.662361,
+					"lon": -3.807219,
+					"name": "Neath Rail Station",
+					"stationId": "910GNEATH",
+					"topMostParentId": "910GNEATH"
+				},
+				{
+					"icsId": "90006557",
+					"id": "910GSKEWEN",
+					"lat": 51.66139,
+					"lon": -3.846509,
+					"name": "Skewen Rail Station",
+					"stationId": "910GSKEWEN",
+					"topMostParentId": "910GSKEWEN"
+				},
+				{
+					"icsId": "90004445",
+					"id": "910GLLNSMLT",
+					"lat": 51.661503,
+					"lon": -3.884685,
+					"name": "Llansamlet Rail Station",
+					"stationId": "910GLLNSMLT",
+					"topMostParentId": "910GLLNSMLT"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90004445",
+					"id": "910GLLNSMLT",
+					"lat": 51.661503,
+					"lon": -3.884685,
+					"name": "Llansamlet Rail Station",
+					"stationId": "910GLLNSMLT",
+					"topMostParentId": "910GLLNSMLT"
+				},
+				{
+					"icsId": "90007054",
+					"id": "910GSWANSEA",
+					"lat": 51.625146,
+					"lon": -3.941546,
+					"name": "Swansea Rail Station",
+					"stationId": "910GSWANSEA",
+					"topMostParentId": "910GSWANSEA"
+				},
+				{
+					"icsId": "90003081",
+					"id": "910GGOWERTN",
+					"lat": 51.648725,
+					"lon": -4.035935,
+					"name": "Gowerton Rail Station",
+					"stationId": "910GGOWERTN",
+					"topMostParentId": "910GGOWERTN"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90003081",
+					"id": "910GGOWERTN",
+					"lat": 51.648725,
+					"lon": -4.035935,
+					"name": "Gowerton Rail Station",
+					"stationId": "910GGOWERTN",
+					"topMostParentId": "910GGOWERTN"
+				},
+				{
+					"icsId": "90004444",
+					"id": "910GLLNLLI",
+					"lat": 51.673867,
+					"lon": -4.161303,
+					"name": "Llanelli Rail Station",
+					"stationId": "910GLLNLLI",
+					"topMostParentId": "910GLLNLLI"
+				},
+				{
+					"icsId": "90005708",
+					"id": "910GPMBRYBP",
+					"lat": 51.683528,
+					"lon": -4.247841,
+					"name": "Pembrey & Burry Port Rail Station",
+					"stationId": "910GPMBRYBP",
+					"topMostParentId": "910GPMBRYBP"
+				},
+				{
+					"icsId": "90004047",
+					"id": "910GKIDWELY",
+					"lat": 51.734342,
+					"lon": -4.316985,
+					"name": "Kidwelly Rail Station",
+					"stationId": "910GKIDWELY",
+					"topMostParentId": "910GKIDWELY"
+				},
+				{
+					"icsId": "90002894",
+					"id": "910GFYSD",
+					"lat": 51.768367,
+					"lon": -4.369458,
+					"name": "Ferryside Rail Station",
+					"stationId": "910GFYSD",
+					"topMostParentId": "910GFYSD"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90002894",
+					"id": "910GFYSD",
+					"lat": 51.768367,
+					"lon": -4.369458,
+					"name": "Ferryside Rail Station",
+					"stationId": "910GFYSD",
+					"topMostParentId": "910GFYSD"
+				},
+				{
+					"icsId": "90001613",
+					"id": "910GCMTHN",
+					"lat": 51.853353,
+					"lon": -4.305961,
+					"name": "Carmarthen Rail Station",
+					"stationId": "910GCMTHN",
+					"topMostParentId": "910GCMTHN"
+				},
+				{
+					"icsId": "90007765",
+					"id": "910GWHLAND",
+					"lat": 51.81803,
+					"lon": -4.614391,
+					"name": "Whitland Rail Station",
+					"stationId": "910GWHLAND",
+					"topMostParentId": "910GWHLAND"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90007765",
+					"id": "910GWHLAND",
+					"lat": 51.81803,
+					"lon": -4.614391,
+					"name": "Whitland Rail Station",
+					"stationId": "910GWHLAND",
+					"topMostParentId": "910GWHLAND"
+				},
+				{
+					"icsId": "90005277",
+					"id": "910GNRBERTH",
+					"lat": 51.799369,
+					"lon": -4.727175,
+					"name": "Narberth Rail Station",
+					"stationId": "910GNRBERTH",
+					"topMostParentId": "910GNRBERTH"
+				},
+				{
+					"icsId": "90004051",
+					"id": "910GKILGETY",
+					"lat": 51.732106,
+					"lon": -4.715156,
+					"name": "Kilgetty Rail Station",
+					"stationId": "910GKILGETY",
+					"topMostParentId": "910GKILGETY"
+				},
+				{
+					"icsId": "90006339",
+					"id": "910GSDRSFOT",
+					"lat": 51.722091,
+					"lon": -4.716583,
+					"name": "Saundersfoot Rail Station",
+					"stationId": "910GSDRSFOT",
+					"topMostParentId": "910GSDRSFOT"
+				},
+				{
+					"icsId": "90007154",
+					"id": "910GTENBY",
+					"lat": 51.672945,
+					"lon": -4.706696,
+					"name": "Tenby Rail Station",
+					"stationId": "910GTENBY",
+					"topMostParentId": "910GTENBY"
+				},
+				{
+					"icsId": "90005709",
+					"id": "910GPNALLY",
+					"lat": 51.658919,
+					"lon": -4.722055,
+					"name": "Penally Rail Station",
+					"stationId": "910GPNALLY",
+					"topMostParentId": "910GPNALLY"
+				},
+				{
+					"icsId": "90004955",
+					"id": "910GMNORBER",
+					"lat": 51.660158,
+					"lon": -4.79183,
+					"name": "Manorbier Rail Station",
+					"stationId": "910GMNORBER",
+					"topMostParentId": "910GMNORBER"
+				},
+				{
+					"icsId": "90004216",
+					"id": "910GLAMPHEY",
+					"lat": 51.667187,
+					"lon": -4.873256,
+					"name": "Lamphey Rail Station",
+					"stationId": "910GLAMPHEY",
+					"topMostParentId": "910GLAMPHEY"
+				},
+				{
+					"icsId": "90005597",
+					"id": "910GPEMBROK",
+					"lat": 51.672945,
+					"lon": -4.906023,
+					"name": "Pembroke Rail Station",
+					"stationId": "910GPEMBROK",
+					"topMostParentId": "910GPEMBROK"
+				},
+				{
+					"icsId": "90005596",
+					"id": "910GPEMBRKD",
+					"lat": 51.693913,
+					"lon": -4.938048,
+					"name": "Pembroke Dock Rail Station",
+					"stationId": "910GPEMBRKD",
+					"topMostParentId": "910GPEMBRKD"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90007765",
+					"id": "910GWHLAND",
+					"lat": 51.81803,
+					"lon": -4.614391,
+					"name": "Whitland Rail Station",
+					"stationId": "910GWHLAND",
+					"topMostParentId": "910GWHLAND"
+				},
+				{
+					"icsId": "90001591",
+					"id": "910GCLYNDRW",
+					"lat": 51.84054,
+					"lon": -4.731842,
+					"name": "Clunderwen Rail Station",
+					"stationId": "910GCLYNDRW",
+					"topMostParentId": "910GCLYNDRW"
+				},
+				{
+					"icsId": "90001502",
+					"id": "910GCLARBRD",
+					"lat": 51.851665,
+					"lon": -4.883548,
+					"name": "Clarbeston Road Rail Station",
+					"stationId": "910GCLARBRD",
+					"topMostParentId": "910GCLARBRD"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90001502",
+					"id": "910GCLARBRD",
+					"lat": 51.851665,
+					"lon": -4.883548,
+					"name": "Clarbeston Road Rail Station",
+					"stationId": "910GCLARBRD",
+					"topMostParentId": "910GCLARBRD"
+				},
+				{
+					"icsId": "90003329",
+					"id": "910GHAVRFDW",
+					"lat": 51.802632,
+					"lon": -4.960203,
+					"name": "Haverfordwest Rail Station",
+					"stationId": "910GHAVRFDW",
+					"topMostParentId": "910GHAVRFDW"
+				},
+				{
+					"icsId": "90003968",
+					"id": "910GJHNSTND",
+					"lat": 51.756747,
+					"lon": -4.996328,
+					"name": "Johnston (Pembrokeshire) Rail Station",
+					"stationId": "910GJHNSTND",
+					"topMostParentId": "910GJHNSTND"
+				},
+				{
+					"icsId": "90004884",
+					"id": "910GMLFDHVN",
+					"lat": 51.714973,
+					"lon": -5.040968,
+					"name": "Milford Haven Rail Station",
+					"stationId": "910GMLFDHVN",
+					"topMostParentId": "910GMLFDHVN"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90001502",
+					"id": "910GCLARBRD",
+					"lat": 51.851665,
+					"lon": -4.883548,
+					"name": "Clarbeston Road Rail Station",
+					"stationId": "910GCLARBRD",
+					"topMostParentId": "910GCLARBRD"
+				},
+				{
+					"icsId": "90002731",
+					"id": "910GFGDHGWK",
+					"lat": 52.004114,
+					"lon": -4.994838,
+					"name": "Fishguard & Goodwick Rail Station",
+					"stationId": "910GFGDHGWK",
+					"topMostParentId": "910GFGDHGWK"
+				},
+				{
+					"icsId": "90002730",
+					"id": "910GFGDHBR",
+					"lat": 52.011543,
+					"lon": -4.985642,
+					"name": "Fishguard Harbour Rail Station",
+					"stationId": "910GFGDHBR",
+					"topMostParentId": "910GFGDHBR"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90001613",
+					"id": "910GCMTHN",
+					"lat": 51.853353,
+					"lon": -4.305961,
+					"name": "Carmarthen Rail Station",
+					"stationId": "910GCMTHN",
+					"topMostParentId": "910GCMTHN"
+				},
+				{
+					"icsId": "90002894",
+					"id": "910GFYSD",
+					"lat": 51.768367,
+					"lon": -4.369458,
+					"name": "Ferryside Rail Station",
+					"stationId": "910GFYSD",
+					"topMostParentId": "910GFYSD"
+				},
+				{
+					"icsId": "90004047",
+					"id": "910GKIDWELY",
+					"lat": 51.734342,
+					"lon": -4.316985,
+					"name": "Kidwelly Rail Station",
+					"stationId": "910GKIDWELY",
+					"topMostParentId": "910GKIDWELY"
+				},
+				{
+					"icsId": "90005708",
+					"id": "910GPMBRYBP",
+					"lat": 51.683528,
+					"lon": -4.247841,
+					"name": "Pembrey & Burry Port Rail Station",
+					"stationId": "910GPMBRYBP",
+					"topMostParentId": "910GPMBRYBP"
+				},
+				{
+					"icsId": "90004444",
+					"id": "910GLLNLLI",
+					"lat": 51.673867,
+					"lon": -4.161303,
+					"name": "Llanelli Rail Station",
+					"stationId": "910GLLNLLI",
+					"topMostParentId": "910GLLNLLI"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90004444",
+					"id": "910GLLNLLI",
+					"lat": 51.673867,
+					"lon": -4.161303,
+					"name": "Llanelli Rail Station",
+					"stationId": "910GLLNLLI",
+					"topMostParentId": "910GLLNLLI"
+				},
+				{
+					"icsId": "90001191",
+					"id": "910GBYNEA",
+					"lat": 51.672032,
+					"lon": -4.098881,
+					"name": "Bynea Rail Station",
+					"stationId": "910GBYNEA",
+					"topMostParentId": "910GBYNEA"
+				},
+				{
+					"icsId": "90004439",
+					"id": "910GLLGNNCH",
+					"lat": 51.691136,
+					"lon": -4.078929,
+					"name": "Llangennech Rail Station",
+					"stationId": "910GLLGNNCH",
+					"topMostParentId": "910GLLGNNCH"
+				},
+				{
+					"icsId": "90005721",
+					"id": "910GPNTADLS",
+					"lat": 51.717621,
+					"lon": -4.045543,
+					"name": "Pontarddulais Rail Station",
+					"stationId": "910GPNTADLS",
+					"topMostParentId": "910GPNTADLS"
+				},
+				{
+					"icsId": "90005727",
+					"id": "910GPNTYFYN",
+					"lat": 51.778878,
+					"lon": -3.997429,
+					"name": "Pantyffynnon Rail Station",
+					"stationId": "910GPNTYFYN",
+					"topMostParentId": "910GPNTYFYN"
+				},
+				{
+					"icsId": "90000172",
+					"id": "910GAMMANFD",
+					"lat": 51.795975,
+					"lon": -3.996735,
+					"name": "Ammanford Rail Station",
+					"stationId": "910GAMMANFD",
+					"topMostParentId": "910GAMMANFD"
+				},
+				{
+					"icsId": "90004434",
+					"id": "910GLLDYBIE",
+					"lat": 51.821035,
+					"lon": -4.003647,
+					"name": "Llandybie Rail Station",
+					"stationId": "910GLLDYBIE",
+					"topMostParentId": "910GLLDYBIE"
+				},
+				{
+					"icsId": "90002728",
+					"id": "910GFFAIRFC",
+					"lat": 51.872474,
+					"lon": -3.992859,
+					"name": "Ffairfach Rail Station",
+					"stationId": "910GFFAIRFC",
+					"topMostParentId": "910GFFAIRFC"
+				},
+				{
+					"icsId": "90004428",
+					"id": "910GLLDEILO",
+					"lat": 51.885344,
+					"lon": -3.98689,
+					"name": "Llandeilo Rail Station",
+					"stationId": "910GLLDEILO",
+					"topMostParentId": "910GLLDEILO"
+				},
+				{
+					"icsId": "90004436",
+					"id": "910GLLGADOG",
+					"lat": 51.940213,
+					"lon": -3.893147,
+					"name": "Llangadog Rail Station",
+					"stationId": "910GLLGADOG",
+					"topMostParentId": "910GLLGADOG"
+				},
+				{
+					"icsId": "90004451",
+					"id": "910GLLWRDA",
+					"lat": 51.962587,
+					"lon": -3.871674,
+					"name": "Llanwrda Rail Station",
+					"stationId": "910GLLWRDA",
+					"topMostParentId": "910GLLWRDA"
+				},
+				{
+					"icsId": "90004432",
+					"id": "910GLLDVERY",
+					"lat": 51.995312,
+					"lon": -3.802829,
+					"name": "Llandovery Rail Station",
+					"stationId": "910GLLDVERY",
+					"topMostParentId": "910GLLDVERY"
+				},
+				{
+					"icsId": "90001995",
+					"id": "910GCYNGHRD",
+					"lat": 52.051498,
+					"lon": -3.748211,
+					"name": "Cynghordy Rail Station",
+					"stationId": "910GCYNGHRD",
+					"topMostParentId": "910GCYNGHRD"
+				},
+				{
+					"icsId": "90006413",
+					"id": "910GSGRLOAF",
+					"lat": 52.08227,
+					"lon": -3.686949,
+					"name": "Sugar Loaf Rail Station",
+					"stationId": "910GSGRLOAF",
+					"topMostParentId": "910GSGRLOAF"
+				},
+				{
+					"icsId": "90004452",
+					"id": "910GLLWRTYW",
+					"lat": 52.104711,
+					"lon": -3.632163,
+					"name": "Llanwrtyd Rail Station",
+					"stationId": "910GLLWRTYW",
+					"topMostParentId": "910GLLWRTYW"
+				},
+				{
+					"icsId": "90004438",
+					"id": "910GLLGMMRW",
+					"lat": 52.114298,
+					"lon": -3.554817,
+					"name": "Llangammarch Rail Station",
+					"stationId": "910GLLGMMRW",
+					"topMostParentId": "910GLLGMMRW"
+				},
+				{
+					"icsId": "90002908",
+					"id": "910GGARTH",
+					"lat": 52.133236,
+					"lon": -3.529907,
+					"name": "Garth (Powys) Rail Station",
+					"stationId": "910GGARTH",
+					"topMostParentId": "910GGARTH"
+				},
+				{
+					"icsId": "90001492",
+					"id": "910GCILMERY",
+					"lat": 52.15053,
+					"lon": -3.456541,
+					"name": "Cilmeri Rail Station",
+					"stationId": "910GCILMERY",
+					"topMostParentId": "910GCILMERY"
+				},
+				{
+					"icsId": "90001148",
+					"id": "910GBUILTHR",
+					"lat": 52.169322,
+					"lon": -3.427033,
+					"name": "Builth Road Rail Station",
+					"stationId": "910GBUILTHR",
+					"topMostParentId": "910GBUILTHR"
+				},
+				{
+					"icsId": "90004431",
+					"id": "910GLLDODW",
+					"lat": 52.24236,
+					"lon": -3.379138,
+					"name": "Llandrindod Rail Station",
+					"stationId": "910GLLDODW",
+					"topMostParentId": "910GLLDODW"
+				},
+				{
+					"icsId": "90005909",
+					"id": "910GPYBONT",
+					"lat": 52.273943,
+					"lon": -3.321931,
+					"name": "Pen-y-Bont Rail Station",
+					"stationId": "910GPYBONT",
+					"topMostParentId": "910GPYBONT"
+				},
+				{
+					"icsId": "90002196",
+					"id": "910GDOLAU",
+					"lat": 52.29535,
+					"lon": -3.26362,
+					"name": "Dolau Rail Station",
+					"stationId": "910GDOLAU",
+					"topMostParentId": "910GDOLAU"
+				},
+				{
+					"icsId": "90004425",
+					"id": "910GLLBSTRD",
+					"lat": 52.336425,
+					"lon": -3.213421,
+					"name": "Llanbister Road Rail Station",
+					"stationId": "910GLLBSTRD",
+					"topMostParentId": "910GLLBSTRD"
+				},
+				{
+					"icsId": "90004440",
+					"id": "910GLLGUNLO",
+					"lat": 52.349625,
+					"lon": -3.161369,
+					"name": "Llangynllo Rail Station",
+					"stationId": "910GLLGUNLO",
+					"topMostParentId": "910GLLGUNLO"
+				},
+				{
+					"icsId": "90004157",
+					"id": "910GKNUCKLS",
+					"lat": 52.359861,
+					"lon": -3.096877,
+					"name": "Knucklas Rail Station",
+					"stationId": "910GKNUCKLS",
+					"topMostParentId": "910GKNUCKLS"
+				},
+				{
+					"icsId": "90004127",
+					"id": "910GKNIGHTN",
+					"lat": 52.345073,
+					"lon": -3.042196,
+					"name": "Knighton Rail Station",
+					"stationId": "910GKNIGHTN",
+					"topMostParentId": "910GKNIGHTN"
+				},
+				{
+					"icsId": "90000618",
+					"id": "910GBKNELL",
+					"lat": 52.357379,
+					"lon": -2.947378,
+					"name": "Bucknell Rail Station",
+					"stationId": "910GBKNELL",
+					"topMostParentId": "910GBKNELL"
+				},
+				{
+					"icsId": "90003608",
+					"id": "910GHOPTONH",
+					"lat": 52.391416,
+					"lon": -2.91206,
+					"name": "Hopton Heath Rail Station",
+					"stationId": "910GHOPTONH",
+					"topMostParentId": "910GHOPTONH"
+				},
+				{
+					"icsId": "90001002",
+					"id": "910GBROOME",
+					"lat": 52.422772,
+					"lon": -2.885207,
+					"name": "Broome Rail Station",
+					"stationId": "910GBROOME",
+					"topMostParentId": "910GBROOME"
+				},
+				{
+					"icsId": "90001754",
+					"id": "910GCRAVENA",
+					"lat": 52.442539,
+					"lon": -2.837422,
+					"name": "Craven Arms Rail Station",
+					"stationId": "910GCRAVENA",
+					"topMostParentId": "910GCRAVENA"
+				},
+				{
+					"icsId": "90001950",
+					"id": "910GCSTR",
+					"lat": 52.537421,
+					"lon": -2.803694,
+					"name": "Church Stretton Rail Station",
+					"stationId": "910GCSTR",
+					"topMostParentId": "910GCSTR"
+				},
+				{
+					"icsId": "90006519",
+					"id": "910GSHRWBY",
+					"lat": 52.711928,
+					"lon": -2.749761,
+					"name": "Shrewsbury Rail Station",
+					"stationId": "910GSHRWBY",
+					"topMostParentId": "910GSHRWBY"
+				},
+				{
+					"icsId": "90008205",
+					"id": "910GYORTON",
+					"lat": 52.808957,
+					"lon": -2.736461,
+					"name": "Yorton Rail Station",
+					"stationId": "910GYORTON",
+					"topMostParentId": "910GYORTON"
+				},
+				{
+					"icsId": "90007705",
+					"id": "910GWEMM",
+					"lat": 52.856409,
+					"lon": -2.718017,
+					"name": "Wem Rail Station",
+					"stationId": "910GWEMM",
+					"topMostParentId": "910GWEMM"
+				},
+				{
+					"icsId": "90005772",
+					"id": "910GPREES",
+					"lat": 52.899305,
+					"lon": -2.689663,
+					"name": "Prees Rail Station",
+					"stationId": "910GPREES",
+					"topMostParentId": "910GPREES"
+				},
+				{
+					"icsId": "90007625",
+					"id": "910GWCHR",
+					"lat": 52.96806,
+					"lon": -2.671698,
+					"name": "Whitchurch (Shrops) Rail Station",
+					"stationId": "910GWCHR",
+					"topMostParentId": "910GWCHR"
+				},
+				{
+					"icsId": "90008040",
+					"id": "910GWRENBRY",
+					"lat": 53.019388,
+					"lon": -2.595946,
+					"name": "Wrenbury Rail Station",
+					"stationId": "910GWRENBRY",
+					"topMostParentId": "910GWRENBRY"
+				},
+				{
+					"icsId": "90005143",
+					"id": "910GNANTWCH",
+					"lat": 53.063572,
+					"lon": -2.518959,
+					"name": "Nantwich Rail Station",
+					"stationId": "910GNANTWCH",
+					"topMostParentId": "910GNANTWCH"
+				},
+				{
+					"icsId": "90001786",
+					"id": "910GCREWE",
+					"lat": 53.089625,
+					"lon": -2.432969,
+					"name": "Crewe Rail Station",
+					"stationId": "910GCREWE",
+					"topMostParentId": "910GCREWE"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90007054",
+					"id": "910GSWANSEA",
+					"lat": 51.625146,
+					"lon": -3.941546,
+					"name": "Swansea Rail Station",
+					"stationId": "910GSWANSEA",
+					"topMostParentId": "910GSWANSEA"
+				},
+				{
+					"icsId": "90003081",
+					"id": "910GGOWERTN",
+					"lat": 51.648725,
+					"lon": -4.035935,
+					"name": "Gowerton Rail Station",
+					"stationId": "910GGOWERTN",
+					"topMostParentId": "910GGOWERTN"
+				},
+				{
+					"icsId": "90004444",
+					"id": "910GLLNLLI",
+					"lat": 51.673867,
+					"lon": -4.161303,
+					"name": "Llanelli Rail Station",
+					"stationId": "910GLLNLLI",
+					"topMostParentId": "910GLLNLLI"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90006061",
+					"id": "910GRHYMNEY",
+					"lat": 51.758837,
+					"lon": -3.289298,
+					"name": "Rhymney Rail Station",
+					"stationId": "910GRHYMNEY",
+					"topMostParentId": "910GRHYMNEY"
+				},
+				{
+					"icsId": "90005725",
+					"id": "910GPNTLTYN",
+					"lat": 51.746632,
+					"lon": -3.278956,
+					"name": "Pontlottyn Rail Station",
+					"stationId": "910GPNTLTYN",
+					"topMostParentId": "910GPNTLTYN"
+				},
+				{
+					"icsId": "90007259",
+					"id": "910GTIRPHIL",
+					"lat": 51.720906,
+					"lon": -3.24638,
+					"name": "Tir-phil Rail Station",
+					"stationId": "910GTIRPHIL",
+					"topMostParentId": "910GTIRPHIL"
+				},
+				{
+					"icsId": "90000923",
+					"id": "910GBRITHDR",
+					"lat": 51.710302,
+					"lon": -3.22872,
+					"name": "Brithdir Rail Station",
+					"stationId": "910GBRITHDR",
+					"topMostParentId": "910GBRITHDR"
+				},
+				{
+					"icsId": "90000405",
+					"id": "910GBARGOED",
+					"lat": 51.692309,
+					"lon": -3.22968,
+					"name": "Bargoed Rail Station",
+					"stationId": "910GBARGOED",
+					"topMostParentId": "910GBARGOED"
+				},
+				{
+					"icsId": "90002965",
+					"id": "910GGLFCHFR",
+					"lat": 51.684249,
+					"lon": -3.226568,
+					"name": "Gilfach Fargoed Rail Station",
+					"stationId": "910GGLFCHFR",
+					"topMostParentId": "910GGLFCHFR"
+				},
+				{
+					"icsId": "90005603",
+					"id": "910GPENGAM",
+					"lat": 51.670455,
+					"lon": -3.2301,
+					"name": "Pengam Rail Station",
+					"stationId": "910GPENGAM",
+					"topMostParentId": "910GPENGAM"
+				},
+				{
+					"icsId": "90003397",
+					"id": "910GHENGOED",
+					"lat": 51.647409,
+					"lon": -3.224128,
+					"name": "Hengoed Rail Station",
+					"stationId": "910GHENGOED",
+					"topMostParentId": "910GHENGOED"
+				},
+				{
+					"icsId": "90008217",
+					"id": "910GYSTRADM",
+					"lat": 51.640934,
+					"lon": -3.241295,
+					"name": "Ystrad Mynach Rail Station",
+					"stationId": "910GYSTRADM",
+					"topMostParentId": "910GYSTRADM"
+				},
+				{
+					"icsId": "90004424",
+					"id": "910GLLBRDCH",
+					"lat": 51.603256,
+					"lon": -3.233048,
+					"name": "Llanbradach Rail Station",
+					"stationId": "910GLLBRDCH",
+					"topMostParentId": "910GLLBRDCH"
+				},
+				{
+					"icsId": "90002592",
+					"id": "910GERGNCHP",
+					"lat": 51.583213,
+					"lon": -3.228795,
+					"name": "Energlyn & Churchill Park Rail Station",
+					"stationId": "910GERGNCHP",
+					"topMostParentId": "910GERGNCHP"
+				},
+				{
+					"icsId": "90000007",
+					"id": "910GABER",
+					"lat": 51.574966,
+					"lon": -3.229828,
+					"name": "Aber Rail Station",
+					"stationId": "910GABER",
+					"topMostParentId": "910GABER"
+				},
+				{
+					"icsId": "90001908",
+					"id": "910GCRPHLY",
+					"lat": 51.571577,
+					"lon": -3.218482,
+					"name": "Caerphilly Rail Station",
+					"stationId": "910GCRPHLY",
+					"topMostParentId": "910GCRPHLY"
+				},
+				{
+					"icsId": "90004603",
+					"id": "910GLTHH",
+					"lat": 51.544579,
+					"lon": -3.185602,
+					"name": "Lisvane & Thornhill Rail Station",
+					"stationId": "910GLTHH",
+					"topMostParentId": "910GLTHH"
+				},
+				{
+					"icsId": "90004442",
+					"id": "910GLLISHEN",
+					"lat": 51.532746,
+					"lon": -3.181978,
+					"name": "Llanishen Rail Station",
+					"stationId": "910GLLISHEN",
+					"topMostParentId": "910GLLISHEN"
+				},
+				{
+					"icsId": "90003378",
+					"id": "910GHEATHHL",
+					"lat": 51.51643,
+					"lon": -3.181541,
+					"name": "Heath High Level Rail Station",
+					"stationId": "910GHEATHHL",
+					"topMostParentId": "910GHEATHHL"
+				},
+				{
+					"icsId": "90001250",
+					"id": "910GCARDFQS",
+					"lat": 51.481962,
+					"lon": -3.170181,
+					"name": "Cardiff Queen Street Rail Station",
+					"stationId": "910GCARDFQS",
+					"topMostParentId": "910GCARDFQS"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90001250",
+					"id": "910GCARDFQS",
+					"lat": 51.481962,
+					"lon": -3.170181,
+					"name": "Cardiff Queen Street Rail Station",
+					"stationId": "910GCARDFQS",
+					"topMostParentId": "910GCARDFQS"
+				},
+				{
+					"icsId": "90001763",
+					"id": "910GCRDFCEN",
+					"lat": 51.476025,
+					"lon": -3.179302,
+					"name": "Cardiff Central Rail Station",
+					"stationId": "910GCRDFCEN",
+					"topMostParentId": "910GCRDFCEN"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90001763",
+					"id": "910GCRDFCEN",
+					"lat": 51.476025,
+					"lon": -3.179302,
+					"name": "Cardiff Central Rail Station",
+					"stationId": "910GCRDFCEN",
+					"topMostParentId": "910GCRDFCEN"
+				},
+				{
+					"icsId": "90003040",
+					"id": "910GGNTN",
+					"lat": 51.467612,
+					"lon": -3.189724,
+					"name": "Grangetown (Cardiff) Rail Station",
+					"stationId": "910GGNTN",
+					"topMostParentId": "910GGNTN"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90003040",
+					"id": "910GGNTN",
+					"lat": 51.467612,
+					"lon": -3.189724,
+					"name": "Grangetown (Cardiff) Rail Station",
+					"stationId": "910GGNTN",
+					"topMostParentId": "910GGNTN"
+				},
+				{
+					"icsId": "90001659",
+					"id": "910GCOGAN",
+					"lat": 51.445992,
+					"lon": -3.18909,
+					"name": "Cogan Rail Station",
+					"stationId": "910GCOGAN",
+					"topMostParentId": "910GCOGAN"
+				},
+				{
+					"icsId": "90002420",
+					"id": "910GEASTBRK",
+					"lat": 51.437635,
+					"lon": -3.206137,
+					"name": "Eastbrook Rail Station",
+					"stationId": "910GEASTBRK",
+					"topMostParentId": "910GEASTBRK"
+				},
+				{
+					"icsId": "90002100",
+					"id": "910GDINASP",
+					"lat": 51.431664,
+					"lon": -3.218352,
+					"name": "Dinas Powys Rail Station",
+					"stationId": "910GDINASP",
+					"topMostParentId": "910GDINASP"
+				},
+				{
+					"icsId": "90001197",
+					"id": "910GCADOXTN",
+					"lat": 51.41228,
+					"lon": -3.248895,
+					"name": "Cadoxton Rail Station",
+					"stationId": "910GCADOXTN",
+					"topMostParentId": "910GCADOXTN"
+				},
+				{
+					"icsId": "90000429",
+					"id": "910GBARRYDK",
+					"lat": 51.402442,
+					"lon": -3.260703,
+					"name": "Barry Docks Rail Station",
+					"stationId": "910GBARRYDK",
+					"topMostParentId": "910GBARRYDK"
+				},
+				{
+					"icsId": "90000428",
+					"id": "910GBARRY",
+					"lat": 51.396783,
+					"lon": -3.284984,
+					"name": "Barry Rail Station",
+					"stationId": "910GBARRY",
+					"topMostParentId": "910GBARRY"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000428",
+					"id": "910GBARRY",
+					"lat": 51.396783,
+					"lon": -3.284984,
+					"name": "Barry Rail Station",
+					"stationId": "910GBARRY",
+					"topMostParentId": "910GBARRY"
+				},
+				{
+					"icsId": "90006056",
+					"id": "910GRHOOSE",
+					"lat": 51.387066,
+					"lon": -3.349384,
+					"name": "Rhoose Rail Station",
+					"stationId": "910GRHOOSE",
+					"topMostParentId": "910GRHOOSE"
+				},
+				{
+					"icsId": "90008317",
+					"id": "910GLLNWTMR",
+					"lat": 51.409748,
+					"lon": -3.481617,
+					"name": "Llantwit Major Rail Station",
+					"stationId": "910GLLNWTMR",
+					"topMostParentId": "910GLLNWTMR"
+				},
+				{
+					"icsId": "90000892",
+					"id": "910GBRGEND",
+					"lat": 51.506974,
+					"lon": -3.575276,
+					"name": "Bridgend Rail Station",
+					"stationId": "910GBRGEND",
+					"topMostParentId": "910GBRGEND"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000428",
+					"id": "910GBARRY",
+					"lat": 51.396783,
+					"lon": -3.284984,
+					"name": "Barry Rail Station",
+					"stationId": "910GBARRY",
+					"topMostParentId": "910GBARRY"
+				},
+				{
+					"icsId": "90000431",
+					"id": "910GBARRYIS",
+					"lat": 51.392413,
+					"lon": -3.273363,
+					"name": "Barry Island Rail Station",
+					"stationId": "910GBARRYIS",
+					"topMostParentId": "910GBARRYIS"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90007367",
+					"id": "910GTREHRBT",
+					"lat": 51.672243,
+					"lon": -3.536302,
+					"name": "Treherbert Rail Station",
+					"stationId": "910GTREHRBT",
+					"topMostParentId": "910GTREHRBT"
+				},
+				{
+					"icsId": "90008174",
+					"id": "910GYNYSWEN",
+					"lat": 51.664971,
+					"lon": -3.521597,
+					"name": "Ynyswen Rail Station",
+					"stationId": "910GYNYSWEN",
+					"topMostParentId": "910GYNYSWEN"
+				},
+				{
+					"icsId": "90007372",
+					"id": "910GTREORCY",
+					"lat": 51.657533,
+					"lon": -3.505734,
+					"name": "Treorchy Rail Station",
+					"stationId": "910GTREORCY",
+					"topMostParentId": "910GTREORCY"
+				},
+				{
+					"icsId": "90007330",
+					"id": "910GTONPNTR",
+					"lat": 51.647801,
+					"lon": -3.486187,
+					"name": "Ton Pentre Rail Station",
+					"stationId": "910GTONPNTR",
+					"topMostParentId": "910GTONPNTR"
+				},
+				{
+					"icsId": "90008222",
+					"id": "910GYTRHOND",
+					"lat": 51.64364,
+					"lon": -3.466685,
+					"name": "Ystrad Rhondda Rail Station",
+					"stationId": "910GYTRHOND",
+					"topMostParentId": "910GYTRHOND"
+				},
+				{
+					"icsId": "90004453",
+					"id": "910GLLWYNYP",
+					"lat": 51.634003,
+					"lon": -3.453513,
+					"name": "Llwynypia Rail Station",
+					"stationId": "910GLLWYNYP",
+					"topMostParentId": "910GLLWYNYP"
+				},
+				{
+					"icsId": "90007300",
+					"id": "910GTNYPNDY",
+					"lat": 51.619763,
+					"lon": -3.448869,
+					"name": "Tonypandy Rail Station",
+					"stationId": "910GTNYPNDY",
+					"topMostParentId": "910GTNYPNDY"
+				},
+				{
+					"icsId": "90002101",
+					"id": "910GDINASR",
+					"lat": 51.617834,
+					"lon": -3.437541,
+					"name": "Dinas (Rhondda) Rail Station",
+					"stationId": "910GDINASR",
+					"topMostParentId": "910GDINASR"
+				},
+				{
+					"icsId": "90005757",
+					"id": "910GPORH",
+					"lat": 51.612537,
+					"lon": -3.407188,
+					"name": "Porth Rail Station",
+					"stationId": "910GPORH",
+					"topMostParentId": "910GPORH"
+				},
+				{
+					"icsId": "90007366",
+					"id": "910GTREHAFD",
+					"lat": 51.610151,
+					"lon": -3.380975,
+					"name": "Trehafod Rail Station",
+					"stationId": "910GTREHAFD",
+					"topMostParentId": "910GTREHAFD"
+				},
+				{
+					"icsId": "90005886",
+					"id": "910GPTYPRID",
+					"lat": 51.59937,
+					"lon": -3.341375,
+					"name": "Pontypridd Rail Station",
+					"stationId": "910GPTYPRID",
+					"topMostParentId": "910GPTYPRID"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90005886",
+					"id": "910GPTYPRID",
+					"lat": 51.59937,
+					"lon": -3.341375,
+					"name": "Pontypridd Rail Station",
+					"stationId": "910GPTYPRID",
+					"topMostParentId": "910GPTYPRID"
+				},
+				{
+					"icsId": "90007365",
+					"id": "910GTREFRST",
+					"lat": 51.591462,
+					"lon": -3.325118,
+					"name": "Trefforest Rail Station",
+					"stationId": "910GTREFRST",
+					"topMostParentId": "910GTREFRST"
+				},
+				{
+					"icsId": "90007382",
+					"id": "910GTRFRSTE",
+					"lat": 51.568292,
+					"lon": -3.290248,
+					"name": "Trefforest Estate Rail Station",
+					"stationId": "910GTRFRSTE",
+					"topMostParentId": "910GTRFRSTE"
+				},
+				{
+					"icsId": "90007100",
+					"id": "910GTAFFSWL",
+					"lat": 51.540804,
+					"lon": -3.262938,
+					"name": "Taffs Well Rail Station",
+					"stationId": "910GTAFFSWL",
+					"topMostParentId": "910GTAFFSWL"
+				},
+				{
+					"icsId": "90005941",
+					"id": "910GRADYR",
+					"lat": 51.516323,
+					"lon": -3.248353,
+					"name": "Radyr Rail Station",
+					"stationId": "910GRADYR",
+					"topMostParentId": "910GRADYR"
+				},
+				{
+					"icsId": "90004422",
+					"id": "910GLLANDAF",
+					"lat": 51.508438,
+					"lon": -3.228612,
+					"name": "Llandaf Rail Station",
+					"stationId": "910GLLANDAF",
+					"topMostParentId": "910GLLANDAF"
+				},
+				{
+					"icsId": "90001303",
+					"id": "910GCATHAYS",
+					"lat": 51.488899,
+					"lon": -3.178683,
+					"name": "Cathays Rail Station",
+					"stationId": "910GCATHAYS",
+					"topMostParentId": "910GCATHAYS"
+				},
+				{
+					"icsId": "90001250",
+					"id": "910GCARDFQS",
+					"lat": 51.481962,
+					"lon": -3.170181,
+					"name": "Cardiff Queen Street Rail Station",
+					"stationId": "910GCARDFQS",
+					"topMostParentId": "910GCARDFQS"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90004818",
+					"id": "910GMERTHYR",
+					"lat": 51.744622,
+					"lon": -3.37725,
+					"name": "Merthyr Tydfil Rail Station",
+					"stationId": "910GMERTHYR",
+					"topMostParentId": "910GMERTHYR"
+				},
+				{
+					"icsId": "90005726",
+					"id": "910GPNTRBCH",
+					"lat": 51.725014,
+					"lon": -3.362321,
+					"name": "Pentre-Bach Rail Station",
+					"stationId": "910GPNTRBCH",
+					"topMostParentId": "910GPNTRBCH"
+				},
+				{
+					"icsId": "90007362",
+					"id": "910GTRDYRHW",
+					"lat": 51.712425,
+					"lon": -3.346744,
+					"name": "Troed-y-Rhiw Rail Station",
+					"stationId": "910GTRDYRHW",
+					"topMostParentId": "910GTRDYRHW"
+				},
+				{
+					"icsId": "90004817",
+					"id": "910GMERTHRV",
+					"lat": 51.686645,
+					"lon": -3.336576,
+					"name": "Merthyr Vale Rail Station",
+					"stationId": "910GMERTHRV",
+					"topMostParentId": "910GMERTHRV"
+				},
+				{
+					"icsId": "90005926",
+					"id": "910GQUAKRSY",
+					"lat": 51.660725,
+					"lon": -3.3228,
+					"name": "Quakers Yard Rail Station",
+					"stationId": "910GQUAKRSY",
+					"topMostParentId": "910GQUAKRSY"
+				},
+				{
+					"icsId": "90000020",
+					"id": "910GABRCYNS",
+					"lat": 51.64345,
+					"lon": -3.32857,
+					"name": "Abercynon Rail Station",
+					"stationId": "910GABRCYNS",
+					"topMostParentId": "910GABRCYNS"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000020",
+					"id": "910GABRCYNS",
+					"lat": 51.64345,
+					"lon": -3.32857,
+					"name": "Abercynon Rail Station",
+					"stationId": "910GABRCYNS",
+					"topMostParentId": "910GABRCYNS"
+				},
+				{
+					"icsId": "90005886",
+					"id": "910GPTYPRID",
+					"lat": 51.59937,
+					"lon": -3.341375,
+					"name": "Pontypridd Rail Station",
+					"stationId": "910GPTYPRID",
+					"topMostParentId": "910GPTYPRID"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000004",
+					"id": "910GABDARE",
+					"lat": 51.715058,
+					"lon": -3.443083,
+					"name": "Aberdare Rail Station",
+					"stationId": "910GABDARE",
+					"topMostParentId": "910GABDARE"
+				},
+				{
+					"icsId": "90001593",
+					"id": "910GCMBH",
+					"lat": 51.701927,
+					"lon": -3.413723,
+					"name": "Cwmbach Rail Station",
+					"stationId": "910GCMBH",
+					"topMostParentId": "910GCMBH"
+				},
+				{
+					"icsId": "90002719",
+					"id": "910GFERNHIL",
+					"lat": 51.686495,
+					"lon": -3.395883,
+					"name": "Fernhill Rail Station",
+					"stationId": "910GFERNHIL",
+					"topMostParentId": "910GFERNHIL"
+				},
+				{
+					"icsId": "90004741",
+					"id": "910GMASH",
+					"lat": 51.681331,
+					"lon": -3.376341,
+					"name": "Mountain Ash Rail Station",
+					"stationId": "910GMASH",
+					"topMostParentId": "910GMASH"
+				},
+				{
+					"icsId": "90005718",
+					"id": "910GPNRHCBR",
+					"lat": 51.669922,
+					"lon": -3.359944,
+					"name": "Penrhiwceiber Rail Station",
+					"stationId": "910GPNRHCBR",
+					"topMostParentId": "910GPNRHCBR"
+				},
+				{
+					"icsId": "90000020",
+					"id": "910GABRCYNS",
+					"lat": 51.64345,
+					"lon": -3.32857,
+					"name": "Abercynon Rail Station",
+					"stationId": "910GABRCYNS",
+					"topMostParentId": "910GABRCYNS"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90003040",
+					"id": "910GGNTN",
+					"lat": 51.467612,
+					"lon": -3.189724,
+					"name": "Grangetown (Cardiff) Rail Station",
+					"stationId": "910GGNTN",
+					"topMostParentId": "910GGNTN"
+				},
+				{
+					"icsId": "90002071",
+					"id": "910GDGLROAD",
+					"lat": 51.440054,
+					"lon": -3.180591,
+					"name": "Dingle Road Rail Station",
+					"stationId": "910GDGLROAD",
+					"topMostParentId": "910GDGLROAD"
+				},
+				{
+					"icsId": "90005599",
+					"id": "910GPENARTH",
+					"lat": 51.435889,
+					"lon": -3.174441,
+					"name": "Penarth Rail Station",
+					"stationId": "910GPENARTH",
+					"topMostParentId": "910GPENARTH"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90001250",
+					"id": "910GCARDFQS",
+					"lat": 51.481962,
+					"lon": -3.170181,
+					"name": "Cardiff Queen Street Rail Station",
+					"stationId": "910GCARDFQS",
+					"topMostParentId": "910GCARDFQS"
+				},
+				{
+					"icsId": "90001249",
+					"id": "910GCARDFBR",
+					"lat": 51.467109,
+					"lon": -3.166403,
+					"name": "Cardiff Bay Rail Station",
+					"stationId": "910GCARDFBR",
+					"topMostParentId": "910GCARDFBR"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90001419",
+					"id": "910GCHLTNHM",
+					"lat": 51.897397,
+					"lon": -2.09962,
+					"name": "Cheltenham Spa Rail Station",
+					"stationId": "910GCHLTNHM",
+					"topMostParentId": "910GCHLTNHM"
+				},
+				{
+					"icsId": "90003015",
+					"id": "910GGLOSTER",
+					"lat": 51.865559,
+					"lon": -2.238488,
+					"name": "Gloucester Rail Station",
+					"stationId": "910GGLOSTER",
+					"topMostParentId": "910GGLOSTER"
+				},
+				{
+					"icsId": "90004670",
+					"id": "910GLYDNEY",
+					"lat": 51.714226,
+					"lon": -2.530792,
+					"name": "Lydney Rail Station",
+					"stationId": "910GLYDNEY",
+					"topMostParentId": "910GLYDNEY"
+				},
+				{
+					"icsId": "90001383",
+					"id": "910GCHEPSTW",
+					"lat": 51.640179,
+					"lon": -2.671905,
+					"name": "Chepstow Rail Station",
+					"stationId": "910GCHEPSTW",
+					"topMostParentId": "910GCHEPSTW"
+				},
+				{
+					"icsId": "90001328",
+					"id": "910GCDCOT",
+					"lat": 51.58479,
+					"lon": -2.760573,
+					"name": "Caldicot Rail Station",
+					"stationId": "910GCDCOT",
+					"topMostParentId": "910GCDCOT"
+				},
+				{
+					"icsId": "90006397",
+					"id": "910GSEVTNLJ",
+					"lat": 51.584677,
+					"lon": -2.777891,
+					"name": "Severn Tunnel Junction Rail Station",
+					"stationId": "910GSEVTNLJ",
+					"topMostParentId": "910GSEVTNLJ"
+				},
+				{
+					"icsId": "90005392",
+					"id": "910GNWPTRTG",
+					"lat": 51.588789,
+					"lon": -3.000543,
+					"name": "Newport (S Wales) Rail Station",
+					"stationId": "910GNWPTRTG",
+					"topMostParentId": "910GNWPTRTG"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90005392",
+					"id": "910GNWPTRTG",
+					"lat": 51.588789,
+					"lon": -3.000543,
+					"name": "Newport (S Wales) Rail Station",
+					"stationId": "910GNWPTRTG",
+					"topMostParentId": "910GNWPTRTG"
+				},
+				{
+					"icsId": "90001763",
+					"id": "910GCRDFCEN",
+					"lat": 51.476025,
+					"lon": -3.179302,
+					"name": "Cardiff Central Rail Station",
+					"stationId": "910GCRDFCEN",
+					"topMostParentId": "910GCRDFCEN"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90001763",
+					"id": "910GCRDFCEN",
+					"lat": 51.476025,
+					"lon": -3.179302,
+					"name": "Cardiff Central Rail Station",
+					"stationId": "910GCRDFCEN",
+					"topMostParentId": "910GCRDFCEN"
+				},
+				{
+					"icsId": "90005752",
+					"id": "910GPONYCLN",
+					"lat": 51.523768,
+					"lon": -3.392918,
+					"name": "Pontyclun Rail Station",
+					"stationId": "910GPONYCLN",
+					"topMostParentId": "910GPONYCLN"
+				},
+				{
+					"icsId": "90004443",
+					"id": "910GLLHARAN",
+					"lat": 51.537586,
+					"lon": -3.440778,
+					"name": "Llanharan Rail Station",
+					"stationId": "910GLLHARAN",
+					"topMostParentId": "910GLLHARAN"
+				},
+				{
+					"icsId": "90005600",
+					"id": "910GPENCOED",
+					"lat": 51.524608,
+					"lon": -3.500479,
+					"name": "Pencoed Rail Station",
+					"stationId": "910GPENCOED",
+					"topMostParentId": "910GPENCOED"
+				},
+				{
+					"icsId": "90000892",
+					"id": "910GBRGEND",
+					"lat": 51.506974,
+					"lon": -3.575276,
+					"name": "Bridgend Rail Station",
+					"stationId": "910GBRGEND",
+					"topMostParentId": "910GBRGEND"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000892",
+					"id": "910GBRGEND",
+					"lat": 51.506974,
+					"lon": -3.575276,
+					"name": "Bridgend Rail Station",
+					"stationId": "910GBRGEND",
+					"topMostParentId": "910GBRGEND"
+				},
+				{
+					"icsId": "90007879",
+					"id": "910GWLDMILL",
+					"lat": 51.520871,
+					"lon": -3.579633,
+					"name": "Wildmill Rail Station",
+					"stationId": "910GWLDMILL",
+					"topMostParentId": "910GWLDMILL"
+				},
+				{
+					"icsId": "90006260",
+					"id": "910GSARN",
+					"lat": 51.538716,
+					"lon": -3.589912,
+					"name": "Sarn Rail Station",
+					"stationId": "910GSARN",
+					"topMostParentId": "910GSARN"
+				},
+				{
+					"icsId": "90007328",
+					"id": "910GTONDU",
+					"lat": 51.547362,
+					"lon": -3.595549,
+					"name": "Tondu Rail Station",
+					"stationId": "910GTONDU",
+					"topMostParentId": "910GTONDU"
+				},
+				{
+					"icsId": "90003162",
+					"id": "910GGRTHMG",
+					"lat": 51.596456,
+					"lon": -3.64145,
+					"name": "Garth (Bridgend) Rail Station",
+					"stationId": "910GGRTHMG",
+					"topMostParentId": "910GGRTHMG"
+				},
+				{
+					"icsId": "90004696",
+					"id": "910GMAESTER",
+					"lat": 51.605342,
+					"lon": -3.648991,
+					"name": "Maesteg (Ewenny Road) Rail Station",
+					"stationId": "910GMAESTER",
+					"topMostParentId": "910GMAESTER"
+				},
+				{
+					"icsId": "90004698",
+					"id": "910GMAESTGW",
+					"lat": 51.609938,
+					"lon": -3.654646,
+					"name": "Maesteg Rail Station",
+					"stationId": "910GMAESTGW",
+					"topMostParentId": "910GMAESTGW"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90003405",
+					"id": "910GHEREFRD",
+					"lat": 52.061162,
+					"lon": -2.70821,
+					"name": "Hereford Rail Station",
+					"stationId": "910GHEREFRD",
+					"topMostParentId": "910GHEREFRD"
+				},
+				{
+					"icsId": "90000035",
+					"id": "910GABRGVNY",
+					"lat": 51.81669,
+					"lon": -3.009647,
+					"name": "Abergavenny Rail Station",
+					"stationId": "910GABRGVNY",
+					"topMostParentId": "910GABRGVNY"
+				},
+				{
+					"icsId": "90005751",
+					"id": "910GPONTYPL",
+					"lat": 51.697964,
+					"lon": -3.014236,
+					"name": "Pontypool & New Inn Rail Station",
+					"stationId": "910GPONTYPL",
+					"topMostParentId": "910GPONTYPL"
+				},
+				{
+					"icsId": "90001987",
+					"id": "910GCWMBRAN",
+					"lat": 51.656586,
+					"lon": -3.016203,
+					"name": "Cwmbran Rail Station",
+					"stationId": "910GCWMBRAN",
+					"topMostParentId": "910GCWMBRAN"
+				},
+				{
+					"icsId": "90005392",
+					"id": "910GNWPTRTG",
+					"lat": 51.588789,
+					"lon": -3.000543,
+					"name": "Newport (S Wales) Rail Station",
+					"stationId": "910GNWPTRTG",
+					"topMostParentId": "910GNWPTRTG"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90001716",
+					"id": "910GCORYTON",
+					"lat": 51.520436,
+					"lon": -3.231818,
+					"name": "Coryton Rail Station",
+					"stationId": "910GCORYTON",
+					"topMostParentId": "910GCORYTON"
+				},
+				{
+					"icsId": "90007750",
+					"id": "910GWHCH",
+					"lat": 51.52075,
+					"lon": -3.22325,
+					"name": "Whitchurch (Cardiff) Rail Station",
+					"stationId": "910GWHCH",
+					"topMostParentId": "910GWHCH"
+				},
+				{
+					"icsId": "90006055",
+					"id": "910GRHIWBNA",
+					"lat": 51.52118,
+					"lon": -3.213965,
+					"name": "Rhiwbina Rail Station",
+					"stationId": "910GRHIWBNA",
+					"topMostParentId": "910GRHIWBNA"
+				},
+				{
+					"icsId": "90000455",
+					"id": "910GBCHGRV",
+					"lat": 51.521556,
+					"lon": -3.201853,
+					"name": "Birchgrove Rail Station",
+					"stationId": "910GBCHGRV",
+					"topMostParentId": "910GBCHGRV"
+				},
+				{
+					"icsId": "90007446",
+					"id": "910GTYGLAS",
+					"lat": 51.521539,
+					"lon": -3.196534,
+					"name": "Ty Glas Rail Station",
+					"stationId": "910GTYGLAS",
+					"topMostParentId": "910GTYGLAS"
+				},
+				{
+					"icsId": "90003380",
+					"id": "910GHEATHLL",
+					"lat": 51.515662,
+					"lon": -3.181968,
+					"name": "Heath Low Level Rail Station",
+					"stationId": "910GHEATHLL",
+					"topMostParentId": "910GHEATHLL"
+				},
+				{
+					"icsId": "90001250",
+					"id": "910GCARDFQS",
+					"lat": 51.481962,
+					"lon": -3.170181,
+					"name": "Cardiff Queen Street Rail Station",
+					"stationId": "910GCARDFQS",
+					"topMostParentId": "910GCARDFQS"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90007367",
+					"id": "910GTREHRBT",
+					"lat": 51.672243,
+					"lon": -3.536302,
+					"name": "Treherbert Rail Station",
+					"stationId": "910GTREHRBT",
+					"topMostParentId": "910GTREHRBT"
+				},
+				{
+					"icsId": "90008174",
+					"id": "910GYNYSWEN",
+					"lat": 51.664971,
+					"lon": -3.521597,
+					"name": "Ynyswen Rail Station",
+					"stationId": "910GYNYSWEN",
+					"topMostParentId": "910GYNYSWEN"
+				},
+				{
+					"icsId": "90007372",
+					"id": "910GTREORCY",
+					"lat": 51.657533,
+					"lon": -3.505734,
+					"name": "Treorchy Rail Station",
+					"stationId": "910GTREORCY",
+					"topMostParentId": "910GTREORCY"
+				},
+				{
+					"icsId": "90007330",
+					"id": "910GTONPNTR",
+					"lat": 51.647801,
+					"lon": -3.486187,
+					"name": "Ton Pentre Rail Station",
+					"stationId": "910GTONPNTR",
+					"topMostParentId": "910GTONPNTR"
+				},
+				{
+					"icsId": "90008222",
+					"id": "910GYTRHOND",
+					"lat": 51.64364,
+					"lon": -3.466685,
+					"name": "Ystrad Rhondda Rail Station",
+					"stationId": "910GYTRHOND",
+					"topMostParentId": "910GYTRHOND"
+				},
+				{
+					"icsId": "90004453",
+					"id": "910GLLWYNYP",
+					"lat": 51.634003,
+					"lon": -3.453513,
+					"name": "Llwynypia Rail Station",
+					"stationId": "910GLLWYNYP",
+					"topMostParentId": "910GLLWYNYP"
+				},
+				{
+					"icsId": "90007300",
+					"id": "910GTNYPNDY",
+					"lat": 51.619763,
+					"lon": -3.448869,
+					"name": "Tonypandy Rail Station",
+					"stationId": "910GTNYPNDY",
+					"topMostParentId": "910GTNYPNDY"
+				},
+				{
+					"icsId": "90002101",
+					"id": "910GDINASR",
+					"lat": 51.617834,
+					"lon": -3.437541,
+					"name": "Dinas (Rhondda) Rail Station",
+					"stationId": "910GDINASR",
+					"topMostParentId": "910GDINASR"
+				},
+				{
+					"icsId": "90005757",
+					"id": "910GPORH",
+					"lat": 51.612537,
+					"lon": -3.407188,
+					"name": "Porth Rail Station",
+					"stationId": "910GPORH",
+					"topMostParentId": "910GPORH"
+				},
+				{
+					"icsId": "90007366",
+					"id": "910GTREHAFD",
+					"lat": 51.610151,
+					"lon": -3.380975,
+					"name": "Trehafod Rail Station",
+					"stationId": "910GTREHAFD",
+					"topMostParentId": "910GTREHAFD"
+				},
+				{
+					"icsId": "90005886",
+					"id": "910GPTYPRID",
+					"lat": 51.59937,
+					"lon": -3.341375,
+					"name": "Pontypridd Rail Station",
+					"stationId": "910GPTYPRID",
+					"topMostParentId": "910GPTYPRID"
+				},
+				{
+					"icsId": "90007365",
+					"id": "910GTREFRST",
+					"lat": 51.591462,
+					"lon": -3.325118,
+					"name": "Trefforest Rail Station",
+					"stationId": "910GTREFRST",
+					"topMostParentId": "910GTREFRST"
+				},
+				{
+					"icsId": "90007382",
+					"id": "910GTRFRSTE",
+					"lat": 51.568292,
+					"lon": -3.290248,
+					"name": "Trefforest Estate Rail Station",
+					"stationId": "910GTRFRSTE",
+					"topMostParentId": "910GTRFRSTE"
+				},
+				{
+					"icsId": "90007100",
+					"id": "910GTAFFSWL",
+					"lat": 51.540804,
+					"lon": -3.262938,
+					"name": "Taffs Well Rail Station",
+					"stationId": "910GTAFFSWL",
+					"topMostParentId": "910GTAFFSWL"
+				},
+				{
+					"icsId": "90005941",
+					"id": "910GRADYR",
+					"lat": 51.516323,
+					"lon": -3.248353,
+					"name": "Radyr Rail Station",
+					"stationId": "910GRADYR",
+					"topMostParentId": "910GRADYR"
+				},
+				{
+					"icsId": "90002025",
+					"id": "910GDANESCT",
+					"lat": 51.500506,
+					"lon": -3.233917,
+					"name": "Danescourt Rail Station",
+					"stationId": "910GDANESCT",
+					"topMostParentId": "910GDANESCT"
+				},
+				{
+					"icsId": "90002868",
+					"id": "910GFRWATER",
+					"lat": 51.493907,
+					"lon": -3.233839,
+					"name": "Fairwater Rail Station",
+					"stationId": "910GFRWATER",
+					"topMostParentId": "910GFRWATER"
+				},
+				{
+					"icsId": "90007613",
+					"id": "910GWAUNGRN",
+					"lat": 51.488196,
+					"lon": -3.229652,
+					"name": "Waun-gron Park Rail Station",
+					"stationId": "910GWAUNGRN",
+					"topMostParentId": "910GWAUNGRN"
+				},
+				{
+					"icsId": "90005221",
+					"id": "910GNINIANP",
+					"lat": 51.476616,
+					"lon": -3.201694,
+					"name": "Ninian Park Rail Station",
+					"stationId": "910GNINIANP",
+					"topMostParentId": "910GNINIANP"
+				},
+				{
+					"icsId": "90001763",
+					"id": "910GCRDFCEN",
+					"lat": 51.476025,
+					"lon": -3.179302,
+					"name": "Cardiff Central Rail Station",
+					"stationId": "910GCRDFCEN",
+					"topMostParentId": "910GCRDFCEN"
+				},
+				{
+					"icsId": "90001250",
+					"id": "910GCARDFQS",
+					"lat": 51.481962,
+					"lon": -3.170181,
+					"name": "Cardiff Queen Street Rail Station",
+					"stationId": "910GCARDFQS",
+					"topMostParentId": "910GCARDFQS"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90001250",
+					"id": "910GCARDFQS",
+					"lat": 51.481962,
+					"lon": -3.170181,
+					"name": "Cardiff Queen Street Rail Station",
+					"stationId": "910GCARDFQS",
+					"topMostParentId": "910GCARDFQS"
+				},
+				{
+					"icsId": "90003380",
+					"id": "910GHEATHLL",
+					"lat": 51.515662,
+					"lon": -3.181968,
+					"name": "Heath Low Level Rail Station",
+					"stationId": "910GHEATHLL",
+					"topMostParentId": "910GHEATHLL"
+				},
+				{
+					"icsId": "90007446",
+					"id": "910GTYGLAS",
+					"lat": 51.521539,
+					"lon": -3.196534,
+					"name": "Ty Glas Rail Station",
+					"stationId": "910GTYGLAS",
+					"topMostParentId": "910GTYGLAS"
+				},
+				{
+					"icsId": "90000455",
+					"id": "910GBCHGRV",
+					"lat": 51.521556,
+					"lon": -3.201853,
+					"name": "Birchgrove Rail Station",
+					"stationId": "910GBCHGRV",
+					"topMostParentId": "910GBCHGRV"
+				},
+				{
+					"icsId": "90006055",
+					"id": "910GRHIWBNA",
+					"lat": 51.52118,
+					"lon": -3.213965,
+					"name": "Rhiwbina Rail Station",
+					"stationId": "910GRHIWBNA",
+					"topMostParentId": "910GRHIWBNA"
+				},
+				{
+					"icsId": "90007750",
+					"id": "910GWHCH",
+					"lat": 51.52075,
+					"lon": -3.22325,
+					"name": "Whitchurch (Cardiff) Rail Station",
+					"stationId": "910GWHCH",
+					"topMostParentId": "910GWHCH"
+				},
+				{
+					"icsId": "90001716",
+					"id": "910GCORYTON",
+					"lat": 51.520436,
+					"lon": -3.231818,
+					"name": "Coryton Rail Station",
+					"stationId": "910GCORYTON",
+					"topMostParentId": "910GCORYTON"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90001250",
+					"id": "910GCARDFQS",
+					"lat": 51.481962,
+					"lon": -3.170181,
+					"name": "Cardiff Queen Street Rail Station",
+					"stationId": "910GCARDFQS",
+					"topMostParentId": "910GCARDFQS"
+				},
+				{
+					"icsId": "90001249",
+					"id": "910GCARDFBR",
+					"lat": 51.467109,
+					"lon": -3.166403,
+					"name": "Cardiff Bay Rail Station",
+					"stationId": "910GCARDFBR",
+					"topMostParentId": "910GCARDFBR"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90004884",
+					"id": "910GMLFDHVN",
+					"lat": 51.714973,
+					"lon": -5.040968,
+					"name": "Milford Haven Rail Station",
+					"stationId": "910GMLFDHVN",
+					"topMostParentId": "910GMLFDHVN"
+				},
+				{
+					"icsId": "90003968",
+					"id": "910GJHNSTND",
+					"lat": 51.756747,
+					"lon": -4.996328,
+					"name": "Johnston (Pembrokeshire) Rail Station",
+					"stationId": "910GJHNSTND",
+					"topMostParentId": "910GJHNSTND"
+				},
+				{
+					"icsId": "90003329",
+					"id": "910GHAVRFDW",
+					"lat": 51.802632,
+					"lon": -4.960203,
+					"name": "Haverfordwest Rail Station",
+					"stationId": "910GHAVRFDW",
+					"topMostParentId": "910GHAVRFDW"
+				},
+				{
+					"icsId": "90001502",
+					"id": "910GCLARBRD",
+					"lat": 51.851665,
+					"lon": -4.883548,
+					"name": "Clarbeston Road Rail Station",
+					"stationId": "910GCLARBRD",
+					"topMostParentId": "910GCLARBRD"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90001502",
+					"id": "910GCLARBRD",
+					"lat": 51.851665,
+					"lon": -4.883548,
+					"name": "Clarbeston Road Rail Station",
+					"stationId": "910GCLARBRD",
+					"topMostParentId": "910GCLARBRD"
+				},
+				{
+					"icsId": "90001591",
+					"id": "910GCLYNDRW",
+					"lat": 51.84054,
+					"lon": -4.731842,
+					"name": "Clunderwen Rail Station",
+					"stationId": "910GCLYNDRW",
+					"topMostParentId": "910GCLYNDRW"
+				},
+				{
+					"icsId": "90007765",
+					"id": "910GWHLAND",
+					"lat": 51.81803,
+					"lon": -4.614391,
+					"name": "Whitland Rail Station",
+					"stationId": "910GWHLAND",
+					"topMostParentId": "910GWHLAND"
+				},
+				{
+					"icsId": "90001613",
+					"id": "910GCMTHN",
+					"lat": 51.853353,
+					"lon": -4.305961,
+					"name": "Carmarthen Rail Station",
+					"stationId": "910GCMTHN",
+					"topMostParentId": "910GCMTHN"
+				},
+				{
+					"icsId": "90002894",
+					"id": "910GFYSD",
+					"lat": 51.768367,
+					"lon": -4.369458,
+					"name": "Ferryside Rail Station",
+					"stationId": "910GFYSD",
+					"topMostParentId": "910GFYSD"
+				},
+				{
+					"icsId": "90004047",
+					"id": "910GKIDWELY",
+					"lat": 51.734342,
+					"lon": -4.316985,
+					"name": "Kidwelly Rail Station",
+					"stationId": "910GKIDWELY",
+					"topMostParentId": "910GKIDWELY"
+				},
+				{
+					"icsId": "90005708",
+					"id": "910GPMBRYBP",
+					"lat": 51.683528,
+					"lon": -4.247841,
+					"name": "Pembrey & Burry Port Rail Station",
+					"stationId": "910GPMBRYBP",
+					"topMostParentId": "910GPMBRYBP"
+				},
+				{
+					"icsId": "90004444",
+					"id": "910GLLNLLI",
+					"lat": 51.673867,
+					"lon": -4.161303,
+					"name": "Llanelli Rail Station",
+					"stationId": "910GLLNLLI",
+					"topMostParentId": "910GLLNLLI"
+				},
+				{
+					"icsId": "90003081",
+					"id": "910GGOWERTN",
+					"lat": 51.648725,
+					"lon": -4.035935,
+					"name": "Gowerton Rail Station",
+					"stationId": "910GGOWERTN",
+					"topMostParentId": "910GGOWERTN"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90004445",
+					"id": "910GLLNSMLT",
+					"lat": 51.661503,
+					"lon": -3.884685,
+					"name": "Llansamlet Rail Station",
+					"stationId": "910GLLNSMLT",
+					"topMostParentId": "910GLLNSMLT"
+				},
+				{
+					"icsId": "90006557",
+					"id": "910GSKEWEN",
+					"lat": 51.66139,
+					"lon": -3.846509,
+					"name": "Skewen Rail Station",
+					"stationId": "910GSKEWEN",
+					"topMostParentId": "910GSKEWEN"
+				},
+				{
+					"icsId": "90005173",
+					"id": "910GNEATH",
+					"lat": 51.662361,
+					"lon": -3.807219,
+					"name": "Neath Rail Station",
+					"stationId": "910GNEATH",
+					"topMostParentId": "910GNEATH"
+				},
+				{
+					"icsId": "90000922",
+					"id": "910GBRITFRY",
+					"lat": 51.637896,
+					"lon": -3.819252,
+					"name": "Briton Ferry Rail Station",
+					"stationId": "910GBRITFRY",
+					"topMostParentId": "910GBRITFRY"
+				},
+				{
+					"icsId": "90000576",
+					"id": "910GBGLAN",
+					"lat": 51.615541,
+					"lon": -3.811136,
+					"name": "Baglan Rail Station",
+					"stationId": "910GBGLAN",
+					"topMostParentId": "910GBGLAN"
+				},
+				{
+					"icsId": "90005866",
+					"id": "910GPTALBOT",
+					"lat": 51.591718,
+					"lon": -3.781314,
+					"name": "Port Talbot Parkway Rail Station",
+					"stationId": "910GPTALBOT",
+					"topMostParentId": "910GPTALBOT"
+				},
+				{
+					"icsId": "90005917",
+					"id": "910GPYLE",
+					"lat": 51.525735,
+					"lon": -3.698052,
+					"name": "Pyle Rail Station",
+					"stationId": "910GPYLE",
+					"topMostParentId": "910GPYLE"
+				},
+				{
+					"icsId": "90000892",
+					"id": "910GBRGEND",
+					"lat": 51.506974,
+					"lon": -3.575276,
+					"name": "Bridgend Rail Station",
+					"stationId": "910GBRGEND",
+					"topMostParentId": "910GBRGEND"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000892",
+					"id": "910GBRGEND",
+					"lat": 51.506974,
+					"lon": -3.575276,
+					"name": "Bridgend Rail Station",
+					"stationId": "910GBRGEND",
+					"topMostParentId": "910GBRGEND"
+				},
+				{
+					"icsId": "90005600",
+					"id": "910GPENCOED",
+					"lat": 51.524608,
+					"lon": -3.500479,
+					"name": "Pencoed Rail Station",
+					"stationId": "910GPENCOED",
+					"topMostParentId": "910GPENCOED"
+				},
+				{
+					"icsId": "90004443",
+					"id": "910GLLHARAN",
+					"lat": 51.537586,
+					"lon": -3.440778,
+					"name": "Llanharan Rail Station",
+					"stationId": "910GLLHARAN",
+					"topMostParentId": "910GLLHARAN"
+				},
+				{
+					"icsId": "90005752",
+					"id": "910GPONYCLN",
+					"lat": 51.523768,
+					"lon": -3.392918,
+					"name": "Pontyclun Rail Station",
+					"stationId": "910GPONYCLN",
+					"topMostParentId": "910GPONYCLN"
+				},
+				{
+					"icsId": "90005221",
+					"id": "910GNINIANP",
+					"lat": 51.476616,
+					"lon": -3.201694,
+					"name": "Ninian Park Rail Station",
+					"stationId": "910GNINIANP",
+					"topMostParentId": "910GNINIANP"
+				},
+				{
+					"icsId": "90001763",
+					"id": "910GCRDFCEN",
+					"lat": 51.476025,
+					"lon": -3.179302,
+					"name": "Cardiff Central Rail Station",
+					"stationId": "910GCRDFCEN",
+					"topMostParentId": "910GCRDFCEN"
+				},
+				{
+					"icsId": "90005392",
+					"id": "910GNWPTRTG",
+					"lat": 51.588789,
+					"lon": -3.000543,
+					"name": "Newport (S Wales) Rail Station",
+					"stationId": "910GNWPTRTG",
+					"topMostParentId": "910GNWPTRTG"
+				},
+				{
+					"icsId": "90001987",
+					"id": "910GCWMBRAN",
+					"lat": 51.656586,
+					"lon": -3.016203,
+					"name": "Cwmbran Rail Station",
+					"stationId": "910GCWMBRAN",
+					"topMostParentId": "910GCWMBRAN"
+				},
+				{
+					"icsId": "90005751",
+					"id": "910GPONTYPL",
+					"lat": 51.697964,
+					"lon": -3.014236,
+					"name": "Pontypool & New Inn Rail Station",
+					"stationId": "910GPONTYPL",
+					"topMostParentId": "910GPONTYPL"
+				},
+				{
+					"icsId": "90000035",
+					"id": "910GABRGVNY",
+					"lat": 51.81669,
+					"lon": -3.009647,
+					"name": "Abergavenny Rail Station",
+					"stationId": "910GABRGVNY",
+					"topMostParentId": "910GABRGVNY"
+				},
+				{
+					"icsId": "90003405",
+					"id": "910GHEREFRD",
+					"lat": 52.061162,
+					"lon": -2.70821,
+					"name": "Hereford Rail Station",
+					"stationId": "910GHEREFRD",
+					"topMostParentId": "910GHEREFRD"
+				},
+				{
+					"icsId": "90004343",
+					"id": "910GLEOMNST",
+					"lat": 52.225682,
+					"lon": -2.730341,
+					"name": "Leominster Rail Station",
+					"stationId": "910GLEOMNST",
+					"topMostParentId": "910GLEOMNST"
+				},
+				{
+					"icsId": "90004621",
+					"id": "910GLUDLOW",
+					"lat": 52.371278,
+					"lon": -2.716217,
+					"name": "Ludlow Rail Station",
+					"stationId": "910GLUDLOW",
+					"topMostParentId": "910GLUDLOW"
+				},
+				{
+					"icsId": "90001754",
+					"id": "910GCRAVENA",
+					"lat": 52.442539,
+					"lon": -2.837422,
+					"name": "Craven Arms Rail Station",
+					"stationId": "910GCRAVENA",
+					"topMostParentId": "910GCRAVENA"
+				},
+				{
+					"icsId": "90001950",
+					"id": "910GCSTR",
+					"lat": 52.537421,
+					"lon": -2.803694,
+					"name": "Church Stretton Rail Station",
+					"stationId": "910GCSTR",
+					"topMostParentId": "910GCSTR"
+				},
+				{
+					"icsId": "90006519",
+					"id": "910GSHRWBY",
+					"lat": 52.711928,
+					"lon": -2.749761,
+					"name": "Shrewsbury Rail Station",
+					"stationId": "910GSHRWBY",
+					"topMostParentId": "910GSHRWBY"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90006519",
+					"id": "910GSHRWBY",
+					"lat": 52.711928,
+					"lon": -2.749761,
+					"name": "Shrewsbury Rail Station",
+					"stationId": "910GSHRWBY",
+					"topMostParentId": "910GSHRWBY"
+				},
+				{
+					"icsId": "90008205",
+					"id": "910GYORTON",
+					"lat": 52.808957,
+					"lon": -2.736461,
+					"name": "Yorton Rail Station",
+					"stationId": "910GYORTON",
+					"topMostParentId": "910GYORTON"
+				},
+				{
+					"icsId": "90007705",
+					"id": "910GWEMM",
+					"lat": 52.856409,
+					"lon": -2.718017,
+					"name": "Wem Rail Station",
+					"stationId": "910GWEMM",
+					"topMostParentId": "910GWEMM"
+				},
+				{
+					"icsId": "90005772",
+					"id": "910GPREES",
+					"lat": 52.899305,
+					"lon": -2.689663,
+					"name": "Prees Rail Station",
+					"stationId": "910GPREES",
+					"topMostParentId": "910GPREES"
+				},
+				{
+					"icsId": "90007625",
+					"id": "910GWCHR",
+					"lat": 52.96806,
+					"lon": -2.671698,
+					"name": "Whitchurch (Shrops) Rail Station",
+					"stationId": "910GWCHR",
+					"topMostParentId": "910GWCHR"
+				},
+				{
+					"icsId": "90008040",
+					"id": "910GWRENBRY",
+					"lat": 53.019388,
+					"lon": -2.595946,
+					"name": "Wrenbury Rail Station",
+					"stationId": "910GWRENBRY",
+					"topMostParentId": "910GWRENBRY"
+				},
+				{
+					"icsId": "90005143",
+					"id": "910GNANTWCH",
+					"lat": 53.063572,
+					"lon": -2.518959,
+					"name": "Nantwich Rail Station",
+					"stationId": "910GNANTWCH",
+					"topMostParentId": "910GNANTWCH"
+				},
+				{
+					"icsId": "90001786",
+					"id": "910GCREWE",
+					"lat": 53.089625,
+					"lon": -2.432969,
+					"name": "Crewe Rail Station",
+					"stationId": "910GCREWE",
+					"topMostParentId": "910GCREWE"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90001786",
+					"id": "910GCREWE",
+					"lat": 53.089625,
+					"lon": -2.432969,
+					"name": "Crewe Rail Station",
+					"stationId": "910GCREWE",
+					"topMostParentId": "910GCREWE"
+				},
+				{
+					"icsId": "90006267",
+					"id": "910GSBCH",
+					"lat": 53.150168,
+					"lon": -2.393505,
+					"name": "Sandbach Rail Station",
+					"stationId": "910GSBCH",
+					"topMostParentId": "910GSBCH"
+				},
+				{
+					"icsId": "90003362",
+					"id": "910GHCHP",
+					"lat": 53.198931,
+					"lon": -2.35114,
+					"name": "Holmes Chapel Rail Station",
+					"stationId": "910GHCHP",
+					"topMostParentId": "910GHCHP"
+				},
+				{
+					"icsId": "90000106",
+					"id": "910GALDEDGE",
+					"lat": 53.30378,
+					"lon": -2.236799,
+					"name": "Alderley Edge Rail Station",
+					"stationId": "910GALDEDGE",
+					"topMostParentId": "910GALDEDGE"
+				},
+				{
+					"icsId": "90007886",
+					"id": "910GWLMSL",
+					"lat": 53.326848,
+					"lon": -2.226327,
+					"name": "Wilmslow Rail Station",
+					"stationId": "910GWLMSL",
+					"topMostParentId": "910GWLMSL"
+				},
+				{
+					"icsId": "90006875",
+					"id": "910GSTKP",
+					"lat": 53.405538,
+					"lon": -2.163013,
+					"name": "Stockport Rail Station",
+					"stationId": "910GSTKP",
+					"topMostParentId": "910GSTKP"
+				},
+				{
+					"icsId": "90004938",
+					"id": "910GMNCRPIC",
+					"lat": 53.477361,
+					"lon": -2.23091,
+					"name": "Manchester Piccadilly Rail Station",
+					"stationId": "910GMNCRPIC",
+					"topMostParentId": "910GMNCRPIC"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90003081",
+					"id": "910GGOWERTN",
+					"lat": 51.648725,
+					"lon": -4.035935,
+					"name": "Gowerton Rail Station",
+					"stationId": "910GGOWERTN",
+					"topMostParentId": "910GGOWERTN"
+				},
+				{
+					"icsId": "90007054",
+					"id": "910GSWANSEA",
+					"lat": 51.625146,
+					"lon": -3.941546,
+					"name": "Swansea Rail Station",
+					"stationId": "910GSWANSEA",
+					"topMostParentId": "910GSWANSEA"
+				},
+				{
+					"icsId": "90004445",
+					"id": "910GLLNSMLT",
+					"lat": 51.661503,
+					"lon": -3.884685,
+					"name": "Llansamlet Rail Station",
+					"stationId": "910GLLNSMLT",
+					"topMostParentId": "910GLLNSMLT"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90002730",
+					"id": "910GFGDHBR",
+					"lat": 52.011543,
+					"lon": -4.985642,
+					"name": "Fishguard Harbour Rail Station",
+					"stationId": "910GFGDHBR",
+					"topMostParentId": "910GFGDHBR"
+				},
+				{
+					"icsId": "90002731",
+					"id": "910GFGDHGWK",
+					"lat": 52.004114,
+					"lon": -4.994838,
+					"name": "Fishguard & Goodwick Rail Station",
+					"stationId": "910GFGDHGWK",
+					"topMostParentId": "910GFGDHGWK"
+				},
+				{
+					"icsId": "90001502",
+					"id": "910GCLARBRD",
+					"lat": 51.851665,
+					"lon": -4.883548,
+					"name": "Clarbeston Road Rail Station",
+					"stationId": "910GCLARBRD",
+					"topMostParentId": "910GCLARBRD"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90006519",
+					"id": "910GSHRWBY",
+					"lat": 52.711928,
+					"lon": -2.749761,
+					"name": "Shrewsbury Rail Station",
+					"stationId": "910GSHRWBY",
+					"topMostParentId": "910GSHRWBY"
+				},
+				{
+					"icsId": "90003044",
+					"id": "910GGOBOWEN",
+					"lat": 52.893515,
+					"lon": -3.037173,
+					"name": "Gobowen Rail Station",
+					"stationId": "910GGOBOWEN",
+					"topMostParentId": "910GGOBOWEN"
+				},
+				{
+					"icsId": "90001402",
+					"id": "910GCHIRK",
+					"lat": 52.933087,
+					"lon": -3.065643,
+					"name": "Chirk Rail Station",
+					"stationId": "910GCHIRK",
+					"topMostParentId": "910GCHIRK"
+				},
+				{
+					"icsId": "90006191",
+					"id": "910GRUABON",
+					"lat": 52.987135,
+					"lon": -3.043139,
+					"name": "Ruabon Rail Station",
+					"stationId": "910GRUABON",
+					"topMostParentId": "910GRUABON"
+				},
+				{
+					"icsId": "90008048",
+					"id": "910GWREXHMG",
+					"lat": 53.050232,
+					"lon": -3.002443,
+					"name": "Wrexham General Rail Station",
+					"stationId": "910GWREXHMG",
+					"topMostParentId": "910GWREXHMG"
+				},
+				{
+					"icsId": "90001460",
+					"id": "910GCHST",
+					"lat": 53.196695,
+					"lon": -2.879594,
+					"name": "Chester Rail Station",
+					"stationId": "910GCHST",
+					"topMostParentId": "910GCHST"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90001460",
+					"id": "910GCHST",
+					"lat": 53.196695,
+					"lon": -2.879594,
+					"name": "Chester Rail Station",
+					"stationId": "910GCHST",
+					"topMostParentId": "910GCHST"
+				},
+				{
+					"icsId": "90006478",
+					"id": "910GSHOTTHL",
+					"lat": 53.213536,
+					"lon": -3.0377,
+					"name": "Shotton High Level Rail Station",
+					"stationId": "910GSHOTTHL",
+					"topMostParentId": "910GSHOTTHL"
+				},
+				{
+					"icsId": "90002746",
+					"id": "910GFLINT",
+					"lat": 53.249524,
+					"lon": -3.132993,
+					"name": "Flint Rail Station",
+					"stationId": "910GFLINT",
+					"topMostParentId": "910GFLINT"
+				},
+				{
+					"icsId": "90005863",
+					"id": "910GPSTA",
+					"lat": 53.336498,
+					"lon": -3.407132,
+					"name": "Prestatyn Rail Station",
+					"stationId": "910GPSTA",
+					"topMostParentId": "910GPSTA"
+				},
+				{
+					"icsId": "90006060",
+					"id": "910GRHYL",
+					"lat": 53.318422,
+					"lon": -3.489105,
+					"name": "Rhyl Rail Station",
+					"stationId": "910GRHYL",
+					"topMostParentId": "910GRHYL"
+				},
+				{
+					"icsId": "90000008",
+					"id": "910GABGLELE",
+					"lat": 53.294573,
+					"lon": -3.582622,
+					"name": "Abergele & Pensarn Rail Station",
+					"stationId": "910GABGLELE",
+					"topMostParentId": "910GABGLELE"
+				},
+				{
+					"icsId": "90001310",
+					"id": "910GCBAY",
+					"lat": 53.296359,
+					"lon": -3.725417,
+					"name": "Colwyn Bay Rail Station",
+					"stationId": "910GCBAY",
+					"topMostParentId": "910GCBAY"
+				},
+				{
+					"icsId": "90004227",
+					"id": "910GLANDUDJ",
+					"lat": 53.283944,
+					"lon": -3.809102,
+					"name": "Llandudno Junction Rail Station",
+					"stationId": "910GLANDUDJ",
+					"topMostParentId": "910GLANDUDJ"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90004227",
+					"id": "910GLANDUDJ",
+					"lat": 53.283944,
+					"lon": -3.809102,
+					"name": "Llandudno Junction Rail Station",
+					"stationId": "910GLANDUDJ",
+					"topMostParentId": "910GLANDUDJ"
+				},
+				{
+					"icsId": "90001683",
+					"id": "910GCONWY",
+					"lat": 53.280102,
+					"lon": -3.830524,
+					"name": "Conwy Rail Station",
+					"stationId": "910GCONWY",
+					"topMostParentId": "910GCONWY"
+				},
+				{
+					"icsId": "90005716",
+					"id": "910GPNMNMWR",
+					"lat": 53.270465,
+					"lon": -3.923511,
+					"name": "Penmaenmawr Rail Station",
+					"stationId": "910GPNMNMWR",
+					"topMostParentId": "910GPNMNMWR"
+				},
+				{
+					"icsId": "90004228",
+					"id": "910GLANFRFC",
+					"lat": 53.257287,
+					"lon": -3.983203,
+					"name": "Llanfairfechan Rail Station",
+					"stationId": "910GLANFRFC",
+					"topMostParentId": "910GLANFRFC"
+				},
+				{
+					"icsId": "90000390",
+					"id": "910GBANGOR",
+					"lat": 53.222283,
+					"lon": -4.13588,
+					"name": "Bangor (Gwynedd) Rail Station",
+					"stationId": "910GBANGOR",
+					"topMostParentId": "910GBANGOR"
+				},
+				{
+					"icsId": "90004372",
+					"id": "910GLFPW",
+					"lat": 53.220945,
+					"lon": -4.209215,
+					"name": "Llanfairpwll Rail Station",
+					"stationId": "910GLFPW",
+					"topMostParentId": "910GLFPW"
+				},
+				{
+					"icsId": "90000760",
+					"id": "910GBODORGN",
+					"lat": 53.204302,
+					"lon": -4.418003,
+					"name": "Bodorgan Rail Station",
+					"stationId": "910GBODORGN",
+					"topMostParentId": "910GBODORGN"
+				},
+				{
+					"icsId": "90007444",
+					"id": "910GTYCROES",
+					"lat": 53.222558,
+					"lon": -4.474733,
+					"name": "Ty Croes Rail Station",
+					"stationId": "910GTYCROES",
+					"topMostParentId": "910GTYCROES"
+				},
+				{
+					"icsId": "90006057",
+					"id": "910GRHOSNGR",
+					"lat": 53.234838,
+					"lon": -4.506642,
+					"name": "Rhosneigr Rail Station",
+					"stationId": "910GRHOSNGR",
+					"topMostParentId": "910GRHOSNGR"
+				},
+				{
+					"icsId": "90007503",
+					"id": "910GVALLEY",
+					"lat": 53.281284,
+					"lon": -4.563369,
+					"name": "Valley Rail Station",
+					"stationId": "910GVALLEY",
+					"topMostParentId": "910GVALLEY"
+				},
+				{
+					"icsId": "90003509",
+					"id": "910GHLYH",
+					"lat": 53.307684,
+					"lon": -4.631002,
+					"name": "Holyhead Rail Station",
+					"stationId": "910GHLYH",
+					"topMostParentId": "910GHLYH"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90004698",
+					"id": "910GMAESTGW",
+					"lat": 51.609938,
+					"lon": -3.654646,
+					"name": "Maesteg Rail Station",
+					"stationId": "910GMAESTGW",
+					"topMostParentId": "910GMAESTGW"
+				},
+				{
+					"icsId": "90004696",
+					"id": "910GMAESTER",
+					"lat": 51.605342,
+					"lon": -3.648991,
+					"name": "Maesteg (Ewenny Road) Rail Station",
+					"stationId": "910GMAESTER",
+					"topMostParentId": "910GMAESTER"
+				},
+				{
+					"icsId": "90003162",
+					"id": "910GGRTHMG",
+					"lat": 51.596456,
+					"lon": -3.64145,
+					"name": "Garth (Bridgend) Rail Station",
+					"stationId": "910GGRTHMG",
+					"topMostParentId": "910GGRTHMG"
+				},
+				{
+					"icsId": "90007328",
+					"id": "910GTONDU",
+					"lat": 51.547362,
+					"lon": -3.595549,
+					"name": "Tondu Rail Station",
+					"stationId": "910GTONDU",
+					"topMostParentId": "910GTONDU"
+				},
+				{
+					"icsId": "90006260",
+					"id": "910GSARN",
+					"lat": 51.538716,
+					"lon": -3.589912,
+					"name": "Sarn Rail Station",
+					"stationId": "910GSARN",
+					"topMostParentId": "910GSARN"
+				},
+				{
+					"icsId": "90007879",
+					"id": "910GWLDMILL",
+					"lat": 51.520871,
+					"lon": -3.579633,
+					"name": "Wildmill Rail Station",
+					"stationId": "910GWLDMILL",
+					"topMostParentId": "910GWLDMILL"
+				},
+				{
+					"icsId": "90000892",
+					"id": "910GBRGEND",
+					"lat": 51.506974,
+					"lon": -3.575276,
+					"name": "Bridgend Rail Station",
+					"stationId": "910GBRGEND",
+					"topMostParentId": "910GBRGEND"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000585",
+					"id": "910GBHAMINT",
+					"lat": 52.450807,
+					"lon": -1.725857,
+					"name": "Birmingham International Rail Station",
+					"stationId": "910GBHAMINT",
+					"topMostParentId": "910GBHAMINT"
+				},
+				{
+					"icsId": "90000591",
+					"id": "910GBHAMNWS",
+					"lat": 52.477818,
+					"lon": -1.900205,
+					"name": "Birmingham New Street Rail Station",
+					"stationId": "910GBHAMNWS",
+					"topMostParentId": "910GBHAMNWS"
+				},
+				{
+					"icsId": "90002900",
+					"id": "910GGALTILL",
+					"lat": 52.501781,
+					"lon": -1.980511,
+					"name": "Smethwick Galton Bridge Rail Station",
+					"stationId": "910GGALTILL",
+					"topMostParentId": "910GGALTILL"
+				},
+				{
+					"icsId": "90001717",
+					"id": "910GCOSELEY",
+					"lat": 52.545082,
+					"lon": -2.085777,
+					"name": "Coseley Rail Station",
+					"stationId": "910GCOSELEY",
+					"topMostParentId": "910GCOSELEY"
+				},
+				{
+					"icsId": "90008133",
+					"id": "910GWVRMPTN",
+					"lat": 52.587845,
+					"lon": -2.119515,
+					"name": "Wolverhampton Rail Station",
+					"stationId": "910GWVRMPTN",
+					"topMostParentId": "910GWVRMPTN"
+				},
+				{
+					"icsId": "90000604",
+					"id": "910GBILBROK",
+					"lat": 52.623718,
+					"lon": -2.186088,
+					"name": "Bilbrook Rail Station",
+					"stationId": "910GBILBROK",
+					"topMostParentId": "910GBILBROK"
+				},
+				{
+					"icsId": "90001657",
+					"id": "910GCODSALL",
+					"lat": 52.627288,
+					"lon": -2.201763,
+					"name": "Codsall Rail Station",
+					"stationId": "910GCODSALL",
+					"topMostParentId": "910GCODSALL"
+				},
+				{
+					"icsId": "90000103",
+					"id": "910GALBRGHT",
+					"lat": 52.637942,
+					"lon": -2.2689,
+					"name": "Albrighton Rail Station",
+					"stationId": "910GALBRGHT",
+					"topMostParentId": "910GALBRGHT"
+				},
+				{
+					"icsId": "90001718",
+					"id": "910GCOSFORD",
+					"lat": 52.644834,
+					"lon": -2.300275,
+					"name": "Cosford Rail Station",
+					"stationId": "910GCOSFORD",
+					"topMostParentId": "910GCOSFORD"
+				},
+				{
+					"icsId": "90006458",
+					"id": "910GSHIFNAL",
+					"lat": 52.666071,
+					"lon": -2.37184,
+					"name": "Shifnal Rail Station",
+					"stationId": "910GSHIFNAL",
+					"topMostParentId": "910GSHIFNAL"
+				},
+				{
+					"icsId": "90007152",
+					"id": "910GTELFRDC",
+					"lat": 52.681108,
+					"lon": -2.440971,
+					"name": "Telford Central Rail Station",
+					"stationId": "910GTELFRDC",
+					"topMostParentId": "910GTELFRDC"
+				},
+				{
+					"icsId": "90005414",
+					"id": "910GOAKNGTS",
+					"lat": 52.693398,
+					"lon": -2.450194,
+					"name": "Oakengates Rail Station",
+					"stationId": "910GOAKNGTS",
+					"topMostParentId": "910GOAKNGTS"
+				},
+				{
+					"icsId": "90007694",
+					"id": "910GWELNGTN",
+					"lat": 52.701305,
+					"lon": -2.517165,
+					"name": "Wellington (Shropshire) Rail Station",
+					"stationId": "910GWELNGTN",
+					"topMostParentId": "910GWELNGTN"
+				},
+				{
+					"icsId": "90006519",
+					"id": "910GSHRWBY",
+					"lat": 52.711928,
+					"lon": -2.749761,
+					"name": "Shrewsbury Rail Station",
+					"stationId": "910GSHRWBY",
+					"topMostParentId": "910GSHRWBY"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90006519",
+					"id": "910GSHRWBY",
+					"lat": 52.711928,
+					"lon": -2.749761,
+					"name": "Shrewsbury Rail Station",
+					"stationId": "910GSHRWBY",
+					"topMostParentId": "910GSHRWBY"
+				},
+				{
+					"icsId": "90003044",
+					"id": "910GGOBOWEN",
+					"lat": 52.893515,
+					"lon": -3.037173,
+					"name": "Gobowen Rail Station",
+					"stationId": "910GGOBOWEN",
+					"topMostParentId": "910GGOBOWEN"
+				},
+				{
+					"icsId": "90001402",
+					"id": "910GCHIRK",
+					"lat": 52.933087,
+					"lon": -3.065643,
+					"name": "Chirk Rail Station",
+					"stationId": "910GCHIRK",
+					"topMostParentId": "910GCHIRK"
+				},
+				{
+					"icsId": "90006191",
+					"id": "910GRUABON",
+					"lat": 52.987135,
+					"lon": -3.043139,
+					"name": "Ruabon Rail Station",
+					"stationId": "910GRUABON",
+					"topMostParentId": "910GRUABON"
+				},
+				{
+					"icsId": "90008048",
+					"id": "910GWREXHMG",
+					"lat": 53.050232,
+					"lon": -3.002443,
+					"name": "Wrexham General Rail Station",
+					"stationId": "910GWREXHMG",
+					"topMostParentId": "910GWREXHMG"
+				},
+				{
+					"icsId": "90001460",
+					"id": "910GCHST",
+					"lat": 53.196695,
+					"lon": -2.879594,
+					"name": "Chester Rail Station",
+					"stationId": "910GCHST",
+					"topMostParentId": "910GCHST"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90001460",
+					"id": "910GCHST",
+					"lat": 53.196695,
+					"lon": -2.879594,
+					"name": "Chester Rail Station",
+					"stationId": "910GCHST",
+					"topMostParentId": "910GCHST"
+				},
+				{
+					"icsId": "90003391",
+					"id": "910GHELSBY",
+					"lat": 53.275201,
+					"lon": -2.771207,
+					"name": "Helsby Rail Station",
+					"stationId": "910GHELSBY",
+					"topMostParentId": "910GHELSBY"
+				},
+				{
+					"icsId": "90002823",
+					"id": "910GFRDSHM",
+					"lat": 53.295815,
+					"lon": -2.723567,
+					"name": "Frodsham Rail Station",
+					"stationId": "910GFRDSHM",
+					"topMostParentId": "910GFRDSHM"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90002823",
+					"id": "910GFRDSHM",
+					"lat": 53.295815,
+					"lon": -2.723567,
+					"name": "Frodsham Rail Station",
+					"stationId": "910GFRDSHM",
+					"topMostParentId": "910GFRDSHM"
+				},
+				{
+					"icsId": "90006218",
+					"id": "910GRUNCRNE",
+					"lat": 53.327568,
+					"lon": -2.665697,
+					"name": "Runcorn East Rail Station",
+					"stationId": "910GRUNCRNE",
+					"topMostParentId": "910GRUNCRNE"
+				},
+				{
+					"icsId": "90008052",
+					"id": "910GWRGTNBQ",
+					"lat": 53.386008,
+					"lon": -2.602364,
+					"name": "Warrington Bank Quay Rail Station",
+					"stationId": "910GWRGTNBQ",
+					"topMostParentId": "910GWRGTNBQ"
+				},
+				{
+					"icsId": "90002602",
+					"id": "910GERLSTWN",
+					"lat": 53.451137,
+					"lon": -2.637663,
+					"name": "Earlestown Rail Station",
+					"stationId": "910GERLSTWN",
+					"topMostParentId": "910GERLSTWN"
+				},
+				{
+					"icsId": "90005408",
+					"id": "910GNWTNLW",
+					"lat": 53.453061,
+					"lon": -2.613598,
+					"name": "Newton-le-Willows Rail Station",
+					"stationId": "910GNWTNLW",
+					"topMostParentId": "910GNWTNLW"
+				},
+				{
+					"icsId": "90004937",
+					"id": "910GMNCROXR",
+					"lat": 53.474032,
+					"lon": -2.241995,
+					"name": "Manchester Oxford Road Rail Station",
+					"stationId": "910GMNCROXR",
+					"topMostParentId": "910GMNCROXR"
+				},
+				{
+					"icsId": "90004938",
+					"id": "910GMNCRPIC",
+					"lat": 53.477361,
+					"lon": -2.23091,
+					"name": "Manchester Piccadilly Rail Station",
+					"stationId": "910GMNCRPIC",
+					"topMostParentId": "910GMNCRPIC"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90006519",
+					"id": "910GSHRWBY",
+					"lat": 52.711928,
+					"lon": -2.749761,
+					"name": "Shrewsbury Rail Station",
+					"stationId": "910GSHRWBY",
+					"topMostParentId": "910GSHRWBY"
+				},
+				{
+					"icsId": "90007699",
+					"id": "910GWELSHPL",
+					"lat": 52.657494,
+					"lon": -3.139871,
+					"name": "Welshpool Rail Station",
+					"stationId": "910GWELSHPL",
+					"topMostParentId": "910GWELSHPL"
+				},
+				{
+					"icsId": "90005411",
+					"id": "910GNWTP",
+					"lat": 52.512314,
+					"lon": -3.311392,
+					"name": "Newtown (Powys) Rail Station",
+					"stationId": "910GNWTP",
+					"topMostParentId": "910GNWTP"
+				},
+				{
+					"icsId": "90001295",
+					"id": "910GCARSWS",
+					"lat": 52.516124,
+					"lon": -3.432498,
+					"name": "Caersws Rail Station",
+					"stationId": "910GCARSWS",
+					"topMostParentId": "910GCARSWS"
+				},
+				{
+					"icsId": "90004768",
+					"id": "910GMCHYNLT",
+					"lat": 52.595137,
+					"lon": -3.854527,
+					"name": "Machynlleth Rail Station",
+					"stationId": "910GMCHYNLT",
+					"topMostParentId": "910GMCHYNLT"
+				},
+				{
+					"icsId": "90002289",
+					"id": "910GDOVYJN",
+					"lat": 52.564359,
+					"lon": -3.923902,
+					"name": "Dovey Junction Rail Station",
+					"stationId": "910GDOVYJN",
+					"topMostParentId": "910GDOVYJN"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90002289",
+					"id": "910GDOVYJN",
+					"lat": 52.564359,
+					"lon": -3.923902,
+					"name": "Dovey Junction Rail Station",
+					"stationId": "910GDOVYJN",
+					"topMostParentId": "910GDOVYJN"
+				},
+				{
+					"icsId": "90000809",
+					"id": "910GBORTH",
+					"lat": 52.491027,
+					"lon": -4.050176,
+					"name": "Borth Rail Station",
+					"stationId": "910GBORTH",
+					"topMostParentId": "910GBORTH"
+				},
+				{
+					"icsId": "90000040",
+					"id": "910GABRYSTH",
+					"lat": 52.414045,
+					"lon": -4.081894,
+					"name": "Aberystwyth Rail Station",
+					"stationId": "910GABRYSTH",
+					"topMostParentId": "910GABRYSTH"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90001460",
+					"id": "910GCHST",
+					"lat": 53.196695,
+					"lon": -2.879594,
+					"name": "Chester Rail Station",
+					"stationId": "910GCHST",
+					"topMostParentId": "910GCHST"
+				},
+				{
+					"icsId": "90001786",
+					"id": "910GCREWE",
+					"lat": 53.089625,
+					"lon": -2.432969,
+					"name": "Crewe Rail Station",
+					"stationId": "910GCREWE",
+					"topMostParentId": "910GCREWE"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000585",
+					"id": "910GBHAMINT",
+					"lat": 52.450807,
+					"lon": -1.725857,
+					"name": "Birmingham International Rail Station",
+					"stationId": "910GBHAMINT",
+					"topMostParentId": "910GBHAMINT"
+				},
+				{
+					"icsId": "90000591",
+					"id": "910GBHAMNWS",
+					"lat": 52.477818,
+					"lon": -1.900205,
+					"name": "Birmingham New Street Rail Station",
+					"stationId": "910GBHAMNWS",
+					"topMostParentId": "910GBHAMNWS"
+				},
+				{
+					"icsId": "90002900",
+					"id": "910GGALTILL",
+					"lat": 52.501781,
+					"lon": -1.980511,
+					"name": "Smethwick Galton Bridge Rail Station",
+					"stationId": "910GGALTILL",
+					"topMostParentId": "910GGALTILL"
+				},
+				{
+					"icsId": "90008133",
+					"id": "910GWVRMPTN",
+					"lat": 52.587845,
+					"lon": -2.119515,
+					"name": "Wolverhampton Rail Station",
+					"stationId": "910GWVRMPTN",
+					"topMostParentId": "910GWVRMPTN"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90008133",
+					"id": "910GWVRMPTN",
+					"lat": 52.587845,
+					"lon": -2.119515,
+					"name": "Wolverhampton Rail Station",
+					"stationId": "910GWVRMPTN",
+					"topMostParentId": "910GWVRMPTN"
+				},
+				{
+					"icsId": "90000604",
+					"id": "910GBILBROK",
+					"lat": 52.623718,
+					"lon": -2.186088,
+					"name": "Bilbrook Rail Station",
+					"stationId": "910GBILBROK",
+					"topMostParentId": "910GBILBROK"
+				},
+				{
+					"icsId": "90001657",
+					"id": "910GCODSALL",
+					"lat": 52.627288,
+					"lon": -2.201763,
+					"name": "Codsall Rail Station",
+					"stationId": "910GCODSALL",
+					"topMostParentId": "910GCODSALL"
+				},
+				{
+					"icsId": "90000103",
+					"id": "910GALBRGHT",
+					"lat": 52.637942,
+					"lon": -2.2689,
+					"name": "Albrighton Rail Station",
+					"stationId": "910GALBRGHT",
+					"topMostParentId": "910GALBRGHT"
+				},
+				{
+					"icsId": "90001718",
+					"id": "910GCOSFORD",
+					"lat": 52.644834,
+					"lon": -2.300275,
+					"name": "Cosford Rail Station",
+					"stationId": "910GCOSFORD",
+					"topMostParentId": "910GCOSFORD"
+				},
+				{
+					"icsId": "90006458",
+					"id": "910GSHIFNAL",
+					"lat": 52.666071,
+					"lon": -2.37184,
+					"name": "Shifnal Rail Station",
+					"stationId": "910GSHIFNAL",
+					"topMostParentId": "910GSHIFNAL"
+				},
+				{
+					"icsId": "90007152",
+					"id": "910GTELFRDC",
+					"lat": 52.681108,
+					"lon": -2.440971,
+					"name": "Telford Central Rail Station",
+					"stationId": "910GTELFRDC",
+					"topMostParentId": "910GTELFRDC"
+				},
+				{
+					"icsId": "90005414",
+					"id": "910GOAKNGTS",
+					"lat": 52.693398,
+					"lon": -2.450194,
+					"name": "Oakengates Rail Station",
+					"stationId": "910GOAKNGTS",
+					"topMostParentId": "910GOAKNGTS"
+				},
+				{
+					"icsId": "90007694",
+					"id": "910GWELNGTN",
+					"lat": 52.701305,
+					"lon": -2.517165,
+					"name": "Wellington (Shropshire) Rail Station",
+					"stationId": "910GWELNGTN",
+					"topMostParentId": "910GWELNGTN"
+				},
+				{
+					"icsId": "90006519",
+					"id": "910GSHRWBY",
+					"lat": 52.711928,
+					"lon": -2.749761,
+					"name": "Shrewsbury Rail Station",
+					"stationId": "910GSHRWBY",
+					"topMostParentId": "910GSHRWBY"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90006519",
+					"id": "910GSHRWBY",
+					"lat": 52.711928,
+					"lon": -2.749761,
+					"name": "Shrewsbury Rail Station",
+					"stationId": "910GSHRWBY",
+					"topMostParentId": "910GSHRWBY"
+				},
+				{
+					"icsId": "90008205",
+					"id": "910GYORTON",
+					"lat": 52.808957,
+					"lon": -2.736461,
+					"name": "Yorton Rail Station",
+					"stationId": "910GYORTON",
+					"topMostParentId": "910GYORTON"
+				},
+				{
+					"icsId": "90007705",
+					"id": "910GWEMM",
+					"lat": 52.856409,
+					"lon": -2.718017,
+					"name": "Wem Rail Station",
+					"stationId": "910GWEMM",
+					"topMostParentId": "910GWEMM"
+				},
+				{
+					"icsId": "90005772",
+					"id": "910GPREES",
+					"lat": 52.899305,
+					"lon": -2.689663,
+					"name": "Prees Rail Station",
+					"stationId": "910GPREES",
+					"topMostParentId": "910GPREES"
+				},
+				{
+					"icsId": "90007625",
+					"id": "910GWCHR",
+					"lat": 52.96806,
+					"lon": -2.671698,
+					"name": "Whitchurch (Shrops) Rail Station",
+					"stationId": "910GWCHR",
+					"topMostParentId": "910GWCHR"
+				},
+				{
+					"icsId": "90008040",
+					"id": "910GWRENBRY",
+					"lat": 53.019388,
+					"lon": -2.595946,
+					"name": "Wrenbury Rail Station",
+					"stationId": "910GWRENBRY",
+					"topMostParentId": "910GWRENBRY"
+				},
+				{
+					"icsId": "90005143",
+					"id": "910GNANTWCH",
+					"lat": 53.063572,
+					"lon": -2.518959,
+					"name": "Nantwich Rail Station",
+					"stationId": "910GNANTWCH",
+					"topMostParentId": "910GNANTWCH"
+				},
+				{
+					"icsId": "90001786",
+					"id": "910GCREWE",
+					"lat": 53.089625,
+					"lon": -2.432969,
+					"name": "Crewe Rail Station",
+					"stationId": "910GCREWE",
+					"topMostParentId": "910GCREWE"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90001786",
+					"id": "910GCREWE",
+					"lat": 53.089625,
+					"lon": -2.432969,
+					"name": "Crewe Rail Station",
+					"stationId": "910GCREWE",
+					"topMostParentId": "910GCREWE"
+				},
+				{
+					"icsId": "90001460",
+					"id": "910GCHST",
+					"lat": 53.196695,
+					"lon": -2.879594,
+					"name": "Chester Rail Station",
+					"stationId": "910GCHST",
+					"topMostParentId": "910GCHST"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90001460",
+					"id": "910GCHST",
+					"lat": 53.196695,
+					"lon": -2.879594,
+					"name": "Chester Rail Station",
+					"stationId": "910GCHST",
+					"topMostParentId": "910GCHST"
+				},
+				{
+					"icsId": "90006478",
+					"id": "910GSHOTTHL",
+					"lat": 53.213536,
+					"lon": -3.0377,
+					"name": "Shotton High Level Rail Station",
+					"stationId": "910GSHOTTHL",
+					"topMostParentId": "910GSHOTTHL"
+				},
+				{
+					"icsId": "90002746",
+					"id": "910GFLINT",
+					"lat": 53.249524,
+					"lon": -3.132993,
+					"name": "Flint Rail Station",
+					"stationId": "910GFLINT",
+					"topMostParentId": "910GFLINT"
+				},
+				{
+					"icsId": "90005863",
+					"id": "910GPSTA",
+					"lat": 53.336498,
+					"lon": -3.407132,
+					"name": "Prestatyn Rail Station",
+					"stationId": "910GPSTA",
+					"topMostParentId": "910GPSTA"
+				},
+				{
+					"icsId": "90006060",
+					"id": "910GRHYL",
+					"lat": 53.318422,
+					"lon": -3.489105,
+					"name": "Rhyl Rail Station",
+					"stationId": "910GRHYL",
+					"topMostParentId": "910GRHYL"
+				},
+				{
+					"icsId": "90000008",
+					"id": "910GABGLELE",
+					"lat": 53.294573,
+					"lon": -3.582622,
+					"name": "Abergele & Pensarn Rail Station",
+					"stationId": "910GABGLELE",
+					"topMostParentId": "910GABGLELE"
+				},
+				{
+					"icsId": "90001310",
+					"id": "910GCBAY",
+					"lat": 53.296359,
+					"lon": -3.725417,
+					"name": "Colwyn Bay Rail Station",
+					"stationId": "910GCBAY",
+					"topMostParentId": "910GCBAY"
+				},
+				{
+					"icsId": "90004227",
+					"id": "910GLANDUDJ",
+					"lat": 53.283944,
+					"lon": -3.809102,
+					"name": "Llandudno Junction Rail Station",
+					"stationId": "910GLANDUDJ",
+					"topMostParentId": "910GLANDUDJ"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90004227",
+					"id": "910GLANDUDJ",
+					"lat": 53.283944,
+					"lon": -3.809102,
+					"name": "Llandudno Junction Rail Station",
+					"stationId": "910GLANDUDJ",
+					"topMostParentId": "910GLANDUDJ"
+				},
+				{
+					"icsId": "90001683",
+					"id": "910GCONWY",
+					"lat": 53.280102,
+					"lon": -3.830524,
+					"name": "Conwy Rail Station",
+					"stationId": "910GCONWY",
+					"topMostParentId": "910GCONWY"
+				},
+				{
+					"icsId": "90005716",
+					"id": "910GPNMNMWR",
+					"lat": 53.270465,
+					"lon": -3.923511,
+					"name": "Penmaenmawr Rail Station",
+					"stationId": "910GPNMNMWR",
+					"topMostParentId": "910GPNMNMWR"
+				},
+				{
+					"icsId": "90004228",
+					"id": "910GLANFRFC",
+					"lat": 53.257287,
+					"lon": -3.983203,
+					"name": "Llanfairfechan Rail Station",
+					"stationId": "910GLANFRFC",
+					"topMostParentId": "910GLANFRFC"
+				},
+				{
+					"icsId": "90000390",
+					"id": "910GBANGOR",
+					"lat": 53.222283,
+					"lon": -4.13588,
+					"name": "Bangor (Gwynedd) Rail Station",
+					"stationId": "910GBANGOR",
+					"topMostParentId": "910GBANGOR"
+				},
+				{
+					"icsId": "90004372",
+					"id": "910GLFPW",
+					"lat": 53.220945,
+					"lon": -4.209215,
+					"name": "Llanfairpwll Rail Station",
+					"stationId": "910GLFPW",
+					"topMostParentId": "910GLFPW"
+				},
+				{
+					"icsId": "90000760",
+					"id": "910GBODORGN",
+					"lat": 53.204302,
+					"lon": -4.418003,
+					"name": "Bodorgan Rail Station",
+					"stationId": "910GBODORGN",
+					"topMostParentId": "910GBODORGN"
+				},
+				{
+					"icsId": "90007444",
+					"id": "910GTYCROES",
+					"lat": 53.222558,
+					"lon": -4.474733,
+					"name": "Ty Croes Rail Station",
+					"stationId": "910GTYCROES",
+					"topMostParentId": "910GTYCROES"
+				},
+				{
+					"icsId": "90006057",
+					"id": "910GRHOSNGR",
+					"lat": 53.234838,
+					"lon": -4.506642,
+					"name": "Rhosneigr Rail Station",
+					"stationId": "910GRHOSNGR",
+					"topMostParentId": "910GRHOSNGR"
+				},
+				{
+					"icsId": "90007503",
+					"id": "910GVALLEY",
+					"lat": 53.281284,
+					"lon": -4.563369,
+					"name": "Valley Rail Station",
+					"stationId": "910GVALLEY",
+					"topMostParentId": "910GVALLEY"
+				},
+				{
+					"icsId": "90003509",
+					"id": "910GHLYH",
+					"lat": 53.307684,
+					"lon": -4.631002,
+					"name": "Holyhead Rail Station",
+					"stationId": "910GHLYH",
+					"topMostParentId": "910GHLYH"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90004934",
+					"id": "910GMNCRIAP",
+					"lat": 53.365042,
+					"lon": -2.27298,
+					"name": "Manchester Airport Rail Station",
+					"stationId": "910GMNCRIAP",
+					"topMostParentId": "910GMNCRIAP"
+				},
+				{
+					"icsId": "90002453",
+					"id": "910GEDIDBRY",
+					"lat": 53.409308,
+					"lon": -2.221996,
+					"name": "East Didsbury Rail Station",
+					"stationId": "910GEDIDBRY",
+					"topMostParentId": "910GEDIDBRY"
+				},
+				{
+					"icsId": "90004938",
+					"id": "910GMNCRPIC",
+					"lat": 53.477361,
+					"lon": -2.23091,
+					"name": "Manchester Piccadilly Rail Station",
+					"stationId": "910GMNCRPIC",
+					"topMostParentId": "910GMNCRPIC"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90004938",
+					"id": "910GMNCRPIC",
+					"lat": 53.477361,
+					"lon": -2.23091,
+					"name": "Manchester Piccadilly Rail Station",
+					"stationId": "910GMNCRPIC",
+					"topMostParentId": "910GMNCRPIC"
+				},
+				{
+					"icsId": "90004937",
+					"id": "910GMNCROXR",
+					"lat": 53.474032,
+					"lon": -2.241995,
+					"name": "Manchester Oxford Road Rail Station",
+					"stationId": "910GMNCROXR",
+					"topMostParentId": "910GMNCROXR"
+				},
+				{
+					"icsId": "90002432",
+					"id": "910GECCLES",
+					"lat": 53.485359,
+					"lon": -2.334514,
+					"name": "Eccles Rail Station",
+					"stationId": "910GECCLES",
+					"topMostParentId": "910GECCLES"
+				},
+				{
+					"icsId": "90005884",
+					"id": "910GPTRCRFT",
+					"lat": 53.484777,
+					"lon": -2.358245,
+					"name": "Patricroft Rail Station",
+					"stationId": "910GPTRCRFT",
+					"topMostParentId": "910GPTRCRFT"
+				},
+				{
+					"icsId": "90005408",
+					"id": "910GNWTNLW",
+					"lat": 53.453061,
+					"lon": -2.613598,
+					"name": "Newton-le-Willows Rail Station",
+					"stationId": "910GNWTNLW",
+					"topMostParentId": "910GNWTNLW"
+				},
+				{
+					"icsId": "90002602",
+					"id": "910GERLSTWN",
+					"lat": 53.451137,
+					"lon": -2.637663,
+					"name": "Earlestown Rail Station",
+					"stationId": "910GERLSTWN",
+					"topMostParentId": "910GERLSTWN"
+				},
+				{
+					"icsId": "90008052",
+					"id": "910GWRGTNBQ",
+					"lat": 53.386008,
+					"lon": -2.602364,
+					"name": "Warrington Bank Quay Rail Station",
+					"stationId": "910GWRGTNBQ",
+					"topMostParentId": "910GWRGTNBQ"
+				},
+				{
+					"icsId": "90006218",
+					"id": "910GRUNCRNE",
+					"lat": 53.327568,
+					"lon": -2.665697,
+					"name": "Runcorn East Rail Station",
+					"stationId": "910GRUNCRNE",
+					"topMostParentId": "910GRUNCRNE"
+				},
+				{
+					"icsId": "90002823",
+					"id": "910GFRDSHM",
+					"lat": 53.295815,
+					"lon": -2.723567,
+					"name": "Frodsham Rail Station",
+					"stationId": "910GFRDSHM",
+					"topMostParentId": "910GFRDSHM"
+				},
+				{
+					"icsId": "90003391",
+					"id": "910GHELSBY",
+					"lat": 53.275201,
+					"lon": -2.771207,
+					"name": "Helsby Rail Station",
+					"stationId": "910GHELSBY",
+					"topMostParentId": "910GHELSBY"
+				},
+				{
+					"icsId": "90001460",
+					"id": "910GCHST",
+					"lat": 53.196695,
+					"lon": -2.879594,
+					"name": "Chester Rail Station",
+					"stationId": "910GCHST",
+					"topMostParentId": "910GCHST"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90004227",
+					"id": "910GLANDUDJ",
+					"lat": 53.283944,
+					"lon": -3.809102,
+					"name": "Llandudno Junction Rail Station",
+					"stationId": "910GLANDUDJ",
+					"topMostParentId": "910GLANDUDJ"
+				},
+				{
+					"icsId": "90002051",
+					"id": "910GDEGANWY",
+					"lat": 53.294747,
+					"lon": -3.833386,
+					"name": "Deganwy Rail Station",
+					"stationId": "910GDEGANWY",
+					"topMostParentId": "910GDEGANWY"
+				},
+				{
+					"icsId": "90004622",
+					"id": "910GLUDO",
+					"lat": 53.320916,
+					"lon": -3.827001,
+					"name": "Llandudno Rail Station",
+					"stationId": "910GLUDO",
+					"topMostParentId": "910GLUDO"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90004938",
+					"id": "910GMNCRPIC",
+					"lat": 53.477361,
+					"lon": -2.23091,
+					"name": "Manchester Piccadilly Rail Station",
+					"stationId": "910GMNCRPIC",
+					"topMostParentId": "910GMNCRPIC"
+				},
+				{
+					"icsId": "90006875",
+					"id": "910GSTKP",
+					"lat": 53.405538,
+					"lon": -2.163013,
+					"name": "Stockport Rail Station",
+					"stationId": "910GSTKP",
+					"topMostParentId": "910GSTKP"
+				},
+				{
+					"icsId": "90000156",
+					"id": "910GALTRNHM",
+					"lat": 53.387717,
+					"lon": -2.346889,
+					"name": "Altrincham Rail Station",
+					"stationId": "910GALTRNHM",
+					"topMostParentId": "910GALTRNHM"
+				},
+				{
+					"icsId": "90001460",
+					"id": "910GCHST",
+					"lat": 53.196695,
+					"lon": -2.879594,
+					"name": "Chester Rail Station",
+					"stationId": "910GCHST",
+					"topMostParentId": "910GCHST"
+				}
+			]
+		}
+	]
+}

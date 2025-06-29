@@ -1,0 +1,5223 @@
+{
+	"direction": "outbound",
+	"lineId": "scotrail",
+	"lineName": "ScotRail",
+	"mode": "national-rail",
+	"stopPointSequences": [
+		{
+			"stopPoint": [
+				{
+					"icsId": "90002969",
+					"id": "910GGLGC",
+					"lat": 55.859756,
+					"lon": -4.257643,
+					"name": "Glasgow Central Rail Station",
+					"stationId": "910GGLGC",
+					"topMostParentId": "910GGLGC"
+				},
+				{
+					"icsId": "90001912",
+					"id": "910GCRSMYLF",
+					"lat": 55.833946,
+					"lon": -4.284317,
+					"name": "Crossmyloof Rail Station",
+					"stationId": "910GCRSMYLF",
+					"topMostParentId": "910GCRSMYLF"
+				},
+				{
+					"icsId": "90005678",
+					"id": "910GPLKSHWW",
+					"lat": 55.823827,
+					"lon": -4.301606,
+					"name": "Pollokshaws West Rail Station",
+					"stationId": "910GPLKSHWW",
+					"topMostParentId": "910GPLKSHWW"
+				},
+				{
+					"icsId": "90004009",
+					"id": "910GKENISHD",
+					"lat": 55.813316,
+					"lon": -4.325246,
+					"name": "Kennishead Rail Station",
+					"stationId": "910GKENISHD",
+					"topMostParentId": "910GKENISHD"
+				},
+				{
+					"icsId": "90005644",
+					"id": "910GPHLD",
+					"lat": 55.812172,
+					"lon": -4.342895,
+					"name": "Priesthill & Darnley Rail Station",
+					"stationId": "910GPHLD",
+					"topMostParentId": "910GPHLD"
+				},
+				{
+					"icsId": "90005222",
+					"id": "910GNITSH",
+					"lat": 55.811935,
+					"lon": -4.359959,
+					"name": "Nitshill Rail Station",
+					"stationId": "910GNITSH",
+					"topMostParentId": "910GNITSH"
+				},
+				{
+					"icsId": "90000902",
+					"id": "910GBRHD",
+					"lat": 55.803753,
+					"lon": -4.397283,
+					"name": "Barrhead Rail Station",
+					"stationId": "910GBRHD",
+					"topMostParentId": "910GBRHD"
+				},
+				{
+					"icsId": "90002175",
+					"id": "910GDNLP",
+					"lat": 55.71188,
+					"lon": -4.532389,
+					"name": "Dunlop Rail Station",
+					"stationId": "910GDNLP",
+					"topMostParentId": "910GDNLP"
+				},
+				{
+					"icsId": "90006811",
+					"id": "910GSTEWRTN",
+					"lat": 55.682154,
+					"lon": -4.518058,
+					"name": "Stewarton Rail Station",
+					"stationId": "910GSTEWRTN",
+					"topMostParentId": "910GSTEWRTN"
+				},
+				{
+					"icsId": "90004088",
+					"id": "910GKLMAURS",
+					"lat": 55.637208,
+					"lon": -4.53049,
+					"name": "Kilmaurs Rail Station",
+					"stationId": "910GKLMAURS",
+					"topMostParentId": "910GKLMAURS"
+				},
+				{
+					"icsId": "90004057",
+					"id": "910GKILMRNK",
+					"lat": 55.612118,
+					"lon": -4.498685,
+					"name": "Kilmarnock Rail Station",
+					"stationId": "910GKILMRNK",
+					"topMostParentId": "910GKILMRNK"
+				},
+				{
+					"icsId": "90000057",
+					"id": "910GACHILCK",
+					"lat": 55.470273,
+					"lon": -4.295349,
+					"name": "Auchinleck Rail Station",
+					"stationId": "910GACHILCK",
+					"topMostParentId": "910GACHILCK"
+				},
+				{
+					"icsId": "90005358",
+					"id": "910GNWCMNCK",
+					"lat": 55.402051,
+					"lon": -4.182613,
+					"name": "New Cumnock Rail Station",
+					"stationId": "910GNWCMNCK",
+					"topMostParentId": "910GNWCMNCK"
+				},
+				{
+					"icsId": "90004165",
+					"id": "910GKRKC",
+					"lat": 55.388303,
+					"lon": -3.9985,
+					"name": "Kirkconnel Rail Station",
+					"stationId": "910GKRKC",
+					"topMostParentId": "910GKRKC"
+				},
+				{
+					"icsId": "90006258",
+					"id": "910GSANQHAR",
+					"lat": 55.370168,
+					"lon": -3.924519,
+					"name": "Sanquhar Rail Station",
+					"stationId": "910GSANQHAR",
+					"topMostParentId": "910GSANQHAR"
+				},
+				{
+					"icsId": "90002370",
+					"id": "910GDUMFRES",
+					"lat": 55.072556,
+					"lon": -3.604303,
+					"name": "Dumfries Rail Station",
+					"stationId": "910GDUMFRES",
+					"topMostParentId": "910GDUMFRES"
+				},
+				{
+					"icsId": "90000191",
+					"id": "910GANNAN",
+					"lat": 54.983835,
+					"lon": -3.26258,
+					"name": "Annan Rail Station",
+					"stationId": "910GANNAN",
+					"topMostParentId": "910GANNAN"
+				},
+				{
+					"icsId": "90003105",
+					"id": "910GGRETGRN",
+					"lat": 55.001047,
+					"lon": -3.065198,
+					"name": "Gretna Green Rail Station",
+					"stationId": "910GGRETGRN",
+					"topMostParentId": "910GGRETGRN"
+				},
+				{
+					"icsId": "90001276",
+					"id": "910GCARLILE",
+					"lat": 54.890652,
+					"lon": -2.933192,
+					"name": "Carlisle Rail Station",
+					"stationId": "910GCARLILE",
+					"topMostParentId": "910GCARLILE"
+				},
+				{
+					"icsId": "90007723",
+					"id": "910GWETHERL",
+					"lat": 54.88384,
+					"lon": -2.831713,
+					"name": "Wetheral Rail Station",
+					"stationId": "910GWETHERL",
+					"topMostParentId": "910GWETHERL"
+				},
+				{
+					"icsId": "90000967",
+					"id": "910GBRMPTNC",
+					"lat": 54.93239,
+					"lon": -2.702947,
+					"name": "Brampton (Cumbria) Rail Station",
+					"stationId": "910GBRMPTNC",
+					"topMostParentId": "910GBRMPTNC"
+				},
+				{
+					"icsId": "90003504",
+					"id": "910GHLTWHST",
+					"lat": 54.967849,
+					"lon": -2.463565,
+					"name": "Haltwhistle Rail Station",
+					"stationId": "910GHLTWHST",
+					"topMostParentId": "910GHLTWHST"
+				},
+				{
+					"icsId": "90000872",
+					"id": "910GBRDNML",
+					"lat": 54.974494,
+					"lon": -2.346504,
+					"name": "Bardon Mill Rail Station",
+					"stationId": "910GBRDNML",
+					"topMostParentId": "910GBRDNML"
+				},
+				{
+					"icsId": "90003806",
+					"id": "910GHYDB",
+					"lat": 54.975176,
+					"lon": -2.247588,
+					"name": "Haydon Bridge Rail Station",
+					"stationId": "910GHYDB",
+					"topMostParentId": "910GHYDB"
+				},
+				{
+					"icsId": "90003426",
+					"id": "910GHEXHAM",
+					"lat": 54.973459,
+					"lon": -2.094795,
+					"name": "Hexham Rail Station",
+					"stationId": "910GHEXHAM",
+					"topMostParentId": "910GHEXHAM"
+				},
+				{
+					"icsId": "90001759",
+					"id": "910GCRBG",
+					"lat": 54.966261,
+					"lon": -2.0184,
+					"name": "Corbridge Rail Station",
+					"stationId": "910GCRBG",
+					"topMostParentId": "910GCRBG"
+				},
+				{
+					"icsId": "90006074",
+					"id": "910GRIDNGML",
+					"lat": 54.948736,
+					"lon": -1.971555,
+					"name": "Riding Mill Rail Station",
+					"stationId": "910GRIDNGML",
+					"topMostParentId": "910GRIDNGML"
+				},
+				{
+					"icsId": "90006790",
+					"id": "910GSTCKSFL",
+					"lat": 54.947048,
+					"lon": -1.916759,
+					"name": "Stocksfield Rail Station",
+					"stationId": "910GSTCKSFL",
+					"topMostParentId": "910GSTCKSFL"
+				},
+				{
+					"icsId": "90005843",
+					"id": "910GPRUDHOE",
+					"lat": 54.965828,
+					"lon": -1.864866,
+					"name": "Prudhoe Rail Station",
+					"stationId": "910GPRUDHOE",
+					"topMostParentId": "910GPRUDHOE"
+				},
+				{
+					"icsId": "90008149",
+					"id": "910GWYLAM",
+					"lat": 54.974972,
+					"lon": -1.814062,
+					"name": "Wylam Rail Station",
+					"stationId": "910GWYLAM",
+					"topMostParentId": "910GWYLAM"
+				},
+				{
+					"icsId": "90000631",
+					"id": "910GBLAYDON",
+					"lat": 54.965789,
+					"lon": -1.712581,
+					"name": "Blaydon Rail Station",
+					"stationId": "910GBLAYDON",
+					"topMostParentId": "910GBLAYDON"
+				},
+				{
+					"icsId": "90003208",
+					"id": "910GGTSHDMC",
+					"lat": 54.958749,
+					"lon": -1.665626,
+					"name": "Metrocentre Rail Station",
+					"stationId": "910GGTSHDMC",
+					"topMostParentId": "910GGTSHDMC"
+				},
+				{
+					"icsId": "90002183",
+					"id": "910GDNSN",
+					"lat": 54.950055,
+					"lon": -1.642044,
+					"name": "Dunston Rail Station",
+					"stationId": "910GDNSN",
+					"topMostParentId": "910GDNSN"
+				},
+				{
+					"icsId": "90005367",
+					"id": "910GNWCSTLE",
+					"lat": 54.968402,
+					"lon": -1.61728,
+					"name": "Newcastle Rail Station",
+					"stationId": "910GNWCSTLE",
+					"topMostParentId": "910GNWCSTLE"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90002969",
+					"id": "910GGLGC",
+					"lat": 55.859756,
+					"lon": -4.257643,
+					"name": "Glasgow Central Rail Station",
+					"stationId": "910GGLGC",
+					"topMostParentId": "910GGLGC"
+				},
+				{
+					"icsId": "90002368",
+					"id": "910GDUMBRCK",
+					"lat": 55.844649,
+					"lon": -4.301239,
+					"name": "Dumbreck Rail Station",
+					"stationId": "910GDUMBRCK",
+					"topMostParentId": "910GDUMBRCK"
+				},
+				{
+					"icsId": "90001494",
+					"id": "910GCKHL",
+					"lat": 55.837501,
+					"lon": -4.334293,
+					"name": "Corkerhill Rail Station",
+					"stationId": "910GCKHL",
+					"topMostParentId": "910GCKHL"
+				},
+				{
+					"icsId": "90005111",
+					"id": "910GMSSPARK",
+					"lat": 55.840829,
+					"lon": -4.348293,
+					"name": "Mosspark Rail Station",
+					"stationId": "910GMSSPARK",
+					"topMostParentId": "910GMSSPARK"
+				},
+				{
+					"icsId": "90001898",
+					"id": "910GCROKSTN",
+					"lat": 55.842313,
+					"lon": -4.364675,
+					"name": "Crookston Rail Station",
+					"stationId": "910GCROKSTN",
+					"topMostParentId": "910GCROKSTN"
+				},
+				{
+					"icsId": "90003799",
+					"id": "910GHWKHEAD",
+					"lat": 55.84219,
+					"lon": -4.398851,
+					"name": "Hawkhead Rail Station",
+					"stationId": "910GHWKHEAD",
+					"topMostParentId": "910GHWKHEAD"
+				},
+				{
+					"icsId": "90005856",
+					"id": "910GPSLYCAN",
+					"lat": 55.840077,
+					"lon": -4.424117,
+					"name": "Paisley Canal Rail Station",
+					"stationId": "910GPSLYCAN",
+					"topMostParentId": "910GPSLYCAN"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90002969",
+					"id": "910GGLGC",
+					"lat": 55.859756,
+					"lon": -4.257643,
+					"name": "Glasgow Central Rail Station",
+					"stationId": "910GGLGC",
+					"topMostParentId": "910GGLGC"
+				},
+				{
+					"icsId": "90001912",
+					"id": "910GCRSMYLF",
+					"lat": 55.833946,
+					"lon": -4.284317,
+					"name": "Crossmyloof Rail Station",
+					"stationId": "910GCRSMYLF",
+					"topMostParentId": "910GCRSMYLF"
+				},
+				{
+					"icsId": "90005678",
+					"id": "910GPLKSHWW",
+					"lat": 55.823827,
+					"lon": -4.301606,
+					"name": "Pollokshaws West Rail Station",
+					"stationId": "910GPLKSHWW",
+					"topMostParentId": "910GPLKSHWW"
+				},
+				{
+					"icsId": "90004009",
+					"id": "910GKENISHD",
+					"lat": 55.813316,
+					"lon": -4.325246,
+					"name": "Kennishead Rail Station",
+					"stationId": "910GKENISHD",
+					"topMostParentId": "910GKENISHD"
+				},
+				{
+					"icsId": "90005644",
+					"id": "910GPHLD",
+					"lat": 55.812172,
+					"lon": -4.342895,
+					"name": "Priesthill & Darnley Rail Station",
+					"stationId": "910GPHLD",
+					"topMostParentId": "910GPHLD"
+				},
+				{
+					"icsId": "90005222",
+					"id": "910GNITSH",
+					"lat": 55.811935,
+					"lon": -4.359959,
+					"name": "Nitshill Rail Station",
+					"stationId": "910GNITSH",
+					"topMostParentId": "910GNITSH"
+				},
+				{
+					"icsId": "90000902",
+					"id": "910GBRHD",
+					"lat": 55.803753,
+					"lon": -4.397283,
+					"name": "Barrhead Rail Station",
+					"stationId": "910GBRHD",
+					"topMostParentId": "910GBRHD"
+				},
+				{
+					"icsId": "90002175",
+					"id": "910GDNLP",
+					"lat": 55.71188,
+					"lon": -4.532389,
+					"name": "Dunlop Rail Station",
+					"stationId": "910GDNLP",
+					"topMostParentId": "910GDNLP"
+				},
+				{
+					"icsId": "90006811",
+					"id": "910GSTEWRTN",
+					"lat": 55.682154,
+					"lon": -4.518058,
+					"name": "Stewarton Rail Station",
+					"stationId": "910GSTEWRTN",
+					"topMostParentId": "910GSTEWRTN"
+				},
+				{
+					"icsId": "90004088",
+					"id": "910GKLMAURS",
+					"lat": 55.637208,
+					"lon": -4.53049,
+					"name": "Kilmaurs Rail Station",
+					"stationId": "910GKLMAURS",
+					"topMostParentId": "910GKLMAURS"
+				},
+				{
+					"icsId": "90004057",
+					"id": "910GKILMRNK",
+					"lat": 55.612118,
+					"lon": -4.498685,
+					"name": "Kilmarnock Rail Station",
+					"stationId": "910GKILMRNK",
+					"topMostParentId": "910GKILMRNK"
+				},
+				{
+					"icsId": "90007391",
+					"id": "910GTROON",
+					"lat": 55.542811,
+					"lon": -4.6553,
+					"name": "Troon Rail Station",
+					"stationId": "910GTROON",
+					"topMostParentId": "910GTROON"
+				},
+				{
+					"icsId": "90005902",
+					"id": "910GPWCKAPT",
+					"lat": 55.509036,
+					"lon": -4.61417,
+					"name": "Prestwick Intl Airport Rail Station",
+					"stationId": "910GPWCKAPT",
+					"topMostParentId": "910GPWCKAPT"
+				},
+				{
+					"icsId": "90005901",
+					"id": "910GPWCK",
+					"lat": 55.501698,
+					"lon": -4.615156,
+					"name": "Prestwick Rail Station",
+					"stationId": "910GPWCK",
+					"topMostParentId": "910GPWCK"
+				},
+				{
+					"icsId": "90000355",
+					"id": "910GAYRR",
+					"lat": 55.458142,
+					"lon": -4.625876,
+					"name": "Ayr Rail Station",
+					"stationId": "910GAYRR",
+					"topMostParentId": "910GAYRR"
+				},
+				{
+					"icsId": "90004747",
+					"id": "910GMAYBOLE",
+					"lat": 55.354736,
+					"lon": -4.685289,
+					"name": "Maybole Rail Station",
+					"stationId": "910GMAYBOLE",
+					"topMostParentId": "910GMAYBOLE"
+				},
+				{
+					"icsId": "90002952",
+					"id": "910GGIRVAN",
+					"lat": 55.246313,
+					"lon": -4.848381,
+					"name": "Girvan Rail Station",
+					"stationId": "910GGIRVAN",
+					"topMostParentId": "910GGIRVAN"
+				},
+				{
+					"icsId": "90001022",
+					"id": "910GBRRHL",
+					"lat": 55.097005,
+					"lon": -4.781781,
+					"name": "Barrhill Rail Station",
+					"stationId": "910GBRRHL",
+					"topMostParentId": "910GBRRHL"
+				},
+				{
+					"icsId": "90006977",
+					"id": "910GSTRNRR",
+					"lat": 54.909602,
+					"lon": -5.024737,
+					"name": "Stranraer Rail Station",
+					"stationId": "910GSTRNRR",
+					"topMostParentId": "910GSTRNRR"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90002969",
+					"id": "910GGLGC",
+					"lat": 55.859756,
+					"lon": -4.257643,
+					"name": "Glasgow Central Rail Station",
+					"stationId": "910GGLGC",
+					"topMostParentId": "910GGLGC"
+				},
+				{
+					"icsId": "90001332",
+					"id": "910GCDNL",
+					"lat": 55.852568,
+					"lon": -4.340692,
+					"name": "Cardonald Rail Station",
+					"stationId": "910GCDNL",
+					"topMostParentId": "910GCDNL"
+				},
+				{
+					"icsId": "90003490",
+					"id": "910GHLNGTNE",
+					"lat": 55.854183,
+					"lon": -4.35501,
+					"name": "Hillington East Rail Station",
+					"stationId": "910GHLNGTNE",
+					"topMostParentId": "910GHLNGTNE"
+				},
+				{
+					"icsId": "90003491",
+					"id": "910GHLNGTNW",
+					"lat": 55.856021,
+					"lon": -4.37158,
+					"name": "Hillington West Rail Station",
+					"stationId": "910GHLNGTNW",
+					"topMostParentId": "910GHLNGTNW"
+				},
+				{
+					"id": "0000PSLYGST2",
+					"lat": 49.766811,
+					"lon": -7.55716,
+					"name": "Paisley Gilmour Street Rail Station",
+					"topMostParentId": "0000PSLYGST2"
+				},
+				{
+					"icsId": "90005859",
+					"id": "910GPSLYSTJ",
+					"lat": 55.852118,
+					"lon": -4.442443,
+					"name": "Paisley St James Rail Station",
+					"stationId": "910GPSLYSTJ",
+					"topMostParentId": "910GPSLYSTJ"
+				},
+				{
+					"icsId": "90000611",
+					"id": "910GBISHPTN",
+					"lat": 55.902264,
+					"lon": -4.500486,
+					"name": "Bishopton Rail Station",
+					"stationId": "910GBISHPTN",
+					"topMostParentId": "910GBISHPTN"
+				},
+				{
+					"icsId": "90004373",
+					"id": "910GLGBK",
+					"lat": 55.92452,
+					"lon": -4.585275,
+					"name": "Langbank Rail Station",
+					"stationId": "910GLGBK",
+					"topMostParentId": "910GLGBK"
+				},
+				{
+					"icsId": "90007753",
+					"id": "910GWHHL",
+					"lat": 55.931206,
+					"lon": -4.655401,
+					"name": "Woodhall Rail Station",
+					"stationId": "910GWHHL",
+					"topMostParentId": "910GWHHL"
+				},
+				{
+					"icsId": "90005879",
+					"id": "910GPTGLSGW",
+					"lat": 55.933515,
+					"lon": -4.689826,
+					"name": "Port Glasgow Rail Station",
+					"stationId": "910GPTGLSGW",
+					"topMostParentId": "910GPTGLSGW"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90005879",
+					"id": "910GPTGLSGW",
+					"lat": 55.933515,
+					"lon": -4.689826,
+					"name": "Port Glasgow Rail Station",
+					"stationId": "910GPTGLSGW",
+					"topMostParentId": "910GPTGLSGW"
+				},
+				{
+					"icsId": "90000766",
+					"id": "910GBOGSTON",
+					"lat": 55.937042,
+					"lon": -4.711401,
+					"name": "Bogston Rail Station",
+					"stationId": "910GBOGSTON",
+					"topMostParentId": "910GBOGSTON"
+				},
+				{
+					"icsId": "90001925",
+					"id": "910GCRTSDYK",
+					"lat": 55.942213,
+					"lon": -4.731591,
+					"name": "Cartsdyke Rail Station",
+					"stationId": "910GCRTSDYK",
+					"topMostParentId": "910GCRTSDYK"
+				},
+				{
+					"icsId": "90003099",
+					"id": "910GGRENCKC",
+					"lat": 55.94534,
+					"lon": -4.752634,
+					"name": "Greenock Central Rail Station",
+					"stationId": "910GGRENCKC",
+					"topMostParentId": "910GGRENCKC"
+				},
+				{
+					"icsId": "90003101",
+					"id": "910GGRENCKW",
+					"lat": 55.947336,
+					"lon": -4.767833,
+					"name": "Greenock West Rail Station",
+					"stationId": "910GGRENCKW",
+					"topMostParentId": "910GGRENCKW"
+				},
+				{
+					"icsId": "90002856",
+					"id": "910GFRTMTLD",
+					"lat": 55.959031,
+					"lon": -4.795267,
+					"name": "Fort Matilda Rail Station",
+					"stationId": "910GFRTMTLD",
+					"topMostParentId": "910GFRTMTLD"
+				},
+				{
+					"icsId": "90003077",
+					"id": "910GGOUROCK",
+					"lat": 55.962319,
+					"lon": -4.816658,
+					"name": "Gourock Rail Station",
+					"stationId": "910GGOUROCK",
+					"topMostParentId": "910GGOUROCK"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90005879",
+					"id": "910GPTGLSGW",
+					"lat": 55.933515,
+					"lon": -4.689826,
+					"name": "Port Glasgow Rail Station",
+					"stationId": "910GPTGLSGW",
+					"topMostParentId": "910GPTGLSGW"
+				},
+				{
+					"icsId": "90007761",
+					"id": "910GWHINH",
+					"lat": 55.938372,
+					"lon": -4.746694,
+					"name": "Whinhill Rail Station",
+					"stationId": "910GWHINH",
+					"topMostParentId": "910GWHINH"
+				},
+				{
+					"icsId": "90002335",
+					"id": "910GDRMFCHR",
+					"lat": 55.941248,
+					"lon": -4.774766,
+					"name": "Drumfrochar Rail Station",
+					"stationId": "910GDRMFCHR",
+					"topMostParentId": "910GDRMFCHR"
+				},
+				{
+					"icsId": "90000973",
+					"id": "910GBRNCHTN",
+					"lat": 55.940596,
+					"lon": -4.803548,
+					"name": "Branchton Rail Station",
+					"stationId": "910GBRNCHTN",
+					"topMostParentId": "910GBRNCHTN"
+				},
+				{
+					"icsId": "90003822",
+					"id": "910GIBMM",
+					"lat": 55.929447,
+					"lon": -4.82724,
+					"name": "IBM (Greenock) Rail Station",
+					"stationId": "910GIBMM",
+					"topMostParentId": "910GIBMM"
+				},
+				{
+					"icsId": "90003884",
+					"id": "910GINVERKP",
+					"lat": 55.906104,
+					"lon": -4.872586,
+					"name": "Inverkip Rail Station",
+					"stationId": "910GINVERKP",
+					"topMostParentId": "910GINVERKP"
+				},
+				{
+					"icsId": "90007707",
+					"id": "910GWEMYSSB",
+					"lat": 55.876144,
+					"lon": -4.88908,
+					"name": "Wemyss Bay Rail Station",
+					"stationId": "910GWEMYSSB",
+					"topMostParentId": "910GWEMYSSB"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90002969",
+					"id": "910GGLGC",
+					"lat": 55.859756,
+					"lon": -4.257643,
+					"name": "Glasgow Central Rail Station",
+					"stationId": "910GGLGC",
+					"topMostParentId": "910GGLGC"
+				},
+				{
+					"icsId": "90001332",
+					"id": "910GCDNL",
+					"lat": 55.852568,
+					"lon": -4.340692,
+					"name": "Cardonald Rail Station",
+					"stationId": "910GCDNL",
+					"topMostParentId": "910GCDNL"
+				},
+				{
+					"icsId": "90003490",
+					"id": "910GHLNGTNE",
+					"lat": 55.854183,
+					"lon": -4.35501,
+					"name": "Hillington East Rail Station",
+					"stationId": "910GHLNGTNE",
+					"topMostParentId": "910GHLNGTNE"
+				},
+				{
+					"icsId": "90003491",
+					"id": "910GHLNGTNW",
+					"lat": 55.856021,
+					"lon": -4.37158,
+					"name": "Hillington West Rail Station",
+					"stationId": "910GHLNGTNW",
+					"topMostParentId": "910GHLNGTNW"
+				},
+				{
+					"id": "0000PSLYGST3",
+					"lat": 49.766811,
+					"lon": -7.55716,
+					"name": "Paisley Gilmour Street Rail Station",
+					"topMostParentId": "0000PSLYGST3"
+				},
+				{
+					"icsId": "90003971",
+					"id": "910GJOHNSTN",
+					"lat": 55.834709,
+					"lon": -4.503637,
+					"name": "Johnstone Rail Station",
+					"stationId": "910GJOHNSTN",
+					"topMostParentId": "910GJOHNSTN"
+				},
+				{
+					"icsId": "90004847",
+					"id": "910GMILKNPK",
+					"lat": 55.825112,
+					"lon": -4.533358,
+					"name": "Milliken Park Rail Station",
+					"stationId": "910GMILKNPK",
+					"topMostParentId": "910GMILKNPK"
+				},
+				{
+					"icsId": "90003641",
+					"id": "910GHOWOOD",
+					"lat": 55.810564,
+					"lon": -4.563058,
+					"name": "Howwood (Renfrewshire) Rail Station",
+					"stationId": "910GHOWOOD",
+					"topMostParentId": "910GHOWOOD"
+				},
+				{
+					"icsId": "90004285",
+					"id": "910GLCHWNCH",
+					"lat": 55.787156,
+					"lon": -4.616075,
+					"name": "Lochwinnoch Rail Station",
+					"stationId": "910GLCHWNCH",
+					"topMostParentId": "910GLCHWNCH"
+				},
+				{
+					"icsId": "90002982",
+					"id": "910GGLGN",
+					"lat": 55.738888,
+					"lon": -4.674502,
+					"name": "Glengarnock Rail Station",
+					"stationId": "910GGLGN",
+					"topMostParentId": "910GGLGN"
+				},
+				{
+					"icsId": "90002008",
+					"id": "910GDALRY",
+					"lat": 55.70622,
+					"lon": -4.71108,
+					"name": "Dalry Rail Station",
+					"stationId": "910GDALRY",
+					"topMostParentId": "910GDALRY"
+				},
+				{
+					"icsId": "90004063",
+					"id": "910GKILWNNG",
+					"lat": 55.655951,
+					"lon": -4.710019,
+					"name": "Kilwinning Rail Station",
+					"stationId": "910GKILWNNG",
+					"topMostParentId": "910GKILWNNG"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90004063",
+					"id": "910GKILWNNG",
+					"lat": 55.655951,
+					"lon": -4.710019,
+					"name": "Kilwinning Rail Station",
+					"stationId": "910GKILWNNG",
+					"topMostParentId": "910GKILWNNG"
+				},
+				{
+					"icsId": "90003912",
+					"id": "910GIRVN",
+					"lat": 55.610874,
+					"lon": -4.675145,
+					"name": "Irvine Rail Station",
+					"stationId": "910GIRVN",
+					"topMostParentId": "910GIRVN"
+				},
+				{
+					"icsId": "90000398",
+					"id": "910GBARASIE",
+					"lat": 55.561059,
+					"lon": -4.651138,
+					"name": "Barassie Rail Station",
+					"stationId": "910GBARASIE",
+					"topMostParentId": "910GBARASIE"
+				},
+				{
+					"icsId": "90007391",
+					"id": "910GTROON",
+					"lat": 55.542811,
+					"lon": -4.6553,
+					"name": "Troon Rail Station",
+					"stationId": "910GTROON",
+					"topMostParentId": "910GTROON"
+				},
+				{
+					"icsId": "90005902",
+					"id": "910GPWCKAPT",
+					"lat": 55.509036,
+					"lon": -4.61417,
+					"name": "Prestwick Intl Airport Rail Station",
+					"stationId": "910GPWCKAPT",
+					"topMostParentId": "910GPWCKAPT"
+				},
+				{
+					"icsId": "90005901",
+					"id": "910GPWCK",
+					"lat": 55.501698,
+					"lon": -4.615156,
+					"name": "Prestwick Rail Station",
+					"stationId": "910GPWCK",
+					"topMostParentId": "910GPWCK"
+				},
+				{
+					"icsId": "90005409",
+					"id": "910GNWTOA",
+					"lat": 55.474053,
+					"lon": -4.625826,
+					"name": "Newton-on-Ayr Rail Station",
+					"stationId": "910GNWTOA",
+					"topMostParentId": "910GNWTOA"
+				},
+				{
+					"icsId": "90000355",
+					"id": "910GAYRR",
+					"lat": 55.458142,
+					"lon": -4.625876,
+					"name": "Ayr Rail Station",
+					"stationId": "910GAYRR",
+					"topMostParentId": "910GAYRR"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90004063",
+					"id": "910GKILWNNG",
+					"lat": 55.655951,
+					"lon": -4.710019,
+					"name": "Kilwinning Rail Station",
+					"stationId": "910GKILWNNG",
+					"topMostParentId": "910GKILWNNG"
+				},
+				{
+					"icsId": "90007001",
+					"id": "910GSTVNSTN",
+					"lat": 55.634279,
+					"lon": -4.75079,
+					"name": "Stevenston Rail Station",
+					"stationId": "910GSTVNSTN",
+					"topMostParentId": "910GSTVNSTN"
+				},
+				{
+					"icsId": "90006578",
+					"id": "910GSLCT",
+					"lat": 55.633882,
+					"lon": -4.78429,
+					"name": "Saltcoats Rail Station",
+					"stationId": "910GSLCT",
+					"topMostParentId": "910GSLCT"
+				},
+				{
+					"icsId": "90000221",
+					"id": "910GARDRSSB",
+					"lat": 55.641416,
+					"lon": -4.801211,
+					"name": "Ardrossan South Beach Rail Station",
+					"stationId": "910GARDRSSB",
+					"topMostParentId": "910GARDRSSB"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000221",
+					"id": "910GARDRSSB",
+					"lat": 55.641416,
+					"lon": -4.801211,
+					"name": "Ardrossan South Beach Rail Station",
+					"stationId": "910GARDRSSB",
+					"topMostParentId": "910GARDRSSB"
+				},
+				{
+					"icsId": "90007858",
+					"id": "910GWKILBRD",
+					"lat": 55.696155,
+					"lon": -4.851746,
+					"name": "West Kilbride Rail Station",
+					"stationId": "910GWKILBRD",
+					"topMostParentId": "910GWKILBRD"
+				},
+				{
+					"icsId": "90002665",
+					"id": "910GFAIRLIE",
+					"lat": 55.751942,
+					"lon": -4.853267,
+					"name": "Fairlie Rail Station",
+					"stationId": "910GFAIRLIE",
+					"topMostParentId": "910GFAIRLIE"
+				},
+				{
+					"icsId": "90004246",
+					"id": "910GLARGS",
+					"lat": 55.792743,
+					"lon": -4.867198,
+					"name": "Largs Rail Station",
+					"stationId": "910GLARGS",
+					"topMostParentId": "910GLARGS"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000221",
+					"id": "910GARDRSSB",
+					"lat": 55.641416,
+					"lon": -4.801211,
+					"name": "Ardrossan South Beach Rail Station",
+					"stationId": "910GARDRSSB",
+					"topMostParentId": "910GARDRSSB"
+				},
+				{
+					"icsId": "90000222",
+					"id": "910GARDRSTN",
+					"lat": 55.639706,
+					"lon": -4.812675,
+					"name": "Ardrossan Town Rail Station",
+					"stationId": "910GARDRSTN",
+					"topMostParentId": "910GARDRSTN"
+				},
+				{
+					"icsId": "90000220",
+					"id": "910GARDRSHB",
+					"lat": 55.639872,
+					"lon": -4.82111,
+					"name": "Ardrossan Harbour Rail Station",
+					"stationId": "910GARDRSHB",
+					"topMostParentId": "910GARDRSHB"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90002969",
+					"id": "910GGLGC",
+					"lat": 55.859756,
+					"lon": -4.257643,
+					"name": "Glasgow Central Rail Station",
+					"stationId": "910GGLGC",
+					"topMostParentId": "910GGLGC"
+				},
+				{
+					"icsId": "90005676",
+					"id": "910GPLKLHDW",
+					"lat": 55.837699,
+					"lon": -4.275753,
+					"name": "Pollokshields West Rail Station",
+					"stationId": "910GPLKLHDW",
+					"topMostParentId": "910GPLKLHDW"
+				},
+				{
+					"icsId": "90004746",
+					"id": "910GMAXWLPK",
+					"lat": 55.837729,
+					"lon": -4.288692,
+					"name": "Maxwell Park Rail Station",
+					"stationId": "910GMAXWLPK",
+					"topMostParentId": "910GMAXWLPK"
+				},
+				{
+					"icsId": "90006532",
+					"id": "910GSHWLNDS",
+					"lat": 55.829213,
+					"lon": -4.292343,
+					"name": "Shawlands Rail Station",
+					"stationId": "910GSHWLNDS",
+					"topMostParentId": "910GSHWLNDS"
+				},
+				{
+					"icsId": "90005677",
+					"id": "910GPLKSHWE",
+					"lat": 55.824641,
+					"lon": -4.286885,
+					"name": "Pollokshaws East Rail Station",
+					"stationId": "910GPLKSHWE",
+					"topMostParentId": "910GPLKSHWE"
+				},
+				{
+					"icsId": "90004535",
+					"id": "910GLNSD",
+					"lat": 55.821133,
+					"lon": -4.27734,
+					"name": "Langside Rail Station",
+					"stationId": "910GLNSD",
+					"topMostParentId": "910GLNSD"
+				},
+				{
+					"icsId": "90004038",
+					"id": "910GKGPK",
+					"lat": 55.819543,
+					"lon": -4.246517,
+					"name": "Kings Park Rail Station",
+					"stationId": "910GKGPK",
+					"topMostParentId": "910GKGPK"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90004038",
+					"id": "910GKGPK",
+					"lat": 55.819543,
+					"lon": -4.246517,
+					"name": "Kings Park Rail Station",
+					"stationId": "910GKGPK",
+					"topMostParentId": "910GKGPK"
+				},
+				{
+					"icsId": "90001349",
+					"id": "910GCFFT",
+					"lat": 55.818256,
+					"lon": -4.228325,
+					"name": "Croftfoot Rail Station",
+					"stationId": "910GCFFT",
+					"topMostParentId": "910GCFFT"
+				},
+				{
+					"icsId": "90001026",
+					"id": "910GBRSDE",
+					"lat": 55.816926,
+					"lon": -4.202389,
+					"name": "Burnside (Strathclyde) Rail Station",
+					"stationId": "910GBRSDE",
+					"topMostParentId": "910GBRSDE"
+				},
+				{
+					"icsId": "90004169",
+					"id": "910GKRKH",
+					"lat": 55.813913,
+					"lon": -4.167105,
+					"name": "Kirkhill Rail Station",
+					"stationId": "910GKRKH",
+					"topMostParentId": "910GKRKH"
+				},
+				{
+					"icsId": "90005400",
+					"id": "910GNWTL",
+					"lat": 55.818778,
+					"lon": -4.133055,
+					"name": "Newton (S Lanarks) Rail Station",
+					"stationId": "910GNWTL",
+					"topMostParentId": "910GNWTL"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90002969",
+					"id": "910GGLGC",
+					"lat": 55.859756,
+					"lon": -4.257643,
+					"name": "Glasgow Central Rail Station",
+					"stationId": "910GGLGC",
+					"topMostParentId": "910GGLGC"
+				},
+				{
+					"icsId": "90005675",
+					"id": "910GPLKLHDE",
+					"lat": 55.841067,
+					"lon": -4.268603,
+					"name": "Pollokshields East Rail Station",
+					"stationId": "910GPLKLHDE",
+					"topMostParentId": "910GPLKLHDE"
+				},
+				{
+					"icsId": "90005931",
+					"id": "910GQUNPARK",
+					"lat": 55.835304,
+					"lon": -4.26675,
+					"name": "Queens Park (Glasgow) Rail Station",
+					"stationId": "910GQUNPARK",
+					"topMostParentId": "910GQUNPARK"
+				},
+				{
+					"icsId": "90001901",
+					"id": "910GCROSSHL",
+					"lat": 55.833285,
+					"lon": -4.256811,
+					"name": "Crosshill Rail Station",
+					"stationId": "910GCROSSHL",
+					"topMostParentId": "910GCROSSHL"
+				},
+				{
+					"icsId": "90005116",
+					"id": "910GMTFL",
+					"lat": 55.826555,
+					"lon": -4.261132,
+					"name": "Mount Florida Rail Station",
+					"stationId": "910GMTFL",
+					"topMostParentId": "910GMTFL"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90005116",
+					"id": "910GMTFL",
+					"lat": 55.826555,
+					"lon": -4.261132,
+					"name": "Mount Florida Rail Station",
+					"stationId": "910GMTFL",
+					"topMostParentId": "910GMTFL"
+				},
+				{
+					"icsId": "90001323",
+					"id": "910GCCRT",
+					"lat": 55.817668,
+					"lon": -4.260536,
+					"name": "Cathcart Rail Station",
+					"stationId": "910GCCRT",
+					"topMostParentId": "910GCCRT"
+				},
+				{
+					"icsId": "90005126",
+					"id": "910GMUIREND",
+					"lat": 55.809459,
+					"lon": -4.274392,
+					"name": "Muirend Rail Station",
+					"stationId": "910GMUIREND",
+					"topMostParentId": "910GMUIREND"
+				},
+				{
+					"icsId": "90007950",
+					"id": "910GWMWD",
+					"lat": 55.793686,
+					"lon": -4.290335,
+					"name": "Williamwood Rail Station",
+					"stationId": "910GWMWD",
+					"topMostParentId": "910GWMWD"
+				},
+				{
+					"icsId": "90008111",
+					"id": "910GWTCR",
+					"lat": 55.790322,
+					"lon": -4.310157,
+					"name": "Whitecraigs Rail Station",
+					"stationId": "910GWTCR",
+					"topMostParentId": "910GWTCR"
+				},
+				{
+					"icsId": "90005542",
+					"id": "910GPATERTN",
+					"lat": 55.790611,
+					"lon": -4.335298,
+					"name": "Patterton Rail Station",
+					"stationId": "910GPATERTN",
+					"topMostParentId": "910GPATERTN"
+				},
+				{
+					"icsId": "90005176",
+					"id": "910GNEILSTN",
+					"lat": 55.783038,
+					"lon": -4.426952,
+					"name": "Neilston Rail Station",
+					"stationId": "910GNEILSTN",
+					"topMostParentId": "910GNEILSTN"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90002969",
+					"id": "910GGLGC",
+					"lat": 55.859756,
+					"lon": -4.257643,
+					"name": "Glasgow Central Rail Station",
+					"stationId": "910GGLGC",
+					"topMostParentId": "910GGLGC"
+				},
+				{
+					"icsId": "90005676",
+					"id": "910GPLKLHDW",
+					"lat": 55.837699,
+					"lon": -4.275753,
+					"name": "Pollokshields West Rail Station",
+					"stationId": "910GPLKLHDW",
+					"topMostParentId": "910GPLKLHDW"
+				},
+				{
+					"icsId": "90004746",
+					"id": "910GMAXWLPK",
+					"lat": 55.837729,
+					"lon": -4.288692,
+					"name": "Maxwell Park Rail Station",
+					"stationId": "910GMAXWLPK",
+					"topMostParentId": "910GMAXWLPK"
+				},
+				{
+					"icsId": "90006532",
+					"id": "910GSHWLNDS",
+					"lat": 55.829213,
+					"lon": -4.292343,
+					"name": "Shawlands Rail Station",
+					"stationId": "910GSHWLNDS",
+					"topMostParentId": "910GSHWLNDS"
+				},
+				{
+					"icsId": "90005677",
+					"id": "910GPLKSHWE",
+					"lat": 55.824641,
+					"lon": -4.286885,
+					"name": "Pollokshaws East Rail Station",
+					"stationId": "910GPLKSHWE",
+					"topMostParentId": "910GPLKSHWE"
+				},
+				{
+					"icsId": "90004535",
+					"id": "910GLNSD",
+					"lat": 55.821133,
+					"lon": -4.27734,
+					"name": "Langside Rail Station",
+					"stationId": "910GLNSD",
+					"topMostParentId": "910GLNSD"
+				},
+				{
+					"icsId": "90001323",
+					"id": "910GCCRT",
+					"lat": 55.817668,
+					"lon": -4.260536,
+					"name": "Cathcart Rail Station",
+					"stationId": "910GCCRT",
+					"topMostParentId": "910GCCRT"
+				},
+				{
+					"icsId": "90005116",
+					"id": "910GMTFL",
+					"lat": 55.826555,
+					"lon": -4.261132,
+					"name": "Mount Florida Rail Station",
+					"stationId": "910GMTFL",
+					"topMostParentId": "910GMTFL"
+				},
+				{
+					"icsId": "90001901",
+					"id": "910GCROSSHL",
+					"lat": 55.833285,
+					"lon": -4.256811,
+					"name": "Crosshill Rail Station",
+					"stationId": "910GCROSSHL",
+					"topMostParentId": "910GCROSSHL"
+				},
+				{
+					"icsId": "90005931",
+					"id": "910GQUNPARK",
+					"lat": 55.835304,
+					"lon": -4.26675,
+					"name": "Queens Park (Glasgow) Rail Station",
+					"stationId": "910GQUNPARK",
+					"topMostParentId": "910GQUNPARK"
+				},
+				{
+					"icsId": "90005675",
+					"id": "910GPLKLHDE",
+					"lat": 55.841067,
+					"lon": -4.268603,
+					"name": "Pollokshields East Rail Station",
+					"stationId": "910GPLKLHDE",
+					"topMostParentId": "910GPLKLHDE"
+				},
+				{
+					"icsId": "90002969",
+					"id": "910GGLGC",
+					"lat": 55.859756,
+					"lon": -4.257643,
+					"name": "Glasgow Central Rail Station",
+					"stationId": "910GGLGC",
+					"topMostParentId": "910GGLGC"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90002986",
+					"id": "910GGLGQHL",
+					"lat": 55.862188,
+					"lon": -4.251456,
+					"name": "Glasgow Queen Street Rail Station",
+					"stationId": "910GGLGQHL",
+					"topMostParentId": "910GGLGQHL"
+				},
+				{
+					"icsId": "90006738",
+					"id": "910GSPRNGBN",
+					"lat": 55.881937,
+					"lon": -4.230534,
+					"name": "Springburn Rail Station",
+					"stationId": "910GSPRNGBN",
+					"topMostParentId": "910GSPRNGBN"
+				},
+				{
+					"icsId": "90006805",
+					"id": "910GSTEPPS",
+					"lat": 55.890136,
+					"lon": -4.140808,
+					"name": "Stepps Rail Station",
+					"stationId": "910GSTEPPS",
+					"topMostParentId": "910GSTEPPS"
+				},
+				{
+					"icsId": "90003159",
+					"id": "910GGRTCSH",
+					"lat": 55.885661,
+					"lon": -4.079494,
+					"name": "Gartcosh Rail Station",
+					"stationId": "910GGRTCSH",
+					"topMostParentId": "910GGRTCSH"
+				},
+				{
+					"icsId": "90003126",
+					"id": "910GGRNFLDS",
+					"lat": 55.935233,
+					"lon": -3.9931,
+					"name": "Greenfaulds Rail Station",
+					"stationId": "910GGRNFLDS",
+					"topMostParentId": "910GGRNFLDS"
+				},
+				{
+					"icsId": "90001597",
+					"id": "910GCMBRNLD",
+					"lat": 55.942026,
+					"lon": -3.980334,
+					"name": "Cumbernauld Rail Station",
+					"stationId": "910GCMBRNLD",
+					"topMostParentId": "910GCMBRNLD"
+				},
+				{
+					"icsId": "90001229",
+					"id": "910GCAMELON",
+					"lat": 56.006092,
+					"lon": -3.817605,
+					"name": "Camelon Rail Station",
+					"stationId": "910GCAMELON",
+					"topMostParentId": "910GCAMELON"
+				},
+				{
+					"icsId": "90002669",
+					"id": "910GFALKRKG",
+					"lat": 56.002613,
+					"lon": -3.785046,
+					"name": "Falkirk Grahamston Rail Station",
+					"stationId": "910GFALKRKG",
+					"topMostParentId": "910GFALKRKG"
+				},
+				{
+					"icsId": "90005742",
+					"id": "910GPOLMONT",
+					"lat": 55.984737,
+					"lon": -3.714973,
+					"name": "Polmont Rail Station",
+					"stationId": "910GPOLMONT",
+					"topMostParentId": "910GPOLMONT"
+				},
+				{
+					"icsId": "90004532",
+					"id": "910GLNLTHGW",
+					"lat": 55.976452,
+					"lon": -3.595852,
+					"name": "Linlithgow Rail Station",
+					"stationId": "910GLNLTHGW",
+					"topMostParentId": "910GLNLTHGW"
+				},
+				{
+					"icsId": "90002460",
+					"id": "910GEDINPRK",
+					"lat": 55.927551,
+					"lon": -3.307664,
+					"name": "Edinburgh Park Rail Station",
+					"stationId": "910GEDINPRK",
+					"topMostParentId": "910GEDINPRK"
+				},
+				{
+					"icsId": "90003347",
+					"id": "910GHAYMRKT",
+					"lat": 55.945808,
+					"lon": -3.218449,
+					"name": "Haymarket Rail Station",
+					"stationId": "910GHAYMRKT",
+					"topMostParentId": "910GHAYMRKT"
+				},
+				{
+					"icsId": "90002457",
+					"id": "910GEDINBUR",
+					"lat": 55.952393,
+					"lon": -3.188228,
+					"name": "Edinburgh Rail Station",
+					"stationId": "910GEDINBUR",
+					"topMostParentId": "910GEDINBUR"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90005153",
+					"id": "910GNBERWCK",
+					"lat": 56.057036,
+					"lon": -2.730742,
+					"name": "North Berwick Rail Station",
+					"stationId": "910GNBERWCK",
+					"topMostParentId": "910GNBERWCK"
+				},
+				{
+					"icsId": "90002319",
+					"id": "910GDREMJ",
+					"lat": 56.005123,
+					"lon": -2.786048,
+					"name": "Drem Rail Station",
+					"stationId": "910GDREMJ",
+					"topMostParentId": "910GDREMJ"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90002319",
+					"id": "910GDREMJ",
+					"lat": 56.005123,
+					"lon": -2.786048,
+					"name": "Drem Rail Station",
+					"stationId": "910GDREMJ",
+					"topMostParentId": "910GDREMJ"
+				},
+				{
+					"icsId": "90004500",
+					"id": "910GLNGNDRY",
+					"lat": 55.976484,
+					"lon": -2.888343,
+					"name": "Longniddry Rail Station",
+					"stationId": "910GLNGNDRY",
+					"topMostParentId": "910GLNGNDRY"
+				},
+				{
+					"icsId": "90005767",
+					"id": "910GPPAN",
+					"lat": 55.953099,
+					"lon": -2.974768,
+					"name": "Prestonpans Rail Station",
+					"stationId": "910GPPAN",
+					"topMostParentId": "910GPPAN"
+				},
+				{
+					"icsId": "90007552",
+					"id": "910GWALLYFD",
+					"lat": 55.940284,
+					"lon": -3.01495,
+					"name": "Wallyford Rail Station",
+					"stationId": "910GWALLYFD",
+					"topMostParentId": "910GWALLYFD"
+				},
+				{
+					"icsId": "90005098",
+					"id": "910GMSELBGH",
+					"lat": 55.933591,
+					"lon": -3.073201,
+					"name": "Musselburgh Rail Station",
+					"stationId": "910GMSELBGH",
+					"topMostParentId": "910GMSELBGH"
+				},
+				{
+					"icsId": "90002457",
+					"id": "910GEDINBUR",
+					"lat": 55.952393,
+					"lon": -3.188228,
+					"name": "Edinburgh Rail Station",
+					"stationId": "910GEDINBUR",
+					"topMostParentId": "910GEDINBUR"
+				},
+				{
+					"icsId": "90003347",
+					"id": "910GHAYMRKT",
+					"lat": 55.945808,
+					"lon": -3.218449,
+					"name": "Haymarket Rail Station",
+					"stationId": "910GHAYMRKT",
+					"topMostParentId": "910GHAYMRKT"
+				},
+				{
+					"icsId": "90006574",
+					"id": "910GSLATEFD",
+					"lat": 55.926688,
+					"lon": -3.243457,
+					"name": "Slateford Rail Station",
+					"stationId": "910GSLATEFD",
+					"topMostParentId": "910GSLATEFD"
+				},
+				{
+					"icsId": "90004117",
+					"id": "910GKNGW",
+					"lat": 55.918813,
+					"lon": -3.264966,
+					"name": "Kingsknowe Rail Station",
+					"stationId": "910GKNGW",
+					"topMostParentId": "910GKNGW"
+				},
+				{
+					"icsId": "90007744",
+					"id": "910GWHAILES",
+					"lat": 55.914318,
+					"lon": -3.284339,
+					"name": "Wester Hailes Rail Station",
+					"stationId": "910GWHAILES",
+					"topMostParentId": "910GWHAILES"
+				},
+				{
+					"icsId": "90001969",
+					"id": "910GCURRIEH",
+					"lat": 55.900565,
+					"lon": -3.318751,
+					"name": "Curriehill Rail Station",
+					"stationId": "910GCURRIEH",
+					"topMostParentId": "910GCURRIEH"
+				},
+				{
+					"icsId": "90004170",
+					"id": "910GKRKNWTN",
+					"lat": 55.888691,
+					"lon": -3.432512,
+					"name": "Kirknewton Rail Station",
+					"stationId": "910GKRKNWTN",
+					"topMostParentId": "910GKRKNWTN"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90002378",
+					"id": "910GDUNBAR",
+					"lat": 55.998294,
+					"lon": -2.513346,
+					"name": "Dunbar Rail Station",
+					"stationId": "910GDUNBAR",
+					"topMostParentId": "910GDUNBAR"
+				},
+				{
+					"icsId": "90002319",
+					"id": "910GDREMJ",
+					"lat": 56.005123,
+					"lon": -2.786048,
+					"name": "Drem Rail Station",
+					"stationId": "910GDREMJ",
+					"topMostParentId": "910GDREMJ"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90004247",
+					"id": "910GLARKHAL",
+					"lat": 55.738595,
+					"lon": -3.975512,
+					"name": "Larkhall Rail Station",
+					"stationId": "910GLARKHAL",
+					"topMostParentId": "910GLARKHAL"
+				},
+				{
+					"icsId": "90005081",
+					"id": "910GMRRYTON",
+					"lat": 55.748707,
+					"lon": -3.978254,
+					"name": "Merryton Rail Station",
+					"stationId": "910GMRRYTON",
+					"topMostParentId": "910GMRRYTON"
+				},
+				{
+					"icsId": "90001478",
+					"id": "910GCHTLRT",
+					"lat": 55.765219,
+					"lon": -4.004674,
+					"name": "Chatelherault Rail Station",
+					"stationId": "910GCHTLRT",
+					"topMostParentId": "910GCHTLRT"
+				},
+				{
+					"icsId": "90003276",
+					"id": "910GHAMLTNC",
+					"lat": 55.773194,
+					"lon": -4.038885,
+					"name": "Hamilton Central Rail Station",
+					"stationId": "910GHAMLTNC",
+					"topMostParentId": "910GHAMLTNC"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90003276",
+					"id": "910GHAMLTNC",
+					"lat": 55.773194,
+					"lon": -4.038885,
+					"name": "Hamilton Central Rail Station",
+					"stationId": "910GHAMLTNC",
+					"topMostParentId": "910GHAMLTNC"
+				},
+				{
+					"icsId": "90003277",
+					"id": "910GHAMLTNW",
+					"lat": 55.77886,
+					"lon": -4.054808,
+					"name": "Hamilton West Rail Station",
+					"stationId": "910GHAMLTNW",
+					"topMostParentId": "910GHAMLTNW"
+				},
+				{
+					"icsId": "90000629",
+					"id": "910GBLANTYR",
+					"lat": 55.797326,
+					"lon": -4.086971,
+					"name": "Blantyre Rail Station",
+					"stationId": "910GBLANTYR",
+					"topMostParentId": "910GBLANTYR"
+				},
+				{
+					"icsId": "90005400",
+					"id": "910GNWTL",
+					"lat": 55.818778,
+					"lon": -4.133055,
+					"name": "Newton (S Lanarks) Rail Station",
+					"stationId": "910GNWTL",
+					"topMostParentId": "910GNWTL"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90005400",
+					"id": "910GNWTL",
+					"lat": 55.818778,
+					"lon": -4.133055,
+					"name": "Newton (S Lanarks) Rail Station",
+					"stationId": "910GNWTL",
+					"topMostParentId": "910GNWTL"
+				},
+				{
+					"icsId": "90001598",
+					"id": "910GCMBSLNG",
+					"lat": 55.819606,
+					"lon": -4.173008,
+					"name": "Cambuslang Rail Station",
+					"stationId": "910GCMBSLNG",
+					"topMostParentId": "910GCMBSLNG"
+				},
+				{
+					"icsId": "90006179",
+					"id": "910GRTHGLEN",
+					"lat": 55.830592,
+					"lon": -4.212104,
+					"name": "Rutherglen Rail Station",
+					"stationId": "910GRTHGLEN",
+					"topMostParentId": "910GRTHGLEN"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90006179",
+					"id": "910GRTHGLEN",
+					"lat": 55.830592,
+					"lon": -4.212104,
+					"name": "Rutherglen Rail Station",
+					"stationId": "910GRTHGLEN",
+					"topMostParentId": "910GRTHGLEN"
+				},
+				{
+					"icsId": "90002131",
+					"id": "910GDLMRNOK",
+					"lat": 55.842085,
+					"lon": -4.217709,
+					"name": "Dalmarnock Rail Station",
+					"stationId": "910GDLMRNOK",
+					"topMostParentId": "910GDLMRNOK"
+				},
+				{
+					"icsId": "90000913",
+					"id": "910GBRIDGTN",
+					"lat": 55.848963,
+					"lon": -4.226056,
+					"name": "Bridgeton Rail Station",
+					"stationId": "910GBRIDGTN",
+					"topMostParentId": "910GBRIDGTN"
+				},
+				{
+					"icsId": "90000227",
+					"id": "910GARGYLST",
+					"lat": 55.857304,
+					"lon": -4.250694,
+					"name": "Argyle Street Rail Station",
+					"stationId": "910GARGYLST",
+					"topMostParentId": "910GARGYLST"
+				},
+				{
+					"icsId": "90002969",
+					"id": "910GGLGC",
+					"lat": 55.859756,
+					"lon": -4.257643,
+					"name": "Glasgow Central Rail Station",
+					"stationId": "910GGLGC",
+					"topMostParentId": "910GGLGC"
+				},
+				{
+					"icsId": "90000181",
+					"id": "910GANDRSTN",
+					"lat": 55.859897,
+					"lon": -4.270979,
+					"name": "Anderston Rail Station",
+					"stationId": "910GANDRSTN",
+					"topMostParentId": "910GANDRSTN"
+				},
+				{
+					"icsId": "90002656",
+					"id": "910GEXHIBTC",
+					"lat": 55.861551,
+					"lon": -4.283589,
+					"name": "Exhibition Centre (Glasgow) Rail Station",
+					"stationId": "910GEXHIBTC",
+					"topMostParentId": "910GEXHIBTC"
+				},
+				{
+					"icsId": "90005871",
+					"id": "910GPTCK",
+					"lat": 55.869888,
+					"lon": -4.308806,
+					"name": "Partick Rail Station",
+					"stationId": "910GPTCK",
+					"topMostParentId": "910GPTCK"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90005871",
+					"id": "910GPTCK",
+					"lat": 55.869888,
+					"lon": -4.308806,
+					"name": "Partick Rail Station",
+					"stationId": "910GPTCK",
+					"topMostParentId": "910GPTCK"
+				},
+				{
+					"icsId": "90003815",
+					"id": "910GHYNDLND",
+					"lat": 55.879754,
+					"lon": -4.314668,
+					"name": "Hyndland Rail Station",
+					"stationId": "910GHYNDLND",
+					"topMostParentId": "910GHYNDLND"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90002007",
+					"id": "910GDALMUIR",
+					"lat": 55.911929,
+					"lon": -4.426681,
+					"name": "Dalmuir Rail Station",
+					"stationId": "910GDALMUIR",
+					"topMostParentId": "910GDALMUIR"
+				},
+				{
+					"icsId": "90004090",
+					"id": "910GKLPTRCK",
+					"lat": 55.924701,
+					"lon": -4.453412,
+					"name": "Kilpatrick Rail Station",
+					"stationId": "910GKLPTRCK",
+					"topMostParentId": "910GKLPTRCK"
+				},
+				{
+					"icsId": "90000837",
+					"id": "910GBOWLING",
+					"lat": 55.931079,
+					"lon": -4.493842,
+					"name": "Bowling Rail Station",
+					"stationId": "910GBOWLING",
+					"topMostParentId": "910GBOWLING"
+				},
+				{
+					"icsId": "90002165",
+					"id": "910GDMBRTNE",
+					"lat": 55.942247,
+					"lon": -4.554137,
+					"name": "Dumbarton East Rail Station",
+					"stationId": "910GDMBRTNE",
+					"topMostParentId": "910GDMBRTNE"
+				},
+				{
+					"icsId": "90002164",
+					"id": "910GDMBRTNC",
+					"lat": 55.946655,
+					"lon": -4.566921,
+					"name": "Dumbarton Central Rail Station",
+					"stationId": "910GDMBRTNC",
+					"topMostParentId": "910GDMBRTNC"
+				},
+				{
+					"icsId": "90002140",
+					"id": "910GDLREOCH",
+					"lat": 55.947415,
+					"lon": -4.577863,
+					"name": "Dalreoch Rail Station",
+					"stationId": "910GDLREOCH",
+					"topMostParentId": "910GDLREOCH"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90002140",
+					"id": "910GDLREOCH",
+					"lat": 55.947415,
+					"lon": -4.577863,
+					"name": "Dalreoch Rail Station",
+					"stationId": "910GDLREOCH",
+					"topMostParentId": "910GDLREOCH"
+				},
+				{
+					"icsId": "90006043",
+					"id": "910GRENTON",
+					"lat": 55.970431,
+					"lon": -4.586126,
+					"name": "Renton Rail Station",
+					"stationId": "910GRENTON",
+					"topMostParentId": "910GRENTON"
+				},
+				{
+					"icsId": "90000159",
+					"id": "910GALXANDR",
+					"lat": 55.985083,
+					"lon": -4.577484,
+					"name": "Alexandria Rail Station",
+					"stationId": "910GALXANDR",
+					"topMostParentId": "910GALXANDR"
+				},
+				{
+					"icsId": "90000384",
+					"id": "910GBALLOCH",
+					"lat": 56.002934,
+					"lon": -4.583485,
+					"name": "Balloch Rail Station",
+					"stationId": "910GBALLOCH",
+					"topMostParentId": "910GBALLOCH"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90003815",
+					"id": "910GHYNDLND",
+					"lat": 55.879754,
+					"lon": -4.314668,
+					"name": "Hyndland Rail Station",
+					"stationId": "910GHYNDLND",
+					"topMostParentId": "910GHYNDLND"
+				},
+				{
+					"icsId": "90003973",
+					"id": "910GJORDANH",
+					"lat": 55.882706,
+					"lon": -4.324918,
+					"name": "Jordanhill Rail Station",
+					"stationId": "910GJORDANH",
+					"topMostParentId": "910GJORDANH"
+				},
+				{
+					"icsId": "90006311",
+					"id": "910GSCTSTNH",
+					"lat": 55.885141,
+					"lon": -4.352888,
+					"name": "Scotstounhill Rail Station",
+					"stationId": "910GSCTSTNH",
+					"topMostParentId": "910GSCTSTNH"
+				},
+				{
+					"icsId": "90003182",
+					"id": "910GGSCD",
+					"lat": 55.887695,
+					"lon": -4.365005,
+					"name": "Garscadden Rail Station",
+					"stationId": "910GGSCD",
+					"topMostParentId": "910GGSCD"
+				},
+				{
+					"icsId": "90008175",
+					"id": "910GYOKER",
+					"lat": 55.892586,
+					"lon": -4.386287,
+					"name": "Yoker Rail Station",
+					"stationId": "910GYOKER",
+					"topMostParentId": "910GYOKER"
+				},
+				{
+					"icsId": "90001587",
+					"id": "910GCLYBANK",
+					"lat": 55.900691,
+					"lon": -4.404414,
+					"name": "Clydebank Rail Station",
+					"stationId": "910GCLYBANK",
+					"topMostParentId": "910GCLYBANK"
+				},
+				{
+					"icsId": "90002007",
+					"id": "910GDALMUIR",
+					"lat": 55.911929,
+					"lon": -4.426681,
+					"name": "Dalmuir Rail Station",
+					"stationId": "910GDALMUIR",
+					"topMostParentId": "910GDALMUIR"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90005028",
+					"id": "910GMOTHRWL",
+					"lat": 55.791674,
+					"lon": -3.994325,
+					"name": "Motherwell Rail Station",
+					"stationId": "910GMOTHRWL",
+					"topMostParentId": "910GMOTHRWL"
+				},
+				{
+					"icsId": "90007756",
+					"id": "910GWHIFLET",
+					"lat": 55.853692,
+					"lon": -4.018655,
+					"name": "Whifflet Rail Station",
+					"stationId": "910GWHIFLET",
+					"topMostParentId": "910GWHIFLET"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90007756",
+					"id": "910GWHIFLET",
+					"lat": 55.853692,
+					"lon": -4.018655,
+					"name": "Whifflet Rail Station",
+					"stationId": "910GWHIFLET",
+					"topMostParentId": "910GWHIFLET"
+				},
+				{
+					"icsId": "90004176",
+					"id": "910GKRKWOOD",
+					"lat": 55.854188,
+					"lon": -4.048398,
+					"name": "Kirkwood Rail Station",
+					"stationId": "910GKRKWOOD",
+					"topMostParentId": "910GKRKWOOD"
+				},
+				{
+					"icsId": "90000889",
+					"id": "910GBRGDDIE",
+					"lat": 55.851291,
+					"lon": -4.073807,
+					"name": "Bargeddie Rail Station",
+					"stationId": "910GBRGDDIE",
+					"topMostParentId": "910GBRGDDIE"
+				},
+				{
+					"icsId": "90000383",
+					"id": "910GBALISTN",
+					"lat": 55.844501,
+					"lon": -4.113698,
+					"name": "Baillieston Rail Station",
+					"stationId": "910GBALISTN",
+					"topMostParentId": "910GBALISTN"
+				},
+				{
+					"icsId": "90004964",
+					"id": "910GMNTVRNN",
+					"lat": 55.840202,
+					"lon": -4.133669,
+					"name": "Mount Vernon Rail Station",
+					"stationId": "910GMNTVRNN",
+					"topMostParentId": "910GMNTVRNN"
+				},
+				{
+					"icsId": "90001290",
+					"id": "910GCARMYLE",
+					"lat": 55.834337,
+					"lon": -4.15818,
+					"name": "Carmyle Rail Station",
+					"stationId": "910GCARMYLE",
+					"topMostParentId": "910GCARMYLE"
+				},
+				{
+					"icsId": "90006179",
+					"id": "910GRTHGLEN",
+					"lat": 55.830592,
+					"lon": -4.212104,
+					"name": "Rutherglen Rail Station",
+					"stationId": "910GRTHGLEN",
+					"topMostParentId": "910GRTHGLEN"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000095",
+					"id": "910GAIRDRIE",
+					"lat": 55.863979,
+					"lon": -3.982912,
+					"name": "Airdrie Rail Station",
+					"stationId": "910GAIRDRIE",
+					"topMostParentId": "910GAIRDRIE"
+				},
+				{
+					"icsId": "90001651",
+					"id": "910GCOATDYK",
+					"lat": 55.86434,
+					"lon": -4.004984,
+					"name": "Coatdyke Rail Station",
+					"stationId": "910GCOATDYK",
+					"topMostParentId": "910GCOATDYK"
+				},
+				{
+					"icsId": "90001649",
+					"id": "910GCOATBDS",
+					"lat": 55.866834,
+					"lon": -4.028287,
+					"name": "Coatbridge Sunnyside Rail Station",
+					"stationId": "910GCOATBDS",
+					"topMostParentId": "910GCOATBDS"
+				},
+				{
+					"icsId": "90000627",
+					"id": "910GBLAIRHL",
+					"lat": 55.866451,
+					"lon": -4.04329,
+					"name": "Blairhill Rail Station",
+					"stationId": "910GBLAIRHL",
+					"topMostParentId": "910GBLAIRHL"
+				},
+				{
+					"icsId": "90002608",
+					"id": "910GESHS",
+					"lat": 55.859756,
+					"lon": -4.107176,
+					"name": "Easterhouse Rail Station",
+					"stationId": "910GESHS",
+					"topMostParentId": "910GESHS"
+				},
+				{
+					"icsId": "90002906",
+					"id": "910GGARROWH",
+					"lat": 55.855238,
+					"lon": -4.12946,
+					"name": "Garrowhill Rail Station",
+					"stationId": "910GGARROWH",
+					"topMostParentId": "910GGARROWH"
+				},
+				{
+					"icsId": "90006527",
+					"id": "910GSHTLSTN",
+					"lat": 55.853537,
+					"lon": -4.160044,
+					"name": "Shettleston Rail Station",
+					"stationId": "910GSHTLSTN",
+					"topMostParentId": "910GSHTLSTN"
+				},
+				{
+					"icsId": "90001642",
+					"id": "910GCNTY",
+					"lat": 55.854873,
+					"lon": -4.178572,
+					"name": "Carntyne Rail Station",
+					"stationId": "910GCNTY",
+					"topMostParentId": "910GCNTY"
+				},
+				{
+					"icsId": "90000655",
+					"id": "910GBLGRVE",
+					"lat": 55.856704,
+					"lon": -4.224374,
+					"name": "Bellgrove Rail Station",
+					"stationId": "910GBLGRVE",
+					"topMostParentId": "910GBLGRVE"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000655",
+					"id": "910GBLGRVE",
+					"lat": 55.856704,
+					"lon": -4.224374,
+					"name": "Bellgrove Rail Station",
+					"stationId": "910GBLGRVE",
+					"topMostParentId": "910GBLGRVE"
+				},
+				{
+					"icsId": "90002981",
+					"id": "910GGLGHST",
+					"lat": 55.859564,
+					"lon": -4.240118,
+					"name": "High Street (Glasgow) Rail Station",
+					"stationId": "910GGLGHST",
+					"topMostParentId": "910GGLGHST"
+				},
+				{
+					"icsId": "90002986",
+					"id": "910GGLGQHL",
+					"lat": 55.862188,
+					"lon": -4.251456,
+					"name": "Glasgow Queen Street Rail Station",
+					"stationId": "910GGLGQHL",
+					"topMostParentId": "910GGLGQHL"
+				},
+				{
+					"icsId": "90001446",
+					"id": "910GCHRNGXG",
+					"lat": 55.864682,
+					"lon": -4.26982,
+					"name": "Charing Cross (Glasgow) Rail Station",
+					"stationId": "910GCHRNGXG",
+					"topMostParentId": "910GCHRNGXG"
+				},
+				{
+					"icsId": "90005871",
+					"id": "910GPTCK",
+					"lat": 55.869888,
+					"lon": -4.308806,
+					"name": "Partick Rail Station",
+					"stationId": "910GPTCK",
+					"topMostParentId": "910GPTCK"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90002140",
+					"id": "910GDLREOCH",
+					"lat": 55.947415,
+					"lon": -4.577863,
+					"name": "Dalreoch Rail Station",
+					"stationId": "910GDLREOCH",
+					"topMostParentId": "910GDLREOCH"
+				},
+				{
+					"icsId": "90001340",
+					"id": "910GCDRS",
+					"lat": 55.960379,
+					"lon": -4.653073,
+					"name": "Cardross Rail Station",
+					"stationId": "910GCDRS",
+					"topMostParentId": "910GCDRS"
+				},
+				{
+					"icsId": "90001834",
+					"id": "910GCRGDRN",
+					"lat": 55.994796,
+					"lon": -4.711244,
+					"name": "Craigendoran Rail Station",
+					"stationId": "910GCRGDRN",
+					"topMostParentId": "910GCRGDRN"
+				},
+				{
+					"icsId": "90003496",
+					"id": "910GHLNSBRC",
+					"lat": 56.004208,
+					"lon": -4.732758,
+					"name": "Helensburgh Central Rail Station",
+					"stationId": "910GHLNSBRC",
+					"topMostParentId": "910GHLNSBRC"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90001597",
+					"id": "910GCMBRNLD",
+					"lat": 55.942026,
+					"lon": -3.980334,
+					"name": "Cumbernauld Rail Station",
+					"stationId": "910GCMBRNLD",
+					"topMostParentId": "910GCMBRNLD"
+				},
+				{
+					"icsId": "90003126",
+					"id": "910GGRNFLDS",
+					"lat": 55.935233,
+					"lon": -3.9931,
+					"name": "Greenfaulds Rail Station",
+					"stationId": "910GGRNFLDS",
+					"topMostParentId": "910GGRNFLDS"
+				},
+				{
+					"icsId": "90001647",
+					"id": "910GCOATBDC",
+					"lat": 55.862506,
+					"lon": -4.031897,
+					"name": "Coatbridge Central Rail Station",
+					"stationId": "910GCOATBDC",
+					"topMostParentId": "910GCOATBDC"
+				},
+				{
+					"icsId": "90007756",
+					"id": "910GWHIFLET",
+					"lat": 55.853692,
+					"lon": -4.018655,
+					"name": "Whifflet Rail Station",
+					"stationId": "910GWHIFLET",
+					"topMostParentId": "910GWHIFLET"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90007756",
+					"id": "910GWHIFLET",
+					"lat": 55.853692,
+					"lon": -4.018655,
+					"name": "Whifflet Rail Station",
+					"stationId": "910GWHIFLET",
+					"topMostParentId": "910GWHIFLET"
+				},
+				{
+					"icsId": "90005028",
+					"id": "910GMOTHRWL",
+					"lat": 55.791674,
+					"lon": -3.994325,
+					"name": "Motherwell Rail Station",
+					"stationId": "910GMOTHRWL",
+					"topMostParentId": "910GMOTHRWL"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90005028",
+					"id": "910GMOTHRWL",
+					"lat": 55.791674,
+					"lon": -3.994325,
+					"name": "Motherwell Rail Station",
+					"stationId": "910GMOTHRWL",
+					"topMostParentId": "910GMOTHRWL"
+				},
+				{
+					"icsId": "90000093",
+					"id": "910GAIRBLES",
+					"lat": 55.782833,
+					"lon": -3.994192,
+					"name": "Airbles Rail Station",
+					"stationId": "910GAIRBLES",
+					"topMostParentId": "910GAIRBLES"
+				},
+				{
+					"icsId": "90003276",
+					"id": "910GHAMLTNC",
+					"lat": 55.773194,
+					"lon": -4.038885,
+					"name": "Hamilton Central Rail Station",
+					"stationId": "910GHAMLTNC",
+					"topMostParentId": "910GHAMLTNC"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90006738",
+					"id": "910GSPRNGBN",
+					"lat": 55.881937,
+					"lon": -4.230534,
+					"name": "Springburn Rail Station",
+					"stationId": "910GSPRNGBN",
+					"topMostParentId": "910GSPRNGBN"
+				},
+				{
+					"icsId": "90000732",
+					"id": "910GBNHL",
+					"lat": 55.87749,
+					"lon": -4.223005,
+					"name": "Barnhill Rail Station",
+					"stationId": "910GBNHL",
+					"topMostParentId": "910GBNHL"
+				},
+				{
+					"icsId": "90000161",
+					"id": "910GALXPD",
+					"lat": 55.863171,
+					"lon": -4.210648,
+					"name": "Alexandra Parade Rail Station",
+					"stationId": "910GALXPD",
+					"topMostParentId": "910GALXPD"
+				},
+				{
+					"icsId": "90002366",
+					"id": "910GDUKEST",
+					"lat": 55.858436,
+					"lon": -4.213048,
+					"name": "Duke Street Rail Station",
+					"stationId": "910GDUKEST",
+					"topMostParentId": "910GDUKEST"
+				},
+				{
+					"icsId": "90000655",
+					"id": "910GBLGRVE",
+					"lat": 55.856704,
+					"lon": -4.224374,
+					"name": "Bellgrove Rail Station",
+					"stationId": "910GBLGRVE",
+					"topMostParentId": "910GBLGRVE"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90001919",
+					"id": "910GCRSTRS",
+					"lat": 55.691046,
+					"lon": -3.668473,
+					"name": "Carstairs Rail Station",
+					"stationId": "910GCRSTRS",
+					"topMostParentId": "910GCRSTRS"
+				},
+				{
+					"icsId": "90001863",
+					"id": "910GCRLK",
+					"lat": 55.731265,
+					"lon": -3.848925,
+					"name": "Carluke Rail Station",
+					"stationId": "910GCRLK",
+					"topMostParentId": "910GCRLK"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90001863",
+					"id": "910GCRLK",
+					"lat": 55.731265,
+					"lon": -3.848925,
+					"name": "Carluke Rail Station",
+					"stationId": "910GCRLK",
+					"topMostParentId": "910GCRLK"
+				},
+				{
+					"icsId": "90007838",
+					"id": "910GWISHAW",
+					"lat": 55.772042,
+					"lon": -3.926425,
+					"name": "Wishaw Rail Station",
+					"stationId": "910GWISHAW",
+					"topMostParentId": "910GWISHAW"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90007838",
+					"id": "910GWISHAW",
+					"lat": 55.772042,
+					"lon": -3.926425,
+					"name": "Wishaw Rail Station",
+					"stationId": "910GWISHAW",
+					"topMostParentId": "910GWISHAW"
+				},
+				{
+					"icsId": "90006461",
+					"id": "910GSHILDMR",
+					"lat": 55.777491,
+					"lon": -3.95699,
+					"name": "Shieldmuir Rail Station",
+					"stationId": "910GSHILDMR",
+					"topMostParentId": "910GSHILDMR"
+				},
+				{
+					"icsId": "90005028",
+					"id": "910GMOTHRWL",
+					"lat": 55.791674,
+					"lon": -3.994325,
+					"name": "Motherwell Rail Station",
+					"stationId": "910GMOTHRWL",
+					"topMostParentId": "910GMOTHRWL"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90005028",
+					"id": "910GMOTHRWL",
+					"lat": 55.791674,
+					"lon": -3.994325,
+					"name": "Motherwell Rail Station",
+					"stationId": "910GMOTHRWL",
+					"topMostParentId": "910GMOTHRWL"
+				},
+				{
+					"icsId": "90000683",
+					"id": "910GBLSHL",
+					"lat": 55.817063,
+					"lon": -4.024499,
+					"name": "Bellshill Rail Station",
+					"stationId": "910GBLSHL",
+					"topMostParentId": "910GBLSHL"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000683",
+					"id": "910GBLSHL",
+					"lat": 55.817063,
+					"lon": -4.024499,
+					"name": "Bellshill Rail Station",
+					"stationId": "910GBLSHL",
+					"topMostParentId": "910GBLSHL"
+				},
+				{
+					"icsId": "90007469",
+					"id": "910GUDNGSTN",
+					"lat": 55.823528,
+					"lon": -4.086698,
+					"name": "Uddingston Rail Station",
+					"stationId": "910GUDNGSTN",
+					"topMostParentId": "910GUDNGSTN"
+				},
+				{
+					"icsId": "90005400",
+					"id": "910GNWTL",
+					"lat": 55.818778,
+					"lon": -4.133055,
+					"name": "Newton (S Lanarks) Rail Station",
+					"stationId": "910GNWTL",
+					"topMostParentId": "910GNWTL"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90003815",
+					"id": "910GHYNDLND",
+					"lat": 55.879754,
+					"lon": -4.314668,
+					"name": "Hyndland Rail Station",
+					"stationId": "910GHYNDLND",
+					"topMostParentId": "910GHYNDLND"
+				},
+				{
+					"icsId": "90000194",
+					"id": "910GANSL",
+					"lat": 55.88935,
+					"lon": -4.321957,
+					"name": "Anniesland Rail Station",
+					"stationId": "910GANSL",
+					"topMostParentId": "910GANSL"
+				},
+				{
+					"icsId": "90007720",
+					"id": "910GWESTRTN",
+					"lat": 55.904807,
+					"lon": -4.33488,
+					"name": "Westerton Rail Station",
+					"stationId": "910GWESTRTN",
+					"topMostParentId": "910GWESTRTN"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90007720",
+					"id": "910GWESTRTN",
+					"lat": 55.904807,
+					"lon": -4.33488,
+					"name": "Westerton Rail Station",
+					"stationId": "910GWESTRTN",
+					"topMostParentId": "910GWESTRTN"
+				},
+				{
+					"icsId": "90001083",
+					"id": "910GBSDN",
+					"lat": 55.917129,
+					"lon": -4.33202,
+					"name": "Bearsden Rail Station",
+					"stationId": "910GBSDN",
+					"topMostParentId": "910GBSDN"
+				},
+				{
+					"icsId": "90003483",
+					"id": "910GHLFT",
+					"lat": 55.920092,
+					"lon": -4.320274,
+					"name": "Hillfoot Rail Station",
+					"stationId": "910GHLFT",
+					"topMostParentId": "910GHLFT"
+				},
+				{
+					"icsId": "90004887",
+					"id": "910GMLGV",
+					"lat": 55.941365,
+					"lon": -4.31458,
+					"name": "Milngavie Rail Station",
+					"stationId": "910GMLGV",
+					"topMostParentId": "910GMLGV"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90004217",
+					"id": "910GLANARK",
+					"lat": 55.673607,
+					"lon": -3.77329,
+					"name": "Lanark Rail Station",
+					"stationId": "910GLANARK",
+					"topMostParentId": "910GLANARK"
+				},
+				{
+					"icsId": "90001863",
+					"id": "910GCRLK",
+					"lat": 55.731265,
+					"lon": -3.848925,
+					"name": "Carluke Rail Station",
+					"stationId": "910GCRLK",
+					"topMostParentId": "910GCRLK"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90002457",
+					"id": "910GEDINBUR",
+					"lat": 55.952393,
+					"lon": -3.188228,
+					"name": "Edinburgh Rail Station",
+					"stationId": "910GEDINBUR",
+					"topMostParentId": "910GEDINBUR"
+				},
+				{
+					"icsId": "90003347",
+					"id": "910GHAYMRKT",
+					"lat": 55.945808,
+					"lon": -3.218449,
+					"name": "Haymarket Rail Station",
+					"stationId": "910GHAYMRKT",
+					"topMostParentId": "910GHAYMRKT"
+				},
+				{
+					"icsId": "90002460",
+					"id": "910GEDINPRK",
+					"lat": 55.927551,
+					"lon": -3.307664,
+					"name": "Edinburgh Park Rail Station",
+					"stationId": "910GEDINPRK",
+					"topMostParentId": "910GEDINPRK"
+				},
+				{
+					"icsId": "90004532",
+					"id": "910GLNLTHGW",
+					"lat": 55.976452,
+					"lon": -3.595852,
+					"name": "Linlithgow Rail Station",
+					"stationId": "910GLNLTHGW",
+					"topMostParentId": "910GLNLTHGW"
+				},
+				{
+					"icsId": "90005742",
+					"id": "910GPOLMONT",
+					"lat": 55.984737,
+					"lon": -3.714973,
+					"name": "Polmont Rail Station",
+					"stationId": "910GPOLMONT",
+					"topMostParentId": "910GPOLMONT"
+				},
+				{
+					"icsId": "90002670",
+					"id": "910GFALKRKH",
+					"lat": 55.991815,
+					"lon": -3.792244,
+					"name": "Falkirk High Rail Station",
+					"stationId": "910GFALKRKH",
+					"topMostParentId": "910GFALKRKH"
+				},
+				{
+					"icsId": "90005762",
+					"id": "910GPOSILPK",
+					"lat": 55.890145,
+					"lon": -4.258513,
+					"name": "Possilpark & Parkhouse Rail Station",
+					"stationId": "910GPOSILPK",
+					"topMostParentId": "910GPOSILPK"
+				},
+				{
+					"icsId": "90005092",
+					"id": "910GMRYHILL",
+					"lat": 55.897631,
+					"lon": -4.300745,
+					"name": "Maryhill Rail Station",
+					"stationId": "910GMRYHILL",
+					"topMostParentId": "910GMRYHILL"
+				},
+				{
+					"icsId": "90007720",
+					"id": "910GWESTRTN",
+					"lat": 55.904807,
+					"lon": -4.33488,
+					"name": "Westerton Rail Station",
+					"stationId": "910GWESTRTN",
+					"topMostParentId": "910GWESTRTN"
+				},
+				{
+					"icsId": "90006547",
+					"id": "910GSINGER",
+					"lat": 55.907672,
+					"lon": -4.405486,
+					"name": "Singer Rail Station",
+					"stationId": "910GSINGER",
+					"topMostParentId": "910GSINGER"
+				},
+				{
+					"icsId": "90002007",
+					"id": "910GDALMUIR",
+					"lat": 55.911929,
+					"lon": -4.426681,
+					"name": "Dalmuir Rail Station",
+					"stationId": "910GDALMUIR",
+					"topMostParentId": "910GDALMUIR"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90002007",
+					"id": "910GDALMUIR",
+					"lat": 55.911929,
+					"lon": -4.426681,
+					"name": "Dalmuir Rail Station",
+					"stationId": "910GDALMUIR",
+					"topMostParentId": "910GDALMUIR"
+				},
+				{
+					"icsId": "90002164",
+					"id": "910GDMBRTNC",
+					"lat": 55.946655,
+					"lon": -4.566921,
+					"name": "Dumbarton Central Rail Station",
+					"stationId": "910GDMBRTNC",
+					"topMostParentId": "910GDMBRTNC"
+				},
+				{
+					"icsId": "90001340",
+					"id": "910GCDRS",
+					"lat": 55.960379,
+					"lon": -4.653073,
+					"name": "Cardross Rail Station",
+					"stationId": "910GCDRS",
+					"topMostParentId": "910GCDRS"
+				},
+				{
+					"icsId": "90003497",
+					"id": "910GHLNSBRU",
+					"lat": 56.012363,
+					"lon": -4.729804,
+					"name": "Helensburgh Upper Rail Station",
+					"stationId": "910GHLNSBRU",
+					"topMostParentId": "910GHLNSBRU"
+				},
+				{
+					"icsId": "90003115",
+					"id": "910GGRLCHHD",
+					"lat": 56.079864,
+					"lon": -4.825716,
+					"name": "Garelochhead Rail Station",
+					"stationId": "910GGRLCHHD",
+					"topMostParentId": "910GGRLCHHD"
+				},
+				{
+					"icsId": "90000210",
+					"id": "910GARCHRAT",
+					"lat": 56.203971,
+					"lon": -4.72277,
+					"name": "Arrochar & Tarbet Rail Station",
+					"stationId": "910GARCHRAT",
+					"topMostParentId": "910GARCHRAT"
+				},
+				{
+					"icsId": "90000217",
+					"id": "910GARDLUI",
+					"lat": 56.301967,
+					"lon": -4.721657,
+					"name": "Ardlui Rail Station",
+					"stationId": "910GARDLUI",
+					"topMostParentId": "910GARDLUI"
+				},
+				{
+					"icsId": "90001890",
+					"id": "910GCRNLRCH",
+					"lat": 56.390476,
+					"lon": -4.618434,
+					"name": "Crianlarich Rail Station",
+					"stationId": "910GCRNLRCH",
+					"topMostParentId": "910GCRNLRCH"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90001890",
+					"id": "910GCRNLRCH",
+					"lat": 56.390476,
+					"lon": -4.618434,
+					"name": "Crianlarich Rail Station",
+					"stationId": "910GCRNLRCH",
+					"topMostParentId": "910GCRNLRCH"
+				},
+				{
+					"icsId": "90007450",
+					"id": "910GTYNDRML",
+					"lat": 56.433342,
+					"lon": -4.714821,
+					"name": "Tyndrum Lower Rail Station",
+					"stationId": "910GTYNDRML",
+					"topMostParentId": "910GTYNDRML"
+				},
+				{
+					"icsId": "90002130",
+					"id": "910GDLMALLY",
+					"lat": 56.401189,
+					"lon": -4.983552,
+					"name": "Dalmally Rail Station",
+					"stationId": "910GDLMALLY",
+					"topMostParentId": "910GDLMALLY"
+				},
+				{
+					"icsId": "90004538",
+					"id": "910GLOCHAWE",
+					"lat": 56.402016,
+					"lon": -5.041975,
+					"name": "Loch Awe Rail Station",
+					"stationId": "910GLOCHAWE",
+					"topMostParentId": "910GLOCHAWE"
+				},
+				{
+					"icsId": "90002761",
+					"id": "910GFLSCRHN",
+					"lat": 56.393883,
+					"lon": -5.112478,
+					"name": "Falls of Cruachan Rail Station",
+					"stationId": "910GFLSCRHN",
+					"topMostParentId": "910GFLSCRHN"
+				},
+				{
+					"icsId": "90007139",
+					"id": "910GTAYNULT",
+					"lat": 56.430808,
+					"lon": -5.23961,
+					"name": "Taynuilt Rail Station",
+					"stationId": "910GTAYNULT",
+					"topMostParentId": "910GTAYNULT"
+				},
+				{
+					"icsId": "90001679",
+					"id": "910GCONNELF",
+					"lat": 56.452353,
+					"lon": -5.385441,
+					"name": "Connel Ferry Rail Station",
+					"stationId": "910GCONNELF",
+					"topMostParentId": "910GCONNELF"
+				},
+				{
+					"icsId": "90005415",
+					"id": "910GOBAN",
+					"lat": 56.412487,
+					"lon": -5.473932,
+					"name": "Oban Rail Station",
+					"stationId": "910GOBAN",
+					"topMostParentId": "910GOBAN"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90001890",
+					"id": "910GCRNLRCH",
+					"lat": 56.390476,
+					"lon": -4.618434,
+					"name": "Crianlarich Rail Station",
+					"stationId": "910GCRNLRCH",
+					"topMostParentId": "910GCRNLRCH"
+				},
+				{
+					"icsId": "90007451",
+					"id": "910GTYNDRMU",
+					"lat": 56.434663,
+					"lon": -4.703721,
+					"name": "Upper Tyndrum Rail Station",
+					"stationId": "910GTYNDRMU",
+					"topMostParentId": "910GTYNDRMU"
+				},
+				{
+					"icsId": "90000791",
+					"id": "910GBOORCHY",
+					"lat": 56.515867,
+					"lon": -4.762993,
+					"name": "Bridge of Orchy Rail Station",
+					"stationId": "910GBOORCHY",
+					"topMostParentId": "910GBOORCHY"
+				},
+				{
+					"icsId": "90005948",
+					"id": "910GRANNOCH",
+					"lat": 56.686046,
+					"lon": -4.57687,
+					"name": "Rannoch Rail Station",
+					"stationId": "910GRANNOCH",
+					"topMostParentId": "910GRANNOCH"
+				},
+				{
+					"icsId": "90001713",
+					"id": "910GCORROUR",
+					"lat": 56.760214,
+					"lon": -4.6906,
+					"name": "Corrour Rail Station",
+					"stationId": "910GCORROUR",
+					"topMostParentId": "910GCORROUR"
+				},
+				{
+					"icsId": "90007416",
+					"id": "910GTULLOCH",
+					"lat": 56.884279,
+					"lon": -4.701321,
+					"name": "Tulloch Rail Station",
+					"stationId": "910GTULLOCH",
+					"topMostParentId": "910GTULLOCH"
+				},
+				{
+					"icsId": "90006141",
+					"id": "910GROYBDGE",
+					"lat": 56.888364,
+					"lon": -4.837242,
+					"name": "Roy Bridge Rail Station",
+					"stationId": "910GROYBDGE",
+					"topMostParentId": "910GROYBDGE"
+				},
+				{
+					"icsId": "90006720",
+					"id": "910GSPEANBD",
+					"lat": 56.890014,
+					"lon": -4.921607,
+					"name": "Spean Bridge Rail Station",
+					"stationId": "910GSPEANBD",
+					"topMostParentId": "910GSPEANBD"
+				},
+				{
+					"icsId": "90002865",
+					"id": "910GFRTWLM",
+					"lat": 56.820444,
+					"lon": -5.106143,
+					"name": "Fort William Rail Station",
+					"stationId": "910GFRTWLM",
+					"topMostParentId": "910GFRTWLM"
+				},
+				{
+					"icsId": "90000388",
+					"id": "910GBANAVIE",
+					"lat": 56.843308,
+					"lon": -5.095426,
+					"name": "Banavie Rail Station",
+					"stationId": "910GBANAVIE",
+					"topMostParentId": "910GBANAVIE"
+				},
+				{
+					"icsId": "90001709",
+					"id": "910GCORPACH",
+					"lat": 56.842827,
+					"lon": -5.121956,
+					"name": "Corpach Rail Station",
+					"stationId": "910GCORPACH",
+					"topMostParentId": "910GCORPACH"
+				},
+				{
+					"icsId": "90004268",
+					"id": "910GLCEILOB",
+					"lat": 56.855268,
+					"lon": -5.191577,
+					"name": "Loch Eil Outward Bound Rail Station",
+					"stationId": "910GLCEILOB",
+					"topMostParentId": "910GLCEILOB"
+				},
+				{
+					"icsId": "90004275",
+					"id": "910GLCHESDE",
+					"lat": 56.855407,
+					"lon": -5.290036,
+					"name": "Locheilside Rail Station",
+					"stationId": "910GLCHESDE",
+					"topMostParentId": "910GLCHESDE"
+				},
+				{
+					"icsId": "90002995",
+					"id": "910GGLNFNNN",
+					"lat": 56.872402,
+					"lon": -5.44962,
+					"name": "Glenfinnan Rail Station",
+					"stationId": "910GGLNFNNN",
+					"topMostParentId": "910GGLNFNNN"
+				},
+				{
+					"icsId": "90004270",
+					"id": "910GLCHALRT",
+					"lat": 56.880963,
+					"lon": -5.663395,
+					"name": "Lochailort Rail Station",
+					"stationId": "910GLCHALRT",
+					"topMostParentId": "910GLCHALRT"
+				},
+				{
+					"icsId": "90000498",
+					"id": "910GBEASDAL",
+					"lat": 56.899554,
+					"lon": -5.763801,
+					"name": "Beasdale Rail Station",
+					"stationId": "910GBEASDAL",
+					"topMostParentId": "910GBEASDAL"
+				},
+				{
+					"icsId": "90000228",
+					"id": "910GARISAIG",
+					"lat": 56.912546,
+					"lon": -5.839078,
+					"name": "Arisaig Rail Station",
+					"stationId": "910GARISAIG",
+					"topMostParentId": "910GARISAIG"
+				},
+				{
+					"icsId": "90004984",
+					"id": "910GMORAR",
+					"lat": 56.969719,
+					"lon": -5.821918,
+					"name": "Morar Rail Station",
+					"stationId": "910GMORAR",
+					"topMostParentId": "910GMORAR"
+				},
+				{
+					"icsId": "90004876",
+					"id": "910GMLAIG",
+					"lat": 57.005989,
+					"lon": -5.829597,
+					"name": "Mallaig Rail Station",
+					"stationId": "910GMLAIG",
+					"topMostParentId": "910GMLAIG"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90002986",
+					"id": "910GGLGQHL",
+					"lat": 55.862188,
+					"lon": -4.251456,
+					"name": "Glasgow Queen Street Rail Station",
+					"stationId": "910GGLGQHL",
+					"topMostParentId": "910GGLGQHL"
+				},
+				{
+					"icsId": "90002007",
+					"id": "910GDALMUIR",
+					"lat": 55.911929,
+					"lon": -4.426681,
+					"name": "Dalmuir Rail Station",
+					"stationId": "910GDALMUIR",
+					"topMostParentId": "910GDALMUIR"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90002457",
+					"id": "910GEDINBUR",
+					"lat": 55.952393,
+					"lon": -3.188228,
+					"name": "Edinburgh Rail Station",
+					"stationId": "910GEDINBUR",
+					"topMostParentId": "910GEDINBUR"
+				},
+				{
+					"icsId": "90003347",
+					"id": "910GHAYMRKT",
+					"lat": 55.945808,
+					"lon": -3.218449,
+					"name": "Haymarket Rail Station",
+					"stationId": "910GHAYMRKT",
+					"topMostParentId": "910GHAYMRKT"
+				},
+				{
+					"icsId": "90002460",
+					"id": "910GEDINPRK",
+					"lat": 55.927551,
+					"lon": -3.307664,
+					"name": "Edinburgh Park Rail Station",
+					"stationId": "910GEDINPRK",
+					"topMostParentId": "910GEDINPRK"
+				},
+				{
+					"icsId": "90004532",
+					"id": "910GLNLTHGW",
+					"lat": 55.976452,
+					"lon": -3.595852,
+					"name": "Linlithgow Rail Station",
+					"stationId": "910GLNLTHGW",
+					"topMostParentId": "910GLNLTHGW"
+				},
+				{
+					"icsId": "90005742",
+					"id": "910GPOLMONT",
+					"lat": 55.984737,
+					"lon": -3.714973,
+					"name": "Polmont Rail Station",
+					"stationId": "910GPOLMONT",
+					"topMostParentId": "910GPOLMONT"
+				},
+				{
+					"icsId": "90002670",
+					"id": "910GFALKRKH",
+					"lat": 55.991815,
+					"lon": -3.792244,
+					"name": "Falkirk High Rail Station",
+					"stationId": "910GFALKRKH",
+					"topMostParentId": "910GFALKRKH"
+				},
+				{
+					"icsId": "90001907",
+					"id": "910GCROY",
+					"lat": 55.955677,
+					"lon": -4.035976,
+					"name": "Croy Rail Station",
+					"stationId": "910GCROY",
+					"topMostParentId": "910GCROY"
+				},
+				{
+					"icsId": "90004341",
+					"id": "910GLENZIE",
+					"lat": 55.921318,
+					"lon": -4.15389,
+					"name": "Lenzie Rail Station",
+					"stationId": "910GLENZIE",
+					"topMostParentId": "910GLENZIE"
+				},
+				{
+					"icsId": "90001085",
+					"id": "910GBSHB",
+					"lat": 55.903878,
+					"lon": -4.224915,
+					"name": "Bishopbriggs Rail Station",
+					"stationId": "910GBSHB",
+					"topMostParentId": "910GBSHB"
+				},
+				{
+					"icsId": "90002986",
+					"id": "910GGLGQHL",
+					"lat": 55.862188,
+					"lon": -4.251456,
+					"name": "Glasgow Queen Street Rail Station",
+					"stationId": "910GGLGQHL",
+					"topMostParentId": "910GGLGQHL"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90003942",
+					"id": "910GIVRNESS",
+					"lat": 57.47987,
+					"lon": -4.223361,
+					"name": "Inverness Rail Station",
+					"stationId": "910GIVRNESS",
+					"topMostParentId": "910GIVRNESS"
+				},
+				{
+					"icsId": "90005141",
+					"id": "910GNAIRN",
+					"lat": 57.580246,
+					"lon": -3.872,
+					"name": "Nairn Rail Station",
+					"stationId": "910GNAIRN",
+					"topMostParentId": "910GNAIRN"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90005141",
+					"id": "910GNAIRN",
+					"lat": 57.580246,
+					"lon": -3.872,
+					"name": "Nairn Rail Station",
+					"stationId": "910GNAIRN",
+					"topMostParentId": "910GNAIRN"
+				},
+				{
+					"icsId": "90002790",
+					"id": "910GFORRES",
+					"lat": 57.611184,
+					"lon": -3.624873,
+					"name": "Forres Rail Station",
+					"stationId": "910GFORRES",
+					"topMostParentId": "910GFORRES"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90002790",
+					"id": "910GFORRES",
+					"lat": 57.611184,
+					"lon": -3.624873,
+					"name": "Forres Rail Station",
+					"stationId": "910GFORRES",
+					"topMostParentId": "910GFORRES"
+				},
+				{
+					"icsId": "90002530",
+					"id": "910GELGIN",
+					"lat": 57.642909,
+					"lon": -3.311246,
+					"name": "Elgin Rail Station",
+					"stationId": "910GELGIN",
+					"topMostParentId": "910GELGIN"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90002530",
+					"id": "910GELGIN",
+					"lat": 57.642909,
+					"lon": -3.311246,
+					"name": "Elgin Rail Station",
+					"stationId": "910GELGIN",
+					"topMostParentId": "910GELGIN"
+				},
+				{
+					"icsId": "90003994",
+					"id": "910GKEITH",
+					"lat": 57.550899,
+					"lon": -2.954069,
+					"name": "Keith Rail Station",
+					"stationId": "910GKEITH",
+					"topMostParentId": "910GKEITH"
+				},
+				{
+					"icsId": "90003559",
+					"id": "910GHNTL",
+					"lat": 57.444488,
+					"lon": -2.77574,
+					"name": "Huntly Rail Station",
+					"stationId": "910GHNTL",
+					"topMostParentId": "910GHNTL"
+				},
+				{
+					"icsId": "90003881",
+					"id": "910GINSCH",
+					"lat": 57.337499,
+					"lon": -2.617112,
+					"name": "Insch Rail Station",
+					"stationId": "910GINSCH",
+					"topMostParentId": "910GINSCH"
+				},
+				{
+					"icsId": "90003889",
+					"id": "910GINVURIE",
+					"lat": 57.286267,
+					"lon": -2.37356,
+					"name": "Inverurie Rail Station",
+					"stationId": "910GINVURIE",
+					"topMostParentId": "910GINVURIE"
+				},
+				{
+					"icsId": "90002408",
+					"id": "910GDYCE",
+					"lat": 57.20565,
+					"lon": -2.192322,
+					"name": "Dyce Rail Station",
+					"stationId": "910GDYCE",
+					"topMostParentId": "910GDYCE"
+				},
+				{
+					"icsId": "90000024",
+					"id": "910GABRDEEN",
+					"lat": 57.143704,
+					"lon": -2.098685,
+					"name": "Aberdeen Rail Station",
+					"stationId": "910GABRDEEN",
+					"topMostParentId": "910GABRDEEN"
+				},
+				{
+					"icsId": "90005695",
+					"id": "910GPLTH",
+					"lat": 57.061376,
+					"lon": -2.126611,
+					"name": "Portlethen Rail Station",
+					"stationId": "910GPLTH",
+					"topMostParentId": "910GPLTH"
+				},
+				{
+					"icsId": "90006530",
+					"id": "910GSHVN",
+					"lat": 56.966823,
+					"lon": -2.225297,
+					"name": "Stonehaven Rail Station",
+					"stationId": "910GSHVN",
+					"topMostParentId": "910GSHVN"
+				},
+				{
+					"icsId": "90004584",
+					"id": "9100LRNCKRK0",
+					"lat": 56.836347,
+					"lon": -2.465926,
+					"name": "Laurencekirk Rail Station",
+					"topMostParentId": "9100LRNCKRK0"
+				},
+				{
+					"icsId": "90004980",
+					"id": "910GMONTRSE",
+					"lat": 56.712798,
+					"lon": -2.472074,
+					"name": "Montrose Rail Station",
+					"stationId": "910GMONTRSE",
+					"topMostParentId": "910GMONTRSE"
+				},
+				{
+					"icsId": "90000208",
+					"id": "910GARBROTH",
+					"lat": 56.559574,
+					"lon": -2.588931,
+					"name": "Arbroath Rail Station",
+					"stationId": "910GARBROTH",
+					"topMostParentId": "910GARBROTH"
+				},
+				{
+					"icsId": "90001637",
+					"id": "910GCNST",
+					"lat": 56.500563,
+					"lon": -2.7066,
+					"name": "Carnoustie Rail Station",
+					"stationId": "910GCNST",
+					"topMostParentId": "910GCNST"
+				},
+				{
+					"icsId": "90003053",
+					"id": "910GGOLFSTR",
+					"lat": 56.497794,
+					"lon": -2.719544,
+					"name": "Golf Street Rail Station",
+					"stationId": "910GGOLFSTR",
+					"topMostParentId": "910GGOLFSTR"
+				},
+				{
+					"icsId": "90001023",
+					"id": "910GBRRYLNK",
+					"lat": 56.493149,
+					"lon": -2.745442,
+					"name": "Barry Links Rail Station",
+					"stationId": "910GBRRYLNK",
+					"topMostParentId": "910GBRRYLNK"
+				},
+				{
+					"icsId": "90004975",
+					"id": "910GMONIFTH",
+					"lat": 56.480112,
+					"lon": -2.818247,
+					"name": "Monifieth Rail Station",
+					"stationId": "910GMONIFTH",
+					"topMostParentId": "910GMONIFTH"
+				},
+				{
+					"icsId": "90000385",
+					"id": "910GBALMOSS",
+					"lat": 56.474566,
+					"lon": -2.838956,
+					"name": "Balmossie Rail Station",
+					"stationId": "910GBALMOSS",
+					"topMostParentId": "910GBALMOSS"
+				},
+				{
+					"icsId": "90000886",
+					"id": "910GBRFRY",
+					"lat": 56.46716,
+					"lon": -2.873152,
+					"name": "Broughty Ferry Rail Station",
+					"stationId": "910GBRFRY",
+					"topMostParentId": "910GBRFRY"
+				},
+				{
+					"icsId": "90002383",
+					"id": "910GDUNDETB",
+					"lat": 56.456486,
+					"lon": -2.971205,
+					"name": "Dundee Rail Station",
+					"stationId": "910GDUNDETB",
+					"topMostParentId": "910GDUNDETB"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90002383",
+					"id": "910GDUNDETB",
+					"lat": 56.456486,
+					"lon": -2.971205,
+					"name": "Dundee Rail Station",
+					"stationId": "910GDUNDETB",
+					"topMostParentId": "910GDUNDETB"
+				},
+				{
+					"icsId": "90004364",
+					"id": "910GLEUCHRS",
+					"lat": 56.375103,
+					"lon": -2.893713,
+					"name": "Leuchars Rail Station",
+					"stationId": "910GLEUCHRS",
+					"topMostParentId": "910GLEUCHRS"
+				},
+				{
+					"icsId": "90001968",
+					"id": "910GCUPAR",
+					"lat": 56.316987,
+					"lon": -3.008756,
+					"name": "Cupar Rail Station",
+					"stationId": "910GCUPAR",
+					"topMostParentId": "910GCUPAR"
+				},
+				{
+					"icsId": "90006724",
+					"id": "910GSPFD",
+					"lat": 56.29497,
+					"lon": -3.052448,
+					"name": "Springfield Rail Station",
+					"stationId": "910GSPFD",
+					"topMostParentId": "910GSPFD"
+				},
+				{
+					"icsId": "90004201",
+					"id": "910GLADYBNK",
+					"lat": 56.273782,
+					"lon": -3.122275,
+					"name": "Ladybank Rail Station",
+					"stationId": "910GLADYBNK",
+					"topMostParentId": "910GLADYBNK"
+				},
+				{
+					"icsId": "90004869",
+					"id": "910GMKIN",
+					"lat": 56.201015,
+					"lon": -3.130787,
+					"name": "Markinch Rail Station",
+					"stationId": "910GMKIN",
+					"topMostParentId": "910GMKIN"
+				},
+				{
+					"icsId": "90003979",
+					"id": "910GKCLD",
+					"lat": 56.112058,
+					"lon": -3.167028,
+					"name": "Kirkcaldy Rail Station",
+					"stationId": "910GKCLD",
+					"topMostParentId": "910GKCLD"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90003979",
+					"id": "910GKCLD",
+					"lat": 56.112058,
+					"lon": -3.167028,
+					"name": "Kirkcaldy Rail Station",
+					"stationId": "910GKCLD",
+					"topMostParentId": "910GKCLD"
+				},
+				{
+					"icsId": "90004034",
+					"id": "910GKGHN",
+					"lat": 56.069338,
+					"lon": -3.174154,
+					"name": "Kinghorn Rail Station",
+					"stationId": "910GKGHN",
+					"topMostParentId": "910GKGHN"
+				},
+				{
+					"icsId": "90000612",
+					"id": "910GBISLND",
+					"lat": 56.057081,
+					"lon": -3.233198,
+					"name": "Burntisland Rail Station",
+					"stationId": "910GBISLND",
+					"topMostParentId": "910GBISLND"
+				},
+				{
+					"icsId": "90000005",
+					"id": "910GABDO",
+					"lat": 56.054592,
+					"lon": -3.30056,
+					"name": "Aberdour Rail Station",
+					"stationId": "910GABDO",
+					"topMostParentId": "910GABDO"
+				},
+				{
+					"icsId": "90002004",
+					"id": "910GDALGETY",
+					"lat": 56.042095,
+					"lon": -3.367721,
+					"name": "Dalgety Bay Rail Station",
+					"stationId": "910GDALGETY",
+					"topMostParentId": "910GDALGETY"
+				},
+				{
+					"icsId": "90003930",
+					"id": "910GIVRKTHG",
+					"lat": 56.034677,
+					"lon": -3.396187,
+					"name": "Inverkeithing Rail Station",
+					"stationId": "910GIVRKTHG",
+					"topMostParentId": "910GIVRKTHG"
+				},
+				{
+					"icsId": "90005276",
+					"id": "910GNQNSFRY",
+					"lat": 56.012501,
+					"lon": -3.394585,
+					"name": "North Queensferry Rail Station",
+					"stationId": "910GNQNSFRY",
+					"topMostParentId": "910GNQNSFRY"
+				},
+				{
+					"icsId": "90002132",
+					"id": "910GDLMY",
+					"lat": 55.986319,
+					"lon": -3.38162,
+					"name": "Dalmeny Rail Station",
+					"stationId": "910GDLMY",
+					"topMostParentId": "910GDLMY"
+				},
+				{
+					"icsId": "90000059",
+					"id": "910GEDINGWY",
+					"lat": 55.94094,
+					"lon": -3.320251,
+					"name": "Edinburgh Gateway Rail Station",
+					"stationId": "910GEDINGWY",
+					"topMostParentId": "910GEDINGWY"
+				},
+				{
+					"icsId": "90006850",
+					"id": "910GSTHGYLE",
+					"lat": 55.936354,
+					"lon": -3.299476,
+					"name": "South Gyle Rail Station",
+					"stationId": "910GSTHGYLE",
+					"topMostParentId": "910GSTHGYLE"
+				},
+				{
+					"icsId": "90003347",
+					"id": "910GHAYMRKT",
+					"lat": 55.945808,
+					"lon": -3.218449,
+					"name": "Haymarket Rail Station",
+					"stationId": "910GHAYMRKT",
+					"topMostParentId": "910GHAYMRKT"
+				},
+				{
+					"icsId": "90002457",
+					"id": "910GEDINBUR",
+					"lat": 55.952393,
+					"lon": -3.188228,
+					"name": "Edinburgh Rail Station",
+					"stationId": "910GEDINBUR",
+					"topMostParentId": "910GEDINBUR"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90005624",
+					"id": "910GPERTH",
+					"lat": 56.392094,
+					"lon": -3.439698,
+					"name": "Perth Rail Station",
+					"stationId": "910GPERTH",
+					"topMostParentId": "910GPERTH"
+				},
+				{
+					"icsId": "90002993",
+					"id": "910GGLNEGLS",
+					"lat": 56.27485,
+					"lon": -3.731168,
+					"name": "Gleneagles Rail Station",
+					"stationId": "910GGLNEGLS",
+					"topMostParentId": "910GGLNEGLS"
+				},
+				{
+					"icsId": "90002376",
+					"id": "910GDUNANE",
+					"lat": 56.18589,
+					"lon": -3.965486,
+					"name": "Dunblane Rail Station",
+					"stationId": "910GDUNANE",
+					"topMostParentId": "910GDUNANE"
+				},
+				{
+					"icsId": "90000580",
+					"id": "910GBGOALAN",
+					"lat": 56.156635,
+					"lon": -3.957229,
+					"name": "Bridge of Allan Rail Station",
+					"stationId": "910GBGOALAN",
+					"topMostParentId": "910GBGOALAN"
+				},
+				{
+					"icsId": "90006859",
+					"id": "910GSTIRLNG",
+					"lat": 56.119817,
+					"lon": -3.93562,
+					"name": "Stirling Rail Station",
+					"stationId": "910GSTIRLNG",
+					"topMostParentId": "910GSTIRLNG"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90006859",
+					"id": "910GSTIRLNG",
+					"lat": 56.119817,
+					"lon": -3.93562,
+					"name": "Stirling Rail Station",
+					"stationId": "910GSTIRLNG",
+					"topMostParentId": "910GSTIRLNG"
+				},
+				{
+					"icsId": "90004243",
+					"id": "910GLARBERT",
+					"lat": 56.022704,
+					"lon": -3.830581,
+					"name": "Larbert Rail Station",
+					"stationId": "910GLARBERT",
+					"topMostParentId": "910GLARBERT"
+				},
+				{
+					"icsId": "90001907",
+					"id": "910GCROY",
+					"lat": 55.955677,
+					"lon": -4.035976,
+					"name": "Croy Rail Station",
+					"stationId": "910GCROY",
+					"topMostParentId": "910GCROY"
+				},
+				{
+					"icsId": "90004341",
+					"id": "910GLENZIE",
+					"lat": 55.921318,
+					"lon": -4.15389,
+					"name": "Lenzie Rail Station",
+					"stationId": "910GLENZIE",
+					"topMostParentId": "910GLENZIE"
+				},
+				{
+					"icsId": "90001085",
+					"id": "910GBSHB",
+					"lat": 55.903878,
+					"lon": -4.224915,
+					"name": "Bishopbriggs Rail Station",
+					"stationId": "910GBSHB",
+					"topMostParentId": "910GBSHB"
+				},
+				{
+					"icsId": "90002986",
+					"id": "910GGLGQHL",
+					"lat": 55.862188,
+					"lon": -4.251456,
+					"name": "Glasgow Queen Street Rail Station",
+					"stationId": "910GGLGQHL",
+					"topMostParentId": "910GGLGQHL"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90003942",
+					"id": "910GIVRNESS",
+					"lat": 57.47987,
+					"lon": -4.223361,
+					"name": "Inverness Rail Station",
+					"stationId": "910GIVRNESS",
+					"topMostParentId": "910GIVRNESS"
+				},
+				{
+					"icsId": "90001294",
+					"id": "910GCARRBDG",
+					"lat": 57.279501,
+					"lon": -3.828203,
+					"name": "Carrbridge Rail Station",
+					"stationId": "910GCARRBDG",
+					"topMostParentId": "910GCARRBDG"
+				},
+				{
+					"icsId": "90000329",
+					"id": "910GAVIEMRE",
+					"lat": 57.188512,
+					"lon": -3.828867,
+					"name": "Aviemore Rail Station",
+					"stationId": "910GAVIEMRE",
+					"topMostParentId": "910GAVIEMRE"
+				},
+				{
+					"icsId": "90004043",
+					"id": "910GKGUSSIE",
+					"lat": 57.077782,
+					"lon": -4.052192,
+					"name": "Kingussie Rail Station",
+					"stationId": "910GKGUSSIE",
+					"topMostParentId": "910GKGUSSIE"
+				},
+				{
+					"icsId": "90005402",
+					"id": "910GNWTM",
+					"lat": 57.059146,
+					"lon": -4.119109,
+					"name": "Newtonmore Rail Station",
+					"stationId": "910GNWTM",
+					"topMostParentId": "910GNWTM"
+				},
+				{
+					"icsId": "90002020",
+					"id": "910GDALWHIN",
+					"lat": 56.93517,
+					"lon": -4.246198,
+					"name": "Dalwhinnie Rail Station",
+					"stationId": "910GDALWHIN",
+					"topMostParentId": "910GDALWHIN"
+				},
+				{
+					"icsId": "90000630",
+					"id": "910GBLARATH",
+					"lat": 56.765546,
+					"lon": -3.850228,
+					"name": "Blair Atholl Rail Station",
+					"stationId": "910GBLARATH",
+					"topMostParentId": "910GBLARATH"
+				},
+				{
+					"icsId": "90005882",
+					"id": "910GPTLCHRY",
+					"lat": 56.702501,
+					"lon": -3.73557,
+					"name": "Pitlochry Rail Station",
+					"stationId": "910GPTLCHRY",
+					"topMostParentId": "910GPTLCHRY"
+				},
+				{
+					"icsId": "90002388",
+					"id": "910GDUNKELD",
+					"lat": 56.557057,
+					"lon": -3.578399,
+					"name": "Dunkeld & Birnam Rail Station",
+					"stationId": "910GDUNKELD",
+					"topMostParentId": "910GDUNKELD"
+				},
+				{
+					"icsId": "90005624",
+					"id": "910GPERTH",
+					"lat": 56.392094,
+					"lon": -3.439698,
+					"name": "Perth Rail Station",
+					"stationId": "910GPERTH",
+					"topMostParentId": "910GPERTH"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90003005",
+					"id": "910GGLNRTHS",
+					"lat": 56.162357,
+					"lon": -3.143015,
+					"name": "Glenrothes with Thornton Rail Station",
+					"stationId": "910GGLNRTHS",
+					"topMostParentId": "910GGLNRTHS"
+				},
+				{
+					"icsId": "90003979",
+					"id": "910GKCLD",
+					"lat": 56.112058,
+					"lon": -3.167028,
+					"name": "Kirkcaldy Rail Station",
+					"stationId": "910GKCLD",
+					"topMostParentId": "910GKCLD"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90002383",
+					"id": "910GDUNDETB",
+					"lat": 56.456486,
+					"lon": -2.971205,
+					"name": "Dundee Rail Station",
+					"stationId": "910GDUNDETB",
+					"topMostParentId": "910GDUNDETB"
+				},
+				{
+					"icsId": "90003885",
+					"id": "910GINVGWRE",
+					"lat": 56.456473,
+					"lon": -3.057398,
+					"name": "Invergowrie Rail Station",
+					"stationId": "910GINVGWRE",
+					"topMostParentId": "910GINVGWRE"
+				},
+				{
+					"icsId": "90005624",
+					"id": "910GPERTH",
+					"lat": 56.392094,
+					"lon": -3.439698,
+					"name": "Perth Rail Station",
+					"stationId": "910GPERTH",
+					"topMostParentId": "910GPERTH"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000130",
+					"id": "910GALLOA",
+					"lat": 56.117789,
+					"lon": -3.790056,
+					"name": "Alloa Rail Station",
+					"stationId": "910GALLOA",
+					"topMostParentId": "910GALLOA"
+				},
+				{
+					"icsId": "90006859",
+					"id": "910GSTIRLNG",
+					"lat": 56.119817,
+					"lon": -3.93562,
+					"name": "Stirling Rail Station",
+					"stationId": "910GSTIRLNG",
+					"topMostParentId": "910GSTIRLNG"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90002530",
+					"id": "910GELGIN",
+					"lat": 57.642909,
+					"lon": -3.311246,
+					"name": "Elgin Rail Station",
+					"stationId": "910GELGIN",
+					"topMostParentId": "910GELGIN"
+				},
+				{
+					"icsId": "90002790",
+					"id": "910GFORRES",
+					"lat": 57.611184,
+					"lon": -3.624873,
+					"name": "Forres Rail Station",
+					"stationId": "910GFORRES",
+					"topMostParentId": "910GFORRES"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90002790",
+					"id": "910GFORRES",
+					"lat": 57.611184,
+					"lon": -3.624873,
+					"name": "Forres Rail Station",
+					"stationId": "910GFORRES",
+					"topMostParentId": "910GFORRES"
+				},
+				{
+					"icsId": "90005141",
+					"id": "910GNAIRN",
+					"lat": 57.580246,
+					"lon": -3.872,
+					"name": "Nairn Rail Station",
+					"stationId": "910GNAIRN",
+					"topMostParentId": "910GNAIRN"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90005141",
+					"id": "910GNAIRN",
+					"lat": 57.580246,
+					"lon": -3.872,
+					"name": "Nairn Rail Station",
+					"stationId": "910GNAIRN",
+					"topMostParentId": "910GNAIRN"
+				},
+				{
+					"icsId": "90003942",
+					"id": "910GIVRNESS",
+					"lat": 57.47987,
+					"lon": -4.223361,
+					"name": "Inverness Rail Station",
+					"stationId": "910GIVRNESS",
+					"topMostParentId": "910GIVRNESS"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90002457",
+					"id": "910GEDINBUR",
+					"lat": 55.952393,
+					"lon": -3.188228,
+					"name": "Edinburgh Rail Station",
+					"stationId": "910GEDINBUR",
+					"topMostParentId": "910GEDINBUR"
+				},
+				{
+					"icsId": "90003347",
+					"id": "910GHAYMRKT",
+					"lat": 55.945808,
+					"lon": -3.218449,
+					"name": "Haymarket Rail Station",
+					"stationId": "910GHAYMRKT",
+					"topMostParentId": "910GHAYMRKT"
+				},
+				{
+					"icsId": "90002460",
+					"id": "910GEDINPRK",
+					"lat": 55.927551,
+					"lon": -3.307664,
+					"name": "Edinburgh Park Rail Station",
+					"stationId": "910GEDINPRK",
+					"topMostParentId": "910GEDINPRK"
+				},
+				{
+					"icsId": "90004532",
+					"id": "910GLNLTHGW",
+					"lat": 55.976452,
+					"lon": -3.595852,
+					"name": "Linlithgow Rail Station",
+					"stationId": "910GLNLTHGW",
+					"topMostParentId": "910GLNLTHGW"
+				},
+				{
+					"icsId": "90005742",
+					"id": "910GPOLMONT",
+					"lat": 55.984737,
+					"lon": -3.714973,
+					"name": "Polmont Rail Station",
+					"stationId": "910GPOLMONT",
+					"topMostParentId": "910GPOLMONT"
+				},
+				{
+					"icsId": "90002669",
+					"id": "910GFALKRKG",
+					"lat": 56.002613,
+					"lon": -3.785046,
+					"name": "Falkirk Grahamston Rail Station",
+					"stationId": "910GFALKRKG",
+					"topMostParentId": "910GFALKRKG"
+				},
+				{
+					"icsId": "90001229",
+					"id": "910GCAMELON",
+					"lat": 56.006092,
+					"lon": -3.817605,
+					"name": "Camelon Rail Station",
+					"stationId": "910GCAMELON",
+					"topMostParentId": "910GCAMELON"
+				},
+				{
+					"icsId": "90001597",
+					"id": "910GCMBRNLD",
+					"lat": 55.942026,
+					"lon": -3.980334,
+					"name": "Cumbernauld Rail Station",
+					"stationId": "910GCMBRNLD",
+					"topMostParentId": "910GCMBRNLD"
+				},
+				{
+					"icsId": "90003126",
+					"id": "910GGRNFLDS",
+					"lat": 55.935233,
+					"lon": -3.9931,
+					"name": "Greenfaulds Rail Station",
+					"stationId": "910GGRNFLDS",
+					"topMostParentId": "910GGRNFLDS"
+				},
+				{
+					"icsId": "90003159",
+					"id": "910GGRTCSH",
+					"lat": 55.885661,
+					"lon": -4.079494,
+					"name": "Gartcosh Rail Station",
+					"stationId": "910GGRTCSH",
+					"topMostParentId": "910GGRTCSH"
+				},
+				{
+					"icsId": "90006805",
+					"id": "910GSTEPPS",
+					"lat": 55.890136,
+					"lon": -4.140808,
+					"name": "Stepps Rail Station",
+					"stationId": "910GSTEPPS",
+					"topMostParentId": "910GSTEPPS"
+				},
+				{
+					"icsId": "90006738",
+					"id": "910GSPRNGBN",
+					"lat": 55.881937,
+					"lon": -4.230534,
+					"name": "Springburn Rail Station",
+					"stationId": "910GSPRNGBN",
+					"topMostParentId": "910GSPRNGBN"
+				},
+				{
+					"icsId": "90004243",
+					"id": "910GLARBERT",
+					"lat": 56.022704,
+					"lon": -3.830581,
+					"name": "Larbert Rail Station",
+					"stationId": "910GLARBERT",
+					"topMostParentId": "910GLARBERT"
+				},
+				{
+					"icsId": "90006859",
+					"id": "910GSTIRLNG",
+					"lat": 56.119817,
+					"lon": -3.93562,
+					"name": "Stirling Rail Station",
+					"stationId": "910GSTIRLNG",
+					"topMostParentId": "910GSTIRLNG"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90006859",
+					"id": "910GSTIRLNG",
+					"lat": 56.119817,
+					"lon": -3.93562,
+					"name": "Stirling Rail Station",
+					"stationId": "910GSTIRLNG",
+					"topMostParentId": "910GSTIRLNG"
+				},
+				{
+					"icsId": "90000580",
+					"id": "910GBGOALAN",
+					"lat": 56.156635,
+					"lon": -3.957229,
+					"name": "Bridge of Allan Rail Station",
+					"stationId": "910GBGOALAN",
+					"topMostParentId": "910GBGOALAN"
+				},
+				{
+					"icsId": "90002376",
+					"id": "910GDUNANE",
+					"lat": 56.18589,
+					"lon": -3.965486,
+					"name": "Dunblane Rail Station",
+					"stationId": "910GDUNANE",
+					"topMostParentId": "910GDUNANE"
+				},
+				{
+					"icsId": "90002993",
+					"id": "910GGLNEGLS",
+					"lat": 56.27485,
+					"lon": -3.731168,
+					"name": "Gleneagles Rail Station",
+					"stationId": "910GGLNEGLS",
+					"topMostParentId": "910GGLNEGLS"
+				},
+				{
+					"icsId": "90005624",
+					"id": "910GPERTH",
+					"lat": 56.392094,
+					"lon": -3.439698,
+					"name": "Perth Rail Station",
+					"stationId": "910GPERTH",
+					"topMostParentId": "910GPERTH"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90006859",
+					"id": "910GSTIRLNG",
+					"lat": 56.119817,
+					"lon": -3.93562,
+					"name": "Stirling Rail Station",
+					"stationId": "910GSTIRLNG",
+					"topMostParentId": "910GSTIRLNG"
+				},
+				{
+					"icsId": "90000130",
+					"id": "910GALLOA",
+					"lat": 56.117789,
+					"lon": -3.790056,
+					"name": "Alloa Rail Station",
+					"stationId": "910GALLOA",
+					"topMostParentId": "910GALLOA"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000194",
+					"id": "910GANSL",
+					"lat": 55.88935,
+					"lon": -4.321957,
+					"name": "Anniesland Rail Station",
+					"stationId": "910GANSL",
+					"topMostParentId": "910GANSL"
+				},
+				{
+					"icsId": "90002043",
+					"id": "910GDAWSHLM",
+					"lat": 55.893556,
+					"lon": -4.309573,
+					"name": "Kelvindale Rail Station",
+					"stationId": "910GDAWSHLM",
+					"topMostParentId": "910GDAWSHLM"
+				},
+				{
+					"icsId": "90005092",
+					"id": "910GMRYHILL",
+					"lat": 55.897631,
+					"lon": -4.300745,
+					"name": "Maryhill Rail Station",
+					"stationId": "910GMRYHILL",
+					"topMostParentId": "910GMRYHILL"
+				},
+				{
+					"icsId": "90007019",
+					"id": "910GSUMRSTN",
+					"lat": 55.898836,
+					"lon": -4.291539,
+					"name": "Summerston Rail Station",
+					"stationId": "910GSUMRSTN",
+					"topMostParentId": "910GSUMRSTN"
+				},
+				{
+					"icsId": "90004215",
+					"id": "910GLAMBH",
+					"lat": 55.897338,
+					"lon": -4.282684,
+					"name": "Gilshochill Rail Station",
+					"stationId": "910GLAMBH",
+					"topMostParentId": "910GLAMBH"
+				},
+				{
+					"icsId": "90005762",
+					"id": "910GPOSILPK",
+					"lat": 55.890145,
+					"lon": -4.258513,
+					"name": "Possilpark & Parkhouse Rail Station",
+					"stationId": "910GPOSILPK",
+					"topMostParentId": "910GPOSILPK"
+				},
+				{
+					"icsId": "90000253",
+					"id": "910GASFIELD",
+					"lat": 55.888922,
+					"lon": -4.249214,
+					"name": "Ashfield Rail Station",
+					"stationId": "910GASFIELD",
+					"topMostParentId": "910GASFIELD"
+				},
+				{
+					"icsId": "90002986",
+					"id": "910GGLGQHL",
+					"lat": 55.862188,
+					"lon": -4.251456,
+					"name": "Glasgow Queen Street Rail Station",
+					"stationId": "910GGLGQHL",
+					"topMostParentId": "910GGLGQHL"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90002164",
+					"id": "910GDMBRTNC",
+					"lat": 55.946655,
+					"lon": -4.566921,
+					"name": "Dumbarton Central Rail Station",
+					"stationId": "910GDMBRTNC",
+					"topMostParentId": "910GDMBRTNC"
+				},
+				{
+					"icsId": "90002165",
+					"id": "910GDMBRTNE",
+					"lat": 55.942247,
+					"lon": -4.554137,
+					"name": "Dumbarton East Rail Station",
+					"stationId": "910GDMBRTNE",
+					"topMostParentId": "910GDMBRTNE"
+				},
+				{
+					"icsId": "90000837",
+					"id": "910GBOWLING",
+					"lat": 55.931079,
+					"lon": -4.493842,
+					"name": "Bowling Rail Station",
+					"stationId": "910GBOWLING",
+					"topMostParentId": "910GBOWLING"
+				},
+				{
+					"icsId": "90004090",
+					"id": "910GKLPTRCK",
+					"lat": 55.924701,
+					"lon": -4.453412,
+					"name": "Kilpatrick Rail Station",
+					"stationId": "910GKLPTRCK",
+					"topMostParentId": "910GKLPTRCK"
+				},
+				{
+					"icsId": "90002007",
+					"id": "910GDALMUIR",
+					"lat": 55.911929,
+					"lon": -4.426681,
+					"name": "Dalmuir Rail Station",
+					"stationId": "910GDALMUIR",
+					"topMostParentId": "910GDALMUIR"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90003942",
+					"id": "910GIVRNESS",
+					"lat": 57.47987,
+					"lon": -4.223361,
+					"name": "Inverness Rail Station",
+					"stationId": "910GIVRNESS",
+					"topMostParentId": "910GIVRNESS"
+				},
+				{
+					"icsId": "90000509",
+					"id": "910GBEAULY",
+					"lat": 57.478283,
+					"lon": -4.469866,
+					"name": "Beauly Rail Station",
+					"stationId": "910GBEAULY",
+					"topMostParentId": "910GBEAULY"
+				},
+				{
+					"icsId": "90005132",
+					"id": "910GMUROORD",
+					"lat": 57.517848,
+					"lon": -4.460233,
+					"name": "Muir of Ord Rail Station",
+					"stationId": "910GMUROORD",
+					"topMostParentId": "910GMUROORD"
+				},
+				{
+					"icsId": "90001680",
+					"id": "910GCONONBR",
+					"lat": 57.561751,
+					"lon": -4.440405,
+					"name": "Conon Bridge Rail Station",
+					"stationId": "910GCONONBR",
+					"topMostParentId": "910GCONONBR"
+				},
+				{
+					"icsId": "90002106",
+					"id": "910GDINGWAL",
+					"lat": 57.594235,
+					"lon": -4.422199,
+					"name": "Dingwall Rail Station",
+					"stationId": "910GDINGWAL",
+					"topMostParentId": "910GDINGWAL"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90002106",
+					"id": "910GDINGWAL",
+					"lat": 57.594235,
+					"lon": -4.422199,
+					"name": "Dingwall Rail Station",
+					"stationId": "910GDINGWAL",
+					"topMostParentId": "910GDINGWAL"
+				},
+				{
+					"icsId": "90000132",
+					"id": "910GALNESS",
+					"lat": 57.694394,
+					"lon": -4.249716,
+					"name": "Alness Rail Station",
+					"stationId": "910GALNESS",
+					"topMostParentId": "910GALNESS"
+				},
+				{
+					"icsId": "90003922",
+					"id": "910GIVRGRD",
+					"lat": 57.689019,
+					"lon": -4.17484,
+					"name": "Invergordon Rail Station",
+					"stationId": "910GIVRGRD",
+					"topMostParentId": "910GIVRGRD"
+				},
+				{
+					"icsId": "90002705",
+					"id": "910GFEARN",
+					"lat": 57.778142,
+					"lon": -3.993936,
+					"name": "Fearn Rail Station",
+					"stationId": "910GFEARN",
+					"topMostParentId": "910GFEARN"
+				},
+				{
+					"icsId": "90007101",
+					"id": "910GTAIN",
+					"lat": 57.81442,
+					"lon": -4.052049,
+					"name": "Tain Rail Station",
+					"stationId": "910GTAIN",
+					"topMostParentId": "910GTAIN"
+				},
+				{
+					"icsId": "90000214",
+					"id": "910GARDGAY",
+					"lat": 57.881452,
+					"lon": -4.362089,
+					"name": "Ardgay Rail Station",
+					"stationId": "910GARDGAY",
+					"topMostParentId": "910GARDGAY"
+				},
+				{
+					"icsId": "90001966",
+					"id": "910GCULRAIN",
+					"lat": 57.919513,
+					"lon": -4.404271,
+					"name": "Culrain Rail Station",
+					"stationId": "910GCULRAIN",
+					"topMostParentId": "910GCULRAIN"
+				},
+				{
+					"icsId": "90003887",
+					"id": "910GINVRSHN",
+					"lat": 57.924869,
+					"lon": -4.399478,
+					"name": "Invershin Rail Station",
+					"stationId": "910GINVRSHN",
+					"topMostParentId": "910GINVRSHN"
+				},
+				{
+					"icsId": "90004208",
+					"id": "910GLAIRG",
+					"lat": 58.001829,
+					"lon": -4.399889,
+					"name": "Lairg Rail Station",
+					"stationId": "910GLAIRG",
+					"topMostParentId": "910GLAIRG"
+				},
+				{
+					"icsId": "90006092",
+					"id": "910GROGART",
+					"lat": 57.988712,
+					"lon": -4.158185,
+					"name": "Rogart Rail Station",
+					"stationId": "910GROGART",
+					"topMostParentId": "910GROGART"
+				},
+				{
+					"icsId": "90003055",
+					"id": "910GGOLSPIE",
+					"lat": 57.971465,
+					"lon": -3.987215,
+					"name": "Golspie Rail Station",
+					"stationId": "910GGOLSPIE",
+					"topMostParentId": "910GGOLSPIE"
+				},
+				{
+					"icsId": "90002179",
+					"id": "910GDNROBIN",
+					"lat": 57.985534,
+					"lon": -3.948921,
+					"name": "Dunrobin Castle Rail Station",
+					"stationId": "910GDNROBIN",
+					"topMostParentId": "910GDNROBIN"
+				},
+				{
+					"icsId": "90001003",
+					"id": "910GBRORA",
+					"lat": 58.01295,
+					"lon": -3.852283,
+					"name": "Brora Rail Station",
+					"stationId": "910GBRORA",
+					"topMostParentId": "910GBRORA"
+				},
+				{
+					"icsId": "90003389",
+					"id": "910GHELMSDL",
+					"lat": 58.117439,
+					"lon": -3.658688,
+					"name": "Helmsdale Rail Station",
+					"stationId": "910GHELMSDL",
+					"topMostParentId": "910GHELMSDL"
+				},
+				{
+					"icsId": "90004050",
+					"id": "910GKILDONN",
+					"lat": 58.170809,
+					"lon": -3.869106,
+					"name": "Kildonan Rail Station",
+					"stationId": "910GKILDONN",
+					"topMostParentId": "910GKILDONN"
+				},
+				{
+					"icsId": "90004065",
+					"id": "910GKINBRAC",
+					"lat": 58.258313,
+					"lon": -3.941208,
+					"name": "Kinbrace Rail Station",
+					"stationId": "910GKINBRAC",
+					"topMostParentId": "910GKINBRAC"
+				},
+				{
+					"icsId": "90002794",
+					"id": "910GFORSNRD",
+					"lat": 58.356899,
+					"lon": -3.89688,
+					"name": "Forsinard Rail Station",
+					"stationId": "910GFORSNRD",
+					"topMostParentId": "910GFORSNRD"
+				},
+				{
+					"icsId": "90000150",
+					"id": "910GALTNBRC",
+					"lat": 58.388148,
+					"lon": -3.70628,
+					"name": "Altnabreac Rail Station",
+					"stationId": "910GALTNBRC",
+					"topMostParentId": "910GALTNBRC"
+				},
+				{
+					"icsId": "90006309",
+					"id": "910GSCSCLDR",
+					"lat": 58.482991,
+					"lon": -3.55205,
+					"name": "Scotscalder Rail Station",
+					"stationId": "910GSCSCLDR",
+					"topMostParentId": "910GSCSCLDR"
+				},
+				{
+					"icsId": "90003108",
+					"id": "910GGRGMASJ",
+					"lat": 58.513623,
+					"lon": -3.45212,
+					"name": "Georgemas Junction Rail Station",
+					"stationId": "910GGRGMASJ",
+					"topMostParentId": "910GGRGMASJ"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90003108",
+					"id": "910GGRGMASJ",
+					"lat": 58.513623,
+					"lon": -3.45212,
+					"name": "Georgemas Junction Rail Station",
+					"stationId": "910GGRGMASJ",
+					"topMostParentId": "910GGRGMASJ"
+				},
+				{
+					"icsId": "90007236",
+					"id": "910GTHURSO",
+					"lat": 58.590177,
+					"lon": -3.527548,
+					"name": "Thurso Rail Station",
+					"stationId": "910GTHURSO",
+					"topMostParentId": "910GTHURSO"
+				},
+				{
+					"icsId": "90003108",
+					"id": "910GGRGMASJ",
+					"lat": 58.513623,
+					"lon": -3.45212,
+					"name": "Georgemas Junction Rail Station",
+					"stationId": "910GGRGMASJ",
+					"topMostParentId": "910GGRGMASJ"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90003108",
+					"id": "910GGRGMASJ",
+					"lat": 58.513623,
+					"lon": -3.45212,
+					"name": "Georgemas Junction Rail Station",
+					"stationId": "910GGRGMASJ",
+					"topMostParentId": "910GGRGMASJ"
+				},
+				{
+					"icsId": "90007797",
+					"id": "910GWICK",
+					"lat": 58.441568,
+					"lon": -3.096859,
+					"name": "Wick Rail Station",
+					"stationId": "910GWICK",
+					"topMostParentId": "910GWICK"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90002106",
+					"id": "910GDINGWAL",
+					"lat": 57.594235,
+					"lon": -4.422199,
+					"name": "Dingwall Rail Station",
+					"stationId": "910GDINGWAL",
+					"topMostParentId": "910GDINGWAL"
+				},
+				{
+					"icsId": "90002909",
+					"id": "910GGARVE",
+					"lat": 57.613041,
+					"lon": -4.688395,
+					"name": "Garve Rail Station",
+					"stationId": "910GGARVE",
+					"topMostParentId": "910GGARVE"
+				},
+				{
+					"icsId": "90004277",
+					"id": "910GLCHLCHR",
+					"lat": 57.621757,
+					"lon": -4.809049,
+					"name": "Lochluichart Rail Station",
+					"stationId": "910GLCHLCHR",
+					"topMostParentId": "910GLCHLCHR"
+				},
+				{
+					"icsId": "90000053",
+					"id": "910GACHANLT",
+					"lat": 57.609596,
+					"lon": -4.913851,
+					"name": "Achanalt Rail Station",
+					"stationId": "910GACHANLT",
+					"topMostParentId": "910GACHANLT"
+				},
+				{
+					"icsId": "90000060",
+					"id": "910GACHNSHN",
+					"lat": 57.57929,
+					"lon": -5.072332,
+					"name": "Achnasheen Rail Station",
+					"stationId": "910GACHNSHN",
+					"topMostParentId": "910GACHNSHN"
+				},
+				{
+					"icsId": "90000056",
+					"id": "910GACHHSHL",
+					"lat": 57.482074,
+					"lon": -5.333055,
+					"name": "Achnashellach Rail Station",
+					"stationId": "910GACHHSHL",
+					"topMostParentId": "910GACHHSHL"
+				},
+				{
+					"icsId": "90006792",
+					"id": "910GSTCN",
+					"lat": 57.422733,
+					"lon": -5.428613,
+					"name": "Strathcarron Rail Station",
+					"stationId": "910GSTCN",
+					"topMostParentId": "910GSTCN"
+				},
+				{
+					"icsId": "90000312",
+					"id": "910GATADALE",
+					"lat": 57.395037,
+					"lon": -5.455577,
+					"name": "Attadale Rail Station",
+					"stationId": "910GATADALE",
+					"topMostParentId": "910GATADALE"
+				},
+				{
+					"icsId": "90006975",
+					"id": "910GSTRMFRY",
+					"lat": 57.352298,
+					"lon": -5.551161,
+					"name": "Stromeferry Rail Station",
+					"stationId": "910GSTRMFRY",
+					"topMostParentId": "910GSTRMFRY"
+				},
+				{
+					"icsId": "90002379",
+					"id": "910GDUNCRAG",
+					"lat": 57.337002,
+					"lon": -5.637131,
+					"name": "Duncraig Rail Station",
+					"stationId": "910GDUNCRAG",
+					"topMostParentId": "910GDUNCRAG"
+				},
+				{
+					"icsId": "90005692",
+					"id": "910GPLOCKTN",
+					"lat": 57.333565,
+					"lon": -5.665999,
+					"name": "Plockton Rail Station",
+					"stationId": "910GPLOCKTN",
+					"topMostParentId": "910GPLOCKTN"
+				},
+				{
+					"icsId": "90002363",
+					"id": "910GDUIRNSH",
+					"lat": 57.319976,
+					"lon": -5.691316,
+					"name": "Duirinish Rail Station",
+					"stationId": "910GDUIRNSH",
+					"topMostParentId": "910GDUIRNSH"
+				},
+				{
+					"icsId": "90004194",
+					"id": "910GKYLELSH",
+					"lat": 57.279772,
+					"lon": -5.713813,
+					"name": "Kyle of Lochalsh Rail Station",
+					"stationId": "910GKYLELSH",
+					"topMostParentId": "910GKYLELSH"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000024",
+					"id": "910GABRDEEN",
+					"lat": 57.143704,
+					"lon": -2.098685,
+					"name": "Aberdeen Rail Station",
+					"stationId": "910GABRDEEN",
+					"topMostParentId": "910GABRDEEN"
+				},
+				{
+					"icsId": "90002408",
+					"id": "910GDYCE",
+					"lat": 57.20565,
+					"lon": -2.192322,
+					"name": "Dyce Rail Station",
+					"stationId": "910GDYCE",
+					"topMostParentId": "910GDYCE"
+				},
+				{
+					"icsId": "90003889",
+					"id": "910GINVURIE",
+					"lat": 57.286267,
+					"lon": -2.37356,
+					"name": "Inverurie Rail Station",
+					"stationId": "910GINVURIE",
+					"topMostParentId": "910GINVURIE"
+				},
+				{
+					"icsId": "90003881",
+					"id": "910GINSCH",
+					"lat": 57.337499,
+					"lon": -2.617112,
+					"name": "Insch Rail Station",
+					"stationId": "910GINSCH",
+					"topMostParentId": "910GINSCH"
+				},
+				{
+					"icsId": "90003559",
+					"id": "910GHNTL",
+					"lat": 57.444488,
+					"lon": -2.77574,
+					"name": "Huntly Rail Station",
+					"stationId": "910GHNTL",
+					"topMostParentId": "910GHNTL"
+				},
+				{
+					"icsId": "90003994",
+					"id": "910GKEITH",
+					"lat": 57.550899,
+					"lon": -2.954069,
+					"name": "Keith Rail Station",
+					"stationId": "910GKEITH",
+					"topMostParentId": "910GKEITH"
+				},
+				{
+					"icsId": "90002530",
+					"id": "910GELGIN",
+					"lat": 57.642909,
+					"lon": -3.311246,
+					"name": "Elgin Rail Station",
+					"stationId": "910GELGIN",
+					"topMostParentId": "910GELGIN"
+				},
+				{
+					"icsId": "90002790",
+					"id": "910GFORRES",
+					"lat": 57.611184,
+					"lon": -3.624873,
+					"name": "Forres Rail Station",
+					"stationId": "910GFORRES",
+					"topMostParentId": "910GFORRES"
+				},
+				{
+					"icsId": "90005141",
+					"id": "910GNAIRN",
+					"lat": 57.580246,
+					"lon": -3.872,
+					"name": "Nairn Rail Station",
+					"stationId": "910GNAIRN",
+					"topMostParentId": "910GNAIRN"
+				},
+				{
+					"icsId": "90003942",
+					"id": "910GIVRNESS",
+					"lat": 57.47987,
+					"lon": -4.223361,
+					"name": "Inverness Rail Station",
+					"stationId": "910GIVRNESS",
+					"topMostParentId": "910GIVRNESS"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90002457",
+					"id": "910GEDINBUR",
+					"lat": 55.952393,
+					"lon": -3.188228,
+					"name": "Edinburgh Rail Station",
+					"stationId": "910GEDINBUR",
+					"topMostParentId": "910GEDINBUR"
+				},
+				{
+					"icsId": "90003347",
+					"id": "910GHAYMRKT",
+					"lat": 55.945808,
+					"lon": -3.218449,
+					"name": "Haymarket Rail Station",
+					"stationId": "910GHAYMRKT",
+					"topMostParentId": "910GHAYMRKT"
+				},
+				{
+					"icsId": "90006850",
+					"id": "910GSTHGYLE",
+					"lat": 55.936354,
+					"lon": -3.299476,
+					"name": "South Gyle Rail Station",
+					"stationId": "910GSTHGYLE",
+					"topMostParentId": "910GSTHGYLE"
+				},
+				{
+					"icsId": "90000059",
+					"id": "910GEDINGWY",
+					"lat": 55.94094,
+					"lon": -3.320251,
+					"name": "Edinburgh Gateway Rail Station",
+					"stationId": "910GEDINGWY",
+					"topMostParentId": "910GEDINGWY"
+				},
+				{
+					"icsId": "90002132",
+					"id": "910GDLMY",
+					"lat": 55.986319,
+					"lon": -3.38162,
+					"name": "Dalmeny Rail Station",
+					"stationId": "910GDLMY",
+					"topMostParentId": "910GDLMY"
+				},
+				{
+					"icsId": "90005276",
+					"id": "910GNQNSFRY",
+					"lat": 56.012501,
+					"lon": -3.394585,
+					"name": "North Queensferry Rail Station",
+					"stationId": "910GNQNSFRY",
+					"topMostParentId": "910GNQNSFRY"
+				},
+				{
+					"icsId": "90003930",
+					"id": "910GIVRKTHG",
+					"lat": 56.034677,
+					"lon": -3.396187,
+					"name": "Inverkeithing Rail Station",
+					"stationId": "910GIVRKTHG",
+					"topMostParentId": "910GIVRKTHG"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90004869",
+					"id": "910GMKIN",
+					"lat": 56.201015,
+					"lon": -3.130787,
+					"name": "Markinch Rail Station",
+					"stationId": "910GMKIN",
+					"topMostParentId": "910GMKIN"
+				},
+				{
+					"icsId": "90004201",
+					"id": "910GLADYBNK",
+					"lat": 56.273782,
+					"lon": -3.122275,
+					"name": "Ladybank Rail Station",
+					"stationId": "910GLADYBNK",
+					"topMostParentId": "910GLADYBNK"
+				},
+				{
+					"icsId": "90005624",
+					"id": "910GPERTH",
+					"lat": 56.392094,
+					"lon": -3.439698,
+					"name": "Perth Rail Station",
+					"stationId": "910GPERTH",
+					"topMostParentId": "910GPERTH"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90003930",
+					"id": "910GIVRKTHG",
+					"lat": 56.034677,
+					"lon": -3.396187,
+					"name": "Inverkeithing Rail Station",
+					"stationId": "910GIVRKTHG",
+					"topMostParentId": "910GIVRKTHG"
+				},
+				{
+					"icsId": "90006123",
+					"id": "910GROSYTH",
+					"lat": 56.045517,
+					"lon": -3.427306,
+					"name": "Rosyth Rail Station",
+					"stationId": "910GROSYTH",
+					"topMostParentId": "910GROSYTH"
+				},
+				{
+					"icsId": "90002172",
+					"id": "910GDNFRMLE",
+					"lat": 56.06819,
+					"lon": -3.452529,
+					"name": "Dunfermline Town Rail Station",
+					"stationId": "910GDNFRMLE",
+					"topMostParentId": "910GDNFRMLE"
+				},
+				{
+					"icsId": "90002173",
+					"id": "910GDNFRMQM",
+					"lat": 56.080574,
+					"lon": -3.421468,
+					"name": "Dunfermline Queen Margaret Rail Station",
+					"stationId": "910GDNFRMQM",
+					"topMostParentId": "910GDNFRMQM"
+				},
+				{
+					"icsId": "90001975",
+					"id": "910GCWDNBTH",
+					"lat": 56.112092,
+					"lon": -3.343186,
+					"name": "Cowdenbeath Rail Station",
+					"stationId": "910GCWDNBTH",
+					"topMostParentId": "910GCWDNBTH"
+				},
+				{
+					"icsId": "90004276",
+					"id": "910GLCHGLLY",
+					"lat": 56.13533,
+					"lon": -3.31294,
+					"name": "Lochgelly Rail Station",
+					"stationId": "910GLCHGLLY",
+					"topMostParentId": "910GLCHGLLY"
+				},
+				{
+					"icsId": "90001331",
+					"id": "910GCDND",
+					"lat": 56.141255,
+					"lon": -3.261642,
+					"name": "Cardenden Rail Station",
+					"stationId": "910GCDND",
+					"topMostParentId": "910GCDND"
+				},
+				{
+					"icsId": "90003005",
+					"id": "910GGLNRTHS",
+					"lat": 56.162357,
+					"lon": -3.143015,
+					"name": "Glenrothes with Thornton Rail Station",
+					"stationId": "910GGLNRTHS",
+					"topMostParentId": "910GGLNRTHS"
+				},
+				{
+					"icsId": "90004869",
+					"id": "910GMKIN",
+					"lat": 56.201015,
+					"lon": -3.130787,
+					"name": "Markinch Rail Station",
+					"stationId": "910GMKIN",
+					"topMostParentId": "910GMKIN"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90007438",
+					"id": "910GTWDBANK",
+					"lat": 55.605448,
+					"lon": -2.757605,
+					"name": "Tweedbank Rail Station",
+					"stationId": "910GTWDBANK",
+					"topMostParentId": "910GTWDBANK"
+				},
+				{
+					"icsId": "90002898",
+					"id": "910GGALASLS",
+					"lat": 55.617899,
+					"lon": -2.805954,
+					"name": "Galashiels Rail Station",
+					"stationId": "910GGALASLS",
+					"topMostParentId": "910GGALASLS"
+				},
+				{
+					"icsId": "90006948",
+					"id": "910GSTOW",
+					"lat": 55.692315,
+					"lon": -2.866885,
+					"name": "Stow Rail Station",
+					"stationId": "910GSTOW",
+					"topMostParentId": "910GSTOW"
+				},
+				{
+					"icsId": "90003071",
+					"id": "910GGOREBRG",
+					"lat": 55.840274,
+					"lon": -3.046515,
+					"name": "Gorebridge Rail Station",
+					"stationId": "910GGOREBRG",
+					"topMostParentId": "910GGOREBRG"
+				},
+				{
+					"icsId": "90005399",
+					"id": "910GNWTGRNG",
+					"lat": 55.866997,
+					"lon": -3.069366,
+					"name": "Newtongrange Rail Station",
+					"stationId": "910GNWTGRNG",
+					"topMostParentId": "910GNWTGRNG"
+				},
+				{
+					"icsId": "90002610",
+					"id": "910GESKBANK",
+					"lat": 55.881802,
+					"lon": -3.083073,
+					"name": "Eskbank Rail Station",
+					"stationId": "910GESKBANK",
+					"topMostParentId": "910GESKBANK"
+				},
+				{
+					"icsId": "90006531",
+					"id": "910GSHWFAIR",
+					"lat": 55.917897,
+					"lon": -3.090224,
+					"name": "Shawfair Rail Station",
+					"stationId": "910GSHWFAIR",
+					"topMostParentId": "910GSHWFAIR"
+				},
+				{
+					"icsId": "90005162",
+					"id": "910GNCRAGHA",
+					"lat": 55.933121,
+					"lon": -3.090843,
+					"name": "Newcraighall Rail Station",
+					"stationId": "910GNCRAGHA",
+					"topMostParentId": "910GNCRAGHA"
+				},
+				{
+					"icsId": "90001053",
+					"id": "910GBRUSTAN",
+					"lat": 55.942511,
+					"lon": -3.100986,
+					"name": "Brunstane Rail Station",
+					"stationId": "910GBRUSTAN",
+					"topMostParentId": "910GBRUSTAN"
+				},
+				{
+					"icsId": "90002457",
+					"id": "910GEDINBUR",
+					"lat": 55.952393,
+					"lon": -3.188228,
+					"name": "Edinburgh Rail Station",
+					"stationId": "910GEDINBUR",
+					"topMostParentId": "910GEDINBUR"
+				},
+				{
+					"icsId": "90003347",
+					"id": "910GHAYMRKT",
+					"lat": 55.945808,
+					"lon": -3.218449,
+					"name": "Haymarket Rail Station",
+					"stationId": "910GHAYMRKT",
+					"topMostParentId": "910GHAYMRKT"
+				},
+				{
+					"icsId": "90006850",
+					"id": "910GSTHGYLE",
+					"lat": 55.936354,
+					"lon": -3.299476,
+					"name": "South Gyle Rail Station",
+					"stationId": "910GSTHGYLE",
+					"topMostParentId": "910GSTHGYLE"
+				},
+				{
+					"icsId": "90000059",
+					"id": "910GEDINGWY",
+					"lat": 55.94094,
+					"lon": -3.320251,
+					"name": "Edinburgh Gateway Rail Station",
+					"stationId": "910GEDINGWY",
+					"topMostParentId": "910GEDINGWY"
+				},
+				{
+					"icsId": "90002132",
+					"id": "910GDLMY",
+					"lat": 55.986319,
+					"lon": -3.38162,
+					"name": "Dalmeny Rail Station",
+					"stationId": "910GDLMY",
+					"topMostParentId": "910GDLMY"
+				},
+				{
+					"icsId": "90005276",
+					"id": "910GNQNSFRY",
+					"lat": 56.012501,
+					"lon": -3.394585,
+					"name": "North Queensferry Rail Station",
+					"stationId": "910GNQNSFRY",
+					"topMostParentId": "910GNQNSFRY"
+				},
+				{
+					"icsId": "90003930",
+					"id": "910GIVRKTHG",
+					"lat": 56.034677,
+					"lon": -3.396187,
+					"name": "Inverkeithing Rail Station",
+					"stationId": "910GIVRKTHG",
+					"topMostParentId": "910GIVRKTHG"
+				},
+				{
+					"icsId": "90002004",
+					"id": "910GDALGETY",
+					"lat": 56.042095,
+					"lon": -3.367721,
+					"name": "Dalgety Bay Rail Station",
+					"stationId": "910GDALGETY",
+					"topMostParentId": "910GDALGETY"
+				},
+				{
+					"icsId": "90000005",
+					"id": "910GABDO",
+					"lat": 56.054592,
+					"lon": -3.30056,
+					"name": "Aberdour Rail Station",
+					"stationId": "910GABDO",
+					"topMostParentId": "910GABDO"
+				},
+				{
+					"icsId": "90000612",
+					"id": "910GBISLND",
+					"lat": 56.057081,
+					"lon": -3.233198,
+					"name": "Burntisland Rail Station",
+					"stationId": "910GBISLND",
+					"topMostParentId": "910GBISLND"
+				},
+				{
+					"icsId": "90004034",
+					"id": "910GKGHN",
+					"lat": 56.069338,
+					"lon": -3.174154,
+					"name": "Kinghorn Rail Station",
+					"stationId": "910GKGHN",
+					"topMostParentId": "910GKGHN"
+				},
+				{
+					"icsId": "90003979",
+					"id": "910GKCLD",
+					"lat": 56.112058,
+					"lon": -3.167028,
+					"name": "Kirkcaldy Rail Station",
+					"stationId": "910GKCLD",
+					"topMostParentId": "910GKCLD"
+				},
+				{
+					"icsId": "90003005",
+					"id": "910GGLNRTHS",
+					"lat": 56.162357,
+					"lon": -3.143015,
+					"name": "Glenrothes with Thornton Rail Station",
+					"stationId": "910GGLNRTHS",
+					"topMostParentId": "910GGLNRTHS"
+				}
+			]
+		}
+	]
+}

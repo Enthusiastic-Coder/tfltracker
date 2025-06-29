@@ -1,0 +1,333 @@
+{
+	"direction": "inbound",
+	"lineId": "mildmay",
+	"lineName": "Mildmay",
+	"mode": "overground",
+	"stopPointSequences": [
+		{
+			"stopPoint": [
+				{
+					"icsId": "1000192",
+					"id": "910GRICHMND",
+					"lat": 51.463061,
+					"lon": -0.301558,
+					"name": "Richmond (London) Rail Station",
+					"parentId": "HUBRMD",
+					"stationId": "910GRICHMND",
+					"topMostParentId": "HUBRMD",
+					"zone": "4"
+				},
+				{
+					"icsId": "1000125",
+					"id": "910GKEWGRDN",
+					"lat": 51.477073,
+					"lon": -0.285054,
+					"name": "Kew Gardens Rail Station",
+					"parentId": "HUBKWG",
+					"stationId": "910GKEWGRDN",
+					"topMostParentId": "HUBKWG",
+					"zone": "3+4"
+				},
+				{
+					"icsId": "1000094",
+					"id": "910GGNRSBRY",
+					"lat": 51.491678,
+					"lon": -0.275286,
+					"name": "Gunnersbury Rail Station",
+					"parentId": "HUBGUN",
+					"stationId": "910GGNRSBRY",
+					"topMostParentId": "HUBGUN",
+					"zone": "3"
+				},
+				{
+					"icsId": "1001254",
+					"id": "910GSACTON",
+					"lat": 51.499695,
+					"lon": -0.270157,
+					"name": "South Acton Rail Station",
+					"stationId": "910GSACTON",
+					"topMostParentId": "910GSACTON",
+					"zone": "3"
+				},
+				{
+					"icsId": "1001002",
+					"id": "910GACTNCTL",
+					"lat": 51.508716,
+					"lon": -0.262971,
+					"name": "Acton Central Rail Station",
+					"stationId": "910GACTNCTL",
+					"topMostParentId": "910GACTNCTL",
+					"zone": "3"
+				},
+				{
+					"icsId": "1000271",
+					"id": "910GWLSDJHL",
+					"lat": 51.532497,
+					"lon": -0.244548,
+					"name": "Willesden Junction Rail Station",
+					"parentId": "HUBWIJ",
+					"stationId": "910GWLSDJHL",
+					"topMostParentId": "HUBWIJ",
+					"zone": "2+3"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "1000271",
+					"id": "910GWLSDJHL",
+					"lat": 51.532497,
+					"lon": -0.244548,
+					"name": "Willesden Junction Rail Station",
+					"parentId": "HUBWIJ",
+					"stationId": "910GWLSDJHL",
+					"topMostParentId": "HUBWIJ",
+					"zone": "2+3"
+				},
+				{
+					"icsId": "1001161",
+					"id": "910GKENR",
+					"lat": 51.534554,
+					"lon": -0.219957,
+					"name": "Kensal Rise Rail Station",
+					"stationId": "910GKENR",
+					"topMostParentId": "910GKENR",
+					"zone": "2"
+				},
+				{
+					"icsId": "1001039",
+					"id": "910GBRBYPK",
+					"lat": 51.540699,
+					"lon": -0.210128,
+					"name": "Brondesbury Park Rail Station",
+					"stationId": "910GBRBYPK",
+					"topMostParentId": "910GBRBYPK",
+					"zone": "2"
+				},
+				{
+					"icsId": "1001038",
+					"id": "910GBRBY",
+					"lat": 51.545166,
+					"lon": -0.202309,
+					"name": "Brondesbury Rail Station",
+					"stationId": "910GBRBY",
+					"topMostParentId": "910GBRBY",
+					"zone": "2"
+				},
+				{
+					"icsId": "1000321",
+					"id": "910GWHMDSTD",
+					"lat": 51.547468,
+					"lon": -0.191185,
+					"name": "West Hampstead Rail Station",
+					"parentId": "HUBWHD",
+					"stationId": "910GWHMDSTD",
+					"topMostParentId": "HUBWHD",
+					"zone": "2"
+				},
+				{
+					"icsId": "1001109",
+					"id": "910GFNCHLYR",
+					"lat": 51.550266,
+					"lon": -0.183141,
+					"name": "Finchley Road & Frognal Rail Station",
+					"stationId": "910GFNCHLYR",
+					"topMostParentId": "910GFNCHLYR",
+					"zone": "2"
+				},
+				{
+					"icsId": "1001131",
+					"id": "910GHMPSTDH",
+					"lat": 51.55521,
+					"lon": -0.165705,
+					"name": "Hampstead Heath Rail Station",
+					"stationId": "910GHMPSTDH",
+					"topMostParentId": "910GHMPSTDH",
+					"zone": "2"
+				},
+				{
+					"icsId": "1001119",
+					"id": "910GGOSPLOK",
+					"lat": 51.555335,
+					"lon": -0.15077,
+					"name": "Gospel Oak Rail Station",
+					"stationId": "910GGOSPLOK",
+					"topMostParentId": "910GGOSPLOK",
+					"zone": "2"
+				},
+				{
+					"icsId": "1001165",
+					"id": "910GKNTSHTW",
+					"lat": 51.546548,
+					"lon": -0.146655,
+					"name": "Kentish Town West Rail Station",
+					"stationId": "910GKNTSHTW",
+					"topMostParentId": "910GKNTSHTW",
+					"zone": "2"
+				},
+				{
+					"icsId": "1001045",
+					"id": "910GCMDNRD",
+					"lat": 51.541791,
+					"lon": -0.138701,
+					"name": "Camden Road Rail Station",
+					"stationId": "910GCMDNRD",
+					"topMostParentId": "910GCMDNRD",
+					"zone": "2"
+				},
+				{
+					"icsId": "1001043",
+					"id": "910GCLDNNRB",
+					"lat": 51.543041,
+					"lon": -0.116729,
+					"name": "Caledonian Road & Barnsbury Rail Station",
+					"stationId": "910GCLDNNRB",
+					"topMostParentId": "910GCLDNNRB",
+					"zone": "2"
+				},
+				{
+					"icsId": "1000108",
+					"id": "910GHGHI",
+					"lat": 51.546177,
+					"lon": -0.103764,
+					"name": "Highbury & Islington Rail Station",
+					"parentId": "HUBHHY",
+					"stationId": "910GHGHI",
+					"topMostParentId": "HUBHHY",
+					"zone": "2"
+				},
+				{
+					"icsId": "1001048",
+					"id": "910GCNNB",
+					"lat": 51.548732,
+					"lon": -0.092191,
+					"name": "Canonbury Rail Station",
+					"stationId": "910GCNNB",
+					"topMostParentId": "910GCNNB",
+					"zone": "2"
+				},
+				{
+					"icsId": "1001081",
+					"id": "910GDALSKLD",
+					"lat": 51.548148,
+					"lon": -0.075701,
+					"name": "Dalston Kingsland Rail Station",
+					"stationId": "910GDALSKLD",
+					"topMostParentId": "910GDALSKLD",
+					"zone": "2"
+				},
+				{
+					"icsId": "1001127",
+					"id": "910GHACKNYC",
+					"lat": 51.547105,
+					"lon": -0.056058,
+					"name": "Hackney Central Rail Station",
+					"stationId": "910GHACKNYC",
+					"topMostParentId": "910GHACKNYC",
+					"zone": "2"
+				},
+				{
+					"icsId": "1001153",
+					"id": "910GHOMRTON",
+					"lat": 51.547012,
+					"lon": -0.04236,
+					"name": "Homerton Rail Station",
+					"stationId": "910GHOMRTON",
+					"topMostParentId": "910GHOMRTON",
+					"zone": "2"
+				},
+				{
+					"icsId": "1001129",
+					"id": "910GHACKNYW",
+					"lat": 51.54341,
+					"lon": -0.02492,
+					"name": "Hackney Wick Rail Station",
+					"stationId": "910GHACKNYW",
+					"topMostParentId": "910GHACKNYW",
+					"zone": "2"
+				},
+				{
+					"icsId": "1000226",
+					"id": "910GSTFD",
+					"lat": 51.541895,
+					"lon": -0.003397,
+					"name": "Stratford (London) Rail Station",
+					"parentId": "HUBSRA",
+					"stationId": "910GSTFD",
+					"topMostParentId": "HUBSRA",
+					"zone": "2/3"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "1001069",
+					"id": "910GCLPHMJ1",
+					"lat": 51.464187,
+					"lon": -0.170221,
+					"name": "Clapham Junction Rail Station",
+					"parentId": "910GCLPHMJC",
+					"stationId": "910GCLPHMJ1",
+					"topMostParentId": "HUBCLJ"
+				},
+				{
+					"icsId": "1001347",
+					"id": "910GCSEAH",
+					"lat": 51.474949,
+					"lon": -0.182823,
+					"name": "Imperial Wharf Rail Station",
+					"parentId": "HUBIMP",
+					"stationId": "910GCSEAH",
+					"topMostParentId": "HUBIMP",
+					"zone": "2"
+				},
+				{
+					"icsId": "1000260",
+					"id": "910GWBRMPTN",
+					"lat": 51.487061,
+					"lon": -0.195593,
+					"name": "West Brompton Rail Station",
+					"parentId": "HUBWBP",
+					"stationId": "910GWBRMPTN",
+					"topMostParentId": "HUBWBP",
+					"zone": "2"
+				},
+				{
+					"icsId": "1000170",
+					"id": "910GKENOLYM",
+					"lat": 51.497899,
+					"lon": -0.210364,
+					"name": "Kensington (Olympia) Rail Station",
+					"parentId": "HUBKPA",
+					"stationId": "910GKENOLYM",
+					"topMostParentId": "HUBKPA",
+					"zone": "2"
+				},
+				{
+					"icsId": "1001348",
+					"id": "910GSHPDSB",
+					"lat": 51.505285,
+					"lon": -0.217654,
+					"name": "Shepherds Bush Rail Station",
+					"parentId": "HUBSPB",
+					"stationId": "910GSHPDSB",
+					"topMostParentId": "HUBSPB",
+					"zone": "2"
+				},
+				{
+					"icsId": "1000271",
+					"id": "910GWLSDJHL",
+					"lat": 51.532497,
+					"lon": -0.244548,
+					"name": "Willesden Junction Rail Station",
+					"parentId": "HUBWIJ",
+					"stationId": "910GWLSDJHL",
+					"topMostParentId": "HUBWIJ",
+					"zone": "2+3"
+				}
+			]
+		}
+	]
+}

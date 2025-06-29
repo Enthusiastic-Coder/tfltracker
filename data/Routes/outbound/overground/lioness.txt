@@ -1,0 +1,214 @@
+{
+	"direction": "outbound",
+	"lineId": "lioness",
+	"lineName": "Lioness",
+	"mode": "overground",
+	"stopPointSequences": [
+		{
+			"stopPoint": [
+				{
+					"icsId": "1000077",
+					"id": "910GEUSTON",
+					"lat": 51.528136,
+					"lon": -0.133924,
+					"name": "London Euston Rail Station",
+					"parentId": "HUBEUS",
+					"stationId": "910GEUSTON",
+					"topMostParentId": "HUBEUS",
+					"zone": "1"
+				},
+				{
+					"icsId": "1001260",
+					"id": "910GSHMPSTD",
+					"lat": 51.541432,
+					"lon": -0.178878,
+					"name": "South Hampstead Rail Station",
+					"stationId": "910GSHMPSTD",
+					"topMostParentId": "910GSHMPSTD",
+					"zone": "2"
+				},
+				{
+					"icsId": "1001170",
+					"id": "910GKLBRNHR",
+					"lat": 51.537277,
+					"lon": -0.192237,
+					"name": "Kilburn High Road Rail Station",
+					"stationId": "910GKLBRNHR",
+					"topMostParentId": "910GKLBRNHR",
+					"zone": "2"
+				},
+				{
+					"icsId": "1000186",
+					"id": "910GQPRK",
+					"lat": 51.533966,
+					"lon": -0.204985,
+					"name": "Queens Park (London) Rail Station",
+					"parentId": "HUBQPW",
+					"stationId": "910GQPRK",
+					"topMostParentId": "HUBQPW",
+					"zone": "2"
+				},
+				{
+					"icsId": "1000122",
+					"id": "910GKENSLG",
+					"lat": 51.53054,
+					"lon": -0.225088,
+					"name": "Kensal Green Rail Station",
+					"parentId": "HUBKNL",
+					"stationId": "910GKENSLG",
+					"topMostParentId": "HUBKNL",
+					"zone": "2"
+				},
+				{
+					"icsId": "1000271",
+					"id": "910GWLSDJHL",
+					"lat": 51.532497,
+					"lon": -0.244548,
+					"name": "Willesden Junction Rail Station",
+					"parentId": "HUBWIJ",
+					"stationId": "910GWLSDJHL",
+					"topMostParentId": "HUBWIJ",
+					"zone": "2+3"
+				},
+				{
+					"icsId": "1000100",
+					"id": "910GHARLSDN",
+					"lat": 51.536289,
+					"lon": -0.257667,
+					"name": "Harlesden Rail Station",
+					"parentId": "HUBHDN",
+					"stationId": "910GHARLSDN",
+					"topMostParentId": "HUBHDN",
+					"zone": "3"
+				},
+				{
+					"icsId": "1000224",
+					"id": "910GSTNBGPK",
+					"lat": 51.544111,
+					"lon": -0.275828,
+					"name": "Stonebridge Park Rail Station",
+					"parentId": "HUBSBP",
+					"stationId": "910GSTNBGPK",
+					"topMostParentId": "HUBSBP",
+					"zone": "3"
+				},
+				{
+					"icsId": "1000256",
+					"id": "910GWMBY",
+					"lat": 51.552325,
+					"lon": -0.296433,
+					"name": "Wembley Central Rail Station",
+					"parentId": "HUBWMB",
+					"stationId": "910GWMBY",
+					"topMostParentId": "HUBWMB",
+					"zone": "4"
+				},
+				{
+					"icsId": "1000163",
+					"id": "910GNWEMBLY",
+					"lat": 51.562596,
+					"lon": -0.303984,
+					"name": "North Wembley Rail Station",
+					"parentId": "HUBNWB",
+					"stationId": "910GNWEMBLY",
+					"topMostParentId": "HUBNWB",
+					"zone": "4"
+				},
+				{
+					"icsId": "1000213",
+					"id": "910GSKENTON",
+					"lat": 51.570214,
+					"lon": -0.308462,
+					"name": "South Kenton Rail Station",
+					"parentId": "HUBSOK",
+					"stationId": "910GSKENTON",
+					"topMostParentId": "HUBSOK",
+					"zone": "4"
+				},
+				{
+					"icsId": "1000124",
+					"id": "910GKTON",
+					"lat": 51.581802,
+					"lon": -0.316981,
+					"name": "Kenton Rail Station",
+					"parentId": "HUBKNT",
+					"stationId": "910GKTON",
+					"topMostParentId": "HUBKNT",
+					"zone": "4"
+				},
+				{
+					"icsId": "1000101",
+					"id": "910GHROW",
+					"lat": 51.592169,
+					"lon": -0.334571,
+					"name": "Harrow & Wealdstone Rail Station",
+					"parentId": "HUBHRW",
+					"stationId": "910GHROW",
+					"topMostParentId": "HUBHRW",
+					"zone": "5"
+				},
+				{
+					"icsId": "1001146",
+					"id": "910GHEDSTNL",
+					"lat": 51.602649,
+					"lon": -0.35722,
+					"name": "Headstone Lane Rail Station",
+					"stationId": "910GHEDSTNL",
+					"topMostParentId": "910GHEDSTNL",
+					"zone": "5"
+				},
+				{
+					"icsId": "1001142",
+					"id": "910GHTCHEND",
+					"lat": 51.609417,
+					"lon": -0.368601,
+					"name": "Hatch End Rail Station",
+					"stationId": "910GHTCHEND",
+					"topMostParentId": "910GHTCHEND",
+					"zone": "6"
+				},
+				{
+					"icsId": "1001049",
+					"id": "910GCRPNDPK",
+					"lat": 51.628351,
+					"lon": -0.385939,
+					"name": "Carpenders Park Rail Station",
+					"stationId": "910GCRPNDPK",
+					"topMostParentId": "910GCRPNDPK",
+					"zone": "7"
+				},
+				{
+					"icsId": "1001041",
+					"id": "910GBUSHYDC",
+					"lat": 51.645894,
+					"lon": -0.385229,
+					"name": "Bushey Rail Station",
+					"parentId": "910GBUSHEY",
+					"stationId": "910GBUSHYDC",
+					"topMostParentId": "HUBBSH",
+					"zone": "8"
+				},
+				{
+					"icsId": "1001316",
+					"id": "910GWATFDHS",
+					"lat": 51.652655,
+					"lon": -0.391711,
+					"name": "Watford High Street Rail Station",
+					"stationId": "910GWATFDHS",
+					"topMostParentId": "910GWATFDHS",
+					"zone": "8"
+				},
+				{
+					"icsId": "1001317",
+					"id": "910GWATFJDC",
+					"lat": 51.663529,
+					"lon": -0.396517,
+					"name": "Watford Junction Rail Station",
+					"parentId": "910GWATFDJ",
+					"stationId": "910GWATFJDC",
+					"topMostParentId": "HUBWFJ"
+				}
+			]
+		}
+	]
+}

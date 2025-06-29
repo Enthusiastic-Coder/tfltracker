@@ -1,0 +1,504 @@
+{
+    "direction": "outbound",
+    "lineId": "heathrow-express",
+    "lineName": "Heathrow Express",
+    "mode": "national-rail",
+    "stopPointSequences": [{
+	        "offSet" : 5,
+            "stopPoint": [{
+                    "icsId": "1001221",
+                    "id": "910GPADTON",
+                    "lat": 51.515996,
+                    "lon": -0.176174,
+                    "name": "London Paddington Rail Station",
+                    "parentId": "HUBPAD",
+                    "stationId": "910GPADTON",
+                    "topMostParentId": "HUBPAD",
+                    "zone": "1"
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51829,
+                    "lon": -0.18014
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51853,
+                    "lon": -0.18343
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51880,
+                    "lon": -0.18713
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51898,
+                    "lon": -0.18950
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51920,
+                    "lon": -0.19185
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51986,
+                    "lon": -0.19543
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.52078,
+                    "lon": -0.19982
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.52114,
+                    "lon": -0.20128
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.52193,
+                    "lon": -0.20401
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.52287,
+                    "lon": -0.20714
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.52367,
+                    "lon": -0.21018
+				}, {				
+				    "name": "LADBROKE GROVE LONDON",
+					"lat": 51.52440,
+                    "lon": -0.21359,
+					"visible" : false
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.52501,
+                    "lon": -0.21737
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.52546,
+                    "lon": -0.22141
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.52572,
+                    "lon": -0.22503
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.52581,
+                    "lon": -0.22734
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.52570,
+                    "lon": -0.23333
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.52549,
+                    "lon": -0.23633
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.52516,
+                    "lon": -0.23923
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.52471,
+                    "lon": -0.24188
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.52443,
+                    "lon": -0.24330
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.52361,
+                    "lon": -0.24671
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.52267,
+                    "lon": -0.25015
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.52212,
+                    "lon": -0.25188
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.52136,
+                    "lon": -0.25397
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.52040,
+                    "lon": -0.25633
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51961,
+                    "lon": -0.25835
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51844,
+                    "lon": -0.26173
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51777,
+                    "lon": -0.26406
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51720,
+                    "lon": -0.26649
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51669,
+                    "lon": -0.26882
+				}, {				
+					"name": "ACTON WEST",
+					"lat": 51.51629,
+                    "lon": -0.27106,
+					"visible" : false
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51562,
+                    "lon": -0.27546
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51539,
+                    "lon": -0.27727
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51516,
+                    "lon": -0.27968
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51500,
+                    "lon": -0.28244
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51492,
+                    "lon": -0.28449
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51489,
+                    "lon": -0.28838
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51488,
+                    "lon": -0.29211
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51486,
+                    "lon": -0.29598
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51479,
+                    "lon": -0.29843					
+				}, {
+					"icsId": "1000062",
+					"id": "910GEALINGB",
+					"lat": 51.514641,
+					"lon": -0.301752,
+					"name": "Ealing Broadway Rail Station",
+					"parentId": "HUBEAL",
+					"stationId": "910GEALINGB",
+					"topMostParentId": "HUBEAL",
+					"zone": "3",
+					"visible": false
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51447,
+                    "lon": -0.30452
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51420,
+                    "lon": -0.30856
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51401,
+                    "lon": -0.31177
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51385,
+                    "lon": -0.31433
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51362,
+                    "lon": -0.31796					
+				}, {
+				    "isPassPoint" : true,
+					"icsId": "1001327",
+					"id": "910GWEALING",
+					"lat": 51.513306,
+					"lon": -0.320133,
+					"name": "West Ealing Rail Station",
+					"stationId": "910GWEALING",
+					"topMostParentId": "910GWEALING",
+					"zone": "3"
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51302,
+                    "lon": -0.32577
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51276,
+                    "lon": -0.32851
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51240,
+                    "lon": -0.33215
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51194,
+                    "lon": -0.33648					
+				}, {
+				    "isPassPoint" : true,
+					"icsId": "1001135",
+					"id": "910GHANWELL",
+					"lat": 51.511635,
+					"lon": -0.338583,
+					"name": "Hanwell Rail Station",
+					"stationId": "910GHANWELL",
+					"topMostParentId": "910GHANWELL",
+					"zone": "4"
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51132,
+                    "lon": -0.34132
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51102,
+                    "lon": -0.34354
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51059,
+                    "lon": -0.34670
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.51023,
+                    "lon": -0.34922
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.50981,
+                    "lon": -0.35195
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.50938,
+                    "lon": -0.35455
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.50894,
+                    "lon": -0.35729
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.50841,
+                    "lon": -0.36086
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.50765,
+                    "lon": -0.36616
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.50696,
+                    "lon": -0.37112
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.50652,
+                    "lon": -0.37424					
+				}, {
+					"icsId": "1001255",
+					"id": "910GSTHALL",
+					"lat": 51.505757,
+					"lon": -0.37861,
+					"name": "Southall Rail Station",
+					"stationId": "910GSTHALL",
+					"topMostParentId": "910GSTHALL",
+					"zone": "4",
+					"visible": false
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.50543,
+                    "lon": -0.38191
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.50473,
+                    "lon": -0.38690
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.50420,
+                    "lon": -0.39077
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.50379,
+                    "lon": -0.39418
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.50347,
+                    "lon": -0.39678
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.50313,
+                    "lon": -0.40046
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.50291,
+                    "lon": -0.40388
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.50277,
+                    "lon": -0.40755
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.50272,
+                    "lon": -0.41108
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.50276,
+                    "lon": -0.41523					
+				}, {
+					"icsId": "1001144",
+					"id": "910GHAYESAH",
+					"lat": 51.5028,
+					"lon": -0.420683,
+					"name": "Hayes & Harlington Rail Station",
+					"stationId": "910GHAYESAH",
+					"topMostParentId": "910GHAYESAH",
+					"zone": "5",
+					"visible": false
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.50310,
+                    "lon": -0.42322
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.50364,
+                    "lon": -0.42974
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.50448,
+                    "lon": -0.43643
+				}, {				
+					"name": "AIRPORT JN       HAYES",
+					"lat": 51.50523,
+                    "lon": -0.44123,
+					"visible" : false
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.50570,
+                    "lon": -0.44351
+				}, {				
+					"name": "STOCKLEY JUNCTION",
+					"lat": 51.50587,
+                    "lon": -0.44583,
+					"visible" : false
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.50433,
+                    "lon": -0.44868
+				}, {				
+					"name": "HEATHROW TUNNEL JN",
+					"lat": 51.50245,
+                    "lon": -0.44998,
+					"visible" : false
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.50105,
+                    "lon": -0.45079
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.49937,
+                    "lon": -0.45143
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.49844,
+                    "lon": -0.45162
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.49756,
+                    "lon": -0.45172
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.49649,
+                    "lon": -0.45171
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.49523,
+                    "lon": -0.45159
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.49206,
+                    "lon": -0.45119
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.48987,
+                    "lon": -0.45092
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.48777,
+                    "lon": -0.45065
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.48576,
+                    "lon": -0.45040
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.48328,
+                    "lon": -0.44945
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.48100,
+                    "lon": -0.44840
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.47866,
+                    "lon": -0.44742
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.47604,
+                    "lon": -0.44785
+				}, {				
+					"isPassPoint" : true,
+					"lat": 51.47287,
+                    "lon": -0.45216					
+                }, {
+                    "icsId": "1001147",
+                    "id": "910GHTRWAPT",
+                    "lat": 51.471987,
+                    "lon": -0.454788,
+                    "name": "Heathrow Terminals 2 & 3 Rail Station",
+                    "parentId": "HUBH13",
+                    "stationId": "910GHTRWAPT",
+                    "topMostParentId": "HUBH13",
+                    "zone": "6"
+				}, {				
+					"name": "LONDON HEATHROW AIRPORT TL 123",
+                    "lat": 51.471987,
+                    "lon": -0.454788,
+					"visible" : false
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.4693,
+					"lon": -0.461448
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.4688,
+					"lon": -0.465361
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.4693,
+					"lon": -0.471943
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.4716,
+					"lon": -0.478094
+				}, {
+					"isPassPoint" : true,
+					"lat": 51.4719,
+					"lon": -0.484172
+				}, {
+					"name": "LONDON HEATHROW AIRPORT TML 5",
+                    "lat": 51.471251,
+                    "lon": -0.489369,
+					"visible" : false
+                }, {
+                    "icsId": "1016430",
+                    "id": "910GHTRBUS5",
+                    "lat": 51.471251,
+                    "lon": -0.489369,
+                    "name": "Heathrow Terminal 5",
+                    "parentId": "HUBHX5",
+                    "stationId": "910GHTRBUS5",
+                    "topMostParentId": "HUBHX5",
+                    "zone": "6"
+                }
+            ]
+        }
+    ]
+}

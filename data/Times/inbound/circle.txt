@@ -1,0 +1,37 @@
+Edgware road (Circle Line),0
+paddington,3
+bayswater,2
+notting hill gate,2
+high street kensington,2
+gloucester road,3
+south kensington,3
+sloane square,2
+victoria,2
+st. james's park,2
+westminster,2
+embankment,1
+temple,2
+blackfriars,1
+mansion house,2
+cannon street,2
+monument,1
+tower hill,2
+aldgate,2
+liverpool street,3
+moorgate,2
+barbican,2
+farringdon,1
+king's cross st. pancras,4
+euston square,2
+great portland street,2
+baker street,2
+edgware road,3
+paddington (H&C Line)-Underground,3
+royal oak,2
+westbourne park,2
+ladbroke grove,2
+latimer road,2
+wood lane,2
+shepherd's bush market,2
+goldhawk road,1
+hammersmith (H&C Line),2

@@ -1,0 +1,1 @@
+{"direction":"inbound","lineId":"685","lineName":"685","mode":"bus","stopPointSequences":[]}

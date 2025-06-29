@@ -1,0 +1,144 @@
+{
+	"direction": "outbound",
+	"lineId": "suffragette",
+	"lineName": "Suffragette",
+	"mode": "overground",
+	"stopPointSequences": [
+		{
+			"stopPoint": [
+				{
+					"icsId": "1001119",
+					"id": "910GGOSPLOK",
+					"lat": 51.555335,
+					"lon": -0.15077,
+					"name": "Gospel Oak Rail Station",
+					"stationId": "910GGOSPLOK",
+					"topMostParentId": "910GGOSPLOK",
+					"zone": "2"
+				},
+				{
+					"icsId": "1001302",
+					"id": "910GUPRHLWY",
+					"lat": 51.563631,
+					"lon": -0.129513,
+					"name": "Upper Holloway Rail Station",
+					"stationId": "910GUPRHLWY",
+					"topMostParentId": "910GUPRHLWY",
+					"zone": "2"
+				},
+				{
+					"icsId": "1001077",
+					"id": "910GCROUCHH",
+					"lat": 51.571302,
+					"lon": -0.117149,
+					"name": "Crouch Hill Rail Station",
+					"stationId": "910GCROUCHH",
+					"topMostParentId": "910GCROUCHH",
+					"zone": "3"
+				},
+				{
+					"icsId": "1001139",
+					"id": "910GHRGYGL",
+					"lat": 51.577182,
+					"lon": -0.098144,
+					"name": "Harringay Green Lanes Rail Station",
+					"stationId": "910GHRGYGL",
+					"topMostParentId": "910GHRGYGL",
+					"zone": "3"
+				},
+				{
+					"icsId": "1001264",
+					"id": "910GSTOTNHM",
+					"lat": 51.580372,
+					"lon": -0.072103,
+					"name": "South Tottenham Rail Station",
+					"stationId": "910GSTOTNHM",
+					"topMostParentId": "910GSTOTNHM",
+					"zone": "3"
+				},
+				{
+					"icsId": "1000024",
+					"id": "910GBLCHSRD",
+					"lat": 51.586605,
+					"lon": -0.041236,
+					"name": "Blackhorse Road Rail Station",
+					"parentId": "HUBBHO",
+					"stationId": "910GBLCHSRD",
+					"topMostParentId": "HUBBHO",
+					"zone": "3"
+				},
+				{
+					"icsId": "1001308",
+					"id": "910GWLTHQRD",
+					"lat": 51.581503,
+					"lon": -0.023846,
+					"name": "Walthamstow Queens Road Rail Station",
+					"stationId": "910GWLTHQRD",
+					"topMostParentId": "910GWLTHQRD",
+					"zone": "3"
+				},
+				{
+					"icsId": "1001178",
+					"id": "910GLEYTNMR",
+					"lat": 51.569725,
+					"lon": -0.008051,
+					"name": "Leyton Midland Road Rail Station",
+					"stationId": "910GLEYTNMR",
+					"topMostParentId": "910GLEYTNMR",
+					"zone": "3"
+				},
+				{
+					"icsId": "1001179",
+					"id": "910GLYTNSHR",
+					"lat": 51.563554,
+					"lon": 0.008416,
+					"name": "Leytonstone High Road Rail Station",
+					"stationId": "910GLYTNSHR",
+					"topMostParentId": "910GLYTNSHR",
+					"zone": "3"
+				},
+				{
+					"icsId": "1001312",
+					"id": "910GWNSTDPK",
+					"lat": 51.551693,
+					"lon": 0.026213,
+					"name": "Wanstead Park Rail Station",
+					"stationId": "910GWNSTDPK",
+					"topMostParentId": "910GWNSTDPK",
+					"zone": "3"
+				},
+				{
+					"icsId": "1001341",
+					"id": "910GWDGRNPK",
+					"lat": 51.549264,
+					"lon": 0.044423,
+					"name": "Woodgrange Park Rail Station",
+					"stationId": "910GWDGRNPK",
+					"topMostParentId": "910GWDGRNPK",
+					"zone": "3+4"
+				},
+				{
+					"icsId": "1000015",
+					"id": "910GBARKING",
+					"lat": 51.539495,
+					"lon": 0.080903,
+					"name": "Barking Rail Station",
+					"parentId": "HUBBKG",
+					"stationId": "910GBARKING",
+					"topMostParentId": "HUBBKG",
+					"zone": "4"
+				},
+				{
+					"icsId": "1002272",
+					"id": "910GBKRVS",
+					"lat": 51.51953,
+					"lon": 0.11596,
+					"name": "Barking Riverside",
+					"stationId": "910GBKRVS",
+					"topMostParentId": "910GBKRVS",
+					"zone": "4"
+				}
+			]
+		}
+	]
+}

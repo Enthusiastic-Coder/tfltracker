@@ -1,0 +1,50 @@
+west ruislip,0
+ealing broadway,0
+ruislip gardens,2
+south ruislip,2
+northolt,3
+greenford,2
+perivale,2
+hanger lane,3
+west acton,3
+north acton,3
+east acton,2
+white city,3
+Shepherd's bush (Central),3
+holland park,2
+notting hill gate,1
+queensway,2
+lancaster gate,2
+marble arch,3
+bond street,2
+oxford circus,2
+tottenham court road,1
+holborn,2
+chancery lane,1
+st. paul's,2
+bank,2
+liverpool street,2
+bethnal green,3
+mile end,2
+stratford,4
+leyton,3
+leytonstone,2
+wanstead,2
+redbridge,2
+gants hill,2
+newbury park,3
+barkingside,2
+fairlop,2
+hainault,2
+grange hill,5
+chigwell,2
+roding valley,3
+woodford,4
+snaresbrook,2
+south woodford,2
+woodford,3
+buckhurst hill,2
+loughton,3
+debden,2
+theydon bois,3
+epping,3

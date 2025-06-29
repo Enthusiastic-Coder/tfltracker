@@ -1,0 +1,52 @@
+edgware,0
+mill hill east,0
+high barnet,0
+burnt oak,4
+colindale,2
+hendon central,3
+brent cross,2
+golders green,3
+hampstead,4
+belsize park,3
+chalk farm,2
+totteridge & whetstone,4
+woodside park,2
+west finchley,2
+finchley central,2
+east finchley,4
+highgate,3
+archway,3
+tufnell park,2
+kentish town,1
+camden town,2
+mornington crescent,2
+euston,2
+king's cross st. pancras,2
+angel,3
+old street,3
+moorgate,2
+bank,2
+london bridge,2
+borough,2
+elephant & castle,2
+warren street,1
+goodge street,2
+tottenham court road,1
+leicester square,2
+charing cross,1
+embankment,1
+waterloo,2
+kennington,3
+oval,3
+battersea power station,2
+nine elms,2
+stockwell,2
+clapham north,2
+clapham common,2
+clapham south,2
+balham,2
+tooting bec,2
+tooting broadway,2
+colliers wood,2
+south wimbledon,2
+morden,3

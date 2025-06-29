@@ -1,0 +1,27 @@
+stratford,0
+west ham,2
+canning town,3
+north greenwich,3
+canary wharf,3
+canada water,3
+bermondsey,2
+london bridge,2
+southwark,2
+waterloo,2
+westminster,2
+green park,2
+bond street,2
+baker street,2
+st. john's wood,3
+swiss cottage,2
+finchley road,2
+west hampstead,1
+kilburn,2
+willesden green,2
+dollis hill,2
+neasden,2
+wembley park,4
+kingsbury,3
+queensbury,2
+canons park,3
+stanmore,4

@@ -1,0 +1,384 @@
+{
+	"direction": "outbound",
+	"lineId": "windrush",
+	"lineName": "Windrush",
+	"mode": "overground",
+	"stopPointSequences": [
+		{
+			"stopPoint": [
+				{
+					"icsId": "1000108",
+					"id": "910GHGHI",
+					"lat": 51.546177,
+					"lon": -0.103764,
+					"name": "Highbury & Islington Rail Station",
+					"parentId": "HUBHHY",
+					"stationId": "910GHGHI",
+					"topMostParentId": "HUBHHY",
+					"zone": "2"
+				},
+				{
+					"icsId": "1001048",
+					"id": "910GCNNB",
+					"lat": 51.548732,
+					"lon": -0.092191,
+					"name": "Canonbury Rail Station",
+					"stationId": "910GCNNB",
+					"topMostParentId": "910GCNNB",
+					"zone": "2"
+				},
+				{
+					"icsId": "1001568",
+					"id": "910GDALS",
+					"lat": 51.546116,
+					"lon": -0.075137,
+					"name": "Dalston Junction Rail Station",
+					"stationId": "910GDALS",
+					"topMostParentId": "910GDALS",
+					"zone": "2"
+				},
+				{
+					"icsId": "1001569",
+					"id": "910GHAGGERS",
+					"lat": 51.538705,
+					"lon": -0.075666,
+					"name": "Haggerston Rail Station",
+					"stationId": "910GHAGGERS",
+					"topMostParentId": "910GHAGGERS",
+					"zone": "2"
+				},
+				{
+					"icsId": "1001570",
+					"id": "910GHOXTON",
+					"lat": 51.531512,
+					"lon": -0.075681,
+					"name": "Hoxton Rail Station",
+					"stationId": "910GHOXTON",
+					"topMostParentId": "910GHOXTON",
+					"zone": "1+2"
+				},
+				{
+					"icsId": "1001571",
+					"id": "910GSHRDHST",
+					"lat": 51.523375,
+					"lon": -0.075246,
+					"name": "Shoreditch High Street Rail Station",
+					"stationId": "910GSHRDHST",
+					"topMostParentId": "910GSHRDHST",
+					"zone": "1"
+				},
+				{
+					"icsId": "1000268",
+					"id": "910GWCHAPEL",
+					"lat": 51.519469,
+					"lon": -0.059757,
+					"name": "Whitechapel Rail Station",
+					"parentId": "HUBZWL",
+					"stationId": "910GWCHAPEL",
+					"topMostParentId": "HUBZWL",
+					"zone": "2"
+				},
+				{
+					"icsId": "1000329",
+					"id": "910GSHADWEL",
+					"lat": 51.511284,
+					"lon": -0.056934,
+					"name": "Shadwell Rail Station",
+					"parentId": "HUBSDE",
+					"stationId": "910GSHADWEL",
+					"topMostParentId": "HUBSDE",
+					"zone": "2"
+				},
+				{
+					"icsId": "1000251",
+					"id": "910GWAPPING",
+					"lat": 51.504388,
+					"lon": -0.055931,
+					"name": "Wapping Rail Station",
+					"stationId": "910GWAPPING",
+					"topMostParentId": "910GWAPPING",
+					"zone": "2"
+				},
+				{
+					"icsId": "1000195",
+					"id": "910GRTHERHI",
+					"lat": 51.500817,
+					"lon": -0.052048,
+					"name": "Rotherhithe Rail Station",
+					"stationId": "910GRTHERHI",
+					"topMostParentId": "910GRTHERHI",
+					"zone": "2"
+				},
+				{
+					"icsId": "1000037",
+					"id": "910GCNDAW",
+					"lat": 51.49799,
+					"lon": -0.04972,
+					"name": "Canada Water Rail Station",
+					"parentId": "HUBZCW",
+					"stationId": "910GCNDAW",
+					"topMostParentId": "HUBZCW",
+					"zone": "2"
+				},
+				{
+					"icsId": "1000229",
+					"id": "910GSURREYQ",
+					"lat": 51.493196,
+					"lon": -0.047519,
+					"name": "Surrey Quays Rail Station",
+					"stationId": "910GSURREYQ",
+					"topMostParentId": "910GSURREYQ",
+					"zone": "2"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "1000229",
+					"id": "910GSURREYQ",
+					"lat": 51.493196,
+					"lon": -0.047519,
+					"name": "Surrey Quays Rail Station",
+					"stationId": "910GSURREYQ",
+					"topMostParentId": "910GSURREYQ",
+					"zone": "2"
+				},
+				{
+					"icsId": "1000156",
+					"id": "910GNEWXGTE",
+					"lat": 51.475128,
+					"lon": -0.040399,
+					"name": "New Cross Gate Rail Station",
+					"parentId": "HUBNXG",
+					"stationId": "910GNEWXGTE",
+					"topMostParentId": "HUBNXG",
+					"zone": "2"
+				},
+				{
+					"icsId": "1001035",
+					"id": "910GBROCKLY",
+					"lat": 51.464649,
+					"lon": -0.037537,
+					"name": "Brockley Rail Station",
+					"stationId": "910GBROCKLY",
+					"topMostParentId": "910GBROCKLY",
+					"zone": "2"
+				},
+				{
+					"icsId": "1001154",
+					"id": "910GHONROPK",
+					"lat": 51.449989,
+					"lon": -0.045505,
+					"name": "Honor Oak Park Rail Station",
+					"stationId": "910GHONROPK",
+					"topMostParentId": "910GHONROPK",
+					"zone": "3"
+				},
+				{
+					"icsId": "1001112",
+					"id": "910GFORESTH",
+					"lat": 51.43928,
+					"lon": -0.053157,
+					"name": "Forest Hill Rail Station",
+					"stationId": "910GFORESTH",
+					"topMostParentId": "910GFORESTH",
+					"zone": "3"
+				},
+				{
+					"icsId": "1001289",
+					"id": "910GSYDENHM",
+					"lat": 51.427248,
+					"lon": -0.054244,
+					"name": "Sydenham Rail Station",
+					"parentId": "HUBSYD",
+					"stationId": "910GSYDENHM",
+					"topMostParentId": "HUBSYD",
+					"zone": "3"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "1001289",
+					"id": "910GSYDENHM",
+					"lat": 51.427248,
+					"lon": -0.054244,
+					"name": "Sydenham Rail Station",
+					"parentId": "HUBSYD",
+					"stationId": "910GSYDENHM",
+					"topMostParentId": "HUBSYD",
+					"zone": "3"
+				},
+				{
+					"icsId": "1001225",
+					"id": "910GPENEW",
+					"lat": 51.417555,
+					"lon": -0.06084,
+					"name": "Penge West Rail Station",
+					"stationId": "910GPENEW",
+					"topMostParentId": "910GPENEW",
+					"zone": "4"
+				},
+				{
+					"icsId": "1001007",
+					"id": "910GANERLEY",
+					"lat": 51.412153,
+					"lon": -0.065886,
+					"name": "Anerley Rail Station",
+					"stationId": "910GANERLEY",
+					"topMostParentId": "910GANERLEY",
+					"zone": "4"
+				},
+				{
+					"icsId": "1001216",
+					"id": "910GNORWDJ",
+					"lat": 51.397019,
+					"lon": -0.075221,
+					"name": "Norwood Junction Rail Station",
+					"parentId": "HUBNWD",
+					"stationId": "910GNORWDJ",
+					"topMostParentId": "HUBNWD",
+					"zone": "4"
+				},
+				{
+					"icsId": "1001324",
+					"id": "910GWCROYDN",
+					"lat": 51.378428,
+					"lon": -0.102585,
+					"name": "West Croydon Rail Station",
+					"parentId": "HUBWCY",
+					"stationId": "910GWCROYDN",
+					"topMostParentId": "HUBWCY",
+					"zone": "5"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "1000229",
+					"id": "910GSURREYQ",
+					"lat": 51.493196,
+					"lon": -0.047519,
+					"name": "Surrey Quays Rail Station",
+					"stationId": "910GSURREYQ",
+					"topMostParentId": "910GSURREYQ",
+					"zone": "2"
+				},
+				{
+					"icsId": "1001233",
+					"id": "910GPCKHMQD",
+					"lat": 51.473566,
+					"lon": -0.057313,
+					"name": "Queens Road Peckham Rail Station",
+					"stationId": "910GPCKHMQD",
+					"topMostParentId": "910GPCKHMQD",
+					"zone": "2"
+				},
+				{
+					"icsId": "1001223",
+					"id": "910GPCKHMRY",
+					"lat": 51.470034,
+					"lon": -0.069414,
+					"name": "Peckham Rye Rail Station",
+					"stationId": "910GPCKHMRY",
+					"topMostParentId": "910GPCKHMRY",
+					"zone": "2"
+				},
+				{
+					"icsId": "1001083",
+					"id": "910GDENMRKH",
+					"lat": 51.468203,
+					"lon": -0.089361,
+					"name": "Denmark Hill Rail Station",
+					"stationId": "910GDENMRKH",
+					"topMostParentId": "910GDENMRKH",
+					"zone": "2"
+				},
+				{
+					"icsId": "1001068",
+					"id": "910GCLPHHS",
+					"lat": 51.465481,
+					"lon": -0.132522,
+					"name": "Clapham High Street Rail Station",
+					"stationId": "910GCLPHHS",
+					"topMostParentId": "910GCLPHHS",
+					"zone": "2"
+				},
+				{
+					"icsId": "1001310",
+					"id": "910GWNDSWRD",
+					"lat": 51.470216,
+					"lon": -0.13852,
+					"name": "Wandsworth Road Rail Station",
+					"stationId": "910GWNDSWRD",
+					"topMostParentId": "910GWNDSWRD",
+					"zone": "2"
+				},
+				{
+					"icsId": "1001069",
+					"id": "910GCLPHMJ1",
+					"lat": 51.464187,
+					"lon": -0.170221,
+					"name": "Clapham Junction Rail Station",
+					"parentId": "910GCLPHMJC",
+					"stationId": "910GCLPHMJ1",
+					"topMostParentId": "HUBCLJ"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "1001289",
+					"id": "910GSYDENHM",
+					"lat": 51.427248,
+					"lon": -0.054244,
+					"name": "Sydenham Rail Station",
+					"parentId": "HUBSYD",
+					"stationId": "910GSYDENHM",
+					"topMostParentId": "HUBSYD",
+					"zone": "3"
+				},
+				{
+					"icsId": "1001078",
+					"id": "910GCRYSTLP",
+					"lat": 51.418109,
+					"lon": -0.07261,
+					"name": "Crystal Palace Rail Station",
+					"parentId": "HUBCYP",
+					"stationId": "910GCRYSTLP",
+					"topMostParentId": "HUBCYP",
+					"zone": "3+4"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "1000229",
+					"id": "910GSURREYQ",
+					"lat": 51.493196,
+					"lon": -0.047519,
+					"name": "Surrey Quays Rail Station",
+					"stationId": "910GSURREYQ",
+					"topMostParentId": "910GSURREYQ",
+					"zone": "2"
+				},
+				{
+					"icsId": "1000155",
+					"id": "910GNWCRELL",
+					"lat": 51.476344,
+					"lon": -0.032441,
+					"name": "New Cross ELL Rail Station",
+					"parentId": "HUBNWX",
+					"stationId": "910GNWCRELL",
+					"topMostParentId": "HUBNWX",
+					"zone": "2"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,48 @@
+{
+	"direction": "inbound",
+	"lineId": "rb5",
+	"lineName": "RB5",
+	"mode": "river-bus",
+	"stopPointSequences": [
+		{
+			"stopPoint": [
+				{
+					"icsId": "1002067",
+					"id": "930GMIL",
+					"lat": 51.502093,
+					"lon": 0.008768,
+					"name": "North Greenwich Pier",
+					"stationId": "930GMIL",
+					"topMostParentId": "930GMIL"
+				},
+				{
+					"icsId": "1002135",
+					"id": "930GWRF",
+					"lat": 51.497462,
+					"lon": 0.026011,
+					"name": "Royal Wharf Pier",
+					"stationId": "930GWRF",
+					"topMostParentId": "930GWRF"
+				},
+				{
+					"icsId": "1016784",
+					"id": "930GWAS",
+					"lat": 51.495163,
+					"lon": 0.07057,
+					"name": "Woolwich Arsenal Pier",
+					"stationId": "930GWAS",
+					"topMostParentId": "930GWAS"
+				},
+				{
+					"icsId": "1002271",
+					"id": "930GBRVS",
+					"lat": 51.516182,
+					"lon": 0.117661,
+					"name": "Barking Riverside Pier",
+					"stationId": "930GBRVS",
+					"topMostParentId": "930GBRVS"
+				}
+			]
+		}
+	]
+}

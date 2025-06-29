@@ -1,0 +1,25 @@
+harrow & wealdstone,0
+kenton,2
+south kenton,2
+north wembley,2
+wembley central,2
+stonebridge park,3
+harlesden,2
+willesden junction,2
+kensal green,3
+queen's park,2
+kilburn park,2
+maida vale,2
+warwick avenue,1
+paddington,2
+edgware road (Bakerloo),2
+marylebone,1
+baker street,2
+regent's park,2
+oxford circus,2
+piccadilly circus,2
+charing cross,2
+embankment,1
+waterloo,2
+lambeth north,2
+elephant & castle,3

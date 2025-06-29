@@ -1,0 +1,7 @@
+{
+	"direction": "inbound",
+	"lineId": "merseyrail",
+	"lineName": "Merseyrail",
+	"mode": "national-rail",
+	"stopPointSequences": []
+}

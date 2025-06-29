@@ -1,0 +1,182 @@
+{
+	"direction": "inbound",
+	"lineId": "grand-central",
+	"lineName": "Grand Central",
+	"mode": "national-rail",
+	"stopPointSequences": [
+		{
+			"stopPoint": [
+				{
+					"icsId": "90000844",
+					"id": "910GBRADIN",
+					"lat": 53.791075,
+					"lon": -1.749596,
+					"name": "Bradford Interchange Rail Station",
+					"stationId": "910GBRADIN",
+					"topMostParentId": "910GBRADIN"
+				},
+				{
+					"id": "9991870",
+					"lat": 53.750149,
+					"lon": -1.752296,
+					"name": "Low Moor",
+					"topMostParentId": "9991870"
+				},
+				{
+					"icsId": "90003484",
+					"id": "910GHLFX",
+					"lat": 53.720961,
+					"lon": -1.853575,
+					"name": "Halifax Rail Station",
+					"stationId": "910GHLFX",
+					"topMostParentId": "910GHLFX"
+				},
+				{
+					"icsId": "90000912",
+					"id": "910GBRHOUSE",
+					"lat": 53.698197,
+					"lon": -1.779439,
+					"name": "Brighouse Rail Station",
+					"stationId": "910GBRHOUSE",
+					"topMostParentId": "910GBRHOUSE"
+				},
+				{
+					"icsId": "90004865",
+					"id": "910GMIRFILD",
+					"lat": 53.671401,
+					"lon": -1.692545,
+					"name": "Mirfield Rail Station",
+					"stationId": "910GMIRFILD",
+					"topMostParentId": "910GMIRFILD"
+				},
+				{
+					"icsId": "90007852",
+					"id": "910GWKFLDKG",
+					"lat": 53.678659,
+					"lon": -1.488571,
+					"name": "Wakefield Kirkgate Rail Station",
+					"stationId": "910GWKFLDKG",
+					"topMostParentId": "910GWKFLDKG"
+				},
+				{
+					"icsId": "90005876",
+					"id": "910GPTFTMHL",
+					"lat": 53.698984,
+					"lon": -1.30369,
+					"name": "Pontefract Monkhill Rail Station",
+					"stationId": "910GPTFTMHL",
+					"topMostParentId": "910GPTFTMHL"
+				},
+				{
+					"icsId": "90002214",
+					"id": "910GDONC",
+					"lat": 53.522149,
+					"lon": -1.139845,
+					"name": "Doncaster Rail Station",
+					"stationId": "910GDONC",
+					"topMostParentId": "910GDONC"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90002214",
+					"id": "910GDONC",
+					"lat": 53.522149,
+					"lon": -1.139845,
+					"name": "Doncaster Rail Station",
+					"stationId": "910GDONC",
+					"topMostParentId": "910GDONC"
+				},
+				{
+					"icsId": "90005544",
+					"id": "910GPBRO",
+					"lat": 52.574975,
+					"lon": -0.249837,
+					"name": "Peterborough Rail Station",
+					"stationId": "910GPBRO",
+					"topMostParentId": "910GPBRO"
+				},
+				{
+					"icsId": "1001171",
+					"id": "910GKNGX",
+					"lat": 51.530883,
+					"lon": -0.122926,
+					"name": "London King's Cross Rail Station",
+					"parentId": "HUBKGX",
+					"stationId": "910GKNGX",
+					"topMostParentId": "HUBKGX",
+					"zone": "1"
+				}
+			]
+		},
+		{
+			"stopPoint": [
+				{
+					"icsId": "90006650",
+					"id": "910GSNDRLND",
+					"lat": 54.90534,
+					"lon": -1.382304,
+					"name": "Sunderland Rail Station",
+					"stationId": "910GSNDRLND",
+					"topMostParentId": "910GSNDRLND"
+				},
+				{
+					"icsId": "90003704",
+					"id": "910GHRTLEPL",
+					"lat": 54.686755,
+					"lon": -1.207316,
+					"name": "Hartlepool Rail Station",
+					"stationId": "910GHRTLEPL",
+					"topMostParentId": "910GHRTLEPL"
+				},
+				{
+					"icsId": "90002483",
+					"id": "910GEGLSCLF",
+					"lat": 54.529432,
+					"lon": -1.349437,
+					"name": "Eaglescliffe Rail Station",
+					"stationId": "910GEGLSCLF",
+					"topMostParentId": "910GEGLSCLF"
+				},
+				{
+					"icsId": "90005229",
+					"id": "910GNLRTN",
+					"lat": 54.333072,
+					"lon": -1.441273,
+					"name": "Northallerton Rail Station",
+					"stationId": "910GNLRTN",
+					"topMostParentId": "910GNLRTN"
+				},
+				{
+					"icsId": "90007198",
+					"id": "910GTHIRSK",
+					"lat": 54.228211,
+					"lon": -1.372588,
+					"name": "Thirsk Rail Station",
+					"stationId": "910GTHIRSK",
+					"topMostParentId": "910GTHIRSK"
+				},
+				{
+					"icsId": "90008178",
+					"id": "910GYORK",
+					"lat": 53.957966,
+					"lon": -1.093182,
+					"name": "York Rail Station",
+					"stationId": "910GYORK",
+					"topMostParentId": "910GYORK"
+				},
+				{
+					"icsId": "90002214",
+					"id": "910GDONC",
+					"lat": 53.522149,
+					"lon": -1.139845,
+					"name": "Doncaster Rail Station",
+					"stationId": "910GDONC",
+					"topMostParentId": "910GDONC"
+				}
+			]
+		}
+	]
+}

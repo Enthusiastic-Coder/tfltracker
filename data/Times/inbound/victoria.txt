@@ -1,0 +1,16 @@
+walthamstow central,0
+blackhorse road,3
+tottenham hale,3
+seven sisters,2
+finsbury park,5
+highbury & islington,2
+king's cross st. pancras,3
+euston,2
+warren street,2
+oxford circus,2
+green park,2
+victoria,2
+pimlico,2
+vauxhall,2
+stockwell,3
+brixton,2

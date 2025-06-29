@@ -1,0 +1,32 @@
+{
+	"direction": "outbound",
+	"lineId": "london-cable-car",
+	"lineName": "IFS Cloud Cable Car",
+	"mode": "cable-car",
+	"stopPointSequences": [
+		{
+			"stopPoint": [
+				{
+					"icsId": "1020079",
+					"id": "940GZZALGWP",
+					"lat": 51.499573,
+					"lon": 0.00834,
+					"name": "IFS Cloud Greenwich Peninsula",
+					"parentId": "HUBNGW",
+					"stationId": "940GZZALGWP",
+					"topMostParentId": "HUBNGW"
+				},
+				{
+					"icsId": "1020078",
+					"id": "940GZZALRDK",
+					"lat": 51.507729,
+					"lon": 0.017719,
+					"name": "IFS Cloud Royal Docks",
+					"parentId": "HUBRVC",
+					"stationId": "940GZZALRDK",
+					"topMostParentId": "HUBRVC"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,60 @@
+ealing broadway,0
+richmond,0
+kensington (Olympia),0
+kew gardens,4
+gunnersbury,2
+wimbledon,0
+wimbledon park,4
+southfields,2
+east putney,2
+putney bridge,3
+parsons green,3
+fulham broadway,2
+west brompton,2
+ealing common,5
+acton town,2
+chiswick park,2
+turnham green,2
+stamford brook,1
+ravenscourt park,2
+hammersmith (Dist&Picc Line),2
+barons court,3
+west kensington,2
+earl's court,2
+high street kensington,5
+notting hill gate,2
+bayswater,2
+paddington,2
+edgware road (Circle Line),3
+gloucester road,2
+south kensington,2
+sloane square,2
+victoria,2
+st. james's park,2
+westminster,2
+embankment,1
+temple,2
+blackfriars,1
+mansion house,2
+cannon street,2
+monument,1
+tower hill,2
+aldgate east,3
+whitechapel,2
+stepney green,3
+mile end,2
+bow road,2
+bromley-by-bow,2
+west ham,2
+plaistow,2
+upton park,2
+east ham,2
+barking,4
+upney,3
+becontree,2
+dagenham heathway,3
+dagenham east,2
+elm park,3
+hornchurch,2
+upminster bridge,2
+upminster,2

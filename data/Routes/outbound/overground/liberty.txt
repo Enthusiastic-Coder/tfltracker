@@ -1,0 +1,43 @@
+{
+	"direction": "outbound",
+	"lineId": "liberty",
+	"lineName": "Liberty",
+	"mode": "overground",
+	"stopPointSequences": [
+		{
+			"stopPoint": [
+				{
+					"icsId": "1001243",
+					"id": "910GROMFORD",
+					"lat": 51.574829,
+					"lon": 0.183237,
+					"name": "Romford Rail Station",
+					"stationId": "910GROMFORD",
+					"topMostParentId": "910GROMFORD",
+					"zone": "6"
+				},
+				{
+					"icsId": "1001098",
+					"id": "910GEMRSPKH",
+					"lat": 51.568642,
+					"lon": 0.220113,
+					"name": "Emerson Park Rail Station",
+					"stationId": "910GEMRSPKH",
+					"topMostParentId": "910GEMRSPKH",
+					"zone": "6"
+				},
+				{
+					"icsId": "1000242",
+					"id": "910GUPMNSTR",
+					"lat": 51.559018,
+					"lon": 0.25088,
+					"name": "Upminster Rail Station",
+					"parentId": "HUBUPM",
+					"stationId": "910GUPMNSTR",
+					"topMostParentId": "HUBUPM",
+					"zone": "6"
+				}
+			]
+		}
+	]
+}

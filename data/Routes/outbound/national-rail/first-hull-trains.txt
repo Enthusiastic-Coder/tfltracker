@@ -1,0 +1,140 @@
+{
+	"direction": "outbound",
+	"lineId": "first-hull-trains",
+	"lineName": "First Hull Trains",
+	"mode": "national-rail",
+	"stopPointSequences": [
+		{
+			"stopPoint": [
+				{
+					"icsId": "1001171",
+					"id": "910GKNGX",
+					"lat": 51.530883,
+					"lon": -0.122926,
+					"name": "London King's Cross Rail Station",
+					"parentId": "HUBKGX",
+					"stationId": "910GKNGX",
+					"topMostParentId": "HUBKGX",
+					"zone": "1"
+				},
+				{
+					"icsId": "1023126",
+					"id": "910GSTEVNGE",
+					"lat": 51.901688,
+					"lon": -0.207109,
+					"name": "Stevenage Rail Station",
+					"stationId": "910GSTEVNGE",
+					"topMostParentId": "910GSTEVNGE"
+				},
+				{
+					"icsId": "1001917",
+					"id": "910GHNTNGDN",
+					"lat": 52.328649,
+					"lon": -0.192068,
+					"name": "Huntingdon Rail Station",
+					"stationId": "910GHNTNGDN",
+					"topMostParentId": "910GHNTNGDN"
+				},
+				{
+					"icsId": "90005544",
+					"id": "910GPBRO",
+					"lat": 52.574975,
+					"lon": -0.249837,
+					"name": "Peterborough Rail Station",
+					"stationId": "910GPBRO",
+					"topMostParentId": "910GPBRO"
+				},
+				{
+					"icsId": "90003195",
+					"id": "910GGTHM",
+					"lat": 52.906472,
+					"lon": -0.64245,
+					"name": "Grantham Rail Station",
+					"stationId": "910GGTHM",
+					"topMostParentId": "910GGTHM"
+				},
+				{
+					"icsId": "90005189",
+					"id": "910GNEWANG",
+					"lat": 53.081758,
+					"lon": -0.799855,
+					"name": "Newark North Gate Rail Station",
+					"stationId": "910GNEWANG",
+					"topMostParentId": "910GNEWANG"
+				},
+				{
+					"icsId": "90006169",
+					"id": "910GRTFD",
+					"lat": 53.315154,
+					"lon": -0.947884,
+					"name": "Retford Rail Station",
+					"stationId": "910GRTFD",
+					"topMostParentId": "910GRTFD"
+				},
+				{
+					"icsId": "90002214",
+					"id": "910GDONC",
+					"lat": 53.522149,
+					"lon": -1.139845,
+					"name": "Doncaster Rail Station",
+					"stationId": "910GDONC",
+					"topMostParentId": "910GDONC"
+				},
+				{
+					"icsId": "90006365",
+					"id": "910GSELBY",
+					"lat": 53.782785,
+					"lon": -1.063786,
+					"name": "Selby Rail Station",
+					"stationId": "910GSELBY",
+					"topMostParentId": "910GSELBY"
+				},
+				{
+					"icsId": "90003639",
+					"id": "910GHOWDEN",
+					"lat": 53.764711,
+					"lon": -0.860463,
+					"name": "Howden Rail Station",
+					"stationId": "910GHOWDEN",
+					"topMostParentId": "910GHOWDEN"
+				},
+				{
+					"icsId": "90001008",
+					"id": "910GBROUGH",
+					"lat": 53.72696,
+					"lon": -0.578724,
+					"name": "Brough Rail Station",
+					"stationId": "910GBROUGH",
+					"topMostParentId": "910GBROUGH"
+				},
+				{
+					"icsId": "90003764",
+					"id": "910GHULL",
+					"lat": 53.74415,
+					"lon": -0.34568,
+					"name": "Hull Rail Station",
+					"stationId": "910GHULL",
+					"topMostParentId": "910GHULL"
+				},
+				{
+					"icsId": "90001957",
+					"id": "910GCTTGHM",
+					"lat": 53.781649,
+					"lon": -0.406434,
+					"name": "Cottingham Rail Station",
+					"stationId": "910GCTTGHM",
+					"topMostParentId": "910GCTTGHM"
+				},
+				{
+					"icsId": "90000570",
+					"id": "910GBEVERLY",
+					"lat": 53.842274,
+					"lon": -0.42298,
+					"name": "Beverley Rail Station",
+					"stationId": "910GBEVERLY",
+					"topMostParentId": "910GBEVERLY"
+				}
+			]
+		}
+	]
+}
