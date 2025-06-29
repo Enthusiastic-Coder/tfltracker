@@ -214,7 +214,7 @@ void TFLLineRenderer::doUpdateCache(const ViewState &viewState)
             if( !stopPoint.second->visible)
                 continue;
 
-            if( stopPoint.second->isPassPoint && stopPoint.second->id.startsWith("{"))
+            if( stopPoint.second->isPassPoint)
             {
                 continue;
             }
