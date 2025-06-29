@@ -22,3 +22,4 @@ android/raw_osm/
 android/tfl_meta/
 android/train_routes/
 android/network_rail/
+build/
