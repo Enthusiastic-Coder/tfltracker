@@ -1,0 +1,32 @@
+<RCC>
+    <qresource prefix="/">
+		<file>models/bus/bus.mtl</file>
+        <file>models/bus/bus.obj</file>
+        <file>models/bus/bus.png</file>
+        <file>models/train/back.png</file>
+        <file>models/train/black.png</file>
+        <file>models/train/front.png</file>
+        <file>models/train/left.png</file>
+        <file>models/train/right.png</file>
+        <file>models/train/top.png</file>
+        <file>models/train/train.mtl</file>
+        <file>models/train/train.obj</file>
+        <file>models/metro/londondlr.mtl</file>
+        <file>models/metro/londondlr.obj</file>
+        <file>models/metro/londontube.mtl</file>
+        <file>models/metro/londontube.obj</file>
+        <file>models/unit/runway.png</file>
+        <file>models/unit/unitbox.mtl</file>
+        <file>models/unit/unitbox.obj</file>
+        <file>models/unit/unitminiring.mtl</file>
+        <file>models/unit/unitminiring.obj</file>
+        <file>models/unit/unitring.mtl</file>
+        <file>models/unit/unitring.obj</file>
+        <file>models/unit/unitrunway.mtl</file>
+        <file>models/unit/unitrunway.obj</file>
+        <file>models/unit/unitsquare.mtl</file>
+        <file>models/unit/unitsquare.obj</file>
+        <file>models/metro/londonbus.mtl</file>
+        <file>models/metro/londonbus.obj</file>
+	</qresource>
+</RCC>

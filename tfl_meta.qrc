@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/">
+		<file>data/Times/inbound/bakerloo.txt</file>
+        <file>data/Times/inbound/central.txt</file>
+        <file>data/Times/inbound/circle.txt</file>
+        <file>data/Times/inbound/district.txt</file>
+        <file>data/Times/inbound/hammersmith-city.txt</file>
+        <file>data/Times/inbound/jubilee.txt</file>
+        <file>data/Times/inbound/metropolitan.txt</file>
+        <file>data/Times/inbound/northern.txt</file>
+        <file>data/Times/inbound/piccadilly.txt</file>
+        <file>data/Times/inbound/victoria.txt</file>
+        <file>data/Times/inbound/waterloo-city.txt</file>
+        <file>data/Times/outbound/bakerloo.txt</file>
+        <file>data/Times/outbound/central.txt</file>
+        <file>data/Times/outbound/circle.txt</file>
+        <file>data/Times/outbound/district.txt</file>
+        <file>data/Times/outbound/hammersmith-city.txt</file>
+        <file>data/Times/outbound/jubilee.txt</file>
+        <file>data/Times/outbound/metropolitan.txt</file>
+        <file>data/Times/outbound/northern.txt</file>
+        <file>data/Times/outbound/piccadilly.txt</file>
+        <file>data/Times/outbound/victoria.txt</file>
+        <file>data/Times/outbound/waterloo-city.txt</file>
+        <file>data/TFLModes/Modes.json</file>
+    </qresource>
+</RCC>

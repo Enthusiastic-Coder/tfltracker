@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/QtAtcX">
+        <file>images/showmaximum32x32.png</file>
+        <file>images/shownormal32x32.png</file>
+        <file>images/satlogo32x32.png</file>
+        <file>images/2D-flat.png</file>
+        <file>images/3D-flat.png</file>
+        <file>images/compassicon32x32.png</file>
+        <file>images/minus-flat.png</file>
+        <file>images/plus-flat.png</file>
+        <file>images/main-menu.png</file>
+        <file>images/proximity_mute_off.png</file>
+        <file>images/proximity_mute_on.png</file>
+        <file>images/radar_blip_toggle.png</file>
+        <file>images/radar_fast_off.png</file>
+        <file>images/radar_fast_on.png</file>
+        <file>images/radar_color_toggle.png</file>
+        <file>images/vr.png</file>
+        <file>images/subscription.png</file>
+        <file>images/east.png</file>
+        <file>images/west.png</file>
+    </qresource>
+    <qresource prefix="/"/>
+</RCC>

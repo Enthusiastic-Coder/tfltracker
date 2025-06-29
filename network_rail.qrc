@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>data/NetworkRail/network_rail_stns.txt</file>
+        <file>data/NetworkRail/schedule-toc.json</file>
+        <file>data/NetworkRail/nr_station_codes.csv</file>
+    </qresource>
+</RCC>

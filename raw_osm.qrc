@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>data/OSM/greater-london-latest_highway_primary.bin</file>
+        <file>data/OSM/greater-london-latest_highway_residential.bin</file>
+        <file>data/OSM/greater-london-latest_highway_secondary.bin</file>
+        <file>data/OSM/greater-london-latest_highway_tertiary.bin</file>
+        <file>data/OSM/greater-london-latest_highway_trunk.bin</file>
+        <file>data/OSM/greater-london-latest_highway_unclassified.bin</file>
+        <file>data/OSM/greater-london-latest_aeroway_runway.bin</file>
+        <file>data/OSM/greater-london-latest_aeroway_taxiway.bin</file>
+        <file>data/OSM/greater-london-latest_highway_cycleway.bin</file>
+        <file>data/OSM/greater-london-latest_highway_footway.bin</file>
+        <file>data/OSM/greater-london-latest_highway_motorway.bin</file>
+        <file>data/OSM/greater-london-latest_highway_pedestrian.bin</file>
+        <file>data/OSM/greater-london-latest_highway_service.bin</file>
+        <file>data/OSM/greater-london-latest_water.bin</file>
+    </qresource>
+</RCC>

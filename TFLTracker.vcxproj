@@ -1,0 +1,644 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{38EAB75F-5FC5-37CD-9D5B-A16A059BB929}</ProjectGuid>
+    <RootNamespace>TFLTracker</RootNamespace>
+    <Keyword>QtVS_v304</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.22000.0</WindowsTargetPlatformMinVersion>
+    <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <PlatformToolset>v143</PlatformToolset>
+    <OutputDirectory>Release\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>Application</ConfigurationType>
+    <IntermediateDirectory>.obj\</IntermediateDirectory>
+    <PrimaryOutput>TFLTracker</PrimaryOutput>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <PlatformToolset>v142</PlatformToolset>
+    <OutputDirectory>Debug\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>Application</ConfigurationType>
+    <IntermediateDirectory>.obj\</IntermediateDirectory>
+    <PrimaryOutput>TFLTracker</PrimaryOutput>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <Import Project="$(QtMsBuild)\qt_defaults.props" Condition="Exists('$(QtMsBuild)\qt_defaults.props')" />
+  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <QtInstall>6.5.3_msvc2019_64</QtInstall>
+    <QtModules>core;core-private;gui;network;qml;quick;quickcontrols2;concurrent;opengl;multimedia;sensors;xml;positioning</QtModules>
+  </PropertyGroup>
+  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <QtInstall>6.5.3_msvc2019_64</QtInstall>
+    <QtModules>core;core-private;gui;network;qml;quick;quickcontrols2;concurrent;opengl;multimedia;sensors;xml;positioning</QtModules>
+  </PropertyGroup>
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') OR !Exists('$(QtMsBuild)\Qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+    <Import Project="$(QtMsBuild)\Qt.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+    <Import Project="$(QtMsBuild)\Qt.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.obj\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">TFLTracker</TargetName>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</IgnoreImportLibrary>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <PostBuildEventUseInBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</PostBuildEventUseInBuild>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.obj\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">TFLTracker</TargetName>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</IgnoreImportLibrary>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>GeneratedFiles\$(ConfigurationName);GeneratedFiles;.;sdk\include;assimp2\include;qtsoap;qtstomp;.moc;/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -permissive- -Zc:__cplusplus -Zc:externConstexpr -utf-8 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>.obj\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <DisableSpecificWarnings>4577;4467;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <ObjectFileName>.obj\</ObjectFileName>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QtSOAP_EXPORTS;QT_DEPRECATED_WARNINGS;QT_DISABLE_DEPRECATED_BEFORE=0x060000;NDEBUG;QT_NO_DEBUG;QT_QMLMODELS_LIB;QT_QMLINTEGRATION_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <ProgramDataBaseFileName>
+      </ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>./assimp2/Release/Assimp32.lib;$(QTDIR)\lib\Qt6QmlModels.lib;$(QTDIR)\lib\Qt6EntryPoint.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" %(AdditionalOptions)</AdditionalOptions>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <LinkIncremental>false</LinkIncremental>
+      <OptimizeReferences>true</OptimizeReferences>
+      <OutputFile>$(OutDir)\TFLTracker.exe</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QtSOAP_EXPORTS;QT_DEPRECATED_WARNINGS;QT_DISABLE_DEPRECATED_BEFORE=0x060000;NDEBUG;QT_NO_DEBUG;QT_QMLMODELS_LIB;QT_QMLINTEGRATION_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>$(QTDIR)/bin/windeployqt --qmldir $(QTDIR)\qml .\Release\TFLTracker.exe</Command>
+      <Message>$(QTDIR)/bin/windeployqt --qmldir $(QTDIR)\qml .\Release\TFLTracker.exe</Message>
+    </PostBuildEvent>
+    <QtMoc>
+      <CompilerFlavor>msvc</CompilerFlavor>
+      <Include>./.moc/moc_predefs.h</Include>
+      <ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription>
+      <DynamicSource>output</DynamicSource>
+      <QtMocDir>.\.moc</QtMocDir>
+      <QtMocFileName>moc_%(Filename).cpp</QtMocFileName>
+    </QtMoc>
+    <QtRcc>
+      <NoZstd>true</NoZstd>
+      <Compression>default</Compression>
+      <ExecutionDescription>Rcc'ing %(Identity)...</ExecutionDescription>
+      <QtRccDir>.\.rcc</QtRccDir>
+      <QtRccFileName>qrc_%(Filename).cpp</QtRccFileName>
+    </QtRcc>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>GeneratedFiles\$(ConfigurationName);GeneratedFiles;.;sdk\include;assimp2\include;qtsoap;qtstomp;.moc;/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -permissive- -Zc:__cplusplus -Zc:externConstexpr -utf-8 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>.obj\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4577;4467;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <ObjectFileName>.obj\</ObjectFileName>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QtSOAP_EXPORTS;QT_DEPRECATED_WARNINGS;QT_DISABLE_DEPRECATED_BEFORE=0x060000;QT_QMLMODELS_LIB;QT_QMLINTEGRATION_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>./assimp2/Debug/Assimp32.lib;$(QTDIR)\lib\Qt6QmlModelsd.lib;$(QTDIR)\lib\Qt6EntryPointd.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" %(AdditionalOptions)</AdditionalOptions>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <OutputFile>$(OutDir)\TFLTracker.exe</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QtSOAP_EXPORTS;QT_DEPRECATED_WARNINGS;QT_DISABLE_DEPRECATED_BEFORE=0x060000;QT_QMLMODELS_LIB;QT_QMLINTEGRATION_LIB;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <QtMoc>
+      <CompilerFlavor>msvc</CompilerFlavor>
+      <Include>./.moc/moc_predefs.h</Include>
+      <ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription>
+      <DynamicSource>output</DynamicSource>
+      <QtMocDir>.\.moc</QtMocDir>
+      <QtMocFileName>moc_%(Filename).cpp</QtMocFileName>
+    </QtMoc>
+    <QtRcc>
+      <NoZstd>true</NoZstd>
+      <Compression>default</Compression>
+      <ExecutionDescription>Rcc'ing %(Identity)...</ExecutionDescription>
+      <QtRccDir>.\.rcc</QtRccDir>
+      <QtRccFileName>qrc_%(Filename).cpp</QtRccFileName>
+    </QtRcc>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="sdk\source\action\Action.cpp" />
+    <ClCompile Include="sdk\source\action\ActionGroup.cpp" />
+    <ClCompile Include="sdk\source\mesh\AssimpMeshManager.cpp" />
+    <ClCompile Include="Branch.cpp" />
+    <ClCompile Include="sdk\source\maptiles\Flat3DSpere.cpp" />
+    <ClCompile Include="FlatButtonManager.cpp" />
+    <ClCompile Include="sdk\source\maptiles\FlatSphere.cpp" />
+    <ClCompile Include="InAppStore.cpp" />
+    <ClCompile Include="Line.cpp" />
+    <ClCompile Include="LineBuilder.cpp" />
+    <ClCompile Include="LineType.cpp" />
+    <ClCompile Include="MapRenderWorker.cpp" />
+    <ClCompile Include="MapRenderer.cpp" />
+    <ClCompile Include="sdk\source\maptiles\MapTileEntries.cpp" />
+    <ClCompile Include="sdk\source\maptiles\MapTileEntry.cpp" />
+    <ClCompile Include="sdk\source\action\Menu.cpp" />
+    <ClCompile Include="sdk\source\mesh\MeshData.cpp" />
+    <ClCompile Include="MouseArea.cpp" />
+    <ClCompile Include="MouseAreaManager.cpp" />
+    <ClCompile Include="sdk\source\mesh\MultSphereMeshObjBuilder.cpp" />
+    <ClCompile Include="sdk\source\mesh\MultipleInstanceObjBuilder.cpp" />
+    <ClCompile Include="NationalRailCRC.cpp" />
+    <ClCompile Include="NationalRailPositionProvider.cpp" />
+    <ClCompile Include="NetworkRailScheduleJSON.cpp" />
+    <ClCompile Include="NetworkRailStnsCSV.cpp" />
+    <ClCompile Include="OSMData.cpp" />
+    <ClCompile Include="OSMRenderer.cpp" />
+    <ClCompile Include="sdk\source\mesh\ObjLoader.cpp" />
+    <ClCompile Include="sdk\source\mesh\ObjectLites.cpp" />
+    <ClCompile Include="sdk\source\opengl\OpenGLFontMeshBuilder.cpp" />
+    <ClCompile Include="sdk\source\opengl\OpenGLFontRenderer.cpp" />
+    <ClCompile Include="sdk\source\opengl\OpenGLFontTexture.cpp" />
+    <ClCompile Include="sdk\source\opengl\OpenGLPipeline.cpp" />
+    <ClCompile Include="sdk\source\opengl\OpenGLRenderer.cpp" />
+    <ClCompile Include="sdk\source\opengl\OpenGLShaderProgram.cpp" />
+    <ClCompile Include="sdk\source\math\QVRHdgTable.cpp" />
+    <ClCompile Include="sdk\source\utilities\QmlClipboardAdapter.cpp" />
+    <ClCompile Include="sdk\source\opengl\QtTextureManager.cpp" />
+    <ClCompile Include="RadarSymbols.cpp" />
+    <ClCompile Include="sdk\source\utilities\RandomStringGenerator.cpp" />
+    <ClCompile Include="sdk\source\mesh\SceneLoader.cpp" />
+    <ClCompile Include="sdk\source\opengl\SkyBox.cpp" />
+    <ClCompile Include="sdk\source\opengl\SkyDome.cpp" />
+    <ClCompile Include="StopPointMins.cpp" />
+    <ClCompile Include="sdk\source\mesh\SubScene.cpp" />
+    <ClCompile Include="TFLLine.cpp" />
+    <ClCompile Include="TFLLineRenderer.cpp" />
+    <ClCompile Include="TFLModel.cpp" />
+    <ClCompile Include="TFLRenderer.cpp" />
+    <ClCompile Include="TFLVehicleRenderer.cpp" />
+    <ClCompile Include="TFLView.cpp" />
+    <ClCompile Include="TFLViewFrameBuffer.cpp" />
+    <ClCompile Include="sdk\source\utilities\TextureCacheManager.cpp" />
+    <ClCompile Include="TileManager.cpp" />
+    <ClCompile Include="TrackerGlue.cpp" />
+    <ClCompile Include="TurnDirection.cpp" />
+    <ClCompile Include="UI.cpp" />
+    <ClCompile Include="Units.cpp" />
+    <ClCompile Include="Vehicle.cpp" />
+    <ClCompile Include="View3D.cpp" />
+    <ClCompile Include="WorldModel.cpp" />
+    <ClCompile Include="sdk\source\maptiles\WorldTileRenderer.cpp" />
+    <ClCompile Include="sdk\source\android\assetpack.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="sdk\source\mesh\meshloader.cpp" />
+    <ClCompile Include="sdk\source\utilities\permissions.cpp" />
+    <ClCompile Include="sdk\source\math\qhdgtable.cpp" />
+    <ClCompile Include="qtstomp\qstomp.cpp" />
+    <ClCompile Include="qtsoap\qtsoap.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="sdk\include\jibbs\action\Action.h" />
+    <QtMoc Include="sdk\include\jibbs\action\ActionGroup.h" />
+    <QtMoc Include="sdk\include\jibbs\action\ActionValue.h" />
+    <ClInclude Include="sdk\include\jibbs\mesh\AssimpMeshManager.h" />
+    <ClInclude Include="sdk\include\jibbs\math\BezierEquation.h" />
+    <ClInclude Include="BlipVerbosity.h" />
+    <ClInclude Include="sdk\include\jibbs\boundary\BoundaryHelperT.h" />
+    <ClInclude Include="sdk\include\jibbs\boundary\BoundingBox.h" />
+    <ClInclude Include="Branch.h" />
+    <ClInclude Include="BranchConnect.h" />
+    <QtMoc Include="sdk\include\jibbs\maptiles\Flat3DSpere.h" />
+    <QtMoc Include="FlatButtonManager.h" />
+    <ClInclude Include="sdk\include\jibbs\maptiles\FlatSphere.h" />
+    <ClInclude Include="sdk\include\jibbs\math\Frustum.h" />
+    <ClInclude Include="sdk\include\jibbs\gps\GPSBoundary.h" />
+    <ClInclude Include="sdk\include\jibbs\gps\GPSLocation.h" />
+    <ClInclude Include="sdk\include\jibbs\gps\GPSModelTransform.h" />
+    <ClInclude Include="sdk\include\jibbs\gps\GPSTileContainer.h" />
+    <ClInclude Include="sdk\include\jibbs\boundary\HeightData.h" />
+    <QtMoc Include="InAppStore.h" />
+    <ClInclude Include="Line.h" />
+    <ClInclude Include="LineBuilder.h" />
+    <QtMoc Include="LineType.h" />
+    <QtMoc Include="MapRenderWorker.h" />
+    <ClInclude Include="MapRenderer.h" />
+    <QtMoc Include="sdk\include\jibbs\maptiles\MapTileEntries.h" />
+    <QtMoc Include="sdk\include\jibbs\maptiles\MapTileEntry.h" />
+    <ClInclude Include="sdk\include\jibbs\math\MassChannel.h" />
+    <ClInclude Include="sdk\include\jibbs\math\MathSupport.h" />
+    <ClInclude Include="sdk\include\jibbs\matrix\Matrix3x3.h" />
+    <ClInclude Include="sdk\include\jibbs\matrix\Matrix4x4.h" />
+    <ClInclude Include="sdk\include\jibbs\matrix\MatrixArrayCoords.h" />
+    <QtMoc Include="sdk\include\jibbs\action\Menu.h" />
+    <ClInclude Include="sdk\include\jibbs\mesh\MeshData.h" />
+    <ClInclude Include="sdk\include\jibbs\math\MeshHelper.h" />
+    <ClInclude Include="MouseArea.h" />
+    <ClInclude Include="MouseAreaManager.h" />
+    <ClInclude Include="sdk\include\jibbs\mesh\MultSphereMeshObjBuilder.h" />
+    <ClInclude Include="sdk\include\jibbs\mesh\MultipleInstanceObjBuilder.h" />
+    <ClInclude Include="NationalRailCRC.h" />
+    <QtMoc Include="NationalRailPositionProvider.h" />
+    <ClInclude Include="NetworkRailScheduleJSON.h" />
+    <ClInclude Include="NetworkRailStnsCSV.h" />
+    <ClInclude Include="sdk\include\jibbs\serializable\OGLTexture2D.h" />
+    <ClInclude Include="sdk\include\jibbs\win\OGLWtlWndImpl.h" />
+    <ClInclude Include="OSMData.h" />
+    <QtMoc Include="OSMRenderer.h" />
+    <ClInclude Include="sdk\include\jibbs\mesh\ObjLoader.h" />
+    <ClInclude Include="sdk\include\jibbs\mesh\ObjectLites.h" />
+    <ClInclude Include="sdk\include\jibbs\opengl\OpenGLFontMeshBuilder.h" />
+    <ClInclude Include="sdk\include\jibbs\opengl\OpenGLFontRenderer.h" />
+    <ClInclude Include="sdk\include\jibbs\opengl\OpenGLFontTexture.h" />
+    <ClInclude Include="sdk\include\jibbs\opengl\OpenGLPipeline.h" />
+    <ClInclude Include="sdk\include\jibbs\opengl\OpenGLRenderer.h" />
+    <ClInclude Include="sdk\include\jibbs\opengl\OpenGLShaderProgram.h" />
+    <ClInclude Include="sdk\include\jibbs\math\Plane.h" />
+    <ClInclude Include="sdk\include\jibbs\math\QVRHdgTable.h" />
+    <QtMoc Include="sdk\include\jibbs\utilities\QmlClipboardAdapter.h" />
+    <ClInclude Include="sdk\include\jibbs\opengl\QtTextureManager.h" />
+    <ClInclude Include="sdk\include\jibbs\math\Quarternion.h" />
+    <ClInclude Include="RadarSymbols.h" />
+    <ClInclude Include="sdk\include\jibbs\utilities\RandomStringGenerator.h" />
+    <ClInclude Include="RealTimeGPS.h" />
+    <QtMoc Include="sdk\include\jibbs\mesh\SceneLoader.h" />
+    <ClInclude Include="sdk\include\jibbs\serializable\Serializable.h" />
+    <ClInclude Include="sdk\include\jibbs\serializable\SerializableMacros.h" />
+    <ClInclude Include="sdk\include\jibbs\serializable\SerializableStdStream.h" />
+    <ClInclude Include="sdk\include\jibbs\math\SinTable.h" />
+    <ClInclude Include="sdk\include\jibbs\opengl\SkyBox.h" />
+    <ClInclude Include="sdk\include\jibbs\opengl\SkyDome.h" />
+    <ClInclude Include="StopPointMins.h" />
+    <ClInclude Include="sdk\include\jibbs\mesh\SubScene.h" />
+    <QtMoc Include="TFLLine.h" />
+    <ClInclude Include="TFLLineRenderer.h" />
+    <QtMoc Include="TFLModel.h" />
+    <ClInclude Include="TFLRenderer.h" />
+    <ClInclude Include="TFLVehicleRenderer.h" />
+    <QtMoc Include="TFLView.h" />
+    <ClInclude Include="TFLViewCallBack.h" />
+    <QtMoc Include="TFLViewFrameBuffer.h" />
+    <ClInclude Include="sdk\include\jibbs\utilities\TextureCacheManager.h" />
+    <ClInclude Include="sdk\include\jibbs\maptiles\TileHelpers.h" />
+    <ClInclude Include="TileManager.h" />
+    <ClInclude Include="TrackPoint.h" />
+    <QtMoc Include="TrackerGlue.h" />
+    <ClInclude Include="TurnDirection.h" />
+    <QtMoc Include="UI.h" />
+    <ClInclude Include="Units.h" />
+    <ClInclude Include="Vehicle.h" />
+    <QtMoc Include="View3D.h" />
+    <ClInclude Include="ViewState.h" />
+    <ClInclude Include="WeakThis.h" />
+    <ClInclude Include="sdk\include\jibbs\win\Win32JoystickController.h" />
+    <ClInclude Include="WorldModel.h" />
+    <QtMoc Include="sdk\include\jibbs\maptiles\WorldTileRenderer.h" />
+    <ClInclude Include=".\sdk\include\jibbs\android\assetpack.cpp" />
+    <ClInclude Include="csvfileload.h" />
+    <ClInclude Include="sdk\include\jibbs\math\degreesRadians.h" />
+    <ClInclude Include="sdk\include\jibbs\math\euler.h" />
+    <ClInclude Include="helpers.h" />
+    <QtMoc Include="sdk\include\jibbs\mesh\meshloader.h" />
+    <ClInclude Include="sdk\include\jibbs\win\openglhwnd.h" />
+    <QtMoc Include="sdk\include\jibbs\utilities\permissions.h" />
+    <ClInclude Include="sdk\include\jibbs\mesh\pivotData.h" />
+    <ClInclude Include="sdk\include\jibbs\math\qhdgtable.h" />
+    <QtMoc Include="qtstomp\qstomp.h" />
+    <ClInclude Include="qtstomp\qstomp_global.h" />
+    <ClInclude Include="qtstomp\qstomp_p.h" />
+    <QtMoc Include="qtsoap\qtsoap.h" />
+    <ClInclude Include="screenUtils.h" />
+    <ClInclude Include="sdk\include\jibbs\utilities\stdafx.h" />
+    <ClInclude Include="touchEventdata.h" />
+    <ClInclude Include="sdk\include\jibbs\vector\vector2.h" />
+    <ClInclude Include="sdk\include\jibbs\vector\vector3.h" />
+    <ClInclude Include="sdk\include\jibbs\vector\vector4.h" />
+    <ClInclude Include="sdk\include\jibbs\mesh\vertexData.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include=".\.moc\moc_predefs.h.cbt">
+      <FileType>Document</FileType>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\mkspecs\features\data\dummy.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cl -Bx"$(QTDIR)\bin\qmake.exe" -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -permissive- -Zc:__cplusplus -Zc:externConstexpr -O2 -MD -std:c++17 -utf-8 -W3 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 -wd4577 -wd4467 -E $(QTDIR)\mkspecs\features\data\dummy.cpp 2&gt;NUL &gt;.\.moc\moc_predefs.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generate moc_predefs.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\.moc\moc_predefs.h;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\mkspecs\features\data\dummy.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cl -Bx"$(QTDIR)\bin\qmake.exe" -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -permissive- -Zc:__cplusplus -Zc:externConstexpr -Zi -MDd -std:c++17 -utf-8 -W3 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 -wd4577 -wd4467 -E $(QTDIR)\mkspecs\features\data\dummy.cpp 2&gt;NUL &gt;.\.moc\moc_predefs.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generate moc_predefs.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\.moc\moc_predefs.h;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\2D-flat.png" />
+    <None Include="qmlglue\qmlpages\2DPage.qml" />
+    <None Include="images\3D-flat.png" />
+    <None Include="qmlglue\qmlpages\3DPage.qml" />
+    <None Include="qmlglue\qmlpages\ActionListCombBox.qml" />
+    <None Include="qmlglue\AddRadarProfileDialog.qml" />
+    <None Include="qmlglue\qmlpages\ArrivalNationalStatusPage.qml" />
+    <None Include="qmlglue\qmlpages\ArrivalNationalStopPoints.qml" />
+    <None Include="qmlglue\qmlpages\ArrivalStatusPage.qml" />
+    <None Include="qmlglue\qmlpages\ArrivalVehicleStopPoints.qml" />
+    <None Include="qmlglue\qmlpages\ArrivalsNationalPage.qml" />
+    <None Include="qmlglue\qmlpages\ArrivalsPage.qml" />
+    <None Include="qmlglue\qmlpages\ArrivalsPlatformPage.qml" />
+    <None Include="qmlglue\RadarProfile\BlipPage.qml" />
+    <None Include="qmlglue\qmlpages\ButtonListOptions.qml" />
+    <None Include="qmlglue\qmlpages\settingspages\CircleIDColorChange.qml" />
+    <None Include="qmlglue\CloneRadarProfile.qml" />
+    <None Include="qmlglue\ColorPickerRectangle.qml" />
+    <None Include="qmlglue\CreditsPage.html" />
+    <None Include="qmlglue\qmlpages\DelegateSwitchListOptions.qml" />
+    <None Include="qmlglue\DisclaimerPage.html" />
+    <None Include="qmlglue\FlickableDialog.qml" />
+    <None Include="qmlglue\RadarProfile\FuturePage.qml" />
+    <None Include="qmlglue\qmlpages\GPSRealTimePage.qml" />
+    <None Include="qmlglue\qmlpages\settingspages\General.qml" />
+    <None Include="qmlglue\qmlpages\GenericLinePage.qml" />
+    <None Include="qmlglue\GraphicsDriverPage.html" />
+    <None Include="qmlglue\RadarProfile\Helper.js" />
+    <None Include="qmlglue\qmlpages\Helper.js" />
+    <None Include="images\tfl\IFScablecar.png" />
+    <None Include="qmlglue\InstructionsPage.html" />
+    <None Include="qmlglue\qmlpages\JSONStatusResults.qml" />
+    <None Include="qmlglue\qmlpages\LabelFilters.qml" />
+    <None Include="qmlglue\qmlpages\LineFilterBusPage.qml" />
+    <None Include="qmlglue\qmlpages\LineFilterPage.qml" />
+    <None Include="qmlglue\qmlpages\LinesFilterPage.qml" />
+    <None Include="qmlglue\qmlpages\LinesModeStatusPage.qml" />
+    <None Include="qmlglue\qmlpages\LinesStatusPage.qml" />
+    <None Include="qmlglue\qmlpages\NationalRailPage.qml" />
+    <None Include="qmlglue\qmlpages\ProximityPage.qml" />
+    <None Include="qmlglue\qmlpages\PurchasesPage.qml" />
+    <None Include="qmlglue\qmlpages\PurchasesTest.qml" />
+    <None Include="qmlglue\RadarProfile\RadarPage.qml" />
+    <None Include="qmlglue\ReleaseNotes.html" />
+    <None Include="qmlglue\RemoveRadarProfile.qml" />
+    <None Include="qmlglue\qmlpages\RiverBoatPage.qml" />
+    <None Include="qmlglue\qmlpages\ScrollablePage.qml" />
+    <None Include="qmlglue\qmlpages\SelectLinesDialogPage.qml" />
+    <None Include="qmlglue\SelectStationPointsDialog.qml" />
+    <None Include="qmlglue\SettingsDialog.qml" />
+    <None Include="qmlglue\qmlpages\SettingsPage.qml" />
+    <None Include="qmlglue\qmlpages\StopPointDisruptionPage.qml" />
+    <None Include="qmlglue\qmlpages\SwitchListOptions.qml" />
+    <None Include="qmlglue\qmlpages\TFLFilters.qml" />
+    <None Include="qmlglue\TextFileDialog.qml" />
+    <None Include="qmlglue\qmlpages\TileMap.qml" />
+    <None Include="qmlglue\RadarProfile\TrailPage.qml" />
+    <None Include="qmlglue\qmlpages\TubeArrivalPage.qml" />
+    <None Include="qmlglue\qmlpages\TubeArrivalsPage.qml" />
+    <None Include="qmlglue\qmlpages\TubeDisruptionPage.qml" />
+    <None Include="qmlglue\qmlpages\TubeInfoPage.qml" />
+    <None Include="qmlglue\qmlpages\TubeMapPage.qml" />
+    <None Include="qmlglue\qmlpages\UnitPage.qml" />
+    <None Include="qmlglue\qmlpages\UnitsPage.qml" />
+    <None Include="qmlglue\qmlpages\ViewPage.qml" />
+    <None Include="qmlglue\images\arrow.png" />
+    <None Include="qmlglue\images\arrow@2x.png" />
+    <None Include="qmlglue\images\arrow@3x.png" />
+    <None Include="qmlglue\images\arrow@4x.png" />
+    <None Include="qmlglue\images\arrows.png" />
+    <None Include="qmlglue\images\arrows@2x.png" />
+    <None Include="qmlglue\images\arrows@3x.png" />
+    <None Include="qmlglue\images\arrows@4x.png" />
+    <None Include="icons\gallery\20x20@2\back.png" />
+    <None Include="icons\gallery\20x20@3\back.png" />
+    <None Include="icons\gallery\20x20@4\back.png" />
+    <None Include="icons\gallery\20x20\back.png" />
+    <None Include="images\tfl\bus.png" />
+    <None Include="images\compassicon32x32.png" />
+    <None Include="images\tfl\dlr.png" />
+    <None Include="images\downArrow.png" />
+    <None Include="icons\gallery\20x20@2\drawer.png" />
+    <None Include="icons\gallery\20x20@3\drawer.png" />
+    <None Include="icons\gallery\20x20@4\drawer.png" />
+    <None Include="icons\gallery\20x20\drawer.png" />
+    <None Include="images\east.png" />
+    <None Include="images\tfl\elizabeth-line.png" />
+    <None Include="icons\gallery\index.theme" />
+    <None Include="images\main-menu.png" />
+    <None Include="qmlglue\main.qml" />
+    <None Include="icons\gallery\20x20@2\menu.png" />
+    <None Include="icons\gallery\20x20@3\menu.png" />
+    <None Include="icons\gallery\20x20@4\menu.png" />
+    <None Include="icons\gallery\20x20\menu.png" />
+    <None Include="images\minus-flat.png" />
+    <None Include="images\tfl\national-rail.png" />
+    <None Include="images\tfl\overground.png" />
+    <None Include="images\plus-flat.png" />
+    <None Include="images\proximity_mute_off.png" />
+    <None Include="images\proximity_mute_on.png" />
+    <QtRcc Include="qml.qrc">
+      <InitFuncName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">qml</InitFuncName>
+      <InitFuncName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">qml</InitFuncName>
+    </QtRcc>
+    <None Include="qmlglue\images\qt-logo.png" />
+    <None Include="qmlglue\images\qt-logo@2x.png" />
+    <None Include="qmlglue\images\qt-logo@3x.png" />
+    <None Include="qmlglue\images\qt-logo@4x.png" />
+    <QtRcc Include="qtatcx.qrc">
+      <InitFuncName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">qtatcx</InitFuncName>
+      <InitFuncName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">qtatcx</InitFuncName>
+    </QtRcc>
+    <None Include="qmlglue\qtquickcontrols2.conf" />
+    <None Include="images\radar_blip_toggle.png" />
+    <None Include="images\radar_color_toggle.png" />
+    <None Include="images\radar_fast_off.png" />
+    <None Include="images\radar_fast_on.png" />
+    <QtRcc Include="resources.qrc">
+      <InitFuncName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">resources</InitFuncName>
+      <InitFuncName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">resources</InitFuncName>
+    </QtRcc>
+    <None Include="images\tfl\river-bus.png" />
+    <None Include="images\tfl\river-tour.png" />
+    <None Include="images\satlogo32x32.png" />
+    <None Include="images\showmaximum32x32.png" />
+    <None Include="images\shownormal32x32.png" />
+    <None Include="images\subscription.png" />
+    <None Include="images\tfl\tram.png" />
+    <None Include="images\tfl\tube.png" />
+    <None Include="images\tubeMap.png" />
+    <None Include="images\tfl\vehicle.png" />
+    <None Include="images\vr.png" />
+    <None Include="images\west.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="android\AndroidManifest.xml" />
+    <None Include="android\src\com\enthusiasticcoder\tfltracker\AssetPackHelper.java" />
+    <None Include="android\src\com\enthusiasticcoder\tfltracker\BatteryListener.java" />
+    <None Include="android\src\com\enthusiasticcoder\tfltracker\MyActivity.java" />
+    <None Include="android\src\com\enthusiasticcoder\tfltracker\Security.java" />
+    <None Include="android\src\com\enthusiasticcoder\tfltracker\ShowPermissionRationale.java" />
+    <None Include="android\bus\src\main\assets" />
+    <None Include="android\dims\src\main\assets" />
+    <None Include="android\models\src\main\assets" />
+    <None Include="android\network_rail\src\main\assets" />
+    <None Include="android\osmtiles\src\main\assets" />
+    <None Include="android\raw_osm\src\main\assets" />
+    <None Include="android\tfl_meta\src\main\assets" />
+    <None Include="android\train_routes\src\main\assets" />
+    <None Include="android\build.gradle" />
+    <None Include="android\bus\build.gradle" />
+    <None Include="android\dims\build.gradle" />
+    <None Include="android\models\build.gradle" />
+    <None Include="android\network_rail\build.gradle" />
+    <None Include="android\osmtiles\build.gradle" />
+    <None Include="android\raw_osm\build.gradle" />
+    <None Include="android\tfl_meta\build.gradle" />
+    <None Include="android\train_routes\build.gradle" />
+    <None Include="android\bus" />
+    <None Include="android\bus\src\main\assets\bus.obb" />
+    <None Include="android\src\com" />
+    <None Include="android\dims" />
+    <None Include="android\dims\src\main\assets\dims.obb" />
+    <None Include="android\res\drawable-hdpi" />
+    <None Include="android\res\drawable-ldpi" />
+    <None Include="android\res\drawable-mdpi" />
+    <None Include="android\src\com\enthusiasticcoder" />
+    <None Include="shaders\flatShader3d.frag" />
+    <None Include="shaders\flatShader3d.vert" />
+    <None Include="shaders\fontAlphaShader.frag" />
+    <None Include="shaders\fontAlphaShader.vert" />
+    <None Include="shaders\fontShader.frag" />
+    <None Include="shaders\fontShader.vert" />
+    <None Include="android\gradle" />
+    <None Include="android\gradle\wrapper\gradle-wrapper.jar" />
+    <None Include="android\gradle\wrapper\gradle-wrapper.properties" />
+    <None Include="android\gradle.properties" />
+    <None Include="android\gradlew" />
+    <None Include="android\gradlew.bat" />
+    <None Include="android\res\drawable-hdpi\icon.png" />
+    <None Include="android\res\drawable-ldpi\icon.png" />
+    <None Include="android\res\drawable-mdpi\icon.png" />
+    <None Include="android\res\values\libs.xml" />
+    <None Include="android\bus\src\main" />
+    <None Include="android\dims\src\main" />
+    <None Include="android\models\src\main" />
+    <None Include="android\network_rail\src\main" />
+    <None Include="android\osmtiles\src\main" />
+    <None Include="android\raw_osm\src\main" />
+    <None Include="android\tfl_meta\src\main" />
+    <None Include="android\train_routes\src\main" />
+    <None Include="shaders\metroShader.frag" />
+    <None Include="shaders\metroShader.vert" />
+    <None Include="android\models" />
+    <None Include="android\models\src\main\assets\models.obb" />
+    <None Include="shaders\multTexShader.frag" />
+    <None Include="shaders\multTexShader.vert" />
+    <None Include="android\network_rail" />
+    <None Include="android\network_rail\src\main\assets\network_rail.obb" />
+    <None Include="android\osmtiles" />
+    <None Include="android\osmtiles\src\main\assets\osmtiles.obb" />
+    <None Include="shaders\primitiveShader.frag" />
+    <None Include="shaders\primitiveShader.vert" />
+    <None Include="android\res\xml\qtprovider_paths.xml" />
+    <None Include="android\raw_osm" />
+    <None Include="android\raw_osm\src\main\assets\raw_osm.obb" />
+    <None Include="android\res" />
+    <None Include="shaders\runwayLite.frag" />
+    <None Include="shaders\runwayLite.vert" />
+    <None Include="android\settings.gradle" />
+    <None Include="shaders\shader3d.frag" />
+    <None Include="shaders\shader3d.vert" />
+    <None Include="shaders\shaderColTex3d.frag" />
+    <None Include="shaders\shaderColTex3d.vert" />
+    <None Include="shaders\shaderTex3d.frag" />
+    <None Include="shaders\shaderTex3d.vert" />
+    <None Include="shaders\skyLineShader.frag" />
+    <None Include="shaders\skyLineShader.vert" />
+    <None Include="android\bus\src" />
+    <None Include="android\dims\src" />
+    <None Include="android\models\src" />
+    <None Include="android\network_rail\src" />
+    <None Include="android\osmtiles\src" />
+    <None Include="android\raw_osm\src" />
+    <None Include="android\src" />
+    <None Include="android\tfl_meta\src" />
+    <None Include="android\train_routes\src" />
+    <None Include="shaders\texFlatShader.frag" />
+    <None Include="shaders\texFlatShader.vert" />
+    <None Include="shaders\texShader.frag" />
+    <None Include="shaders\texShader.vert" />
+    <None Include="android\tfl_meta" />
+    <None Include="android\tfl_meta\src\main\assets\tfl_meta.obb" />
+    <None Include="android\src\com\enthusiasticcoder\tfltracker" />
+    <None Include="android\train_routes" />
+    <None Include="android\train_routes\src\main\assets\train_routes.obb" />
+    <None Include="android\res\values" />
+    <None Include="android\gradle\wrapper" />
+    <None Include="android\res\xml" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <Import Project="$(QtMsBuild)\qt.targets" Condition="Exists('$(QtMsBuild)\qt.targets')" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>
