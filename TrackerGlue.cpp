@@ -3137,7 +3137,7 @@ void TrackerGlue::saveSettings()
     for( auto* action : ui->menu_Circle_ID_Color_Override->actions())
         s.setValue("Settings/CircleIDOveride/" + action->objectName(), action->isChecked());
 
-    if( !allRoutesListsEmpty())
+    if( _allLoadedRoutesRefreshed)
     {
         {
             s.beginWriteArray("Settings/FetchNatBoat");
