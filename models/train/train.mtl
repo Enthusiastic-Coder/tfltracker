@@ -1,0 +1,70 @@
+#
+# Wavefront material file: C:\Project\GIT\TFLTracker\models\train\train.mtl
+#
+# Converted by the PolyTrans geometry converter from Okino Computer Graphics, Inc.
+# Date/time of export: 08/04/2019 10:32:48
+#
+# Bounding box of geometry = (-1.51553,-0.004374,-7.30271) to (1.5,4.58899,7.74369).
+
+newmtl default
+	Ns 32
+	d 1
+	illum 2
+	Kd 0.4 0.4 0.4
+	Ks 0.7 0.7 0.7
+	Ka 0.3 0.3 0.3
+
+newmtl back__2
+	Ns 32
+	d 1
+	illum 2
+	Kd 0.4 0.4 0.4
+	Ks 0.7 0.7 0.7
+	Ka 0.3 0.3 0.3
+	map_Kd back.png
+
+newmtl black
+	Ns 32
+	d 1
+	illum 2
+	Kd 0.0823529 0.0823529 0.0823529
+	Ks 0.7 0.7 0.7
+	Ka 0.101961 0.101961 0.101961
+	map_Kd black.png
+
+newmtl front__2
+	Ns 32
+	d 1
+	illum 2
+	Kd 0.4 0.4 0.4
+	Ks 0.7 0.7 0.7
+	Ka 0.3 0.3 0.3
+	map_Kd front.png
+
+newmtl left
+	Ns 32
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.7 0.7 0.7
+	Ka 1 1 1
+	map_Kd left.png
+
+newmtl right
+	Ns 32
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.7 0.7 0.7
+	Ka 1 1 1
+	map_Kd right.png
+
+newmtl top
+	Ns 32
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.7 0.7 0.7
+	Ka 1 1 1
+	map_Kd top.png
+

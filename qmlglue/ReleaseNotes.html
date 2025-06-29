@@ -1,0 +1,801 @@
+<html>
+<head/>
+
+<body>
+    <p><b>London TFL Tracker ©2019-[%CurrentYear]</b></p>
+    <p>Twitter: <a href="https://twitter.com/Tfltrackerapp">@Tfltrackerapp</a></p>
+    <p>This app is a 'Viewer' <b>ONLY</b> to TFL data sourced by London Transport</p>
+
+    <p><b>- **INTERNAL**</b></p>
+    <p>- Bus route updates</p>
+
+    <p><b>- 13/02/2025</b></p>
+    <p>- Fixed a crash in 3D view with ArmV7 devices</p>
+    <p>- N3 Bus route update</p>
+
+    <p><b>- 08/02/2025</b></p>
+    <p>- Vehicle drawing more smoother during finger dragging</p>
+
+    <p><b>- 26/01/2025</b></p>
+    <p>- App switching crash bug fix</p>
+
+    <p><b>- 07/01/2025</b></p>
+    <p>- Map Filter options are now saved and retrieved properly</p>
+
+    <p><b>- 06/01/2025</b></p>
+    <p>- Network rail position fixes for the Elizabeth line in the Stepney Green and Pudding Mill Lane area</p>
+    <p>- Train/Vehicle timeout (removing old traffic) increased from 2 mins to 4 mins for Network Rail train data</p>
+    <p>- Elizabeth line branching fixes in the Liverpool Street area</p>
+
+    <p><b>- 05/01/2025</b></p>
+    <p>- Network rail position fixes for the Elizabeth line</p>
+    <p>- Selected Vehicle thumbnail shows 'TFL' or 'Network Rail' depending where the data came from and also destination.</p>
+
+    <p><b>- 04/01/2025</b></p>
+    <p>- Thumbnail on selected Network train train shows departure/origin station</p>
+    <p>- Fixes/optimisations/maintenance</p>
+
+    <p><b>- 03/01/2025</b></p>
+    <p>- Network Rail Schedule fix (now Destination should show on all trains)</p>
+
+    <p><b>- 02/01/2025</b></p>
+    <p>- Network Rail real time train positions for
+        <ul>
+            <li>c2c</li>
+            <li>heathrow-express</li>
+            <li>southeastern</li>
+            <li>south-western-railway</li>
+            <li>thameslink</li>
+            <li>elizabeth</li>
+        </ul>
+        <br>
+        (please note that the Destinations are based on a local schedule file and train arrival times can vary which makes it inaccurate)
+    </p>
+    <p>- Bus routes maintenance</p>
+    <p>- New option under [Settings] menu -> [Elizabeth Line train position from TFL data (not Network Rail)
+    allows you to feed data either from TFL or from live Network rail</p>
+    <p>- Overground Line color fixes</p>
+
+    <p><b>- 16/12/2024 | 29/12/2024</b></p>
+    <p>- Map rendering speed improvement fixes. (removed tiles to make downloads smaller)</p>
+
+    <p><b>- 01/12/2024</b></p>
+    <p>- Riverboat RB5 route added</p>
+    <p>- Simple Map Tiles restored. (see [Map Filters] menu)</p>
+
+    <p><b>- 27/11/2024</b></p>
+    <p>- 6 new London Overground lines; Lioness, Mildmay, Windrush, Weaver, Suffragette and Liberty</p>
+    <p>- (these replace the full London Overground)</p>
+    <p>- New Bus routes 310 and 618.</p>
+    <p>- updated existing bus routes</p>
+
+    <p><b>- 22/07/2024</b></p>
+    <p>- Bus route updates</p>
+    <p>- Inactive buses are not removed</p>
+    <p>- removed 2D map tiles for smaller install</p>
+
+    <p><b>- 10/06/2024</b></p>
+    <p>- maintenance fixes</p>
+
+    <p><b>- 06/06/2024</b></p>
+    <p>- Added Barking Riverside, BGV</p>
+
+    <p><b>- 20/05/2024</b></p>
+    <p>- Vehicle ID time arrivals layout fixes</p>
+
+    <p><b>- 06/05/2024</b></p>
+    <p>- Arrivals page for Bus/Trains now provides estimate times to stops</p>
+
+    <p><b>- 10/04/2024</b></p>
+    <p>- Map color fixes</p>
+
+    <p><b>- 08/04/2024</b></p>
+    <p>- maintenance fixes</p>
+
+    <p><b>- 07/04/2024</b></p>
+    <p>- Bus 439, s2, sl2</p>
+    <p>- Map color adjustments</p>
+
+    <p><b>- 06/04/2024</b></p>
+    <p>- Different colored map styles options. You can cycle through by press the [red/green/blue] button bottom center to switch.</p>
+    <p>- (n.b. raw map option only has day/night option)</p>
+
+    <p><b>- 30/03/2024</b></p>
+    <p>- Update Mobile Framework to Qt 6.7</p>
+    <p>- Rendering efficiency improvements</p>
+    <p>- 3D ground bug fix</p>
+
+    <p><b>- 29/03/2024</b></p>
+    <p>- Removed duplicate trains on the Circle, Hammersmith &amp; City line trains.</p>
+    <p>- Changed OSM map tile</p>
+
+    <p><b>- 27/03/2024</b></p>
+    <p>- Map rendering efficiency improvements</p>
+
+    <p><b>- 23/03/2024</b></p>
+    <p>- Server Map tiles now available in 2D view</p>
+    <p>- Map rendering efficency improvements</p>
+    <p>- Map extended south to accomodate Bus 434</p>
+    <p>- Disruption text '\n' replaced with new text lines</p>
+
+    <p><b>- 19/03/2024</b></p>
+    <p>- Rendering fixes</p>
+
+    <p><b>- 16/03/2024</b></p>
+    <p>- Automatically removes old bus stops</p>
+    <p>- Arrow bus stop sizes limited as you zoom in</p>
+
+    <p><b>- 13/03/2024</b></p>
+    <p>- Colored Bus Stops are now triangles to denote direction of travel instead of being a square</p>
+    <p>- Routes not loading on start up bug fix</p>
+    <p>- Removed duplicate bus stops</p>
+
+    <p><b>- 10/03/2024</b></p>
+    <p>- Different Map tile style</p>
+    <p>- Raw OSM map option in [Map Filters] menu</p>
+
+    <p><b>- 09/03/2024</b></p>
+    <p>- Colored stop position fixes</p>
+    <p>- Map tile positioning fixes</p>
+
+    <p><b>- 08/03/2024</b></p>
+    <p>- Nighttime 2D map tiles much better color filter applied for better visibility</p>
+
+    <p><b>- 06/03/2024</b></p>
+    <p>- GPS crash fix</p>
+
+    <p><b>- 05/03/2024</b></p>
+    <p>- OSM colored tile maps replacement.</p>
+    <p>- Bus vehicle position fixes</p>
+
+    <p><b>- 24/02/2024</b></p>
+    <p>- Fixes and maintenance</p>
+
+    <p><b>- 21/02/2024</b></p>
+    <p>- Show/hide colored bus stops setting in 'Estimated Position' menu</p>
+    <p>- New menu option [Map Tiles] that allows you to use online map servers to display in 3D mode</p>
+    <p>- Display fixes in 3D mode</p>
+    <p>- optimisations</p>
+
+    <p><b>- 18/02/2024</b></p>
+    <p>- Fixes and maintenance</p>
+
+    <p><b>- 17/02/2024</b></p>
+    <p>- Software engine upgrade</p>
+    <p>- National Rail station arrivals for: Thanet Parkway, Soham and Reading Green Park</p>
+    <p>- New bus routes; sl1, sl5, sl10</p>
+    <p>- Bus stops displayed in the color of their corresponding lines</p>
+
+    <p><b>- 02/01/2024</b></p>
+    <p>- Brent Cross West (BCZ) station added</p>
+
+    <p><b>- 29/10/2023</b></p>
+    <p>- South Western line improvements</p>
+
+    <p><b>- 14/10/2023</b></p>
+    <p>- Southern, Thameslink, Gatwick Express, Southeastern &amp; London Overground improvements</p>
+    <p>- New Bus routes added; SL6, SL7, SL9.</p>
+
+    <p><b>- 22/09/2023</b></p>
+    <p>- National Rail Arrival stop information fix.</p>
+
+    <p><b>- 17/09/2023</b></p>
+    <p>- Route fixes to Greater Anglia</p>
+
+    <p><b>- 19/08/2023</b></p>
+    <p>- Bus stop direction pointer</p>
+    <p>- Island Line rail route fixes</p>
+    <p>- RB2 boat route fixes</p>
+
+    <p><b>- 15/07/2023</b></p>
+    <p>- Buses SL8 added</p>
+
+    <p><b>- 12/07/2023</b></p>
+    <p>- C2C improvements</p>
+    <p>- Bus numbers are now ordered in the 'Estimated Position' menu</p>
+
+    <p><b>- 25/06/2023</b></p>
+    <p>- Southeastern improvements</p>
+    <p>- Elephant &amp; Castle on the bakerloo improvement</p>
+    <p>- Added IFS Cloud Cable Car route</p>
+    <p>- Added and removed old and new bus routes</p>
+
+    <p><b>- 16/06/2023</b></p>
+    <p>- River boat route fixes</p>
+
+    <p><b>- 24/05/2023</b></p>
+    <p>- London Underground route map fixes</p>
+
+    <p><b>- 19/03/2023</b></p>
+    <p>- Buses that don't operate anymore get automatically removed</p>
+
+    <p><b>- 06/11/2022</b></p>
+    <p>- Elizabeth line joined up between west and east</p>
+
+    <p><b>- 24/10/2022</b></p>
+    <p>- Bond Street added to Elizabeth line</p>
+
+    <p><b>- 06/10/2022</b></p>
+    <p>- General maintenance</p>
+
+    <p><b>- 04/08/2022</b></p>
+    <p>- Tube, DLR, Great Northern and Thameslink route improvements</p>
+    <p>- Northern line branching fixes</p>
+    <p>- Piccadilly line Terminal 4 train position fix</p>
+
+    <p><b>- 16/07/2022</b></p>
+    <p>- All Tube routes improvements</p>
+
+    <p><b>- 02/07/2022</b></p>
+    <p>- Multiple Select Pop up now shows Icons showing mode</p>
+    <p>- 'Thames River Services' added</p>
+
+    <p><b>- 24/06/2022</b></p>
+    <p>- General fixes</p>
+
+    <p><b>- 19/06/2022</b></p>
+    <p>- Elizabeth line / Thameslink train position adjustments</p>
+
+    <p><b>- 14/06/2022</b></p>
+    <p>- Elizabeth line now serving Heathrow Terminal 4</p>
+
+    <p><b>- 13/06/2022</b></p>
+    <p>- Removed duplication from multiple stop point selection pop up.</p>
+
+    <p><b>- 12/06/2022</b></p>
+    <p>- Ref Positioning uses NaptanID for all lines.</p>
+    <p>- General fixes</p>
+
+    <p><b>- 09/06/2022</b></p>
+    <p>- 'School' tab in the 'Estimated Position' added for Buses that run school services.</p>
+    <p>- fixes where old bus routes are removed</p>
+
+    <p><b>- 05/06/2022</b></p>
+    <p>- Thameslink train line changes.</p>
+    <p>- Elizabeth line Stop icon update</p>
+    <p>- route update/loading bug fix</p>
+    <p>- clicking on national rail/elizabeth stop bug for arrivals</p>
+
+    <p><b>- 04/06/2022</b></p>
+    <p>- Thameslink train positions from TFL data.</p>
+    <p>- Elizabeth line train position fixes</p>
+
+    <p><b>- 30/05/2022</b></p>
+    <p>- General fixes</p>
+
+    <p><b>- 25/05/2022</b></p>
+    <p>- River Boat route fixes</p>
+
+    <p><b>- 24/05/2022</b></p>
+    <p>- Elizabeth Line</p>
+
+    <p><b>- 25/03/2022</b></p>
+    <p>- Piccadilly line heathrow routing fixes</p>
+
+    <p><b>- 21/03/2022</b></p>
+    <p>- Roads don't disappear when zoomed in alot</p>
+    <p>- GPS Real Time map centered fix</p>
+
+    <p><b>- 20/03/2022</b></p>
+    <p>- Map display improvements</p>
+
+    <p><b>- 15/03/2022</b></p>
+    <p>- Dark map improvements</p>
+
+    <p><b>- 14/03/2022</b></p>
+    <p>- Further map improvements</p>
+
+    <p><b>- 13/03/2022</b></p>
+    <p>- Smoother looking map when zoomed in</p>
+
+    <p><b>- 12/03/2022</b></p>
+    <p>- 2D London Map now renders much faster</p>
+    <p>- Southeastern, Heathrow Express and C2C line changes</p>
+
+    <p><b>- 21/02/2022</b></p>
+    <p>- Hail &amp; ride and general positioning improvements using NaptanID</p>
+
+    <p><b>- 12/02/2022</b></p>
+    <p>- RB6 route fixes</p>
+
+    <p><b>- 07/02/2022</b></p>
+    <p>- All River Boat route fixes</p>
+    <p>- New buses added; 733, 645, 456</p>
+
+    <p><b>- 06/02/2022</b></p>
+    <p>- All Bus Routes updated</p>
+
+    <p><b>- 03/02/2022</b></p>
+    <p>- Riverboat Vehicle ID fixes</p>
+
+    <p><b>- 18/01/2022</b></p>
+    <p>- Waterloo and City line route fixes</p>
+
+    <p><b>- 01/01/2022</b></p>
+    <p>- Northern Line branch fixes</p>
+
+    <p><b>- 29/12/2021</b></p>
+    <p>- Daytime color fix</p>
+
+    <p><b>- 28/12/2021</b></p>
+    <p>- Map now contains much more road and pathway details</p>
+    <p>- See [Map Filters] menu option for i) CycleWay ii) Pedestrian</p>
+    <p>- Hail &amp; Ride Bus position fixes</p>
+    <p>- Northern Line Euston branching bugs</p>
+    <p>- General maintenance</p>
+
+    <p><b>- 05/12/2021</b></p>
+    <p>- Metropolitan / Piccadilly route position fixes</p>
+
+    <p><b>- 21/11/2021</b></p>
+    <p>- Jubilee line track position fixes</p>
+    <p>- User Interface Theme Style fixes</p>
+    <p>- Road drawing fixes</p>
+
+    <p><b>- 10/11/2021</b></p>
+    <p>- TFL Rail track position fixes</p>
+
+    <p><b>- 26/10/2021</b></p>
+    <p>- 'Proximity Alert' option now uses clearer warning 'Traffic Traffic' audio</p>
+
+    <p><b>- 25/09/2021</b></p>
+    <p>- Train position fixes on Northern Line</p>
+
+    <p><b>- 22/09/2021</b></p>
+    <p>- RB6C route added</p>
+
+    <p><b>- 19/09/2021</b></p>
+    <p>- Northern Line stations added : 'Nine Elms' and 'Battersea Power'</p>
+
+    <p><b>- 12/09/2021</b></p>
+    <p>- 'Estimated Position' layout improvements</p>
+
+    <p><b>- 19/07/2021</b></p>
+    <p>- Bus stops now have arrows when zoomed in to indicate the direction of travel</p>
+
+    <p><b>- 18/07/2021</b></p>
+    <p>- South Western route position fixes</p>
+    <p>- RiverBoat route fixes</p>
+
+    <p><b>- 25/05/2021</b></p>
+    <p>- maintenance/bug fixes</p>
+
+    <p><b>- 16/05/2021</b></p>
+    <p>- bus position jumping bug fixes</p>
+
+    <p><b>- 12/05/2021</b></p>
+    <p>- maintenance/bug fixes</p>
+
+    <p><b>- 10/05/2021</b></p>
+    <p>- maintenance/bug fixes</p>
+
+    <p><b>- 09/05/2021</b></p>
+    <p>- Great-Northern route position fixes</p>
+
+    <p><b>- 08/05/2021</b></p>
+    <p>- c2c and tfl-rail route position fixes</p>
+    <p>- maintenance/bug fixes</p>
+
+    <p><b>- 24/04/2021</b></p>
+    <p>- maintenance/bug fixes</p>
+
+    <p><b>- 18/04/2021</b></p>
+    <p>- River Boat line positioning now dipicted more accurately</p>
+
+    <p><b>- 15/04/2021</b></p>
+    <p>- River Boat routes moved to Estimated Position page</p>
+    <p>- National Rail South Eastern train line positioning now dipicted more accurately</p>
+    <p>- general fixes</p>
+
+    <p><b>- 27/03/2021</b></p>
+    <p>- Northern line route fixes</p>
+
+    <p><b>- 21/03/2021</b></p>
+    <p>- Bug fix ; adding bus routes recently come into service</p>
+
+    <p><b>- 18/03/2021</b></p>
+    <p>- C2C route mods</p>
+    <p>- DLR route modes</p>
+
+    <p><b>- 05/03/2021</b></p>
+    <p>- London Tube/Heathrow-Express/TFL-Rail route mods</p>
+
+    <p><b>- 15/02/2021</b></p>
+    <p>- DLR line route mods</p>
+
+    <p><b>- 28/01/2021</b></p>
+    <p>- Bakerloo/Circle/DLR line route fixes</p>
+
+    <p><b>- 26/01/2021</b></p>
+    <p>- Added Twitter handle see above</p>
+    <p>- Choice between 'Ref Stn' or 'Location' for train position estimation; see menu option [Settings] - [General] -  'Use Vehicle Location to guess position'</p>
+    <p>- Thumbnail upon selecting a vehicle will show 'Positioning' method used; i.e. Location or Ref Station</p>
+
+    <p><b>- 17/01/2021</b></p>
+    <p>- DLR branch fix at Lewisham</p>
+
+    <p><b>- 16/01/2021</b></p>
+    <p>- General fixes</p>
+
+    <p><b>- 10/01/2021</b></p>
+    <p>- 3D : further fixes; "You" text and yellow 'you' rings now smaller</p>
+
+    <p><b>- 07/01/2021</b></p>
+    <p>- 3D : Train lines fixed up, trains + buses sizes changed + other fixes</p>
+
+    <p><b>- 05/01/2021</b></p>
+    <p>- General fixes</p>
+
+    <p><b>- 04/01/2021</b></p>
+    <p>- Trains/Buses falling off track at corners bug fix</p>
+
+    <p><b>- 03/01/2021</b></p>
+    <p>- Bus routes that don't exist anymore are automatically removed</p>
+    <p>- General fixes</p>
+
+    <p><b>- 31/12/2020</b></p>
+    <p>- Fixes to Bus positions</p>
+
+    <p><b>- 30/12/2020</b></p>
+    <p>- Fixes to Bus positions</p>
+
+    <p><b>- 29/12/2020</b></p>
+    <p>- Fix for TFL Server Fetch wait/interval bug</p>
+
+    <p><b>- 28/12/2020</b></p>
+    <p>- Train + track position mods/fixes</p>
+
+    <p><b>- 22/12/2020</b></p>
+    <p>- Bus position fixes</p>
+
+    <p><b>- 19/12/2020</b></p>
+    <p>- One-time purchase option now available to unlock the app forever alongside the existing Monthly Subscription option (see <b>[Purchase Options]</b> menu for more info)</p>
+    <p>- Buses "Hail &amp; Ride" positioning</p>
+    <p>- Timeout fixes</p>
+    <p>- DLR line fixes</p>
+
+    <p><b>- 04/12/2020</b></p>
+    <p>- Fixes to some Underground train branchings and other general fixes</p>
+
+    <p><b>- 03/12/2020</b></p>
+    <p>- General fixes</p>
+
+    <p><b>- 28/11/2020</b></p>
+    <p>- Proximity : louder "Traffic Traffic" warning audio</p>
+    <p>- Changes to GPS Realtime</p>
+    <p>- Two new buttons 'West' and 'East' on the front screen to jump you directly to West and East London respectively (Useful if you live outside of the UK)</p>
+
+    <p><b>- 23/11/2020</b></p>
+    <p>- GPS RealTime/Compass modes work exclusively bug fix</p>
+    <p>- During GPS Real Time a history trail will be drawn</p>
+    <p>- [N] toggle to start / stop compass </p>
+
+    <p><b>- 20/11/2020</b></p>
+    <p>- Further improvements to Bus/Tube estimated positions</p>
+
+    <p><b>- 17/11/2020</b></p>
+    <p>- general fixes/maintenance</p>
+
+    <p><b>- 16/11/2020</b></p>
+    <p>- Bus Route update in [Estimated Position] menu crash bug fix</p>
+
+    <p><b>- 15/11/2020</b></p>
+    <p>- Underground line position/ branching train pos fixes</p>
+    <p>- Bus Stop Letter Code used to position buses better.</p>
+    <p>- Piccadily line sidings at Northfields and South Ealing</p>
+    <p>- Bus Route update in [Estimated Position] menu bug fix</p>
+    <p>- Buses up to 16 minutes shown on live map</p>
+
+    <p><b>- 08/11/2020</b></p>
+    <p> Due to the ongoing work involved in maintaining and furthering this app it has been decided to begin operating under a <u><b>Monthly Subscription</b></u> model with a 3 day free trial at the beginning and a small free window every time you start the app. We hope this doesn't cause too much inconvenience. Thank you for your support.</p>
+
+    <p><b>- 26/10/2020</b></p>
+    <p>- Bug fixes for updating routes</p>
+
+    <p><b>- 25/10/2020</b></p>
+    <p>- Filter line fixes</p>
+    <p>- Moved River Boat page to separate menu as this category of transport does not have real time information</p>
+    <p>- Speed optimisations</p>
+    <p>- Can now update a bus route line from TFL by going to the [Estimated Position] menu item and selecting your bus routes and clicking [Update]</p>
+
+    <p><b>- 17/10/2020</b></p>
+    <p>- District/Jubilee/Overground/Circle tube line and DLR position fixes</p>
+    <p>- Bus/Train movement fixes</p>
+
+    <p><b>- 09/10/2020</b></p>
+    <p>- Bakerloo line sidings</p>
+    <p>- Misc fixes.</p>
+    <P>- Bus routes updated</p>
+
+    <p><b>- 24/09/2020</b></p>
+    <p>- Tube/Waterloo City/TFL Rail/Overground/DLR lines reposition fixes</p>
+    <p>- Misc fixes</p>
+
+    <p><b>- 22/09/2020</b></p>
+    <p>- Tube lines reposition fixes</p>
+    <p>- Misc fixes</p>
+
+    <p><b>- 19/09/2020</b></p>
+    <p>- Tube lines reposition fixes</p>
+    <p>- National Rail/ Boat/ Buses have random colors assigned to their lines</p>
+    <p>- Metropolitan line position fixes</p>
+
+    <p><b>- 18/09/2020</b></p>
+    <p>- Tube lines reposition fixes</p>
+
+    <p><b>- 13/09/2020</b></p>
+    <p>- Central and Bakerloo line sections repositioned to reflect more real life</p>
+    <p>- Cleaned up Station names in [Arrivals] page</p>
+
+    <p><b>- 12/09/2020</b></p>
+    <p>- National Rail lines show/hide in new menu [National Rail]</p>
+    <p>- DLR fixes in the Beckton area</p>
+    <p>- Bus Route updates</p>
+    <p>- Some tube line adjustments</p>
+    <p>- General fixes</p>
+
+    <p><b>- 07/09/2020</b></p>
+    <p>- London Tubeposition fixes based on times between stations</p>
+    <p>- DLR, District/ Overground and TFL-rail line adjustments</p>
+    <p>- misc fixes</p>
+
+    <p><b>- 04/09/2020</b></p>
+    <p>- London Overground/TFL Rail position fixes</p>
+
+    <p><b>- 03/09/2020</b></p>
+    <p>- DLR train position experimental with position</p>
+
+    <p><b>- 01/09/2020</b></p>
+    <p>- Bus position fixes</p>
+
+    <p><b>- 31/08/2020</b></p>
+    <p>- Bus position fixes</p>
+    <p>- Rendering optimisations - now Footpaths/Water outlines/Road Names appear when you are more zoomed out</p>
+
+    <p><b>- 30/08/2020</b></p>
+    <p>- Bus route and position fixes</p>
+    <p>- Vehicle highlighted visually upon selection</p>
+
+    <p><b>- 29/08/2020</b></p>
+    <p>- Added 'Towards' to Bus Stops and Arrivals page</p>
+    <p>- Bus routes update</p>
+
+    <p><b>- 09/08/2020</b></p>
+    <p>- National rail arrival fixes for certain stops</p>
+
+    <p><b>- 08/08/2020</b></p>
+    <p>- Bus line fixes</p>
+    <p>- National rail arrival fixes for certain stops</p>
+
+    <p><b>- 30/07/2020</b></p>
+    <p>- Updated bus routes</p>
+    <p>- Added National Rail/TFL Rail lines to 'Estimated Postion' menu however there is no train position information for these lines</p>
+
+    <p><b>- 18/07/2020</b></p>
+    <p>- Tube position fixes</p>
+    <p>- King's Cross rail station arrival fix</p>
+
+    <p><b>- 12/07/2020</b></p>
+    <p>- Removed Vehicle ID: 000</p>
+
+    <p><b>- 29/06/2020</b></p>
+    <p>- Tube Time limit fix</p>
+
+    <p><b>- 27/06/2020</b></p>
+    <p>- Rail Station Arrival fixes</p>
+    <p>- Tube Vehicle ID 000 fix</p>
+
+    <p><b>- 19/06/2020</b></p>
+    <p>- Tube positioning improvements </p>
+
+    <p><b>- 10/06/2020</b></p>
+    <p>- Tube positioning improvements </p>
+
+    <p><b>- 06/06/2020</b></p>
+    <p>- Tram positioning improvements </p>
+
+    <p><b>- 28/05/2020</b></p>
+    <p>- Bakerloo line fixes</p>
+
+    <p><b>- 24/05/2020</b></p>
+    <p>- Added Coach length to National Arrivals</p>
+    <p>- National Rail station finger selection bug fixes</p>
+
+    <p><b>- 22/05/2020</b></p>
+    <p>- Updated national rail data</p>
+
+    <p><b>- 21/05/2020</b></p>
+    <p>- National Arrivals info bug fixes and "Via" added.</p>
+    <p>- Estimated Arrival Time added to Bus and Underground arrivals page.</p>
+
+    <p><b>- 13/05/2020</b></p>
+    <p>- National Arrivals: specific train arrivals can be seen by pressing row in the arrivals page.</p>
+
+    <p><b>- 11/05/2020</b></p>
+    <p>- Bus positioning bug fixes</p>
+
+    <p><b>- 27/04/2020</b></p>
+    <p>- Updated all bus and some train routes</p>
+
+    <p><b>- 18/04/2020</b></p>
+    <p>- Timeout bugs</p>
+
+    <p><b>- 15/02/2020</b></p>
+    <p>- Northern line fixes at Camden town</p>
+    <p>- Tram data is now available</p>
+
+    <p><b>- 25/01/2020</b></p>
+    <p>- Bus to ref stn changed to -35 seconds</p>
+
+    <p><b>- 06/01/2020</b></p>
+    <p>- Bug fix : Stop point fixes on Metropolitan line : Northwood/Northwood hills and Ruislip manor/Ruislip</p>
+
+    <p><b>- 05/01/2020</b></p>
+    <p>- Stop point National Rail/Tube selection bug fixes</p>
+    <p>- Overground stoppoints now use National Rail arrival data</p>
+
+    <p><b>- 27/12/2019</b></p>
+    <p>- Icon launcher fixes.</p>
+
+    <p><b>- 25/12/2019</b></p>
+    <p>- New Routes added.</p>
+
+    <p><b>- 15/12/2019</b></p>
+    <p>- National Rail arrivals now show stop points.</p>
+
+    <p><b>- 30/11/2019</b></p>
+    <p>- National Rail arrivals now show when you click a station.</p>
+
+    <p><b>- 13/11/2019</b></p>
+    <p>- National Rail logo fix</p>
+
+    <p><b>- 11/11/2019</b></p>
+    <p>- Top right hand server info has red background no data received</p>
+    <p>- Top Left time/Charge status only shown in full screen mode</p>
+
+    <p><b>- 10/11/2019</b></p>
+    <p>- Faster app start up time</p>
+
+    <p><b>- 09/11/2019</b></p>
+    <p>- Northern Line Kennington Station terminus fix</p>
+
+    <p><b>- 19/10/2019</b></p>
+    <p>- Circle line color override (for hobbiest user)</p>
+
+    <p><b>- 23/09/2019</b></p>
+    <p>- District Line train at Wimbledon / Wimbledon Park station bug fix</p>
+
+    <p><b>- 22/09/2019</b></p>
+    <p>- Overlapping trains on the same track point are moved sideways to make more readable</p>
+    <p>- National Rail stations show (note TFL does not provide arrival information)</p>
+
+    <p><b>- 08/09/2019</b></p>
+    <p>- Trains terminating bug.</p>
+
+    <p><b>- 03/09/2019</b></p>
+    <p>- Train previous/next station order check on single lines (Victoria line bug at Walthamstow).</p>
+
+    <p><b>- 28/08/2019</b></p>
+    <p>- Trains point the right direction at terminal stations.</p>
+
+    <p><b>- 27/08/2019</b></p>
+    <p>- Train timeout 1 minute</p>
+
+    <p><b>- 11/08/2019</b></p>
+    <p>- Added 3D Trains / Buses and lines (**3D is experimental and is still being worked on when free time allows**)</p>
+
+    <p><b>- 07/08/2019</b></p>
+    <p>- Added 3D (in progress and being fleshed out over the coming weeks...)</p>
+    <p>- Fixes for some terminating trains </p>
+
+    <p><b>- 03/08/2019</b></p>
+    <p>- circle line to Edgware road is now put to yellow between Hammersmith and paddington as it was displayed as a Hammersmith & city line and turned into the colour pink , (Eastbound only)</p>
+
+    <p><b>- 02/08/2019</b></p>
+    <p>- circle line to hammersmith now stays yellow throughout the route only when the app runs for a while and seen the trains visits at Aldgate. reminder, circle line to hammersmith with be pink when running the app straight away because the app won't remember if the train passed Aldgate. if the app closes and has been started fresh again the app won't remember the circle line in yellow between Liverpool street and hammersmith , (westbound only). </p>
+
+    <p><b>- 30/07/2019</b></p>
+    <p>- Filter Line Arrivals </p>
+    <p>- Train leaving Termination station bug fix"</p>
+
+    <p><b>- 27/07/2019</b></p>
+    <p>- Trains with no destination is now back in the app , for E.G hammersmith &amp; city line to kings cross is shown "check front of train."</p>
+
+    <p><b>- 26/07/2019</b></p>
+    <p>- Download interval change</p>
+
+    <p><b>- 24/07/2019</b></p>
+    <p>- Updated Line Route data from TFL. New lines added and existing updated</p>
+    <p>- In "TFL Filters" menu : Vehicle / Line Id separate label control for Bus and Train.</p>
+
+    <p><b>- 23/07/2019</b></p>
+    <p>- Piccadilly Line Heathrow area fixes.</p>
+    <p>- Trains with no destination are filtered out.</p>
+
+    <p><b>- 21/07/2019</b></p>
+    <p>- Vehicles time out after 5 minutes and also they travel to their final destinations and wait there.</p>
+
+    <p><b>- 19/07/2019</b></p>
+    <p>- Multiple Select StopPoints / Vehicle</p>
+
+    <p><b>- 18/07/2019</b></p>
+    <p>- Edgware Road branch and hammersmith/circle ine branch mods</p>
+
+    <p><b>- 16/07/2019</b></p>
+    <p>- Trains moving between stations speed adjusted to average constant speed based on distance between them.</p>
+    <p>- Buses move back step by step if they have moved too far fowards</p>
+
+    <p><b>- 14/07/2019</b></p>
+    <p>- Moving Trains</p>
+
+    <p><b>- 12/07/2019</b></p>
+    <p>- Moving Buses</p>
+
+    <p><b>- 06/07/2019</b></p>
+    <p>- New drop down option in Menu "TFL Filters" to control label text</p>
+    <p>- Train lines gaps changes for better display clarity</p>
+    <p>- Piccadilly line aligned with District line at West Kensington</p>
+    <p>- Fixed "TFL Filter" black screen menu bug</p>
+
+    <p><b>- 05/07/2019</b></p>
+    <p>- New Menu "TFL Filters" to show/hide a) bus stops, b) bus lines and c) train lines for better display clarity</p>
+
+    <p><b>- 04/07/2019</b></p>
+    <p>- New Menu "TFL Filters" to show/hide bus stops for better display clarity</p>
+    <p>- Northern Line - turns White in 'night' map mode</p>
+    <p>- Northern Line Camden Town to Euston line section fixes;via CX and via BANK distinction.</p>
+    <p>- New improved transparent logo stop designs</p>
+
+    <p><b>- 03/07/2019</b></p>
+    <p>- Heathrow/Northolt/London City airport layouts added to map</p>
+    <p>- Metropolitan : '(fast)' shown on trains that skip stops</p>
+    <p>- Better separation between Metropolitan and Jubilee lines</p>
+    <p>- Better separation between Piccadilly and District lines</p>
+    <p>- Branching fixes/optimisations..</p>
+
+    <p><b>- 01/07/2019</b></p>
+    <p>- Better DLR positioning. ('Bunching' still occurs due to incomplete TFL data for DLR)</p>
+    <p>- Branching fixes on the Central Line</p>
+    <p>- Branching optimisations..</p>
+
+    <p><b>- June 2019</b></p>
+    <p>- Fixed a bug when the vehicle IDs are the same for 2 or more trains </p>
+    <p>- Branching fixes on the Piccadilly/Circle/District and Hammersmith-city lines</p>
+    <p>- Metropolitan line fixes </p>
+    <p>- Roads clipping bug when zoomed in</p>
+    <p>- Bus stop letter bug fix</p>
+    <p>- Removed VSI/Alt from GPS Realtime as it's not really required</p>
+    <p>- Ongoing line branch fixes: Circle, Hammersmith-City and Northern line branch fixes</p>
+    <p>- Ongoing line branch fixes with fixes to Circle/District line</p>
+    <p>- Multiple Station selection dialog when clicking on map</p>
+    <p>- Central Line Direction fixes</p>
+    <p>- Piccadilly line Terminal4 destination direction fix</p>
+    <p>- Vehicle label positioning fixes </p>
+    <p>- Red Proximity Ring with switch on/off in "Proximity" menu</p>
+    <p>- new Filter page to show/hide OSM map data items</p>
+    <p>- Ongoing modifications...</p>
+    <p>- Cache reload fix</p>
+    <p>- National Rail/TFL-Rail/River-Bus logo stations</p>
+
+    <p><b>- 30/05/2019</b></p>
+    <p>- Internet disconnect bug fixes</p>
+
+    <p><b>- 28/05/2019</b></p>
+    <p>- Ongoing modifications/improvements...</p>
+
+    <p><b>- 27/05/2019</b></p>
+    <p>- Ongoing modifications/improvements...</p>
+
+    <p><b>- 26/05/2019</b></p>
+    <p>- Render bus stop letter and zoom road map</p>
+    <p>- Open Street Map changes</p>
+    <p>- Other changes</p>
+
+    <p><b>- 25/05/2019</b></p>
+    <p>- Arrivals Page and other UI fixes</p>
+
+    <p>First released 23 May 2019</p>
+    <p>THE END</p>
+</body>
+
+</html>

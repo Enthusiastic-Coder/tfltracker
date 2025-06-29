@@ -1,0 +1,25 @@
+#
+# Wavefront material file: C:\Project\todo\models\Bus\prep\bus.mtl
+#
+# Converted by the PolyTrans geometry converter from Okino Computer Graphics, Inc.
+# Date/time of export: 08/03/2019 15:57:53
+#
+# Bounding box of geometry = (-0.914967,0.011461,-4.72339) to (0.876832,2.19462,3.00436).
+
+newmtl default
+	Ns 32
+	d 1
+	illum 2
+	Kd 0.4 0.4 0.4
+	Ks 0.7 0.7 0.7
+	Ka 0.3 0.3 0.3
+
+newmtl a_01___default
+	Ns 13
+	d 1
+	illum 2
+	Kd 0.588235 0.588235 0.588235
+	Ks 0.15435 0.15435 0.15435
+	Ka 0.588235 0.588235 0.588235
+	map_Kd bus.png
+

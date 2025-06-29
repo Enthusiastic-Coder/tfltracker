@@ -1,0 +1,40 @@
+#
+# Wavefront material file: C:\Project\GIT\qtatcx\models\metro\londontube.mtl
+#
+# Converted by the PolyTrans geometry converter from Okino Computer Graphics, Inc.
+# Date/time of export: 06/10/2018 14:52:12
+#
+# Bounding box of geometry = (-26.4627,0.464986,-7.27627) to (26.334,99.7025,0.957194).
+
+newmtl default
+	Ns 32
+	d 1
+	illum 2
+	Kd 0.4 0.4 0.4
+	Ks 0.7 0.7 0.7
+	Ka 0.3 0.3 0.3
+
+newmtl Material__17
+	Ns 137
+	d 1
+	illum 2
+	Kd 0.784314 0.784314 0.784314
+	Ks 1 1 1
+	Ka 0.3 0.3 0.3
+
+newmtl Material__4
+	Ns 11
+	d 1
+	illum 2
+	Kd 0.142077 0.107104 0.4
+	Ks 0.421875 0.421875 0.421875
+	Ka 0.147648 0.111304 0.415686
+
+newmtl Material__5
+	Ns 42
+	d 1
+	illum 2
+	Kd 0.482353 0.105988 0.105988
+	Ks 0.5 0.5 0.5
+	Ka 0.482353 0.105988 0.105988
+

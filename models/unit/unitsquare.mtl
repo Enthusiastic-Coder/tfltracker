@@ -1,0 +1,16 @@
+#
+# Wavefront material file: C:\Project\Models\NuGraf\UnitSquare\unitsquare.mtl
+#
+# Converted by the PolyTrans geometry converter from Okino Computer Graphics, Inc.
+# Date/time of export: 08/24/2017 13:59:18
+#
+# Bounding box of geometry = (-0.5,0,-0.5) to (0.5,0,0.5).
+
+newmtl default
+	Ns 32
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.7 0.7 0.7
+	Ka 1 1 1
+
