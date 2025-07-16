@@ -23,3 +23,9 @@ android/tfl_meta/
 android/train_routes/
 android/network_rail/
 build/
+.qtc_clangd/
+Release/
+Makefile
+Makefile.Debug
+Makefile.Release
+qml_qmlcache.qrc
