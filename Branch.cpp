@@ -105,109 +105,68 @@ void Branch::generateSmoothTrackPoints()
 
 QVector<Branch::TempTrackPt> Branch::buildSmoothTracks(bool bReverse)
 {
-    std::shared_ptr<Line> line = parent;
-
     QVector<TempTrackPt> tmpTrack;
-
-    auto addTmpPt = [&tmpTrack](const GPSLocation& walker, std::shared_ptr<StopPoint> currentStopPoint=nullptr) {
-        TempTrackPt pt;
-        pt.pos = walker;
-        pt.stopPoint = currentStopPoint;
-        tmpTrack << pt;
-    };
-
-    float hdgWalker = 0;
-    bool hdgWalkInit(false);
-    int currentStopPointIndex = bReverse ? static_cast<int>(_ids.size())-1 : 0;
+    std::shared_ptr<Line> line = parent;
     auto& qHdgTable = QHdgTable::get();
 
-    std::shared_ptr<StopPoint> currentStopPoint = line->getStopPoint(_ids[currentStopPointIndex]);
-    GPSLocation walker = currentStopPoint->position;
+    if (_ids.size() < 2) return tmpTrack;
 
-    do
+    QVector<GPSLocation> pts;
+    for (const auto& id : _ids)
+        pts << line->getStopPoint(id)->position;
+
+    if (bReverse)
+        std::reverse(pts.begin(), pts.end());
+
+    const float segmentStep = 25.0f;
+
+    auto interpolate = [](const GPSLocation& p0, const GPSLocation& p1, const GPSLocation& p2, const GPSLocation& p3, float t) {
+        float t2 = t * t;
+        float t3 = t2 * t;
+        return p1 * 2.0f +
+               (p2 - p0) * t +
+               (p0 * 2.0f - p1 * 5.0f + p2 * 4.0f - p3) * t2 +
+               (-p0 + 3.0f * p1 - 3.0f * p2 + p3) * t3;
+    };
+
+    for (int i = 0; i < pts.size() - 1; ++i)
     {
-        if( bReverse)
-            currentStopPointIndex--;
-        else
-            currentStopPointIndex++;
+        const auto& p0 = pts[std::max(0, i - 1)];
+        const auto& p1 = pts[i];
+        const auto& p2 = pts[i + 1];
+        const auto& p3 = pts[std::min((int)pts.size() - 1, i + 2)];
 
-        std::shared_ptr<StopPoint> nextStopPoint = line->getStopPoint(_ids[currentStopPointIndex]);
+        float segDist = p1.distanceTo(p2);
+        int steps = std::max(2, static_cast<int>(segDist / segmentStep));
 
-        const float distInterval = 50;
-        const float turnPerInterval = distInterval/3.33f;
-
-        float brg = walker.bearingTo(nextStopPoint->position);
-
-        if( !hdgWalkInit || currentStopPoint->instantTurn)
+        for (int j = 0; j < steps; ++j)
         {
-            hdgWalkInit = true;
-            hdgWalker = brg;
+            float t = float(j) / steps;
+            GPSLocation pos = interpolate(p0, p1, p2, p3, t) * 0.5f;
+
+            TempTrackPt pt;
+            pt.pos = pos;
+            pt.stopPoint = (j == 0) ? line->getStopPoint(_ids[i]) : nullptr;
+            tmpTrack << pt;
         }
-
-        addTmpPt(walker, currentStopPoint);
-        currentStopPoint = nextStopPoint;
-
-        while( walker.distanceTo(nextStopPoint->position) > distInterval*2)
-        {
-            if( !line->isTrain() || walker.distanceTo(nextStopPoint->position) < distInterval*2)
-            {
-                hdgWalker = brg;
-            }
-            else
-            {
-                TurnDirection::Dir direction = TurnDirection::GetTurnDir(hdgWalker, brg);
-                float diff = TurnDirection::GetTurnDiff(hdgWalker, brg);
-
-                float diffWanted = std::min(std::abs(diff), turnPerInterval);
-                if( direction == TurnDirection::Dir::Left)
-                    hdgWalker -= diffWanted;
-                else
-                    hdgWalker += diffWanted;
-            }
-
-            hdgWalker = MathSupport<float>::normAng(hdgWalker);
-
-            walker += QVRotate(qHdgTable.Hdg(hdgWalker), Vector3F(0,0,-distInterval));
-
-            brg = walker.bearingTo(nextStopPoint->position);
-            addTmpPt(walker);
-
-            float distToGoStright = std::abs(TurnDirection::GetTurnDiff(hdgWalker, brg))/turnPerInterval * distInterval;
-            if( distToGoStright > walker.distanceTo(nextStopPoint->position))
-                break;
-        }
-
-        walker += QVRotate(qHdgTable.Hdg(hdgWalker), Vector3F(0,0,-distInterval));
-
-    } while( currentStopPointIndex > 0 && currentStopPointIndex < _ids.size()-1);
-
-    std::shared_ptr<StopPoint> nextStopPoint = line->getStopPoint(_ids[currentStopPointIndex]);
-    addTmpPt(walker, nextStopPoint);
-
-    if( bReverse)
-        std::reverse(tmpTrack.begin(), tmpTrack.end());
-
-    int offSet = (_offset > 0) ? _offset : line->getOffset();
-
-    Vector3F vOffSet(0,0,-offSet);
-
-    for( int i= 0; i < tmpTrack.size(); ++i)
-    {
-        auto& trkPt = tmpTrack[i];
-
-        if( i < tmpTrack.size()-1)
-        {
-            auto& trkPt1 = tmpTrack[i+1];
-
-            int hdg = trkPt.pos.bearingTo(trkPt1.pos);
-            hdg = MathSupport<float>::normAng(hdg);
-            trkPt.hdg = hdg;
-        }
-        else
-            trkPt.hdg = tmpTrack[i-1].hdg;
-
-        trkPt.pos += QVRotate(qHdgTable.Hdg(trkPt.hdg-90), vOffSet);
     }
+
+    // Final stop point
+    TempTrackPt last;
+    last.pos = pts.last();
+    last.stopPoint = line->getStopPoint(_ids.back());
+    tmpTrack << last;
+
+    // Compute heading
+    for (int i = 0; i < tmpTrack.size() - 1; ++i)
+        tmpTrack[i].hdg = tmpTrack[i].pos.bearingTo(tmpTrack[i + 1].pos);
+    tmpTrack.last().hdg = tmpTrack[tmpTrack.size() - 2].hdg;
+
+    // Apply lateral offset
+    int offset = (_offset > 0) ? _offset : line->getOffset();
+    Vector3F vOffset(0, 0, -offset);
+    for (auto& pt : tmpTrack)
+        pt.pos += QVRotate(qHdgTable.Hdg(pt.hdg - 90), vOffset);
 
     return tmpTrack;
 }
