@@ -119,7 +119,7 @@ QVector<Branch::TempTrackPt> Branch::buildSmoothTracks(bool /*bReverse*/)
     }
 
     QVector<GPSLocation> pts;
-    for (const auto& s : stops)
+    for (const auto& s : std::as_const(stops))
         pts << s->position;
 
     const int samplesPerSegmentBus = 6;
