@@ -124,6 +124,7 @@ QVector<Branch::TempTrackPt> Branch::buildSmoothTracks(bool /*bReverse*/)
 
     const int samplesPerSegmentBus = 6;
     const int samplesPerSegmentTrain = 3;
+    const int samplesPerSegment = line->isTrain() ? samplesPerSegmentTrain : samplesPerSegmentBus;
 
     auto interpolate = [](const GPSLocation& p0, const GPSLocation& p1, const GPSLocation& p2, const GPSLocation& p3, float t) {
         float t2 = t * t;
@@ -141,11 +142,9 @@ QVector<Branch::TempTrackPt> Branch::buildSmoothTracks(bool /*bReverse*/)
         const auto& p2 = pts[i + 1];
         const auto& p3 = pts[std::min((int)pts.size() - 1, i + 2)];
 
-        int steps = line->isTrain() ? samplesPerSegmentTrain : samplesPerSegmentBus;
-
-        for (int j = 0; j < steps; ++j)
+        for (int j = 0; j < samplesPerSegment; ++j)
         {
-            float t = float(j) / steps;
+            float t = float(j) / samplesPerSegment;
             GPSLocation pos = interpolate(p0, p1, p2, p3, t) * 0.5f;
 
             TempTrackPt pt;
@@ -155,23 +154,26 @@ QVector<Branch::TempTrackPt> Branch::buildSmoothTracks(bool /*bReverse*/)
         }
     }
 
-    // Final point
+    // Final stop point
     TempTrackPt last;
     last.pos = pts.last();
     last.stopPoint = stops.last();
     tmpTrack << last;
 
-    // Compute heading
-    for (int i = 0; i < tmpTrack.size() - 1; ++i)
-        tmpTrack[i].hdg = tmpTrack[i].pos.bearingTo(tmpTrack[i + 1].pos);
-    if (tmpTrack.size() > 1)
-        tmpTrack.last().hdg = tmpTrack[tmpTrack.size() - 2].hdg;
-
-    // Apply lateral offset
+    // Single pass: heading + offset
     int offset = (_offset > 0) ? _offset : line->getOffset();
-    Vector3F vOffset(0, 0, -offset);
-    for (auto& pt : tmpTrack)
-        pt.pos += QVRotate(qHdgTable.Hdg(pt.hdg - 90), vOffset);
+    Vector3F vOffset;
+
+    for (int i = 0; i < tmpTrack.size(); ++i)
+    {
+        if (i < tmpTrack.size() - 1)
+            tmpTrack[i].hdg = tmpTrack[i].pos.bearingTo(tmpTrack[i + 1].pos);
+        else if (i > 0)
+            tmpTrack[i].hdg = tmpTrack[i - 1].hdg;
+
+        vOffset = Vector3F(0, 0, -offset);
+        tmpTrack[i].pos += QVRotate(qHdgTable.Hdg(tmpTrack[i].hdg - 90), vOffset);
+    }
 
     return tmpTrack;
 }
