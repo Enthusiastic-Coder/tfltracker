@@ -103,7 +103,7 @@ void Branch::generateSmoothTrackPoints()
     }
 }
 
-QVector<Branch::TempTrackPt> Branch::buildSmoothTracks(bool bReverse)
+QVector<Branch::TempTrackPt> Branch::buildSmoothTracks(bool /*bReverse*/)
 {
     QVector<TempTrackPt> tmpTrack;
     std::shared_ptr<Line> line = parent;
@@ -111,51 +111,84 @@ QVector<Branch::TempTrackPt> Branch::buildSmoothTracks(bool bReverse)
 
     if (_ids.size() < 2) return tmpTrack;
 
-    QVector<GPSLocation> pts;
+    QVector<std::shared_ptr<StopPoint>> stops;
     for (const auto& id : _ids)
-        pts << line->getStopPoint(id)->position;
-
-    if (bReverse)
-        std::reverse(pts.begin(), pts.end());
+    {
+        auto stop = line->getStopPoint(id);
+        if (stop) stops << stop;
+    }
 
     const float segmentStep = 25.0f;
 
-    auto interpolate = [](const GPSLocation& p0, const GPSLocation& p1, const GPSLocation& p2, const GPSLocation& p3, float t) {
-        float t2 = t * t;
-        float t3 = t2 * t;
-        return p1 * 2.0f +
-               (p2 - p0) * t +
-               (p0 * 2.0f - p1 * 5.0f + p2 * 4.0f - p3) * t2 +
-               (-p0 + 3.0f * p1 - 3.0f * p2 + p3) * t3;
-    };
-
-    for (int i = 0; i < pts.size() - 1; ++i)
+    if (line->isTrain()&&0)
     {
-        const auto& p0 = pts[std::max(0, i - 1)];
-        const auto& p1 = pts[i];
-        const auto& p2 = pts[i + 1];
-        const auto& p3 = pts[std::min((int)pts.size() - 1, i + 2)];
-
-        float segDist = p1.distanceTo(p2);
-        int steps = std::max(2, static_cast<int>(segDist / segmentStep));
-
-        for (int j = 0; j < steps; ++j)
+        for (int i = 0; i < stops.size() - 1; ++i)
         {
-            float t = float(j) / steps;
-            GPSLocation pos = interpolate(p0, p1, p2, p3, t) * 0.5f;
+            const GPSLocation& a = stops[i]->position;
+            const GPSLocation& b = stops[i + 1]->position;
+            float totalDist = a.distanceTo(b);
+            int steps = std::max(2, static_cast<int>(totalDist / segmentStep));
 
-            TempTrackPt pt;
-            pt.pos = pos;
-            pt.stopPoint = (j == 0) ? line->getStopPoint(_ids[i]) : nullptr;
-            tmpTrack << pt;
+            for (int j = 0; j < steps; ++j)
+            {
+                float t = static_cast<float>(j) / (steps - 1);
+                GPSLocation pos = a.interpolateTo(b, t);
+                TempTrackPt pt;
+                pt.pos = pos;
+                pt.stopPoint = (j == 0) ? stops[i] : nullptr;
+                tmpTrack << pt;
+            }
         }
-    }
 
-    // Final stop point
-    TempTrackPt last;
-    last.pos = pts.last();
-    last.stopPoint = line->getStopPoint(_ids.back());
-    tmpTrack << last;
+        // Add final stop
+        TempTrackPt last;
+        last.pos = stops.last()->position;
+        last.stopPoint = stops.last();
+        tmpTrack << last;
+    }
+    else
+    {
+        // Spline smoothing for bus lines
+        QVector<GPSLocation> pts;
+        for (const auto& s : stops) pts << s->position;
+
+        auto interpolate = [](const GPSLocation& p0, const GPSLocation& p1, const GPSLocation& p2, const GPSLocation& p3, float t) {
+            float t2 = t * t;
+            float t3 = t2 * t;
+            return p1 * 2.0f +
+                   (p2 - p0) * t +
+                   (p0 * 2.0f - p1 * 5.0f + p2 * 4.0f - p3) * t2 +
+                   (-p0 + 3.0f * p1 - 3.0f * p2 + p3) * t3;
+        };
+
+        for (int i = 0; i < pts.size() - 1; ++i)
+        {
+            const auto& p0 = pts[std::max(0, i - 1)];
+            const auto& p1 = pts[i];
+            const auto& p2 = pts[i + 1];
+            const auto& p3 = pts[std::min((int)pts.size() - 1, i + 2)];
+
+            float segDist = p1.distanceTo(p2);
+            int steps = std::max(2, static_cast<int>(segDist / segmentStep));
+
+            for (int j = 0; j < steps; ++j)
+            {
+                float t = float(j) / steps;
+                GPSLocation pos = interpolate(p0, p1, p2, p3, t) * 0.5f;
+
+                TempTrackPt pt;
+                pt.pos = pos;
+                pt.stopPoint = (j == 0) ? stops[i] : nullptr;
+                tmpTrack << pt;
+            }
+        }
+
+        // Final bus point
+        TempTrackPt last;
+        last.pos = stops.last()->position;
+        last.stopPoint = stops.last();
+        tmpTrack << last;
+    }
 
     // Compute heading
     for (int i = 0; i < tmpTrack.size() - 1; ++i)
