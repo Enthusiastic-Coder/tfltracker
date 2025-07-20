@@ -142,10 +142,16 @@ QVector<Branch::TempTrackPt> Branch::buildSmoothTracks(bool /*bReverse*/)
         const auto& p2 = pts[i + 1];
         const auto& p3 = pts[std::min((int)pts.size() - 1, i + 2)];
 
-        for (int j = 0; j < samplesPerSegment; ++j)
+        const bool useDirectConnect = line->isTrain() && p1.distanceTo(p2) < 250.0f;
+
+        int steps = useDirectConnect ? 1 : samplesPerSegment;
+
+        for (int j = 0; j < steps; ++j)
         {
-            float t = float(j) / samplesPerSegment;
-            GPSLocation pos = interpolate(p0, p1, p2, p3, t) * 0.5f;
+            float t = steps > 1 ? float(j) / steps : 0.0f;
+            GPSLocation pos = useDirectConnect
+                                  ? p1.interpolateTo(p2, t)
+                                  : interpolate(p0, p1, p2, p3, t) * 0.5f;
 
             TempTrackPt pt;
             pt.pos = pos;
