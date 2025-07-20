@@ -1,3 +1,12 @@
+configurations.all {
+    resolutionStrategy {
+        force 'org.jetbrains.kotlin:kotlin-stdlib:1.8.22'
+        force 'org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22'
+        force 'org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22'
+    }
+}
+
+
 buildscript {
     repositories {
         google()
@@ -5,7 +14,8 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.4.1'
+        //noinspection AndroidGradlePluginVersion
+        classpath 'com.android.tools.build:gradle:8.8.0'
     }
 }
 
@@ -14,13 +24,14 @@ repositories {
     mavenCentral()
 }
 
-apply plugin: 'com.android.application'
+apply plugin: qtGradlePluginType
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
     implementation 'com.android.billingclient:billing:7.0.0'
-    implementation 'androidx.core:core:1.10.1'
     implementation 'com.google.android.play:asset-delivery:2.2.2'
+    //noinspection GradleDependency
+    implementation 'androidx.core:core:1.13.1'
 }
 
 android {
@@ -31,18 +42,17 @@ android {
      * - qtAndroidDir - holds the path to qt android files
      *                   needed to build any Qt application
      *                   on Android.
+     * - qtGradlePluginType - whether to build an app or a library
      *
      * are defined in gradle.properties file. This file is
      * updated by QtCreator and androiddeployqt tools.
      * Changing them manually might break the compilation!
      *******************************************************/
 
+    namespace androidPackageName
     compileSdkVersion androidCompileSdkVersion
     buildToolsVersion androidBuildToolsVersion
     ndkVersion androidNdkVersion
-
-    // Extract native libraries from the APK
-    packagingOptions.jniLibs.useLegacyPackaging true
 
     sourceSets {
         main {
@@ -77,8 +87,8 @@ android {
 
     defaultConfig {
         resConfig "en"
-        minSdkVersion = 26
-        targetSdkVersion = 34
+        minSdkVersion qtMinSdkVersion
+        targetSdkVersion 35
         ndk.abiFilters = qtTargetAbiList.split(",")
     }
 
