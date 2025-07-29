@@ -16,8 +16,7 @@ const QString InAppStore::AppStoreID_LifeTime_Purchase = "lifetime_purchase";
 
 
 namespace {
-    const QString me_samsung4   = "3d31435423529a6d";
-    const QString me_samsung8   = "283a2d5d1df2574b";
+    const QString me_jibbs      = "3d621a599eb9b3cd";
     const QString android_tv    = "48e4f37546874436";
     const QString anas           = "45363adaf99c5d95";
     const QString anas_note_8   = "75bcd6f7ec6abfd4";
@@ -401,8 +400,7 @@ int InAppStore::numberOfPurchases() const
 
 bool InAppStore::isMe() const
 {
-    return _androidID == me_samsung4
-            || _androidID == me_samsung8
+    return _androidID == me_jibbs
         #ifdef Q_OS_WIN
             || _androidID == AndroidID_Windows
         #endif
