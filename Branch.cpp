@@ -142,7 +142,7 @@ QVector<Branch::TempTrackPt> Branch::buildSmoothTracks(bool /*bReverse*/)
         const auto& p2 = pts[i + 1];
         const auto& p3 = pts[std::min((int)pts.size() - 1, i + 2)];
 
-        const bool useDirectConnect = line->isTrain() && p1.distanceTo(p2) < 250.0f;
+        const bool useDirectConnect = p1.distanceTo(p2) < 200.0f;
 
         int steps = useDirectConnect ? 1 : samplesPerSegment;
 
