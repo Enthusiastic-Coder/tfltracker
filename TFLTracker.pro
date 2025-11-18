@@ -185,3 +185,8 @@ SOURCES += \
 DISTFILES += $$files("shaders/*", true) $$files("android/*", true)
 
 
+android {
+    QMAKE_LFLAGS += -Wl,-z,max-page-size=16384
+    QMAKE_LFLAGS_RELEASE += -Wl,-z,max-page-size=16384
+    message("16 KB ELF page size enabled")
+}
