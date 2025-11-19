@@ -1382,5 +1382,9 @@
         <file>data/Routes/outbound/bus/n263.txt</file>
         <file>data/Routes/outbound/bus/scs.txt</file>
         <file>data/Routes/outbound/bus/sl4.txt</file>
+        <file>data/Routes/inbound/bus/695.txt</file>
+        <file>data/Routes/inbound/bus/bl1.txt</file>
+        <file>data/Routes/outbound/bus/695.txt</file>
+        <file>data/Routes/outbound/bus/bl1.txt</file>
     </qresource>
 </RCC>
