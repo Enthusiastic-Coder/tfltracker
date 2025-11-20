@@ -10,7 +10,7 @@
 #include <QQuickStyle>
 #include <QSettings>
 #include <QQuickWindow>
-
+#include <QStyleHints>
 
 #include "TrackerGlue.h"
 #include "TFLViewFrameBuffer.h"
@@ -93,6 +93,10 @@ int main(int argc, char *argv[])
 
     engine.rootContext()->setContextProperty("cppGlue", &w);
     engine.rootContext()->setContextProperty("ui", w.getUI());
+
+    QVariant isDark = QGuiApplication::styleHints()->colorScheme() == Qt::ColorScheme::Dark;
+    engine.rootContext()->setContextProperty("isDark", isDark);
+
     engine.load(QUrl(QStringLiteral("qrc:/qmlglue/main.qml")));
     if (engine.rootObjects().isEmpty())
         return -1;

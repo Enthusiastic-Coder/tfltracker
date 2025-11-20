@@ -27,6 +27,7 @@ Dialog {
             width: parent.width
             text : cppGlue.textFromFile(textFileDialog.filename)
             textFormat: Text.AutoText
+            color: isDark? "white" :"black"
 
             onLinkActivated: (link) => Qt.openUrlExternally(link)
 
