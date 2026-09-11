@@ -27,17 +27,16 @@ import com.android.billingclient.api.BillingClient;
 import com.android.billingclient.api.BillingClientStateListener;
 import com.android.billingclient.api.BillingFlowParams;
 import com.android.billingclient.api.BillingResult;
+import com.android.billingclient.api.PendingPurchasesParams;
+import com.android.billingclient.api.ProductDetails;
+import com.android.billingclient.api.ProductDetailsResponseListener;
 import com.android.billingclient.api.Purchase;
-import com.android.billingclient.api.PurchasesUpdatedListener;
 import com.android.billingclient.api.PurchasesResponseListener;
+import com.android.billingclient.api.PurchasesUpdatedListener;
+import com.android.billingclient.api.QueryProductDetailsParams;
+import com.android.billingclient.api.QueryProductDetailsResult;
+import com.android.billingclient.api.QueryPurchasesParams;
 
-import com.android.billingclient.api.SkuDetails;
-import com.android.billingclient.api.SkuDetailsParams;
-import com.android.billingclient.api.SkuDetailsResponseListener;
-
-import static com.android.billingclient.api.BillingClient.SkuType.INAPP;
-import static com.android.billingclient.api.BillingClient.SkuType.SUBS;
-import static com.android.billingclient.api.BillingClient.SkuType;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -105,326 +104,762 @@ public class MyActivity extends org.qtproject.qt.android.bindings.QtActivity
    }
 
     private void createBillingProcessor() {
-        // Establish connection to billing client
-        //check purchase status from google play store cache
-        //to check if item already Purchased previously or refunded
+
+        PendingPurchasesParams pendingPurchasesParams =
+                PendingPurchasesParams.newBuilder()
+                        .enableOneTimeProducts()
+                        .build();
+
         billingClient = BillingClient.newBuilder(this)
-                                .enablePendingPurchases()
-                                .setListener(this)
-                                .build();
+                .setListener(this)
+                .enablePendingPurchases(pendingPurchasesParams)
+                .build();
 
         billingClient.startConnection(new BillingClientStateListener() {
+
             @Override
             public void onBillingSetupFinished(BillingResult billingResult) {
-                if(billingResult.getResponseCode()==BillingClient.BillingResponseCode.OK){
+
+                if (billingResult.getResponseCode()
+                        == BillingClient.BillingResponseCode.OK) {
+
                     onNativeBillingInitialized();
+
+                } else {
+
+                    showToast(
+                            "Billing setup error: "
+                                    + billingResult.getDebugMessage(),
+                            Toast.LENGTH_SHORT);
                 }
             }
 
             @Override
             public void onBillingServiceDisconnected() {
+
+                // We reconnect when another billing request is made.
             }
         });
     }
 
+
     public void InitializeBilling() {
 
-        runOnUiThread(new Runnable(){
-                   public void run(){
-                       createBillingProcessor();
-                }
+        runOnUiThread(new Runnable() {
+
+            @Override
+            public void run() {
+                createBillingProcessor();
             }
-        );
+        });
     }
 
-    private void RegisterProductHelper(String id, boolean inApp) {
 
-        final String ID = id;
-        final boolean bINAPP = inApp;
-        List<String> skuList = new ArrayList<> ();
-        skuList.add(id);
-        SkuDetailsParams.Builder params = SkuDetailsParams.newBuilder();
-        params.setSkusList(skuList).setType(inApp?INAPP:SUBS);
-        billingClient.querySkuDetailsAsync(params.build(),
-            new SkuDetailsResponseListener() {
-                @Override
-                public void onSkuDetailsResponse(BillingResult billingResult, List<SkuDetails> skuDetailsList) {
+    private String getProductType(boolean inApp) {
 
-                    if (billingResult.getResponseCode() == BillingClient.BillingResponseCode.OK) {
+        return inApp
+                ? BillingClient.ProductType.INAPP
+                : BillingClient.ProductType.SUBS;
+    }
 
-                        SkuDetails skuDetails = null;
-                        for (SkuDetails details : skuDetailsList) {
 
-                            if( details.getSku().equals(ID)) {
-                                skuDetails = details;
-                                break;
-                            }
-                        }
+    private QueryProductDetailsParams buildProductQuery(
+            String productId,
+            boolean inApp) {
 
-                        if( skuDetails == null) {
-                            onNativeProductUnknown(ID);
+        QueryProductDetailsParams.Product product =
+                QueryProductDetailsParams.Product.newBuilder()
+                        .setProductId(productId)
+                        .setProductType(getProductType(inApp))
+                        .build();
+
+        List<QueryProductDetailsParams.Product> products =
+                new ArrayList<>();
+
+        products.add(product);
+
+        return QueryProductDetailsParams.newBuilder()
+                .setProductList(products)
+                .build();
+    }
+
+
+    private QueryPurchasesParams buildPurchasesQuery(boolean inApp) {
+
+        return QueryPurchasesParams.newBuilder()
+                .setProductType(getProductType(inApp))
+                .build();
+    }
+
+
+    private ProductDetails findProductDetails(
+            String wantedProductId,
+            QueryProductDetailsResult result) {
+
+        if (result == null)
+            return null;
+
+        List<ProductDetails> products =
+                result.getProductDetailsList();
+
+        if (products == null)
+            return null;
+
+        for (ProductDetails productDetails : products) {
+
+            if (wantedProductId.equals(productDetails.getProductId()))
+                return productDetails;
+        }
+
+        return null;
+    }
+
+
+    private boolean purchaseContainsProduct(
+            Purchase purchase,
+            String productId) {
+
+        if (purchase == null)
+            return false;
+
+        List<String> products = purchase.getProducts();
+
+        return products != null && products.contains(productId);
+    }
+
+
+    private String getProductPrice(
+            ProductDetails productDetails,
+            boolean inApp) {
+
+        if (productDetails == null)
+            return "";
+
+        if (inApp) {
+
+            /*
+             * Existing/simple one-time products generally expose this
+             * non-list form.
+             */
+            ProductDetails.OneTimePurchaseOfferDetails offer =
+                    productDetails.getOneTimePurchaseOfferDetails();
+
+            if (offer != null)
+                return offer.getFormattedPrice();
+
+            /*
+             * Billing 9 can also expose multiple purchase offers.
+             */
+            List<ProductDetails.OneTimePurchaseOfferDetails> offers =
+                    productDetails.getOneTimePurchaseOfferDetailsList();
+
+            if (offers != null && !offers.isEmpty())
+                return offers.get(0).getFormattedPrice();
+
+            return "";
+        }
+
+
+        List<ProductDetails.SubscriptionOfferDetails> offers =
+                productDetails.getSubscriptionOfferDetails();
+
+        if (offers == null || offers.isEmpty())
+            return "";
+
+        ProductDetails.SubscriptionOfferDetails offer =
+                offers.get(0);
+
+        List<ProductDetails.PricingPhase> phases =
+                offer.getPricingPhases().getPricingPhaseList();
+
+        if (phases == null || phases.isEmpty())
+            return "";
+
+        /*
+         * Use the final pricing phase.
+         *
+         * This is normally the ongoing subscription price rather
+         * than a free trial / introductory phase.
+         */
+        return phases.get(phases.size() - 1).getFormattedPrice();
+    }
+
+
+    private void RegisterProductHelper(
+            final String id,
+            final boolean inApp) {
+
+        QueryProductDetailsParams params =
+                buildProductQuery(id, inApp);
+
+        billingClient.queryProductDetailsAsync(
+                params,
+                new ProductDetailsResponseListener() {
+
+                    @Override
+                    public void onProductDetailsResponse(
+                            @NonNull BillingResult billingResult,
+                            @NonNull QueryProductDetailsResult result) {
+
+                        if (billingResult.getResponseCode()
+                                != BillingClient.BillingResponseCode.OK) {
+
+                            showToast(
+                                    "Product query error: "
+                                            + billingResult.getDebugMessage(),
+                                    Toast.LENGTH_SHORT);
+
+                            onNativeProductUnknown(id);
                             return;
                         }
 
-                        final String productId = skuDetails.getSku();
-                        final String title = skuDetails.getTitle();
-                        final String price = skuDetails.getPrice();
-                        final String description = skuDetails.getDescription();
 
-                        billingClient.queryPurchasesAsync(bINAPP?INAPP:SUBS,
-                            new PurchasesResponseListener() {
+                        ProductDetails productDetails =
+                                findProductDetails(id, result);
 
-                               @Override
-                               public void onQueryPurchasesResponse(@NonNull BillingResult billingResult, @NonNull List<Purchase> myPurchases) {
+                        if (productDetails == null) {
 
-                                    for (Purchase purchase: myPurchases) {
+                            onNativeProductUnknown(id);
+                            return;
+                        }
 
-                                        if (purchase.getSkus().contains(ID)) {
 
-                                            onNativeProductKnown(productId,
-                                                                 purchase.getPurchaseState() == Purchase.PurchaseState.PURCHASED,
-                                                                 title,
-                                                                 description,
-                                                                 price );
+                        final String productId =
+                                productDetails.getProductId();
+
+                        final String title =
+                                productDetails.getTitle();
+
+                        final String description =
+                                productDetails.getDescription();
+
+                        final String price =
+                                getProductPrice(productDetails, inApp);
+
+
+                        QueryPurchasesParams purchaseParams =
+                                buildPurchasesQuery(inApp);
+
+
+                        billingClient.queryPurchasesAsync(
+                                purchaseParams,
+                                new PurchasesResponseListener() {
+
+                                    @Override
+                                    public void onQueryPurchasesResponse(
+                                            @NonNull BillingResult billingResult,
+                                            @NonNull List<Purchase> purchases) {
+
+                                        if (billingResult.getResponseCode()
+                                                != BillingClient.BillingResponseCode.OK) {
+
+                                            onNativeProductKnown(
+                                                    productId,
+                                                    false,
+                                                    title,
+                                                    description,
+                                                    price);
+
                                             return;
                                         }
+
+
+                                        for (Purchase purchase : purchases) {
+
+                                            if (purchaseContainsProduct(
+                                                    purchase,
+                                                    productId)) {
+
+                                                boolean purchased =
+                                                        purchase.getPurchaseState()
+                                                                == Purchase.PurchaseState.PURCHASED;
+
+                                                onNativeProductKnown(
+                                                        productId,
+                                                        purchased,
+                                                        title,
+                                                        description,
+                                                        price);
+
+                                                return;
+                                            }
+                                        }
+
+
+                                        onNativeProductKnown(
+                                                productId,
+                                                false,
+                                                title,
+                                                description,
+                                                price);
                                     }
-
-                                    onNativeProductKnown(productId,
-                                                     false,
-                                                     title,
-                                                     description,
-                                                     price );
-
-
-                               }
-                            }
-                        );
-                     }
-                }
-            });
+                                });
+                    }
+                });
     }
 
-    private void RegisterSubOrInApp(final String id, final boolean inApp) {
-        runOnUiThread(new Runnable(){
-           public void run(){
-                        if (billingClient.isReady()) {
-                            RegisterProductHelper(id, inApp);
-                        } else {
 
-                                billingClient = BillingClient.newBuilder(MyActivity.this).enablePendingPurchases().setListener(MyActivity.this).build();
-                                billingClient.startConnection(new BillingClientStateListener() {
+    private void RegisterSubOrInApp(
+            final String id,
+            final boolean inApp) {
+
+        runOnUiThread(new Runnable() {
+
+            @Override
+            public void run() {
+
+                if (billingClient == null) {
+
+                    showToast(
+                            "Billing has not been initialized",
+                            Toast.LENGTH_SHORT);
+
+                    return;
+                }
+
+
+                if (billingClient.isReady()) {
+
+                    RegisterProductHelper(id, inApp);
+
+                } else {
+
+                    billingClient.startConnection(
+                            new BillingClientStateListener() {
+
                                 @Override
-                                public void onBillingSetupFinished(BillingResult billingResult) {
-                                    if (billingResult.getResponseCode() == BillingClient.BillingResponseCode.OK) {
+                                public void onBillingSetupFinished(
+                                        BillingResult billingResult) {
+
+                                    if (billingResult.getResponseCode()
+                                            == BillingClient.BillingResponseCode.OK) {
+
                                         RegisterProductHelper(id, inApp);
+
                                     } else {
-                                        showToast( "Error "+billingResult.getDebugMessage(),Toast.LENGTH_SHORT);
+
+                                        showToast(
+                                                "Billing connection error: "
+                                                        + billingResult.getDebugMessage(),
+                                                Toast.LENGTH_SHORT);
                                     }
                                 }
+
+
                                 @Override
                                 public void onBillingServiceDisconnected() {
                                 }
                             });
-                        }
-                    }
-            });
+                }
+            }
+        });
     }
 
+
     public void RegisterSubscription(String id) {
+
         RegisterSubOrInApp(id, false);
     }
 
+
     public void RegisterProduct(String id) {
+
         RegisterSubOrInApp(id, true);
     }
 
-    private void purchase(String id, boolean inApp) {
-        final String ID = id;
-        final boolean INAPP = inApp;
-        //check if service is already connected
-        if (billingClient.isReady()) {
-            initiatePurchase(id, inApp);
-        }
-        //else reconnect service
-        else{
-            billingClient = BillingClient.newBuilder(this)
-                                    .enablePendingPurchases()
-                                    .setListener(this)
-                                    .build();
 
-            billingClient.startConnection(new BillingClientStateListener() {
-                @Override
-                public void onBillingSetupFinished(BillingResult billingResult) {
-                    if (billingResult.getResponseCode() == BillingClient.BillingResponseCode.OK) {
-                        initiatePurchase(ID, INAPP);
-                    } else {
-                        showToast( "Error "+billingResult.getDebugMessage(),Toast.LENGTH_SHORT);
-                    }
-                }
-                @Override
-                public void onBillingServiceDisconnected() {
-                }
-            });
+    private void purchase(
+            final String id,
+            final boolean inApp) {
+
+        if (billingClient == null) {
+
+            showToast(
+                    "Billing has not been initialized",
+                    Toast.LENGTH_SHORT);
+
+            return;
+        }
+
+
+        if (billingClient.isReady()) {
+
+            initiatePurchase(id, inApp);
+
+        } else {
+
+            billingClient.startConnection(
+                    new BillingClientStateListener() {
+
+                        @Override
+                        public void onBillingSetupFinished(
+                                BillingResult billingResult) {
+
+                            if (billingResult.getResponseCode()
+                                    == BillingClient.BillingResponseCode.OK) {
+
+                                initiatePurchase(id, inApp);
+
+                            } else {
+
+                                showToast(
+                                        "Billing connection error: "
+                                                + billingResult.getDebugMessage(),
+                                        Toast.LENGTH_SHORT);
+                            }
+                        }
+
+
+                        @Override
+                        public void onBillingServiceDisconnected() {
+                        }
+                    });
         }
     }
 
-    private void initiatePurchase(String PRODUCT_ID, boolean inApp) {
-        List<String> skuList = new ArrayList<>();
-        skuList.add(PRODUCT_ID);
-        SkuDetailsParams.Builder params = SkuDetailsParams.newBuilder();
-        params.setSkusList(skuList).setType(inApp?INAPP:SUBS);
-        billingClient.querySkuDetailsAsync(params.build(),
-                new SkuDetailsResponseListener() {
+
+    private String getOfferToken(
+            ProductDetails productDetails,
+            boolean inApp) {
+
+        if (inApp) {
+
+            /*
+             * First try the traditional/default one-time purchase offer.
+             */
+            ProductDetails.OneTimePurchaseOfferDetails offer =
+                    productDetails.getOneTimePurchaseOfferDetails();
+
+            if (offer != null)
+                return offer.getOfferToken();
+
+
+            /*
+             * Billing 9 also supports multiple one-time purchase offers.
+             * For now ADSB Flight Tracker selects the first eligible one.
+             */
+            List<ProductDetails.OneTimePurchaseOfferDetails> offers =
+                    productDetails.getOneTimePurchaseOfferDetailsList();
+
+            if (offers != null && !offers.isEmpty())
+                return offers.get(0).getOfferToken();
+
+
+            return null;
+        }
+
+
+        List<ProductDetails.SubscriptionOfferDetails> offers =
+                productDetails.getSubscriptionOfferDetails();
+
+        if (offers == null || offers.isEmpty())
+            return null;
+
+
+        /*
+         * For your existing single subscription setup this selects
+         * the first eligible base plan / offer returned by Google Play.
+         */
+        return offers.get(0).getOfferToken();
+    }
+
+
+    private void initiatePurchase(
+            final String productId,
+            final boolean inApp) {
+
+        QueryProductDetailsParams params =
+                buildProductQuery(productId, inApp);
+
+
+        billingClient.queryProductDetailsAsync(
+                params,
+                new ProductDetailsResponseListener() {
+
                     @Override
-                    public void onSkuDetailsResponse(BillingResult billingResult, List<SkuDetails> skuDetailsList) {
+                    public void onProductDetailsResponse(
+                            @NonNull BillingResult billingResult,
+                            @NonNull QueryProductDetailsResult result) {
 
-                        if (billingResult.getResponseCode() == BillingClient.BillingResponseCode.OK) {
+                        if (billingResult.getResponseCode()
+                                != BillingClient.BillingResponseCode.OK) {
 
-                            if (skuDetailsList != null && skuDetailsList.size() > 0) {
+                            showToast(
+                                    "Product query error: "
+                                            + billingResult.getDebugMessage(),
+                                    Toast.LENGTH_SHORT);
 
-                                BillingFlowParams flowParams = BillingFlowParams.newBuilder()
-                                        .setSkuDetails(skuDetailsList.get(0))
+                            return;
+                        }
+
+
+                        ProductDetails productDetails =
+                                findProductDetails(productId, result);
+
+
+                        if (productDetails == null) {
+
+                            showToast(
+                                    "Purchase item not found",
+                                    Toast.LENGTH_SHORT);
+
+                            return;
+                        }
+
+
+                        BillingFlowParams.ProductDetailsParams.Builder
+                                productParamsBuilder =
+                                BillingFlowParams.ProductDetailsParams
+                                        .newBuilder()
+                                        .setProductDetails(productDetails);
+
+
+                        String offerToken =
+                                getOfferToken(productDetails, inApp);
+
+
+                        if (offerToken != null
+                                && !offerToken.isEmpty()) {
+
+                            productParamsBuilder.setOfferToken(offerToken);
+                        }
+
+
+                        List<BillingFlowParams.ProductDetailsParams>
+                                productParamsList =
+                                new ArrayList<>();
+
+
+                        productParamsList.add(
+                                productParamsBuilder.build());
+
+
+                        BillingFlowParams flowParams =
+                                BillingFlowParams.newBuilder()
+                                        .setProductDetailsParamsList(
+                                                productParamsList)
                                         .build();
 
-                                billingClient.launchBillingFlow(MyActivity.this, flowParams);
-                            }
-                            else{
-                                //try to add item/product id "purchase" inside managed product in google play console
-                                showToast("Purchase Item not Found",Toast.LENGTH_SHORT);
-                            }
 
-                        } else {
-                            showToast(" Error "+billingResult.getDebugMessage(), Toast.LENGTH_SHORT);
+                        BillingResult launchResult =
+                                billingClient.launchBillingFlow(
+                                        MyActivity.this,
+                                        flowParams);
+
+
+                        if (launchResult.getResponseCode()
+                                != BillingClient.BillingResponseCode.OK) {
+
+                            showToast(
+                                    "Unable to start purchase: "
+                                            + launchResult.getDebugMessage(),
+                                    Toast.LENGTH_SHORT);
                         }
                     }
                 });
     }
 
 
-    public void MakePurchase(String id) {
+    public void MakePurchase(final String id) {
 
-        final String ID = id;
-        runOnUiThread(new Runnable(){
-           public void run(){
-                    purchase(ID, true);
-                  }
-              });
-    }
+        runOnUiThread(new Runnable() {
 
-    public void MakeSubscription(String id) {
+            @Override
+            public void run() {
 
-        final String ID = id;
-        runOnUiThread(new Runnable(){
-           public void run(){
-                    purchase(ID, false);
-                  }
-              });
-    }
-
-    @Override
-    public void onActivityResult(int requestCode, int resultCode, Intent data) {
-
-        if (requestCode == 1234) {
-
-            if (resultCode == RESULT_OK) {
-               // Connection with device has been opened and the rtl-tcp server is running. You are now responsible for connecting.
-               showToast("Driver started OK", Toast.LENGTH_LONG );
-            } else {
-                if( data == null ) {
-                    showToast("Wrong driver selected, see menu - dump1090 for help.", Toast.LENGTH_LONG );
-                    } else {
-                   // something went wrong, and the driver failed to start
-                   String errmsg = data.getStringExtra("detailed_exception_message");
-                   //showErrorMessage(errmsg); // Show the user why something went wrong
-                   showToast("Result :" + errmsg, Toast.LENGTH_LONG );
-                }
+                purchase(id, true);
             }
-
-        } else {
-            super.onActivityResult(requestCode, resultCode, data);
-        }
+        });
     }
 
-    @Override
-   public void onPurchasesUpdated(BillingResult billingResult, @Nullable List<Purchase> purchases) {
-       //if item newly purchased
-       if (billingResult.getResponseCode() == BillingClient.BillingResponseCode.OK && purchases != null) {
-           handlePurchases(purchases);
-       }
-       //if item already purchased then check and reflect changes
-       else if (billingResult.getResponseCode() == BillingClient.BillingResponseCode.ITEM_ALREADY_OWNED) {
-               billingClient.queryPurchasesAsync(INAPP,new PurchasesResponseListener() {
 
-                   @Override
-                   public void onQueryPurchasesResponse(@NonNull BillingResult billingResult, @NonNull List<Purchase> myPurchases) {
-                       handlePurchases(myPurchases);
-                   }
-                });
-       }
-       //if purchase cancelled
-       else if (billingResult.getResponseCode() == BillingClient.BillingResponseCode.USER_CANCELED) {
-           showToast("Purchase Canceled",Toast.LENGTH_SHORT);
-       }
-       // Handle any other error msgs
-       else {
-           showToast("Error "+billingResult.getDebugMessage(),Toast.LENGTH_SHORT);
-       }
-   }
+    public void MakeSubscription(final String id) {
+
+        runOnUiThread(new Runnable() {
+
+            @Override
+            public void run() {
+
+                purchase(id, false);
+            }
+        });
+    }
+
+
+    @Override
+    public void onPurchasesUpdated(
+            BillingResult billingResult,
+            @Nullable List<Purchase> purchases) {
+
+        int responseCode =
+                billingResult.getResponseCode();
+
+
+        if (responseCode
+                == BillingClient.BillingResponseCode.OK
+                && purchases != null) {
+
+            handlePurchases(purchases);
+            return;
+        }
+
+
+        if (responseCode
+                == BillingClient.BillingResponseCode.ITEM_ALREADY_OWNED) {
+
+            /*
+             * ITEM_ALREADY_OWNED applies to one-time products.
+             * Query currently owned INAPP purchases.
+             */
+
+            QueryPurchasesParams params =
+                    QueryPurchasesParams.newBuilder()
+                            .setProductType(
+                                    BillingClient.ProductType.INAPP)
+                            .build();
+
+
+            billingClient.queryPurchasesAsync(
+                    params,
+                    new PurchasesResponseListener() {
+
+                        @Override
+                        public void onQueryPurchasesResponse(
+                                @NonNull BillingResult billingResult,
+                                @NonNull List<Purchase> purchases) {
+
+                            if (billingResult.getResponseCode()
+                                    == BillingClient.BillingResponseCode.OK) {
+
+                                handlePurchases(purchases);
+                            }
+                        }
+                    });
+
+            return;
+        }
+
+
+        if (responseCode
+                == BillingClient.BillingResponseCode.USER_CANCELED) {
+
+            showToast(
+                    "Purchase Canceled",
+                    Toast.LENGTH_SHORT);
+
+            return;
+        }
+
+
+        showToast(
+                "Billing error: "
+                        + billingResult.getDebugMessage(),
+                Toast.LENGTH_SHORT);
+    }
+
 
     void handlePurchases(List<Purchase> purchases) {
 
-       for(Purchase purchase:purchases) {
+    if (purchases == null)
+        return;
 
-           //if item is purchased
-           if (purchase.getPurchaseState() == Purchase.PurchaseState.PURCHASED)
-           {
-               if (!verifyValidSignature(purchase.getOriginalJson(), purchase.getSignature())) {
-                   // Invalid purchase
-                   // show error to user
-                   showToast( "Error : Invalid Purchase", Toast.LENGTH_SHORT);
-                   return;
-               }
-               // else purchase is valid
-               //if item is purchased and not acknowledged
-               if (!purchase.isAcknowledged()) {
 
-                   AcknowledgePurchaseParams acknowledgePurchaseParams
-                                       = AcknowledgePurchaseParams.newBuilder()
-                                       .setPurchaseToken(purchase.getPurchaseToken())
-                                       .build();
+    for (Purchase purchase : purchases) {
 
-                    final String productId = purchase.getSkus().get(0);
+        if (purchase.getPurchaseState()
+                == Purchase.PurchaseState.PURCHASED) {
 
-                   billingClient.acknowledgePurchase(acknowledgePurchaseParams, new AcknowledgePurchaseResponseListener() {
-                       @Override
-                       public void onAcknowledgePurchaseResponse(BillingResult billingResult) {
-                           if(billingResult.getResponseCode()== BillingClient.BillingResponseCode.OK){
+            if (!verifyValidSignature(
+                    purchase.getOriginalJson(),
+                    purchase.getSignature())) {
 
-                               showToast( "Item Purchased/Acknowledged", Toast.LENGTH_SHORT);
-                               onNativeProductPurchased(productId);
-                           }
-                       }
-                   });
-               }
-               //else item is purchased and also acknowledged
-               else {
-                    showToast("Item Purchased", Toast.LENGTH_SHORT);
-                    onNativeProductPurchased(purchase.getSkus().get(0));
-               }
-           }
-           //if purchase is pending
-           else if(purchase.getPurchaseState() == Purchase.PurchaseState.PENDING)
-           {
-               showToast("Purchase is Pending. Please complete Transaction", Toast.LENGTH_SHORT);
-           }
-           //if purchase is unknown
-           else if(purchase.getPurchaseState() == Purchase.PurchaseState.UNSPECIFIED_STATE)
-           {
-               showToast("Purchase Status Not Purchased", Toast.LENGTH_SHORT);
-           }
-       }
-   }
+                showToast(
+                        "Error : Invalid Purchase",
+                        Toast.LENGTH_SHORT);
+
+                continue;
+            }
+
+
+            List<String> products =
+                    purchase.getProducts();
+
+
+            if (products == null || products.isEmpty())
+                continue;
+
+
+            final String productId =
+                    products.get(0);
+
+
+            if (!purchase.isAcknowledged()) {
+
+                AcknowledgePurchaseParams acknowledgeParams =
+                        AcknowledgePurchaseParams.newBuilder()
+                                .setPurchaseToken(
+                                        purchase.getPurchaseToken())
+                                .build();
+
+
+                billingClient.acknowledgePurchase(
+                        acknowledgeParams,
+                        new AcknowledgePurchaseResponseListener() {
+
+                            @Override
+                            public void onAcknowledgePurchaseResponse(
+                                    BillingResult billingResult) {
+
+                                if (billingResult.getResponseCode()
+                                        == BillingClient.BillingResponseCode.OK) {
+
+                                    showToast(
+                                            "Item Purchased/Acknowledged",
+                                            Toast.LENGTH_SHORT);
+
+                                    onNativeProductPurchased(
+                                            productId);
+
+                                } else {
+
+                                    showToast(
+                                            "Acknowledgement error: "
+                                                    + billingResult.getDebugMessage(),
+                                            Toast.LENGTH_SHORT);
+                                }
+                            }
+                        });
+
+            } else {
+
+                showToast(
+                        "Item Purchased",
+                        Toast.LENGTH_SHORT);
+
+                onNativeProductPurchased(
+                        productId);
+            }
+        }
+
+
+        else if (purchase.getPurchaseState()
+                == Purchase.PurchaseState.PENDING) {
+
+            showToast(
+                    "Purchase is Pending. Please complete Transaction",
+                    Toast.LENGTH_SHORT);
+        }
+
+
+        else if (purchase.getPurchaseState()
+                == Purchase.PurchaseState.UNSPECIFIED_STATE) {
+
+            showToast(
+                    "Purchase Status Not Purchased",
+                    Toast.LENGTH_SHORT);
+        }
+    }
+    }
 
     public static native void onNativeProductKnown(String productId, boolean purchased, String title, String desc, String cost );
     public static native void onNativeProductUnknown(String productId);
